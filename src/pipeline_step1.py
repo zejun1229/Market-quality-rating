@@ -380,15 +380,15 @@ def generate_base_profile(client: anthropic.Anthropic, seed: dict) -> dict:
             if stripped.startswith(label):
                 # Save previous field
                 if current_field:
-                    profile[current_field] = " ".join(current_lines).strip()
+                    profile[current_field] = "\n".join(current_lines).strip()  # Bug 2 fix: preserve newlines
                 current_field = key
                 current_lines = [stripped[len(label):].strip()]
                 matched = True
                 break
-        if not matched and current_field:
+        if not matched and current_field and stripped:   # Bug 4 fix: skip blank lines
             current_lines.append(stripped)
     if current_field:
-        profile[current_field] = " ".join(current_lines).strip()
+        profile[current_field] = "\n".join(current_lines).strip()  # Bug 3 fix: preserve newlines
 
     return profile
 
@@ -449,7 +449,19 @@ def process_market(client: anthropic.Anthropic, seed: dict, index: int) -> dict:
     """Run all Step 1 tasks for one market."""
     print(f"\n[Market {index + 1}/3]  {seed['domain'][:65]}  (ref {seed['ref_year']})")
 
-    profile = generate_base_profile(client, seed)
+    try:                                              # Bug 6 fix: handle API failure in base profile
+        profile = generate_base_profile(client, seed)
+    except Exception as exc:
+        print(f"  PROFILE ERROR: {exc}")
+        return {
+            "id": f"market_{index + 1:03d}",
+            "domain": seed["domain"],
+            "ref_year": seed["ref_year"],
+            "base_profile": {"raw_text": "", "ref_year": seed["ref_year"], "domain": seed["domain"]},
+            "dimensions": {},
+            "step1_complete": False,
+            "error": str(exc),
+        }
     print(f"  + Profile: {profile.get('market_name', 'N/A')}")
 
     dimensions_result: dict = {}
@@ -463,7 +475,7 @@ def process_market(client: anthropic.Anthropic, seed: dict, index: int) -> dict:
                 result["validation_warning"] = "Classification not in allowed options; defaulted."
             dimensions_result[dim["name"]] = result
             print(f"{result['classification']}  [{result.get('confidence','?')}]")
-        except (json.JSONDecodeError, KeyError, IndexError) as exc:
+        except Exception as exc:  # Bug 5 fix: catch all exceptions including API errors
             print(f"PARSE ERROR: {exc}")
             dimensions_result[dim["name"]] = {
                 "dimension": dim["name"],
@@ -501,7 +513,7 @@ def main() -> None:
         market_data = process_market(client, seed, i)
         population.append(market_data)
 
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "reference_population.json")
+    output_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "reference_population.json")
     with open(output_path, "w", encoding="utf-8") as fh:
         json.dump({"schema_version": "1.1", "markets": population}, fh, indent=2, ensure_ascii=False)
 
