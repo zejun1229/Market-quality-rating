@@ -1,0 +1,16 @@
+# API keys — never commit
+.env
+
+# Claude Code settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Binary outputs (regenerable)
+*.pdf
