@@ -2,3 +2,4 @@
 * [Run 3: Claude Gen + Gemini Pro Verify](./2026-03-18_Run3_Claude_Gemini.md)
 * [v3 Enum Upgrade: Canonical Frameworks + Verification URLs](./2026-03-18_v3_Enum_Upgrade.md)
 * [Step 3: Scorer & Rater — First Run](./2026-03-18_Step3_Scorer_Rater.md)
+* [Step 3 Fix: Remove Premature L-Tier / Composite Logic](./2026-03-18_Step3_Fix_Remove_Tiers.md)

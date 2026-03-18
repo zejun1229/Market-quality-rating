@@ -178,11 +178,11 @@
       },
       "step3": {
         "scores": {
-          "timing": 72,
+          "timing": 62,
           "competition": 82,
-          "market_size": 20,
-          "customer_readiness": 78,
-          "regulatory": 25,
+          "market_size": 22,
+          "customer_readiness": 72,
+          "regulatory": 28,
           "infrastructure": 55,
           "market_structure": 65
         },
@@ -216,8 +216,6 @@
             "agreement": "HIGH"
           }
         },
-        "composite_score": 57,
-        "composite_level": "L2-Neutral",
         "validation_errors": []
       }
     },
@@ -398,9 +396,9 @@
         "scores": {
           "timing": 52,
           "competition": 72,
-          "market_size": 25,
-          "customer_readiness": 72,
-          "regulatory": 82,
+          "market_size": 28,
+          "customer_readiness": 78,
+          "regulatory": 85,
           "infrastructure": 62,
           "market_structure": 70
         },
@@ -434,8 +432,6 @@
             "agreement": "HIGH"
           }
         },
-        "composite_score": 62,
-        "composite_level": "L3-Favorable",
         "validation_errors": []
       }
     },
@@ -617,9 +613,9 @@
       "step3": {
         "scores": {
           "timing": 78,
-          "competition": 45,
-          "market_size": 25,
-          "customer_readiness": 76,
+          "competition": 42,
+          "market_size": 22,
+          "customer_readiness": 75,
           "regulatory": 82,
           "infrastructure": 55,
           "market_structure": 70
@@ -654,8 +650,6 @@
             "agreement": "HIGH"
           }
         },
-        "composite_score": 62,
-        "composite_level": "L3-Favorable",
         "validation_errors": []
       }
     }

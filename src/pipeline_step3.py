@@ -4,8 +4,16 @@ Scorer & Rater
 
 Reads the Step 2 enriched JSON, anonymizes each market to its verified
 categorical feature matrix, calls Claude to score all 7 dimensions on a
-0–100 venture-readiness scale, and saves the fully enriched dataset as
+0–100 integer scale, and saves the fully enriched dataset as
 reference_population_scored.json.
+
+Scoring contract
+----------------
+The LLM's ONLY job is to map each categorical dimension value to a
+0–100 integer score. It must NOT output L-tier labels, composite scores,
+investment decisions, or any field beyond the 7 dimension integers.
+Tier classification is computed in a later step via percentile lookup
+across the full 120-market database.
 
 Anonymization contract
 ----------------------
@@ -47,20 +55,29 @@ DIMENSIONS = [
 ]
 
 SCORE_RUBRIC = (
-    "90-100 (L5 - Exceptional): Ideal conditions for outsized venture returns.\n"
-    "75-89  (L4 - Strong):      Highly attractive, minor friction.\n"
-    "60-74  (L3 - Favorable):   The baseline investment-grade threshold. "
-    "Viable but requires execution excellence.\n"
-    "40-59  (L2 - Neutral):     Sub-optimal conditions, significant structural headwinds.\n"
-    "0-39   (L1 - Speculative): Hostile conditions for new venture entrants."
+    "90-100: Ideal conditions for outsized venture returns.\n"
+    "75-89:  Highly attractive, minor friction.\n"
+    "60-74:  Viable but requires execution excellence.\n"
+    "40-59:  Sub-optimal conditions, significant structural headwinds.\n"
+    "0-39:   Hostile conditions for new venture entrants."
 )
 
 SYSTEM_PROMPT = (
     "You are an objective quantitative venture analyst scoring anonymous market data. "
     "You are evaluating a market's readiness for venture-scale entry based solely on "
-    "structured categorical variables. Score each of the 7 dimensions from 0 to 100 "
-    "based purely on the structured features provided. Use this standard:\n\n"
+    "structured categorical variables. "
+    "Score each of the 7 dimensions from 0 to 100 based purely on the structured "
+    "features provided. Use this numeric scale as your calibration guide:\n\n"
     + SCORE_RUBRIC
+    + "\n\n"
+    "STRICT OUTPUT RULES — you must follow these exactly:\n"
+    "1. Output ONLY a JSON object containing the 7 dimension scores as integers.\n"
+    "2. Do NOT output L-tier labels, tier names, or any classification strings.\n"
+    "3. Do NOT compute or output a composite score or overall rating.\n"
+    "4. Do NOT output an investment recommendation or decision.\n"
+    "5. Do NOT add any keys beyond the 7 required dimension keys.\n"
+    "Tier classification is performed separately via percentile lookup — "
+    "your sole responsibility is the 7 integer scores."
 )
 
 # ---------------------------------------------------------------------------
@@ -159,20 +176,24 @@ def build_scoring_prompt(matrix: dict) -> str:
     lines += [
         "",
         "=== SCORING TASK ===",
-        "Score each of the 7 dimensions from 0 to 100 using the L1–L5 rubric in your system prompt.",
+        "Map each dimension's categorical value to a 0-100 integer using the numeric",
+        "scale in your system prompt. Score each dimension independently.",
         "Base your scores ONLY on the categorical values above — do not infer market identity.",
         "",
-        "Return ONLY a valid JSON object — no markdown, no commentary, no trailing text.",
-        "All values must be integers between 0 and 100.",
+        "REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.",
+        "Do NOT add any other keys. Do NOT include tier labels, composite scores,",
+        "investment ratings, or any text outside the JSON object.",
         "{",
-        '  "timing": <integer 0-100>,',
-        '  "competition": <integer 0-100>,',
-        '  "market_size": <integer 0-100>,',
-        '  "customer_readiness": <integer 0-100>,',
-        '  "regulatory": <integer 0-100>,',
-        '  "infrastructure": <integer 0-100>,',
-        '  "market_structure": <integer 0-100>',
+        '  "timing": 0,',
+        '  "competition": 0,',
+        '  "market_size": 0,',
+        '  "customer_readiness": 0,',
+        '  "regulatory": 0,',
+        '  "infrastructure": 0,',
+        '  "market_structure": 0',
         "}",
+        "",
+        "Replace each 0 with your integer score. Return nothing but this JSON object.",
     ]
     return "\n".join(lines)
 
@@ -204,8 +225,6 @@ def score_market(client: anthropic.Anthropic, market: dict, index: int) -> dict:
         return {
             "scores": {},
             "feature_matrix": matrix,
-            "composite_score": None,
-            "composite_level": "ERROR",
             "validation_errors": [str(exc)],
         }
 
@@ -222,8 +241,6 @@ def score_market(client: anthropic.Anthropic, market: dict, index: int) -> dict:
         return {
             "scores": {},
             "feature_matrix": matrix,
-            "composite_score": None,
-            "composite_level": "ERROR",
             "validation_errors": [f"JSON parse error: {exc}"],
             "raw_response": raw,
         }
@@ -250,39 +267,22 @@ def score_market(client: anthropic.Anthropic, market: dict, index: int) -> dict:
             val = max(0, min(100, val))
         scores[dim] = val
 
-    valid_scores = [v for v in scores.values() if v is not None]
-    composite = round(sum(valid_scores) / len(valid_scores)) if valid_scores else None
-    level = _score_to_level(composite)
-
     if validation_errors:
         print(f"WARNINGS: {'; '.join(validation_errors)}")
-    print(f"composite={composite}/100  [{level}]")
+
+    valid_scores = [v for v in scores.values() if v is not None]
+    score_summary = (
+        f"scores={list(scores.values())}"
+        if valid_scores
+        else "no valid scores"
+    )
+    print(score_summary)
 
     return {
         "scores": scores,
         "feature_matrix": matrix,
-        "composite_score": composite,
-        "composite_level": level,
         "validation_errors": validation_errors,
     }
-
-
-# ---------------------------------------------------------------------------
-# Level label
-# ---------------------------------------------------------------------------
-
-def _score_to_level(score) -> str:
-    if score is None:
-        return "N/A"
-    if score >= 90:
-        return "L5-Exceptional"
-    if score >= 75:
-        return "L4-Strong"
-    if score >= 60:
-        return "L3-Favorable"
-    if score >= 40:
-        return "L2-Neutral"
-    return "L1-Speculative"
 
 
 # ---------------------------------------------------------------------------
@@ -294,7 +294,8 @@ def print_final_report(markets: list) -> None:
     thin    = "-" * 76
 
     print(f"\n\n{divider}")
-    print("  VELA MARKET QUALITY RATING — STEP 3  SCORER & RATER REPORT")
+    print("  VELA MARKET QUALITY RATING — STEP 3  DIMENSION SCORES")
+    print("  (No composite or tier — tier computed via percentile in a later step)")
     print(divider)
 
     for market in markets:
@@ -304,44 +305,21 @@ def print_final_report(markets: list) -> None:
         profile = market.get("base_profile", {})
         name    = profile.get("market_name", market.get("domain", "Unknown"))
         ref     = market.get("ref_year", "?")
-        comp    = s3.get("composite_score")
-        level   = s3.get("composite_level", "N/A")
 
         print(f"\n{thin}")
-        print(f"  Market : {name}")
-        print(f"  Year   : {ref}   |   Composite : {comp}/100  [{level}]")
-        print(f"\n  {'Dimension':<24}  {'Score':>5}  {'Level':<18}  {'Verified Value':<30}  Agreement")
-        print(f"  {'-'*24}  {'-'*5}  {'-'*18}  {'-'*30}  {'-'*10}")
+        print(f"  Market : {name}  ({ref})")
+        print(f"\n  {'Dimension':<24}  {'Score':>5}  {'Verified Value':<30}  Agreement")
+        print(f"  {'-'*24}  {'-'*5}  {'-'*30}  {'-'*10}")
 
         for dim in DIMENSIONS:
-            sc  = scores.get(dim)
-            lv  = _score_to_level(sc)
-            val = fm.get(dim, {}).get("value", "?")
-            agr = fm.get(dim, {}).get("agreement", "?")
+            sc     = scores.get(dim)
+            val    = fm.get(dim, {}).get("value", "?")
+            agr    = fm.get(dim, {}).get("agreement", "?")
             sc_str = str(sc) if sc is not None else "ERR"
-            print(f"  {dim:<24}  {sc_str:>5}  {lv:<18}  {val:<30}  {agr}")
+            print(f"  {dim:<24}  {sc_str:>5}  {val:<30}  {agr}")
 
         if s3.get("validation_errors"):
             print(f"\n  Validation notes: {s3['validation_errors']}")
-
-    # League table
-    def _composite(m):
-        return m.get("step3", {}).get("composite_score") or 0
-
-    print(f"\n{divider}")
-    print("  COMPOSITE SCORE LEAGUE TABLE  (highest → lowest)")
-    print(f"  {'Market':<42}  {'Year':>4}  {'Score':>5}  Level")
-    print(f"  {'-'*42}  {'-'*4}  {'-'*5}  {'-'*18}")
-
-    for m in sorted(markets, key=_composite, reverse=True):
-        s3   = m.get("step3", {})
-        comp = s3.get("composite_score")
-        lv   = s3.get("composite_level", "N/A")
-        name = m.get("base_profile", {}).get(
-            "market_name", m.get("domain", "?")
-        )[:42]
-        ref  = m.get("ref_year", "?")
-        print(f"  {name:<42}  {ref:>4}  {str(comp):>5}  {lv}")
 
     print(f"\n{divider}\n")
 
