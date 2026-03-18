@@ -14,3 +14,6 @@ env/
 
 # Binary outputs (regenerable)
 *.pdf
+
+# Step 2 working copy (path workaround — regenerable from root JSON)
+src/reference_population.json
