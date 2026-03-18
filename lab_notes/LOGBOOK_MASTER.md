@@ -3,4 +3,6 @@
 * [v3 Enum Upgrade: Canonical Frameworks + Verification URLs](./2026-03-18_v3_Enum_Upgrade.md)
 * [Step 3: Scorer & Rater — First Run](./2026-03-18_Step3_Scorer_Rater.md)
 * [Step 3 Fix: Remove Premature L-Tier / Composite Logic](./2026-03-18_Step3_Fix_Remove_Tiers.md)
-* [Ablation Study Architecture: Step 2b + Orchestration](./2026-03-19_Ablation_Architecture.md)* [Ablation Run 20260319_011521](./Ablation_Run_20260319_011521.md)
+* [Ablation Study Architecture: Step 2b + Orchestration](./2026-03-19_Ablation_Architecture.md)
+* [Ablation Run 1: Report Enhancement + First Run](./2026-03-19_Ablation_Run1_Report_Enhancement.md)
+* [Ablation Run 20260319_011521](./Ablation_Run_20260319_011521.md)
