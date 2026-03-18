@@ -254,6 +254,9 @@ def generate_report(
         "",
     ]
 
+    # Collect all URLs for the bottom audit section
+    url_audit_rows = []
+
     for r in all_results:
         market     = r["market"]
         name       = market.get("base_profile", {}).get("market_name", market.get("domain", "?"))
@@ -267,48 +270,78 @@ def generate_report(
         step1_dims = market.get("dimensions", {})
         step2_v    = market.get("step2", {}).get("dimension_verifications", {})
 
-        lines += [
-            f"## {name} ({ref_year})",
-            "",
-            "### Role 2 Verification URLs",
-            "",
-            "| Dimension | Verification URL |",
-            "|-----------|-----------------|",
-        ]
-        for dim in DIMENSIONS:
-            dv  = step2_v.get(dim, {})
-            url = (
-                dv.get("verification_url", "")
-                or (dv.get("grounding_urls") or [""])[0]
-            )
-            lines.append(f"| `{dim}` | {_url_cell(url)} |")
+        lines += [f"## {name} ({ref_year})", ""]
 
+        # ── Path 1: Baseline ──────────────────────────────────────────────
         lines += [
+            "### Path 1: Baseline (Gemini-Preferred, no tie-breaker)",
             "",
-            "### Conflict Resolution Log",
-            "",
-            "| Dimension | Agr | Claude | Gemini | Parametric → | Search → |",
-            "|-----------|-----|--------|--------|--------------|----------|",
+            "| Dimension | Classification | Agreement | Role 2 Evidence | Score |",
+            "|-----------|---------------|:---------:|-----------------|:-----:|",
         ]
         for dim in DIMENSIONS:
-            s1  = step1_dims.get(dim, {})
             s2  = step2_v.get(dim, {})
-            agr = s2.get("agreement", "?")
-            cv  = s1.get("classification", "?")
-            gv  = s2.get("gemini_classification", "?")
-            pm  = p_matrix.get(dim, {})
-            sm  = s_matrix.get(dim, {})
-            p_val = pm.get("value", "?")
-            p_src = pm.get("source", "")
-            s_val = sm.get("value", "?")
-            s_src = sm.get("source", "")
-            p_cell = f"`{p_val}` _{p_src}_" if p_src and p_src != "agreed" else f"`{p_val}`"
-            s_cell = f"`{s_val}` _{s_src}_" if s_src and s_src != "agreed" else f"`{s_val}`"
-            lines.append(f"| `{dim}` | {agr} | `{cv}` | `{gv}` | {p_cell} | {s_cell} |")
+            agr = s2.get("agreement", "unverified")
+            val = b_matrix.get(dim, {}).get("value", "?")
+            # Pull best available evidence summary from Gemini step
+            evidence = (
+                s2.get("key_fact", "")
+                or s2.get("gemini_evidence", "")
+                or s2.get("evidence", "")
+                or "—"
+            )
+            # Truncate very long evidence for table readability
+            if len(evidence) > 120:
+                evidence = evidence[:117] + "..."
+            score = b_scores.get(dim)
+            score_s = str(score) if score is not None else "ERR"
+            lines.append(f"| `{dim}` | `{val}` | {agr} | {evidence} | {score_s} |")
 
+        # ── Path 2: Parametric Judge ──────────────────────────────────────
         lines += [
             "",
-            "### Dimension Scores — 3-Path Comparison",
+            "### Path 2: Parametric Judge (GPT-4o — parametric knowledge, no search)",
+            "",
+            "| Dimension | Classification | Source | Rationale | Score |",
+            "|-----------|---------------|--------|-----------|:-----:|",
+        ]
+        for dim in DIMENSIONS:
+            entry   = p_matrix.get(dim, {})
+            val     = entry.get("value", "?")
+            source  = entry.get("source", "agreed")
+            rat     = entry.get("rationale", "Claude and Gemini agreed — no tie-break required.")
+            if len(rat) > 140:
+                rat = rat[:137] + "..."
+            score   = p_scores.get(dim)
+            score_s = str(score) if score is not None else "ERR"
+            src_tag = f"_{source}_" if source != "agreed" else "agreed"
+            lines.append(f"| `{dim}` | `{val}` | {src_tag} | {rat} | {score_s} |")
+
+        # ── Path 3: Search Judge ──────────────────────────────────────────
+        lines += [
+            "",
+            "### Path 3: Search Judge (GPT-4o + live web search)",
+            "",
+            "| Dimension | Classification | Source | Rationale | Search Source | Score |",
+            "|-----------|---------------|--------|-----------|---------------|:-----:|",
+        ]
+        for dim in DIMENSIONS:
+            entry    = s_matrix.get(dim, {})
+            val      = entry.get("value", "?")
+            source   = entry.get("source", "agreed")
+            rat      = entry.get("rationale", "Claude and Gemini agreed — no tie-break required.")
+            if len(rat) > 120:
+                rat = rat[:117] + "..."
+            src_url  = _url_cell(entry.get("search_source", ""))
+            score    = s_scores.get(dim)
+            score_s  = str(score) if score is not None else "ERR"
+            src_tag  = f"_{source}_" if source != "agreed" else "agreed"
+            lines.append(f"| `{dim}` | `{val}` | {src_tag} | {rat} | {src_url} | {score_s} |")
+
+        # ── 3-Path Score Comparison ───────────────────────────────────────
+        lines += [
+            "",
+            "### 3-Path Score Comparison",
             "",
             "| Dimension | Baseline | Parametric | Search | Δ Param | Δ Search |",
             "|-----------|:--------:|:----------:|:------:|:-------:|:--------:|",
@@ -324,7 +357,6 @@ def generate_report(
             d_s = f"{s - b:+d}" if (s is not None and b is not None) else "—"
             lines.append(f"| `{dim}` | {b_s} | {p_s} | {s_s} | {d_p} | {d_s} |")
 
-        # Mean row
         b_vals = [v for v in b_scores.values() if v is not None]
         p_vals = [v for v in p_scores.values() if v is not None]
         s_vals = [v for v in s_scores.values() if v is not None]
@@ -337,41 +369,33 @@ def generate_report(
             f"| **Mean** | **{b_m}** | **{p_m}** | **{s_m}** | **{d_pm}** | **{d_sm}** |"
         )
 
-        # Parametric resolution notes
-        resolved_dims = [
-            (dim, p_matrix[dim])
-            for dim in DIMENSIONS
-            if p_matrix.get(dim, {}).get("source") == "openai_parametric"
-        ]
-        if resolved_dims:
-            lines += ["", "**Parametric resolution rationale:**", ""]
-            for dim, entry in resolved_dims:
-                lines.append(
-                    f"- **{dim}** → `{entry['value']}` "
-                    f"(chose {entry.get('chosen_classifier','?')}): "
-                    f"{entry.get('rationale', '—')}"
-                )
-
-        # Search resolution notes + search sources
-        search_resolved = [
-            (dim, s_matrix[dim])
-            for dim in DIMENSIONS
-            if s_matrix.get(dim, {}).get("source") == "openai_search"
-        ]
-        if search_resolved:
-            lines += ["", "**Search resolution rationale & sources:**", ""]
-            for dim, entry in search_resolved:
-                src_link = _url_cell(entry.get("search_source", ""))
-                lines.append(
-                    f"- **{dim}** → `{entry['value']}` "
-                    f"(chose {entry.get('chosen_classifier','?')}): "
-                    f"{entry.get('rationale', '—')}  \n"
-                    f"  Source: {src_link}"
-                )
-
         lines += ["", "---", ""]
 
-    # --- Role 3 Prompt Audit ---
+        # Collect URLs for bottom audit section
+        for dim in DIMENSIONS:
+            dv  = step2_v.get(dim, {})
+            url = (
+                dv.get("verification_url", "")
+                or (dv.get("grounding_urls") or [""])[0]
+            )
+            url_audit_rows.append((name, ref_year, dim, url))
+
+    # ── URL Audit Section (bottom, all markets) ───────────────────────────
+    lines += [
+        "## URL Audit — Role 2 Verification Sources (All Markets)",
+        "",
+        "_All Gemini grounding URLs retrieved during Role 2 verification, "
+        "listed here for provenance and reproducibility._",
+        "",
+        "| Market | Year | Dimension | Verification URL |",
+        "|--------|------|-----------|-----------------|",
+    ]
+    for mname, myear, dim, url in url_audit_rows:
+        lines.append(f"| {mname} | {myear} | `{dim}` | {_url_cell(url)} |")
+
+    lines += ["", "---", ""]
+
+    # ── Role 3 Prompt Audit ───────────────────────────────────────────────
     lines += [
         "## Role 3 Prompt Audit",
         "",
