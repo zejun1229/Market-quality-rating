@@ -164,40 +164,71 @@ REGULATORY (2012)
 ]
 
 # ---------------------------------------------------------------------------
-# 7-Dimension schema — v2 calibrated scoring guides
+# 7-Dimension schema — v3 canonical economic frameworks
+# ---------------------------------------------------------------------------
+# Framework sources:
+#   timing            → Rogers (1962) Diffusion of Innovations S-curve
+#   competition       → Industrial economics market structure typology
+#   market_size       → Revenue-band tiers (current observable spend, NOT TAM)
+#   customer_readiness → Gartner Hype Cycle (2023 edition)
+#   regulatory        → Compliance-burden ladder
+#   infrastructure    → Technology maturity ladder
+#   market_structure  → Competitive archetype taxonomy
 # ---------------------------------------------------------------------------
 
 DIMENSIONS = [
     {
         "name": "timing",
-        "description": "Position on the technology adoption / diffusion S-curve at the reference year",
-        "options": ["pre_chasm", "early_chasm", "early_majority", "late_majority", "peak"],
+        "description": (
+            "Position on the Rogers Diffusion of Innovations S-curve at the reference year. "
+            "Score the CURRENT buyer cohort that is ACTIVELY adopting — not lagging segments."
+        ),
+        "options": [
+            "innovators",
+            "early_adopters",
+            "early_majority",
+            "late_majority",
+            "laggards",
+        ],
         "scoring_guide": (
-            "Use these quantitative adoption-rate thresholds as primary anchors:\n"
-            "  pre_chasm    = <2% category adoption; innovators only; no mainstream crossing attempt\n"
-            "  early_chasm  = 2-8% adoption; visionary buyers actively using it; "
-            "chasm crossing underway but majority still skeptical\n"
-            "  early_majority = 8-35% adoption; pragmatist buyers are the primary growth driver; "
-            "chasm demonstrably crossed\n"
-            "  late_majority  = 35-65% adoption; conservative buyers now purchasing; "
-            "growth rate decelerating\n"
-            "  peak           = >65% adoption; market saturated; net new growth near zero\n"
-            "If adoption data is unavailable, use: number of paying customers relative to total "
-            "addressable buyer count as a proxy."
+            "Use Rogers' cumulative adoption share as the primary anchor:\n"
+            "  innovators      = first ~2.5% of potential market; technology enthusiasts; "
+            "no social proof required; very high risk tolerance; often co-develop with vendor\n"
+            "  early_adopters  = next ~13.5% (cumulative ~16%); visionaries; seek competitive "
+            "advantage; respected opinion leaders within their domain; willing to pilot\n"
+            "  early_majority  = next ~34% (cumulative ~50%); pragmatists; require proven ROI "
+            "and peer references; chasm demonstrably crossed; growth rate accelerating\n"
+            "  late_majority   = next ~34% (cumulative ~84%); conservatives; adopt under peer "
+            "pressure; skeptical of new technology; growth rate decelerating\n"
+            "  laggards        = final ~16%; traditionalists; adopt only when legacy alternatives "
+            "cease to exist; price-sensitive; no interest in the technology per se\n"
+            "If hard adoption-share data is unavailable, proxy via: number of paying customers "
+            "relative to total addressable buyer count, plus buyer profile description."
         ),
     },
     {
         "name": "competition",
-        "description": "Competitive intensity and structural dynamics at the reference year",
-        "options": ["nascent", "fragmented", "consolidating", "consolidated", "commoditized"],
+        "description": (
+            "Economic market structure at the reference year, scored by seller concentration "
+            "and pricing power. Use the industrial-economics taxonomy."
+        ),
+        "options": [
+            "monopoly",
+            "oligopoly",
+            "monopolistic_competition",
+            "perfect_competition",
+        ],
         "scoring_guide": (
-            "nascent       = 1-3 identifiable players; category not yet labelled by analysts or press\n"
-            "fragmented    = 4-15+ players; no player >20% market share; no M&A wave yet\n"
-            "consolidating = active M&A underway; 2-3 acquirers absorbing smaller players; "
-            "analyst coverage naming 'leaders'\n"
-            "consolidated  = 2-4 dominant players control >60% market share; minor players marginalized\n"
-            "commoditized  = price is primary differentiator; gross margins under 40%; "
-            "switching costs near zero"
+            "Score from most concentrated (monopoly) to least (perfect_competition):\n"
+            "  monopoly                 = single seller controls the market; near-absolute pricing "
+            "power; no close substitutes; entry barriers effectively prohibitive\n"
+            "  oligopoly                = 2–5 players control >70% market share; strategic "
+            "interdependence; significant entry barriers; M&A or tacit coordination possible\n"
+            "  monopolistic_competition = many firms with differentiated products; moderate "
+            "price-setting ability; low–moderate entry barriers; brand differentiation is key\n"
+            "  perfect_competition      = many sellers, homogeneous or near-homogeneous products; "
+            "price-taking behavior; near-zero economic profit; minimal switching costs\n"
+            "Name the specific players and their estimated market-share ranges in your rationale."
         ),
     },
     {
@@ -205,89 +236,129 @@ DIMENSIONS = [
         "description": (
             "Current annual revenue/spend in the category at the reference year. "
             "IMPORTANT: score current observable market spend, NOT speculative future TAM. "
-            "Use actual reported revenue figures from known players, supplemented by analyst estimates. "
-            "If the category revenue is near-zero (e.g. product just launched), score 'micro' "
-            "even if the underlying industry being disrupted is large."
+            "Use actual reported revenue figures from known players, supplemented by analyst "
+            "estimates. If the category revenue is near-zero (e.g. product just launched), "
+            "score 'micro' even if the underlying industry being disrupted is large."
         ),
-        "options": ["micro", "small", "medium", "large", "mega"],
+        "options": ["micro", "small", "medium", "large", "massive"],
         "scoring_guide": (
             "micro   = current annual category revenue/spend <$100M\n"
-            "small   = current annual category revenue/spend $100M-$1B\n"
-            "medium  = current annual category revenue/spend $1B-$10B\n"
-            "large   = current annual category revenue/spend $10B-$100B\n"
-            "mega    = current annual category revenue/spend >$100B\n"
-            "Anchor your estimate to the KNOWN revenue of players in the specific "
-            "product category, not the broader industry being disrupted."
+            "small   = current annual category revenue/spend $100M–$1B\n"
+            "medium  = current annual category revenue/spend $1B–$10B\n"
+            "large   = current annual category revenue/spend $10B–$100B\n"
+            "massive = current annual category revenue/spend >$100B\n"
+            "Anchor your estimate to the KNOWN revenue of players in the specific product "
+            "category, not the broader industry being disrupted."
         ),
     },
     {
         "name": "customer_readiness",
         "description": (
-            "Buyer awareness and willingness to purchase among the PRIMARY TARGET SEGMENT "
-            "(the beachhead / lead-adopter customer), not the general population. "
-            "Score the most advanced buyer cohort, not the average."
+            "Position on the Gartner Hype Cycle at the reference year, scored for the "
+            "PRIMARY TARGET SEGMENT (beachhead buyer). Score the most advanced buyer cohort."
         ),
-        "options": ["unaware", "aware", "interested", "ready", "adopting"],
+        "options": [
+            "innovation_trigger",
+            "peak_of_inflated_expectations",
+            "trough_of_disillusionment",
+            "slope_of_enlightenment",
+            "plateau_of_productivity",
+        ],
         "scoring_guide": (
-            "unaware    = even the beachhead segment does not know the product category exists\n"
-            "aware      = beachhead knows the category exists but is passive / skeptical\n"
-            "interested = beachhead actively requesting demos, running trials, evaluating options\n"
-            "ready      = beachhead has allocated budget; formal procurement or purchasing processes in place\n"
-            "adopting   = beachhead is actively purchasing and deploying at scale; "
-            "measurable installed base and repeat purchases\n"
-            "Be explicit about which specific buyer segment you are scoring."
+            "Map the beachhead buyer's maturity stage to the Gartner Hype Cycle:\n"
+            "  innovation_trigger              = technology breakthrough event; early POC "
+            "coverage; no commercially viable product; extreme uncertainty; press hype begins\n"
+            "  peak_of_inflated_expectations   = early successes amplified; unrealistic "
+            "expectations set; some early failures; hype significantly outpaces reality\n"
+            "  trough_of_disillusionment       = implementations fail expectations; interest "
+            "wanes; vendors fail or pivot; only committed buyers continue investment\n"
+            "  slope_of_enlightenment          = second/third-gen products emerge; cautious "
+            "enterprise adoption; methodology better understood; ROI beginning to materialise\n"
+            "  plateau_of_productivity         = mainstream adoption; ROI clearly demonstrable "
+            "and broadly communicated; widening applicability; market growing sustainably\n"
+            "Be explicit about which specific buyer segment you are scoring and which Hype "
+            "Cycle signals (press coverage, failure rate, enterprise pilots) anchor your choice."
         ),
     },
     {
         "name": "regulatory",
-        "description": "Regulatory environment at the reference year",
-        "options": ["unregulated", "light_touch", "moderate", "heavy", "restricted"],
+        "description": (
+            "Regulatory environment at the reference year. Score based ONLY on formally "
+            "enacted and actively enforced regulations — not anticipated future rules."
+        ),
+        "options": [
+            "unregulated",
+            "light_touch",
+            "moderate_compliance",
+            "heavily_regulated",
+            "prohibitive",
+        ],
         "scoring_guide": (
-            "Score based ONLY on formally enacted and actively enforced regulations at the reference year. "
-            "Do not score based on anticipated future regulation or regulatory commentary.\n"
-            "unregulated  = no sector-specific rules exist; existing general laws apply peripherally\n"
-            "light_touch  = industry self-regulation OR existing rules from adjacent sectors applied "
-            "loosely; no dedicated enforcement action yet\n"
-            "moderate     = sector-specific rules formally enacted; compliance required; "
-            "regulators actively enforcing; manageable burden\n"
-            "heavy        = substantial compliance burden materially affecting product design, "
-            "sales cycles, and operations\n"
-            "restricted   = prohibitive rules; product banned or effectively blocked in key markets"
+            "unregulated       = no sector-specific rules exist; general commercial law applies; "
+            "no enforcement actions; no compliance overhead\n"
+            "light_touch       = industry self-regulation OR adjacent-sector rules applied "
+            "loosely; no dedicated enforcement body; compliance burden is minimal\n"
+            "moderate_compliance = sector-specific rules formally enacted; active enforcement; "
+            "manageable compliance burden; legal/ops overhead present but not blocking\n"
+            "heavily_regulated = substantial compliance burden materially affecting product "
+            "design, sales cycles, and capital requirements; dedicated regulatory body active\n"
+            "prohibitive       = effectively blocked in one or more key markets; licensing "
+            "barriers, bans, or moratoriums make commercialisation infeasible\n"
+            "Do not score based on anticipated future regulation or industry commentary."
         ),
     },
     {
         "name": "infrastructure",
-        "description": "Maturity of the underlying enabling infrastructure at the reference year",
-        "options": ["non_existent", "emerging", "developing", "mature", "commoditized"],
+        "description": (
+            "Maturity of the underlying enabling infrastructure at the reference year. "
+            "Score the *critical path* enablers — those without which the product cannot function."
+        ),
+        "options": ["nascent", "emerging", "developing", "mature"],
         "scoring_guide": (
-            "Score the *critical path* enablers — the infrastructure without which the product "
-            "could not function. Name them explicitly in your rationale.\n"
-            "non_existent  = critical enablers not yet built or publicly available\n"
-            "emerging      = critical enablers exist but unreliable, expensive, or limited to "
-            "specialist access\n"
-            "developing    = critical enablers functional and accessible but still maturing "
-            "(e.g. cost declining, reliability improving, coverage expanding)\n"
-            "mature        = critical enablers robust, reliable, widely accessible, "
-            "and affordable for target customers\n"
-            "commoditized  = critical enablers are essentially free or near-free; "
-            "multiple interchangeable providers; no meaningful barrier"
+            "Name the specific critical-path enablers in your rationale, then score:\n"
+            "  nascent    = critical enablers not yet built or publicly available; "
+            "fundamental R&D still required; no production deployment possible\n"
+            "  emerging   = critical enablers exist but unreliable, expensive, or limited to "
+            "specialist/research access; not production-ready for broad deployment\n"
+            "  developing = critical enablers functional and accessible but still maturing; "
+            "cost declining, reliability improving, geographic coverage expanding\n"
+            "  mature     = critical enablers robust, reliable, widely accessible, and "
+            "affordable for target customers; no meaningful technical constraint remaining"
         ),
     },
     {
         "name": "market_structure",
-        "description": "Clarity and stability of value chain roles and industry structure at the reference year",
-        "options": ["undefined", "emerging", "forming", "defined", "mature"],
+        "description": (
+            "Dominant competitive archetype describing how value is created and captured "
+            "in this market at the reference year. Choose the archetype that best fits "
+            "the observable market dynamics — this is a categorical (not ordinal) dimension."
+        ),
+        "options": [
+            "winner_take_most",
+            "platform_two_sided",
+            "technology_enablement",
+            "fragmented_niche",
+            "regulated_infrastructure",
+        ],
         "scoring_guide": (
-            "undefined = no analyst or press category label; no recognizable value chain; "
-            "no industry association or standards body\n"
-            "emerging  = category label beginning to appear in press; first-mover advantages; "
-            "value chain roles being pioneered by 1-2 players\n"
-            "forming   = 2-4 distinct value chain tiers crystallizing (e.g. infra / platform / app); "
-            "analyst firms beginning to cover; investment theses being articulated\n"
-            "defined   = clear industry roles, buyer personas, integration standards, "
-            "and competitive tiers; Gartner/Forrester coverage active\n"
-            "mature    = established ecosystem; industry associations; certification bodies; "
-            "procurement standards; 3rd-party integrators and resellers"
+            "Select the archetype that best describes the market's value-capture dynamics:\n"
+            "  winner_take_most         = strong network effects or scale economies driving "
+            "toward a single dominant platform; category leader captures majority of value; "
+            "second-place is structurally disadvantaged\n"
+            "  platform_two_sided       = marketplace or platform connecting two distinct user "
+            "groups (e.g. buyers/sellers, developers/users); value created by cross-side network "
+            "effects; platform earns via transaction fees or subscriptions\n"
+            "  technology_enablement    = horizontal infrastructure or API layer enabling "
+            "diverse vertical applications; no direct end-customer relationship; "
+            "value captured via usage fees or licensing\n"
+            "  fragmented_niche         = many specialised players serving distinct sub-segments; "
+            "no platform dynamics; winner-take-all unlikely; geography or vertical-specific; "
+            "low switching costs between vendors\n"
+            "  regulated_infrastructure = utility-like characteristics; government regulation "
+            "of pricing or access; natural-monopoly tendencies; public-interest mandate; "
+            "returns capped by regulator\n"
+            "Justify your choice by citing the specific market mechanism (network effect, "
+            "API model, regulatory mandate, etc.) that places it in this archetype."
         ),
     },
 ]
@@ -295,6 +366,29 @@ DIMENSIONS = [
 # ---------------------------------------------------------------------------
 # Claude helpers
 # ---------------------------------------------------------------------------
+
+def _call_with_retry(fn, max_retries: int = 4, base_delay: float = 20.0):
+    """
+    Call fn() with retry on Claude overload (529) errors.
+    Waits base_delay * (attempt + 1) seconds before each retry.
+    """
+    for attempt in range(max_retries + 1):
+        try:
+            return fn()
+        except Exception as exc:
+            exc_str = str(exc).lower()
+            is_overloaded = "529" in exc_str or "overloaded" in exc_str
+            if is_overloaded and attempt < max_retries:
+                delay = base_delay * (attempt + 1)
+                print(
+                    f"\n    [529 overloaded; retry {attempt + 1}/{max_retries} "
+                    f"in {delay:.0f}s]",
+                    end=" ", flush=True,
+                )
+                time.sleep(delay)
+            else:
+                raise
+
 
 def get_client() -> anthropic.Anthropic:
     key = os.getenv("ANTHROPIC_API_KEY", "")
@@ -348,10 +442,12 @@ def generate_base_profile(client: anthropic.Anthropic, seed: dict) -> dict:
         "- Do not use hedging phrases like 'would eventually' or 'was poised to'."
     )
 
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=1400,
-        messages=[{"role": "user", "content": prompt}],
+    response = _call_with_retry(
+        lambda: client.messages.create(
+            model=MODEL,
+            max_tokens=1400,
+            messages=[{"role": "user", "content": prompt}],
+        )
     )
 
     raw_text = response.content[0].text.strip()
@@ -423,10 +519,12 @@ def extract_dimension(
         "}"
     )
 
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=600,
-        messages=[{"role": "user", "content": prompt}],
+    response = _call_with_retry(
+        lambda: client.messages.create(
+            model=MODEL,
+            max_tokens=600,
+            messages=[{"role": "user", "content": prompt}],
+        )
     )
 
     raw = response.content[0].text.strip()
@@ -502,7 +600,7 @@ def process_market(client: anthropic.Anthropic, seed: dict, index: int) -> dict:
 
 def main() -> None:
     print("=" * 65)
-    print("  VELA MARKET QUALITY RATING — STEP 1  (v2 calibrated)")
+    print("  VELA MARKET QUALITY RATING — STEP 1  (v3 canonical enums)")
     print("  Generation & Feature Extraction  (Claude)")
     print("=" * 65)
 
@@ -515,7 +613,7 @@ def main() -> None:
 
     output_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "reference_population.json")
     with open(output_path, "w", encoding="utf-8") as fh:
-        json.dump({"schema_version": "1.1", "markets": population}, fh, indent=2, ensure_ascii=False)
+        json.dump({"schema_version": "2.0", "markets": population}, fh, indent=2, ensure_ascii=False)
 
     print(f"\n{'=' * 65}")
     print(f"  Saved {len(population)} markets to reference_population.json")
@@ -531,7 +629,7 @@ def main() -> None:
             name = ""  # only print market name on first row
 
     print(f"\n{'=' * 65}")
-    print("  Step 1 v2 complete. Run pipeline_step2.py to verify.")
+    print("  Step 1 v3 complete. Run pipeline_step2.py to verify.")
     print(f"{'=' * 65}\n")
 
 

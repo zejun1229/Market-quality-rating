@@ -31,15 +31,35 @@ except ImportError:
 
 GEMINI_MODEL = "models/gemini-3.1-pro-preview"  # best available; grounding confirmed
 
-# Ordinal scales for agreement scoring (order matters)
+# Ordinal scales for agreement scoring (order matters; distance used for HIGH/MEDIUM/LOW).
+# market_structure is a categorical archetype — listed here so unknown values still score LOW,
+# but adjacent-distance agreement has limited semantic meaning for that dimension.
 ORDINAL_SCALES: dict[str, list[str]] = {
-    "timing":             ["pre_chasm", "early_chasm", "early_majority", "late_majority", "peak"],
-    "competition":        ["nascent", "fragmented", "consolidating", "consolidated", "commoditized"],
-    "market_size":        ["micro", "small", "medium", "large", "mega"],
-    "customer_readiness": ["unaware", "aware", "interested", "ready", "adopting"],
-    "regulatory":         ["unregulated", "light_touch", "moderate", "heavy", "restricted"],
-    "infrastructure":     ["non_existent", "emerging", "developing", "mature", "commoditized"],
-    "market_structure":   ["undefined", "emerging", "forming", "defined", "mature"],
+    "timing": [
+        "innovators", "early_adopters", "early_majority", "late_majority", "laggards",
+    ],
+    "competition": [
+        # ordered most-concentrated → least-concentrated
+        "monopoly", "oligopoly", "monopolistic_competition", "perfect_competition",
+    ],
+    "market_size": [
+        "micro", "small", "medium", "large", "massive",
+    ],
+    "customer_readiness": [
+        "innovation_trigger", "peak_of_inflated_expectations", "trough_of_disillusionment",
+        "slope_of_enlightenment", "plateau_of_productivity",
+    ],
+    "regulatory": [
+        "unregulated", "light_touch", "moderate_compliance", "heavily_regulated", "prohibitive",
+    ],
+    "infrastructure": [
+        "nascent", "emerging", "developing", "mature",
+    ],
+    "market_structure": [
+        # categorical — exact match = HIGH; any mismatch scores by list distance
+        "winner_take_most", "platform_two_sided", "technology_enablement",
+        "fragmented_niche", "regulated_infrastructure",
+    ],
 }
 
 # ---------------------------------------------------------------------------
@@ -238,10 +258,12 @@ def verify_outcome(client: genai.Client, market: dict) -> dict:
 
 def _parse_gemini_classification(
     text: str, options: list[str], fallback_text: str
-) -> tuple[str, str, str]:
+) -> tuple[str, str, str, str]:
     """
     Try to parse a JSON classification from Gemini's response.
-    Returns (classification, evidence, key_fact).
+    Returns (classification, evidence, key_fact, source_url).
+    source_url is Gemini's self-reported citation URL from the JSON response (may be empty;
+    the grounding-metadata URL from the API call is the authoritative verification_url).
     """
     clean = text.strip()
     if "```" in clean:
@@ -250,12 +272,14 @@ def _parse_gemini_classification(
     classification = "unknown"
     evidence = ""
     key_fact = ""
+    source_url = ""
 
     try:
         parsed = json.loads(clean)
         classification = str(parsed.get("classification", "unknown")).lower().strip()
         evidence = parsed.get("evidence", "")
         key_fact = parsed.get("key_fact", "")
+        source_url = parsed.get("source_url", "")
     except (json.JSONDecodeError, ValueError):
         # Fall back: scan text for known option strings
         lower_text = fallback_text.lower()
@@ -274,7 +298,7 @@ def _parse_gemini_classification(
         else:
             classification = "unknown"
 
-    return classification, evidence, key_fact
+    return classification, evidence, key_fact, source_url
 
 
 def verify_dimension(
@@ -296,20 +320,27 @@ def verify_dimension(
         f"Market: {market_name}\n"
         f"Reference year: {ref_year}\n\n"
         f"Classify the market along this analytical dimension: **{dim_name}**\n"
-        f"Available options: {options}\n\n"
+        f"Available options (choose EXACTLY one): {options}\n\n"
         "Based on historical evidence available for this market at the reference year, "
         "which option best describes it?\n\n"
         "Respond with ONLY a JSON object — no markdown, no extra text:\n"
         "{\n"
-        '  "classification": "<one value from the options list>",\n'
+        '  "classification": "<one value from the options list above>",\n'
         '  "evidence": "<2-3 sentences of factual evidence supporting your classification>",\n'
-        '  "key_fact": "<one specific statistic, date, or data point>"\n'
+        '  "key_fact": "<one specific statistic, date, or data point>",\n'
+        '  "source_url": "<the single most relevant URL you cited from your web search>"\n'
         "}"
     )
 
     text, urls = query_gemini_grounded(client, prompt)
-    gemini_class, evidence, key_fact = _parse_gemini_classification(text, options, text)
+    gemini_class, evidence, key_fact, json_url = _parse_gemini_classification(
+        text, options, text
+    )
     agreement = score_agreement(dim_name, claude_classification, gemini_class)
+
+    # Authoritative verification URL: prefer grounding-metadata URL (API-provided),
+    # fall back to the URL Gemini self-reported in its JSON response.
+    verification_url = urls[0] if urls else json_url
 
     return {
         "dimension": dim_name,
@@ -318,6 +349,7 @@ def verify_dimension(
         "agreement": agreement,
         "evidence": evidence,
         "key_fact": key_fact,
+        "verification_url": verification_url,
         "grounding_urls": urls[:3],
     }
 
@@ -442,14 +474,15 @@ def print_final_report(markets: list[dict]) -> None:
         print(f"    Overall: {oa}  (score={sc:.2f})   HIGH={h}  MEDIUM={med}  LOW={lo}")
 
         print(f"\n  Dimension Matrix")
-        print(f"    {'Dimension':<24}  {'Claude':<22}  {'Gemini':<22}  {'Agreement'}")
-        print(f"    {'-'*24}  {'-'*22}  {'-'*22}  {'-'*9}")
+        print(f"    {'Dimension':<24}  {'Claude':<28}  {'Gemini':<28}  {'Agree':<6}  Verification URL")
+        print(f"    {'-'*24}  {'-'*28}  {'-'*28}  {'-'*6}  {'-'*50}")
         for dim_name, dv in dim_v.items():
             marker = {"HIGH": "[*]", "MEDIUM": "[~]", "LOW": "[ ]"}.get(dv.get("agreement", ""), "?")
             cc = dv.get("claude_classification", "?")
             gc = dv.get("gemini_classification", "?")
             ag = dv.get("agreement", "?")
-            print(f"  {marker} {dim_name:<24}  {cc:<22}  {gc:<22}  {ag}")
+            vurl = dv.get("verification_url", "")
+            print(f"  {marker} {dim_name:<24}  {cc:<28}  {gc:<28}  {ag:<6}  {vurl}")
 
     print(f"\n{divider}")
     print(
