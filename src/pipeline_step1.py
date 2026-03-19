@@ -23,8 +23,8 @@ v2 calibration changes
 
 import json
 import os
-import time
 import sys
+import time
 import anthropic
 from dotenv import load_dotenv
 
@@ -505,7 +505,8 @@ def extract_dimension(
         f"Scoring guide:\n{dimension['scoring_guide']}\n\n"
         "=== CLASSIFICATION TASK ===\n"
         f"Choose ONE value from this exact list: {dimension['options']}\n\n"
-        "Return ONLY a valid JSON object — no markdown, no preamble, no trailing text.\n"
+        "Return ONLY a raw, valid JSON object. Do not include markdown formatting like "
+        "```json, and do not include any conversational preamble or postamble.\n"
         "The JSON must have exactly these five fields:\n"
         "{\n"
         f'  "dimension": "{dimension["name"]}",\n'
@@ -565,7 +566,6 @@ def process_market(client: anthropic.Anthropic, seed: dict, index: int) -> dict:
     dimensions_result: dict = {}
     for dim in DIMENSIONS:
         print(f"  -> [{dim['name']}]...", end=" ", flush=True)
-        time.sleep(0.4)
         try:
             result = extract_dimension(client, profile, dim)
             if result.get("classification") not in dim["options"]:

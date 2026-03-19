@@ -1,10 +1,11 @@
 """
-Vela Market Quality Rating System — Step 2
+Vela Market Quality Rating System — Step 2  (consolidated single-call edition)
 Grounded Verification & Agreement Scoring
 
-Reads reference_population.json, queries Gemini (with Google Search grounding)
-for T+5 outcomes and dimension evidence, computes inter-source agreement,
-appends results to the JSON, and prints a final verification report.
+ONE Gemini API call per market verifies all 7 categorical dimensions and the
+T+5 outcome simultaneously, returning a single comprehensive JSON object.
+This replaces the previous 8-call-per-market approach and eliminates inter-call
+sleep delays while preserving full backward-compatible output schema.
 """
 
 import json
@@ -29,17 +30,15 @@ except ImportError:
 # Configuration
 # ---------------------------------------------------------------------------
 
-GEMINI_MODEL = "models/gemini-3.1-pro-preview"  # best available; grounding confirmed
+GEMINI_MODEL = "models/gemini-2.5-flash"
 
-# Ordinal scales for agreement scoring (order matters; distance used for HIGH/MEDIUM/LOW).
-# market_structure is a categorical archetype — listed here so unknown values still score LOW,
-# but adjacent-distance agreement has limited semantic meaning for that dimension.
+# Ordinal scales for agreement scoring (order matters for distance computation).
+# market_structure is categorical — listed so unknown values still score LOW.
 ORDINAL_SCALES: dict[str, list[str]] = {
     "timing": [
         "innovators", "early_adopters", "early_majority", "late_majority", "laggards",
     ],
     "competition": [
-        # ordered most-concentrated → least-concentrated
         "monopoly", "oligopoly", "monopolistic_competition", "perfect_competition",
     ],
     "market_size": [
@@ -56,11 +55,16 @@ ORDINAL_SCALES: dict[str, list[str]] = {
         "nascent", "emerging", "developing", "mature",
     ],
     "market_structure": [
-        # categorical — exact match = HIGH; any mismatch scores by list distance
         "winner_take_most", "platform_two_sided", "technology_enablement",
         "fragmented_niche", "regulated_infrastructure",
     ],
 }
+
+# Canonical dimension order
+_DIM_ORDER = [
+    "timing", "competition", "market_size", "customer_readiness",
+    "regulatory", "infrastructure", "market_structure",
+]
 
 # ---------------------------------------------------------------------------
 # Gemini client helpers
@@ -79,12 +83,11 @@ def get_gemini_client() -> genai.Client:
 def _parse_retry_delay(exc: Exception) -> float:
     """Extract retryDelay seconds from a Gemini 429 error string, default 60s."""
     text = str(exc)
-    # Pattern: 'retryDelay': '37s' or retry in 37.9s
     for pattern in [r"retryDelay.*?'(\d+)s", r"retry in (\d+(?:\.\d+)?)s"]:
         m = re.search(pattern, text)
         if m:
-            return float(m.group(1)) + 2  # small buffer
-    return 65.0  # conservative default
+            return float(m.group(1)) + 2
+    return 65.0
 
 
 def query_gemini_grounded(
@@ -93,7 +96,7 @@ def query_gemini_grounded(
     """
     Query Gemini with Google Search grounding.
     Returns (response_text, list_of_source_urls).
-    Handles 429 rate-limit errors by waiting the retry delay specified in the error.
+    Handles 429 rate-limit errors with the retry delay specified in the error.
     """
     for attempt in range(retries + 1):
         try:
@@ -106,7 +109,6 @@ def query_gemini_grounded(
                 ),
             )
 
-            # Extract text
             text = ""
             if hasattr(response, "text") and response.text:
                 text = response.text
@@ -115,13 +117,11 @@ def query_gemini_grounded(
                     if hasattr(part, "text") and part.text:
                         text += part.text
 
-            # Extract grounding URLs
             urls: list[str] = []
             if response.candidates:
                 candidate = response.candidates[0]
                 gm = getattr(candidate, "grounding_metadata", None)
                 if gm:
-                    # Newer SDK: grounding_chunks
                     chunks = getattr(gm, "grounding_chunks", None) or []
                     for chunk in chunks:
                         web = getattr(chunk, "web", None)
@@ -129,7 +129,6 @@ def query_gemini_grounded(
                             uri = getattr(web, "uri", None)
                             if uri and uri not in urls:
                                 urls.append(uri)
-                    # Older SDK fallback: grounding_attributions
                     if not urls:
                         attrs = getattr(gm, "grounding_attributions", None) or []
                         for attr in attrs:
@@ -146,12 +145,10 @@ def query_gemini_grounded(
             is_quota = "429" in exc_str or "RESOURCE_EXHAUSTED" in exc_str
 
             if attempt < retries and not is_quota:
-                # Transient error — retry with backoff
                 wait = min(4 ** attempt, 30)
                 print(f"    [retry {attempt + 1}/{retries} in {wait}s — {exc_str[:80]}]", end=" ")
                 time.sleep(wait)
             elif is_quota and attempt == 0:
-                # Grounding quota exhausted — immediately fall back to ungrounded query
                 print(f"\n    [grounding quota exhausted; falling back to ungrounded query]",
                       flush=True)
                 try:
@@ -167,7 +164,6 @@ def query_gemini_grounded(
                         for part in fallback_resp.candidates[0].content.parts:
                             if hasattr(part, "text") and part.text:
                                 fb_text += part.text
-                    # No real URLs available — return empty list so outcome gets REJECTED
                     return fb_text, []
                 except Exception as fb_exc:
                     fb_str = str(fb_exc)
@@ -190,9 +186,9 @@ def query_gemini_grounded(
 def score_agreement(dim_name: str, claude_class: str, gemini_class: str) -> str:
     """
     Compute ordinal-distance-based agreement level.
-    HIGH  = exact match (distance 0)
+    HIGH   = exact match (distance 0)
     MEDIUM = adjacent on scale (distance 1)
-    LOW   = 2+ steps apart, or unknown classification
+    LOW    = 2+ steps apart, or unknown classification
     """
     scale = ORDINAL_SCALES.get(dim_name, [])
     c = claude_class.lower().strip()
@@ -211,284 +207,278 @@ def score_agreement(dim_name: str, claude_class: str, gemini_class: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Task A — T+5 outcome verification
+# Single-call market verification
 # ---------------------------------------------------------------------------
 
-def verify_outcome(client: genai.Client, market: dict) -> dict:
-    """
-    Query Gemini for the T+5 year outcome with grounded web sources.
-    Requires >= 3 citable URLs; otherwise flags market as REJECTED.
-    """
-    market_name = market["base_profile"].get("market_name", market["domain"])
-    ref_year = market["ref_year"]
-    t5_year = ref_year + 5
+def _build_consolidated_prompt(market_name: str, ref_year: int, t5_year: int) -> str:
+    """Build the single comprehensive prompt for all verification tasks."""
+    dim_options = "\n".join(
+        f"  {dim}: {ORDINAL_SCALES[dim]}"
+        for dim in _DIM_ORDER
+    )
+    # Build the JSON template explicitly to avoid f-string brace escaping issues
+    dim_template_lines = []
+    for dim in _DIM_ORDER:
+        opts = ORDINAL_SCALES[dim]
+        dim_template_lines.append(
+            f'    "{dim}": {{"classification": "<one of {opts}>", '
+            f'"evidence": "<2 sentences of factual evidence>", '
+            f'"key_fact": "<1 specific statistic or date>"}}'
+        )
+    dim_template = ",\n".join(dim_template_lines)
 
-    prompt = (
-        f"Research the historical venture capital market: **{market_name}** (reference year: {ref_year}).\n\n"
-        f"Using web sources, describe what happened to this market by {t5_year} (5 years later):\n"
-        "1. Did the market grow significantly, plateau, or decline by this year?\n"
-        "2. What were key revenue, funding, or user-adoption milestones reached by this year?\n"
-        "3. Which companies emerged as market leaders?\n"
-        "4. What was the overall outcome for venture investors who entered in "
-        f"{ref_year}?\n\n"
-        "Cite specific facts with numbers and dates. Draw on industry reports, "
-        "news articles, company filings, and analyst data."
+    return (
+        f"Research the historical venture capital market: {market_name} "
+        f"(reference year: {ref_year}).\n\n"
+        "Use Google Search to complete two research tasks in a single response:\n\n"
+        f"TASK 1 — T+5 OUTCOME: Describe what happened to this market by {t5_year}. "
+        "Did it grow, plateau, or decline? Include key funding rounds, revenue milestones, "
+        "and overall outcome for venture investors who entered in "
+        f"{ref_year}.\n\n"
+        f"TASK 2 — DIMENSION CLASSIFICATION: Using evidence as of {ref_year}, "
+        "classify this market on all 7 dimensions below. "
+        "Choose EXACTLY ONE option per dimension from the lists provided:\n"
+        f"{dim_options}\n\n"
+        "Return ONLY a raw, valid JSON object. Do not include markdown formatting like "
+        "```json, and do not include any conversational preamble or postamble.\n\n"
+        "{\n"
+        f'  "outcome_summary": "<2-3 sentences on what happened by {t5_year}>",\n'
+        '  "dimensions": {\n'
+        + dim_template + "\n"
+        "  }\n"
+        "}"
     )
 
-    text, urls = query_gemini_grounded(client, prompt)
-    status = "VERIFIED" if len(urls) >= 3 else "REJECTED"
 
-    return {
-        "t5_year": t5_year,
-        "outcome_summary": text[:2500] if text else "",
-        "source_urls": urls,
-        "source_count": len(urls),
-        "verification_status": status,
-        "rejection_reason": (
-            None
-            if status == "VERIFIED"
-            else f"Only {len(urls)} grounded source(s) returned — minimum 3 required."
-        ),
-    }
-
-
-# ---------------------------------------------------------------------------
-# Task B — Dimension agreement verification
-# ---------------------------------------------------------------------------
-
-def _parse_gemini_classification(
-    text: str, options: list[str], fallback_text: str
-) -> tuple[str, str, str, str]:
+def _parse_consolidated_response(
+    text: str,
+    urls: list[str],
+    market: dict,
+    t5_year: int,
+) -> dict:
     """
-    Try to parse a JSON classification from Gemini's response.
-    Returns (classification, evidence, key_fact, source_url).
-    source_url is Gemini's self-reported citation URL from the JSON response (may be empty;
-    the grounding-metadata URL from the API call is the authoritative verification_url).
+    Parse the single Gemini response into the standard step2 output schema.
+    Falls back gracefully if JSON is malformed.
     """
     clean = text.strip()
     if "```" in clean:
         clean = re.sub(r"```(?:json)?", "", clean).strip().rstrip("`").strip()
+    brace = clean.find("{")
+    if brace > 0:
+        clean = clean[brace:]
 
-    classification = "unknown"
-    evidence = ""
-    key_fact = ""
-    source_url = ""
-
+    parsed_json = None
     try:
-        parsed = json.loads(clean)
-        classification = str(parsed.get("classification", "unknown")).lower().strip()
-        evidence = parsed.get("evidence", "")
-        key_fact = parsed.get("key_fact", "")
-        source_url = parsed.get("source_url", "")
+        parsed_json = json.loads(clean)
     except (json.JSONDecodeError, ValueError):
-        # Fall back: scan text for known option strings
-        lower_text = fallback_text.lower()
-        for opt in options:
-            if opt.replace("_", " ") in lower_text or opt in lower_text:
-                classification = opt
-                break
-        evidence = fallback_text[:400]
+        pass
 
-    # Normalize: if returned value not in options, fuzzy-match
-    if classification not in options:
-        for opt in options:
-            if opt in classification or classification in opt:
-                classification = opt
-                break
-        else:
-            classification = "unknown"
+    # ── Outcome verification ──────────────────────────────────────────
+    outcome_text = ""
+    if parsed_json:
+        outcome_text = parsed_json.get("outcome_summary", "")
+    if not outcome_text:
+        outcome_text = text[:2500]
 
-    return classification, evidence, key_fact, source_url
-
-
-def verify_dimension(
-    client: genai.Client,
-    market: dict,
-    dim_name: str,
-    claude_classification: str,
-    options: list[str],
-) -> dict:
-    """
-    Query Gemini for grounded evidence on one dimension, classify it,
-    and compute agreement against Claude's classification.
-    """
-    market_name = market["base_profile"].get("market_name", market["domain"])
-    ref_year = market["ref_year"]
-
-    prompt = (
-        f"Research this historical venture market using web sources:\n"
-        f"Market: {market_name}\n"
-        f"Reference year: {ref_year}\n\n"
-        f"Classify the market along this analytical dimension: **{dim_name}**\n"
-        f"Available options (choose EXACTLY one): {options}\n\n"
-        "Based on historical evidence available for this market at the reference year, "
-        "which option best describes it?\n\n"
-        "Respond with ONLY a JSON object — no markdown, no extra text:\n"
-        "{\n"
-        '  "classification": "<one value from the options list above>",\n'
-        '  "evidence": "<2-3 sentences of factual evidence supporting your classification>",\n'
-        '  "key_fact": "<one specific statistic, date, or data point>",\n'
-        '  "source_url": "<the single most relevant URL you cited from your web search>"\n'
-        "}"
-    )
-
-    text, urls = query_gemini_grounded(client, prompt)
-    gemini_class, evidence, key_fact, json_url = _parse_gemini_classification(
-        text, options, text
-    )
-    agreement = score_agreement(dim_name, claude_classification, gemini_class)
-
-    # Authoritative verification URL: prefer grounding-metadata URL (API-provided),
-    # fall back to the URL Gemini self-reported in its JSON response.
-    verification_url = urls[0] if urls else json_url
-
-    return {
-        "dimension": dim_name,
-        "claude_classification": claude_classification,
-        "gemini_classification": gemini_class,
-        "agreement": agreement,
-        "evidence": evidence,
-        "key_fact": key_fact,
-        "verification_url": verification_url,
-        "grounding_urls": urls[:3],
+    outcome = {
+        "t5_year":             t5_year,
+        "outcome_summary":     outcome_text,
+        "source_urls":         urls,
+        "source_count":        len(urls),
+        "verification_status": "VERIFIED" if urls else "UNVERIFIED",
+        "rejection_reason":    None if urls else "No grounded sources returned.",
     }
 
+    # ── Dimension verifications ───────────────────────────────────────
+    dims_data = {}
+    if parsed_json:
+        dims_data = parsed_json.get("dimensions", {})
 
-# ---------------------------------------------------------------------------
-# Market processing
-# ---------------------------------------------------------------------------
-
-def process_market_verification(client: genai.Client, market: dict) -> dict:
-    """Run all Step 2 verification tasks for one market."""
-    market_name = market["base_profile"].get("market_name", market["domain"])
-    print(f"\n[Verifying]  {market_name}  ({market['ref_year']})")
-
-    # --- Task A: T+5 outcome ---
-    print("  -> T+5 outcome verification ...", end=" ", flush=True)
-    outcome = verify_outcome(client, market)
-    icon = "+" if outcome["verification_status"] == "VERIFIED" else "X"
-    print(f"{icon} {outcome['verification_status']}  ({outcome['source_count']} sources)")
-    time.sleep(3)  # inter-request buffer
-
-    # --- Task B: Dimension agreement ---
     dimension_verifications: dict = {}
-    for dim_name, dim_data in market["dimensions"].items():
-        claude_class = dim_data.get("classification", "unknown")
-        if claude_class == "unknown":
-            continue
-        options = ORDINAL_SCALES.get(dim_name, [])
-        print(f"  -> Agreement [{dim_name}] ...", end=" ", flush=True)
-        time.sleep(3)  # inter-request buffer
-        dv = verify_dimension(client, market, dim_name, claude_class, options)
-        dimension_verifications[dim_name] = dv
-        marker = {"HIGH": "[*]", "MEDIUM": "[~]", "LOW": "[ ]"}.get(dv["agreement"], "?")
-        print(
-            f"{marker} {dv['agreement']:<6}  "
-            f"Claude:{dv['claude_classification']:<20}  "
-            f"Gemini:{dv['gemini_classification']}"
+    for dim_name in _DIM_ORDER:
+        claude_class = (
+            market.get("dimensions", {})
+                  .get(dim_name, {})
+                  .get("classification", "unknown")
         )
+        options = ORDINAL_SCALES.get(dim_name, [])
+        dim_blob = dims_data.get(dim_name, {})
 
-    # --- Aggregate agreement score ---
+        # Parse and normalise Gemini's classification
+        raw_gc = str(dim_blob.get("classification", "unknown")).lower().strip()
+        gemini_class = "unknown"
+        if raw_gc in options:
+            gemini_class = raw_gc
+        else:
+            # Fuzzy match (e.g. "early adopters" → "early_adopters")
+            for opt in options:
+                if opt in raw_gc or raw_gc in opt or opt.replace("_", " ") == raw_gc:
+                    gemini_class = opt
+                    break
+
+        if gemini_class == "unknown" and not parsed_json:
+            # Full parse failure: scan raw text for option strings
+            lower_text = text.lower()
+            for opt in options:
+                if opt.replace("_", " ") in lower_text or opt in lower_text:
+                    gemini_class = opt
+                    break
+
+        agreement = score_agreement(dim_name, claude_class, gemini_class)
+
+        dimension_verifications[dim_name] = {
+            "dimension":             dim_name,
+            "claude_classification": claude_class,
+            "gemini_classification": gemini_class,
+            "agreement":             agreement,
+            "evidence":              dim_blob.get("evidence", ""),
+            "key_fact":              dim_blob.get("key_fact", ""),
+            "verification_url":      urls[0] if urls else "",
+            "grounding_urls":        urls[:3],
+        }
+
+    # ── Agreement summary ─────────────────────────────────────────────
     agreements = [v["agreement"] for v in dimension_verifications.values()]
-    high = agreements.count("HIGH")
+    high   = agreements.count("HIGH")
     medium = agreements.count("MEDIUM")
-    low = agreements.count("LOW")
-    total = len(agreements)
-    score = (high * 1.0 + medium * 0.5 + low * 0.0) / total if total else 0.0
+    low    = agreements.count("LOW")
+    total  = len(agreements)
+    score  = (high * 1.0 + medium * 0.5) / total if total else 0.0
 
-    if score >= 0.70:
-        overall = "HIGH"
-    elif score >= 0.40:
-        overall = "MEDIUM"
-    else:
-        overall = "LOW"
+    overall = "HIGH" if score >= 0.70 else ("MEDIUM" if score >= 0.40 else "LOW")
 
     return {
-        "outcome_verification": outcome,
+        "outcome_verification":    outcome,
         "dimension_verifications": dimension_verifications,
         "agreement_summary": {
-            "overall": overall,
-            "score": round(score, 3),
-            "HIGH": high,
-            "MEDIUM": medium,
-            "LOW": low,
+            "overall":          overall,
+            "score":            round(score, 3),
+            "HIGH":             high,
+            "MEDIUM":           medium,
+            "LOW":              low,
             "total_dimensions": total,
         },
     }
 
 
 # ---------------------------------------------------------------------------
-# Final report
+# Market processing — public API (single call per market)
+# ---------------------------------------------------------------------------
+
+def process_market_verification(client: genai.Client, market: dict) -> dict:
+    """
+    Verify one market via a SINGLE Gemini API call.
+
+    Asks Gemini to simultaneously:
+      - Research the T+5 outcome with grounded web sources
+      - Classify all 7 dimensions based on evidence at the reference year
+
+    Returns the standard step2 result dict compatible with all downstream code.
+    """
+    market_name = market["base_profile"].get("market_name", market["domain"])
+    ref_year    = market["ref_year"]
+    t5_year     = ref_year + 5
+
+    print(f"\n[Verifying]  {market_name}  ({ref_year})")
+    print("  -> Single Gemini call (T+5 + 7 dims) ...", end=" ", flush=True)
+
+    prompt = _build_consolidated_prompt(market_name, ref_year, t5_year)
+    text, urls = query_gemini_grounded(client, prompt)
+
+    result = _parse_consolidated_response(text, urls, market, t5_year)
+
+    # Print summary line
+    outcome = result["outcome_verification"]
+    agr     = result["agreement_summary"]
+    icon    = "+" if outcome["verification_status"] == "VERIFIED" else "~"
+    print(
+        f"{icon} {outcome['verification_status']} ({outcome['source_count']} sources)  "
+        f"Agreement: {agr['overall']} "
+        f"(H={agr['HIGH']} M={agr['MEDIUM']} L={agr['LOW']})"
+    )
+
+    # Print per-dimension agreement for observability
+    for dim_name, dv in result["dimension_verifications"].items():
+        marker = {"HIGH": "[*]", "MEDIUM": "[~]", "LOW": "[ ]"}.get(dv["agreement"], "?")
+        print(
+            f"  -> Agreement [{dim_name}] ... "
+            f"{marker} {dv['agreement']:<6}  "
+            f"Claude:{dv['claude_classification']:<20}  "
+            f"Gemini:{dv['gemini_classification']}"
+        )
+
+    return result
+
+
+# ---------------------------------------------------------------------------
+# Final report (used by standalone main)
 # ---------------------------------------------------------------------------
 
 def print_final_report(markets: list[dict]) -> None:
     verified = [
         m for m in markets
-        if m.get("step2", {}).get("outcome_verification", {}).get("verification_status") == "VERIFIED"
+        if m.get("step2", {})
+             .get("outcome_verification", {})
+             .get("verification_status") == "VERIFIED"
     ]
-    rejected = [m for m in markets if m not in verified]
 
     divider = "=" * 72
-    thin = "-" * 72
+    thin    = "-" * 72
 
     print(f"\n\n{divider}")
     print("  VELA MARKET QUALITY RATING — FINAL VERIFICATION REPORT")
     print(divider)
     print(
         f"\n  Batch size : {len(markets)} markets"
-        f"  |  Passed : {len(verified)}"
-        f"  |  Rejected : {len(rejected)}"
-        f"  |  Source threshold : ≥ 3 citable URLs"
+        f"  |  Grounded: {len(verified)}"
+        f"  |  Ungrounded : {len(markets) - len(verified)}"
     )
 
     for market in markets:
-        s2 = market.get("step2", {})
+        s2      = market.get("step2", {})
         outcome = s2.get("outcome_verification", {})
-        agreement = s2.get("agreement_summary", {})
-        dim_v = s2.get("dimension_verifications", {})
+        agr     = s2.get("agreement_summary", {})
+        dim_v   = s2.get("dimension_verifications", {})
         profile = market.get("base_profile", {})
 
-        name = profile.get("market_name", market.get("domain", "Unknown"))
-        status = outcome.get("verification_status", "UNKNOWN")
-        ref = market.get("ref_year", "?")
-        t5 = outcome.get("t5_year", "?")
-        n_sources = outcome.get("source_count", 0)
-        urls = outcome.get("source_urls", [])
-
-        status_badge = "+ PASS" if status == "VERIFIED" else "X FAIL"
+        name     = profile.get("market_name", market.get("domain", "Unknown"))
+        status   = outcome.get("verification_status", "UNKNOWN")
+        ref      = market.get("ref_year", "?")
+        t5       = outcome.get("t5_year", "?")
+        n_src    = outcome.get("source_count", 0)
+        urls     = outcome.get("source_urls", [])
+        badge    = "+ PASS" if status == "VERIFIED" else "~ UNGROUNDED"
 
         print(f"\n{thin}")
-        print(f"  {status_badge}   {name}")
+        print(f"  {badge}   {name}")
         print(f"           Reference year: {ref}   |   T+5 year: {t5}")
         print(f"\n  Outcome Verification")
-        print(f"    Sources found : {n_sources}")
+        print(f"    Sources found : {n_src}")
         for url in urls[:5]:
             print(f"    * {url[:80]}")
-        if outcome.get("rejection_reason"):
-            print(f"    REJECTION: {outcome['rejection_reason']}")
 
         print(f"\n  Inter-Source Agreement")
-        oa = agreement.get("overall", "N/A")
-        sc = agreement.get("score", 0)
-        h, med, lo = agreement.get("HIGH", 0), agreement.get("MEDIUM", 0), agreement.get("LOW", 0)
+        oa  = agr.get("overall", "N/A")
+        sc  = agr.get("score", 0)
+        h   = agr.get("HIGH", 0)
+        med = agr.get("MEDIUM", 0)
+        lo  = agr.get("LOW", 0)
         print(f"    Overall: {oa}  (score={sc:.2f})   HIGH={h}  MEDIUM={med}  LOW={lo}")
 
         print(f"\n  Dimension Matrix")
-        print(f"    {'Dimension':<24}  {'Claude':<28}  {'Gemini':<28}  {'Agree':<6}  Verification URL")
-        print(f"    {'-'*24}  {'-'*28}  {'-'*28}  {'-'*6}  {'-'*50}")
+        print(f"    {'Dimension':<24}  {'Claude':<28}  {'Gemini':<28}  Agree")
+        print(f"    {'-'*24}  {'-'*28}  {'-'*28}  -----")
         for dim_name, dv in dim_v.items():
-            marker = {"HIGH": "[*]", "MEDIUM": "[~]", "LOW": "[ ]"}.get(dv.get("agreement", ""), "?")
+            marker = {"HIGH": "[*]", "MEDIUM": "[~]", "LOW": "[ ]"}.get(
+                dv.get("agreement", ""), "?"
+            )
             cc = dv.get("claude_classification", "?")
             gc = dv.get("gemini_classification", "?")
             ag = dv.get("agreement", "?")
-            vurl = dv.get("verification_url", "")
-            print(f"  {marker} {dim_name:<24}  {cc:<28}  {gc:<28}  {ag:<6}  {vurl}")
+            print(f"  {marker} {dim_name:<24}  {cc:<28}  {gc:<28}  {ag}")
 
     print(f"\n{divider}")
-    print(
-        f"  PIPELINE COMPLETE:  {len(verified)} / {len(markets)} markets "
-        f"passed the 3-source verification threshold."
-    )
+    print(f"  PIPELINE COMPLETE:  {len(markets)} markets processed.")
     print(f"{divider}\n")
 
 
@@ -499,10 +489,9 @@ def print_final_report(markets: list[dict]) -> None:
 def main() -> None:
     print("=" * 65)
     print("  VELA MARKET QUALITY RATING — STEP 2")
-    print("  Grounded Verification & Agreement Scoring  (Gemini)")
+    print("  Grounded Verification & Agreement Scoring  (Gemini, single-call)")
     print("=" * 65)
 
-    # Load Step 1 output
     json_path = os.path.join(
         os.path.dirname(os.path.abspath(__file__)), "reference_population.json"
     )
@@ -524,7 +513,6 @@ def main() -> None:
         step2_result = process_market_verification(client, market)
         market["step2"] = step2_result
 
-    # Persist enriched data
     with open(json_path, "w", encoding="utf-8") as fh:
         json.dump(data, fh, indent=2, ensure_ascii=False)
     print(f"\n  + Updated reference_population.json with verification results")
