@@ -13,3 +13,4 @@
 * [Scale Pipeline v4 Complete: 120/120 markets, 9 batches, blacklist=5, dedup=5](./2026-03-20_Scale_Run_Complete_120.md)
 * [Step 4 Rating Engine Execution: 120 markets rated, L1-L5 assigned, logistic regression + NN computed](./2026-03-20_Step4_Rating_Execution.md)
 * [OOS Case Study: Enterprise Social Networking (2012) — model L3 vs actual L2, 1-band miss](./2026-03-20_OOS_CaseStudy_ESN.md)
+* [120-Market EDA Report: agreement 45% HIGH, Market Size lowest mean (43.7), 2017 peak year, full score distributions](./120_Market_EDA_Report.md)
