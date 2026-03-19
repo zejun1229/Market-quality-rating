@@ -1,7 +1,7 @@
 # Vela Market Quality Rating (MQR)
 
-*Generated: 2026-03-18 18:47 UTC*  
-*Reference population: 4 rated markets | Report shows first 3*
+*Generated: 2026-03-19 22:31 UTC*  
+*Reference population: 120 rated markets | Report shows first 3*
 
 ---
 
@@ -14,15 +14,15 @@
 | **Reference Year** | 2006 |
 | **T+5 Outcome Year** | 2011 |
 
-### L5 — Ideal
+### L1 — Hostile
 
 #### Summary Metrics
 
 | Metric | Value |
 |--------|-------|
 | Composite Score | **45.2** / 100 (Headwinds) |
-| Percentile (within Platform Two Sided group) | **100.0th** |
-| P(outcome ≥ L3) | **81.7%** (16 out of 20) |
+| Percentile (within Platform Two Sided group) | **12.1th** |
+| P(outcome ≥ L3) | **12.8%** (3 out of 20) |
 
 #### Dimension Scores
 
@@ -40,9 +40,9 @@
 
 | Rank | Comparable Market | Ref Year | MQR | Cosine Similarity |
 |------|-------------------|----------|-----|-------------------|
-| 1 | Peer-to-Peer Short-Term Home Rental Marketplace | 2009 | L1 | 0.991 |
-| 2 | On-Demand Smartphone-Based Ride-Hailing Applications | 2010 | L3 | 0.967 |
-| 3 | Cloud HR and Payroll SaaS for SMBs | 2012 | L3 | 0.906 |
+| 1 | Prescription Digital Therapeutics for Disease Management | 2017 | L1 | 0.991 |
+| 2 | Peer-to-Peer Short-Term Home Rental Marketplace | 2009 | L1 | 0.991 |
+| 3 | Autonomous Mobile Robots Internal Logistics Warehousing | 2012 | L1 | 0.986 |
 
 ---
 
@@ -50,20 +50,20 @@
 
 | Field | Value |
 |-------|-------|
-| **Market ID** | `market_003` |
+| **Market ID** | `market_002` |
 | **Market Structure** | Platform Two Sided |
 | **Reference Year** | 2010 |
 | **T+5 Outcome Year** | 2015 |
 
-### L3 — Viable — Investment Grade Threshold
+### L1 — Hostile
 
 #### Summary Metrics
 
 | Metric | Value |
 |--------|-------|
 | Composite Score | **40.9** / 100 (Headwinds) |
-| Percentile (within Platform Two Sided group) | **50.0th** |
-| P(outcome ≥ L3) | **61.1%** (12 out of 20) |
+| Percentile (within Platform Two Sided group) | **3.0th** |
+| P(outcome ≥ L3) | **6.1%** (1 out of 20) |
 
 #### Dimension Scores
 
@@ -81,9 +81,9 @@
 
 | Rank | Comparable Market | Ref Year | MQR | Cosine Similarity |
 |------|-------------------|----------|-----|-------------------|
-| 1 | Peer-to-Peer Short-Term Home Rental Marketplace | 2009 | L1 | 0.979 |
-| 2 | US Online Peer-to-Peer Consumer Lending Platforms | 2006 | L5 | 0.967 |
-| 3 | Cloud HR and Payroll SaaS for SMBs | 2012 | L3 | 0.909 |
+| 1 | Online Travel Meta-Search and Hotel Price Comparison | 2005 | L1 | 0.986 |
+| 2 | Online Grocery Home Delivery Platforms | 2015 | L2 | 0.986 |
+| 3 | Warehouse Robotics and Fulfillment Automation Systems | 2017 | L1 | 0.985 |
 
 ---
 
@@ -91,20 +91,20 @@
 
 | Field | Value |
 |-------|-------|
-| **Market ID** | `market_005` |
+| **Market ID** | `market_003` |
 | **Market Structure** | Fragmented Niche |
 | **Reference Year** | 2012 |
 | **T+5 Outcome Year** | 2017 |
 
-### L3 — Viable — Investment Grade Threshold
+### L2 — Headwinds
 
 #### Summary Metrics
 
 | Metric | Value |
 |--------|-------|
 | Composite Score | **35.8** / 100 (Hostile) |
-| Percentile (within Fragmented Niche group) | **50.0th** |
-| P(outcome ≥ L3) | **100.0%** (20 out of 20) |
+| Percentile (within Fragmented Niche group) | **27.3th** |
+| P(outcome ≥ L3) | **44.6%** (9 out of 20) |
 
 #### Dimension Scores
 
@@ -122,8 +122,8 @@
 
 | Rank | Comparable Market | Ref Year | MQR | Cosine Similarity |
 |------|-------------------|----------|-----|-------------------|
-| 1 | On-Demand Smartphone-Based Ride-Hailing Applications | 2010 | L3 | 0.909 |
-| 2 | US Online Peer-to-Peer Consumer Lending Platforms | 2006 | L5 | 0.906 |
-| 3 | Peer-to-Peer Short-Term Home Rental Marketplace | 2009 | L1 | 0.899 |
+| 1 | Online Pet Care Marketplace and Veterinary Telehealth | 2019 | L1 | 0.992 |
+| 2 | Enterprise Data Privacy Management and Compliance Software | 2018 | L2 | 0.988 |
+| 3 | Mobile Commission-Free Retail Equity Brokerage Platforms | 2013 | L2 | 0.982 |
 
 ---

@@ -127,8 +127,8 @@ def _score_tier_label(score: float) -> str:
 
 
 def _get_structure(market: dict) -> str:
-    """Return the market_structure classification string."""
-    return market["dimensions"]["market_structure"]["classification"]
+    """Return the verified market_structure classification from step3 (canonical)."""
+    return market["step3"]["feature_matrix"]["market_structure"]["value"]
 
 
 def _get_scores(market: dict) -> dict[str, float]:
