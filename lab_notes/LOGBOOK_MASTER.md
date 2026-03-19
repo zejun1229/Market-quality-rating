@@ -9,3 +9,5 @@
 * [Scale Pipeline Architecture: 120-Market Autonomous Orchestration](./2026-03-19_Scale_Pipeline_Architecture.md)
 * [Ablation Rerun: GPT-5.4 Judge + FLAGGED State](./2026-03-19_Ablation_GPT5.4_Rerun.md)
 * [Step 4: Rating Engine — Composite Score, Percentile CDF, Logistic Regression, Nearest Neighbours, L1-L5 Assignment](./2026-03-19_Step4_Rating_Engine.md)
+* [v4 Architecture Overhaul: Role 0 Gemini Seed, Strict Dedup, 20s Timeout+Blacklist, Rich Live Display](./2026-03-20_v4_Architecture_Overhaul.md)
+* [Scale Pipeline v4 Complete: 120/120 markets, 9 batches, blacklist=5, dedup=5](./2026-03-20_Scale_Run_Complete_120.md)
