@@ -7,3 +7,5 @@
 * [Ablation Run 1: Report Enhancement + First Run](./2026-03-19_Ablation_Run1_Report_Enhancement.md)
 * [Ablation Run 20260319_011521](./Ablation_Run_20260319_011521.md)
 * [Scale Pipeline Architecture: 120-Market Autonomous Orchestration](./2026-03-19_Scale_Pipeline_Architecture.md)
+* [Ablation Rerun: GPT-5.4 Judge + FLAGGED State](./2026-03-19_Ablation_GPT5.4_Rerun.md)
+* [Step 4: Rating Engine — Composite Score, Percentile CDF, Logistic Regression, Nearest Neighbours, L1-L5 Assignment](./2026-03-19_Step4_Rating_Engine.md)

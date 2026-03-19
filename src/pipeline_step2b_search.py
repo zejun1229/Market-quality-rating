@@ -1,18 +1,29 @@
 """
-Vela MQR — Step 2b (Search-Grounded Judge)
+Vela MQR — Step 2b (Search-Grounded Judge)  [gpt-5.4 edition]
 
-Identical purpose to the Parametric Judge, but the GPT-4o call is equipped
+Identical purpose to the Parametric Judge, but the GPT-5.4 call is equipped
 with a live web-search tool (OpenAI Responses API, web_search_preview).
 
 This allows the judge to retrieve current web evidence — news, analyst
-reports, Wikipedia, company filings — to break the Claude/Gemini tie
-with grounded, citable sources rather than parametric recall alone.
+reports, Wikipedia, company filings — and make a grounded ruling.
+
+Key change from previous version
+----------------------------------
+The judge now has two options rather than being forced to choose:
+
+  (A) RESOLVE — choose one value backed by specific retrieved evidence.
+  (B) FLAG    — mark as AMBIGUOUS when retrieved sources contradict each
+                other, support both interpretations equally, or when no
+                authoritative source can be found for the reference year.
+
+FLAGGED dimensions are passed to Role 3 with both options visible so the
+scorer can apply a conservative interpretation.
 
 API note
 --------
-Uses the OpenAI Responses API (`client.responses.create`) which requires
-openai >= 1.66.0.  If the Responses API is unavailable (AttributeError),
-the script falls back to Chat Completions without search and logs a warning.
+Uses the OpenAI Responses API (`client.responses.create`) with the
+`web_search_preview` tool.  Falls back to Chat Completions (no search)
+if the Responses API is unavailable and logs a warning.
 """
 
 import json
@@ -36,7 +47,7 @@ except ImportError:
 # Configuration
 # ---------------------------------------------------------------------------
 
-SEARCH_MODEL = "gpt-4o"
+SEARCH_MODEL = "gpt-5.4"
 
 DIMENSIONS = [
     "timing",
@@ -78,10 +89,11 @@ def _call_with_retry(fn, max_retries: int = 3, base_delay: float = 10.0):
         except Exception as exc:
             exc_str = str(exc).lower()
             is_rate_limit = "429" in exc_str or "rate_limit" in exc_str
-            if is_rate_limit and attempt < max_retries:
+            is_server_err = "500" in exc_str or "503" in exc_str or "502" in exc_str
+            if (is_rate_limit or is_server_err) and attempt < max_retries:
                 delay = base_delay * (attempt + 1)
                 print(
-                    f"\n    [OpenAI 429; retry {attempt + 1}/{max_retries} in {delay:.0f}s]",
+                    f"\n    [OpenAI retry {attempt + 1}/{max_retries} in {delay:.0f}s]",
                     end=" ", flush=True,
                 )
                 time.sleep(delay)
@@ -108,6 +120,23 @@ def _extract_url_from_response(response) -> str:
     return ""
 
 
+def _extract_all_urls_from_response(response) -> list:
+    """Extract all cited URLs from a Responses API output object."""
+    urls = []
+    try:
+        for item in getattr(response, "output", []):
+            if getattr(item, "type", "") == "message":
+                for block in getattr(item, "content", []):
+                    for ann in getattr(block, "annotations", []):
+                        if getattr(ann, "type", "") == "url_citation":
+                            url = getattr(ann, "url", "")
+                            if url and url not in urls:
+                                urls.append(url)
+    except Exception:
+        pass
+    return urls
+
+
 # ---------------------------------------------------------------------------
 # Single-dimension resolver
 # ---------------------------------------------------------------------------
@@ -121,31 +150,41 @@ def _resolve_dimension(
     market_domain: str,
 ) -> dict:
     """
-    Call GPT-4o with live web search to choose between claude_value and
-    gemini_value for the given dimension.  Returns a resolution dict that
-    includes the best search source URL found.
+    Call GPT-5.4 with live web search to judge between claude_value and
+    gemini_value for the given dimension.
+
+    The judge may either resolve to one value or flag as AMBIGUOUS.
+    Returns a resolution dict with 'flagged: bool' and 'search_sources: list'.
     """
     prompt = (
-        f"Research the following historical venture market to resolve a classification dispute.\n\n"
-        f"Market : {market_domain}\n"
-        f"Reference year : {ref_year}\n"
-        f"Dimension : {dim}\n\n"
+        f"Research the following historical venture market to adjudicate "
+        f"a classification dispute.\n\n"
+        f"Market        : {market_domain}\n"
+        f"Reference year: {ref_year}\n"
+        f"Dimension     : {dim}\n\n"
         f"Two AI classifiers disagreed:\n"
         f"  Classifier A: \"{claude_value}\"\n"
         f"  Classifier B: \"{gemini_value}\"\n\n"
         f"Search the web for historical evidence about this market and this specific "
-        f"dimension at {ref_year}. Determine which classification is more historically accurate.\n"
-        f"You MUST choose exactly one of the two provided values — do not invent a new value.\n\n"
+        f"dimension as it stood in {ref_year}.\n\n"
+        "You have two options:\n"
+        "  (A) RESOLVE — if your search finds clear evidence favouring one "
+        "classification, choose it and cite the specific source.\n"
+        "  (B) FLAG    — if retrieved sources contradict each other, support both "
+        "interpretations equally, or if no authoritative source can be found for "
+        "the reference year, mark the dimension as AMBIGUOUS.\n\n"
         "Respond with ONLY a valid JSON object (no markdown, no preamble):\n"
         "{\n"
-        f'  "resolved_classification": "<exactly: {claude_value} OR {gemini_value}>",\n'
-        '  "chosen": "A" or "B",\n'
-        '  "rationale": "<1-2 sentences citing specific evidence from your search>",\n'
-        '  "search_source": "<the single most relevant URL you found>"\n'
+        f'  "resolved_classification": "<exactly: {claude_value} OR {gemini_value} OR FLAGGED>",\n'
+        '  "chosen": "<A or B or AMBIGUOUS>",\n'
+        '  "flagged": <true or false>,\n'
+        '  "rationale": "<2-3 sentences: cite specific evidence from your search, '
+        'or explain why sources are contradictory/unavailable>",\n'
+        '  "search_source": "<the single most relevant URL you found, or empty string>"\n'
         "}"
     )
 
-    search_source = ""
+    search_sources: list = []
     raw = ""
 
     # --- Primary: Responses API with web_search_preview ---
@@ -157,17 +196,19 @@ def _resolve_dimension(
                 input=prompt,
             )
         )
-        raw = getattr(response, "output_text", "") or ""
-        search_source = _extract_url_from_response(response)
+        raw           = getattr(response, "output_text", "") or ""
+        search_sources = _extract_all_urls_from_response(response)
 
     except AttributeError:
-        # Responses API not available in this openai version — fall back
-        print("\n    [Responses API unavailable; falling back to chat completions]", end=" ", flush=True)
+        # Responses API not available — fall back to chat completions (no live search)
+        print(
+            "\n    [Responses API unavailable; falling back to chat completions — no live search]",
+            end=" ", flush=True,
+        )
         fb = _call_with_retry(
             lambda: client.chat.completions.create(
                 model=SEARCH_MODEL,
-                max_tokens=400,
-                temperature=0.1,
+                max_completion_tokens=400,
                 messages=[{"role": "user", "content": prompt}],
             )
         )
@@ -176,33 +217,55 @@ def _resolve_dimension(
     # Strip markdown fences
     if "```" in raw:
         raw = re.sub(r"```(?:json)?", "", raw).strip().rstrip("`").strip()
-    # In case model added prose before the JSON, find first {
     brace = raw.find("{")
     if brace > 0:
         raw = raw[brace:]
 
     try:
-        parsed = json.loads(raw)
+        parsed   = json.loads(raw)
         resolved = parsed.get("resolved_classification", "").strip()
-        if resolved not in (claude_value, gemini_value):
-            resolved = claude_value
-        # Use API-extracted URL first; fall back to what GPT reported in JSON
-        if not search_source:
-            search_source = parsed.get("search_source", "")
+        flagged  = bool(parsed.get("flagged", False))
+        chosen   = parsed.get("chosen", "?")
+
+        # Normalise: not a valid value and not FLAGGED → force FLAGGED
+        if resolved not in (claude_value, gemini_value, "FLAGGED"):
+            resolved = "FLAGGED"
+            flagged  = True
+            chosen   = "AMBIGUOUS"
+
+        if resolved == "FLAGGED":
+            flagged = True
+            chosen  = "AMBIGUOUS"
+
+        # Merge API-extracted URLs with whatever GPT reported in JSON
+        json_url = parsed.get("search_source", "")
+        if json_url and json_url not in search_sources:
+            search_sources.append(json_url)
+
+        primary_url = search_sources[0] if search_sources else ""
+
         return {
             "value":             resolved,
-            "source":            "openai_search",
-            "chosen_classifier": parsed.get("chosen", "?"),
+            "source":            "openai_search_flagged" if flagged else "openai_search",
+            "chosen_classifier": chosen,
+            "flagged":           flagged,
             "rationale":         parsed.get("rationale", ""),
-            "search_source":     search_source,
+            "search_source":     primary_url,
+            "search_sources":    search_sources[:3],
+            "conflict_a":        claude_value,
+            "conflict_b":        gemini_value,
         }
     except (json.JSONDecodeError, ValueError):
         return {
-            "value":             claude_value,
-            "source":            "fallback_claude",
-            "chosen_classifier": "A",
-            "rationale":         f"JSON parse error — fell back to Classifier A. Raw: {raw[:120]}",
-            "search_source":     search_source,
+            "value":             "FLAGGED",
+            "source":            "parse_error_flagged",
+            "chosen_classifier": "AMBIGUOUS",
+            "flagged":           True,
+            "rationale":         f"JSON parse error — flagged as ambiguous. Raw: {raw[:120]}",
+            "search_source":     search_sources[0] if search_sources else "",
+            "search_sources":    search_sources[:3],
+            "conflict_a":        claude_value,
+            "conflict_b":        gemini_value,
         }
 
 
@@ -212,14 +275,15 @@ def _resolve_dimension(
 
 def resolve_market_search(market: dict, client: OpenAI) -> dict:
     """
-    Build a fully resolved feature matrix for one market using web search.
+    Build a fully judged feature matrix for one market using web search.
 
     - Agreed dimensions (HIGH): pass through Gemini-verified value.
-    - Disagreed dimensions (MEDIUM / LOW): call GPT-4o + web search to resolve.
+    - Disagreed dimensions (MEDIUM / LOW): call GPT-5.4 + web search to judge.
 
     Returns:
-      {dim: {"value": str, "agreement": str, "source": str,
-             "rationale": str, "search_source": str}}
+      {dim: {"value": str, "agreement": str, "source": str, "rationale": str,
+             "flagged": bool, "search_source": str, "search_sources": list,
+             "conflict_a": str, "conflict_b": str}}
     """
     step1_dims   = market.get("dimensions", {})
     step2_verifs = market.get("step2", {}).get("dimension_verifications", {})
@@ -238,16 +302,21 @@ def resolve_market_search(market: dict, client: OpenAI) -> dict:
         if not _is_disagreement(agreement) or gemini_value == "unknown":
             value = gemini_value if gemini_value not in ("unknown", "") else claude_value
             resolved[dim] = {
-                "value":         value,
-                "agreement":     agreement,
-                "source":        "agreed",
-                "rationale":     "Claude and Gemini agreed — no tie-break required.",
-                "search_source": "",
+                "value":          value,
+                "agreement":      agreement,
+                "source":         "agreed",
+                "rationale":      "Claude and Gemini agreed — no judge required.",
+                "flagged":        False,
+                "search_source":  "",
+                "search_sources": [],
+                "conflict_a":     "",
+                "conflict_b":     "",
             }
         else:
             print(
                 f"    [{dim}] {agreement} — "
-                f"claude={claude_value!r} vs gemini={gemini_value!r} → GPT-4o+search ...",
+                f"claude={claude_value!r} vs gemini={gemini_value!r} "
+                f"→ {SEARCH_MODEL}+search ...",
                 end=" ", flush=True,
             )
             result = _resolve_dimension(
@@ -255,8 +324,9 @@ def resolve_market_search(market: dict, client: OpenAI) -> dict:
             )
             result["agreement"] = agreement
             resolved[dim] = result
-            print(f"resolved={result['value']!r}  (chose {result['chosen_classifier']})")
-            time.sleep(1.5)  # slightly longer buffer for search calls
+            status = "FLAGGED" if result["flagged"] else f"resolved={result['value']!r}"
+            print(f"{status}  (chose {result['chosen_classifier']})")
+            time.sleep(1.5)
 
     return resolved
 
@@ -267,7 +337,7 @@ def resolve_market_search(market: dict, client: OpenAI) -> dict:
 
 def main() -> None:
     print("=" * 65)
-    print("  VELA MQR — STEP 2b  SEARCH-GROUNDED JUDGE  (GPT-4o + Web)")
+    print(f"  VELA MQR — STEP 2b  SEARCH JUDGE  ({SEARCH_MODEL} + Web)")
     print("=" * 65)
 
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

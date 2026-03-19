@@ -860,7 +860,7 @@ def main() -> None:
             if total_accepted >= TARGET_COUNT:
                 break
 
-            mkt_num = total_accepted + len(batch_markets) + 1
+            mkt_num = total_accepted + 1
             print(
                 f"\n  [{i+1}/{len(suggestions)}] Market #{mkt_num}: "
                 f"{seed['domain'][:55]}  ({seed['ref_year']})"
