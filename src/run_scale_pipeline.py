@@ -793,7 +793,7 @@ def auto_git_push(commit_message: str) -> None:
         ["git", "push", "origin", "main"],
     ]:
         result  = subprocess.run(args, capture_output=True, text=True, cwd=_ROOT)
-        combined = (result.stdout + result.stderr).strip()
+        combined = ((result.stdout or "") + (result.stderr or "")).strip()
         if result.returncode != 0 and "nothing to commit" not in combined:
             print(f"  [Git] Error ({' '.join(args)}): {combined[:200]}")
         elif combined:
