@@ -99,9 +99,9 @@ from pipeline_step1 import DIMENSIONS
 from pipeline_step2 import get_gemini_client, query_gemini_grounded
 
 # ── Configuration ─────────────────────────────────────────────────────────────
-TARGET_COUNT         = 60
+TARGET_COUNT         = 100
 BATCH_SIZE           = 10
-NUM_BATCHES          = TARGET_COUNT // BATCH_SIZE          # 6
+NUM_BATCHES          = TARGET_COUNT // BATCH_SIZE          # 10
 REF_YEARS            = list(range(2010, 2020))             # 2010-2019 inclusive
 CLAUDE_MODEL         = "claude-sonnet-4-6"
 GEMINI_TIMEOUT_SECS  = 20.0   # hard timeout for Phase 2 T+5 searches
@@ -112,8 +112,8 @@ MAX_WORKERS          = BATCH_SIZE
 # ── Paths ─────────────────────────────────────────────────────────────────────
 ROOT        = Path(_ROOT)
 MASTER_JSON = ROOT / "reference_population_master.json"
-RATED_JSON  = ROOT / "final_rated_population.json"
-VAL_JSON    = ROOT / "validation_population.json"
+RATED_JSON  = ROOT / "data" / "rated_350.json"
+VAL_JSON    = ROOT / "data" / "validation_population.json"
 LOG_PATH    = ROOT / "lab_notes" / "Validation_Run_Log.md"
 
 # ── Step 4 rating machinery ───────────────────────────────────────────────────
@@ -275,8 +275,8 @@ def make_display(total: int, batch_num: int, blacklist: set, val_markets: list) 
 
     return Panel(
         t,
-        title="[bold cyan]VELA MQR -- Mirror Validation Pipeline  "
-              "(60 markets | 6 batches | Symmetrical Percentile Labels)[/]",
+        title=f"[bold cyan]VELA MQR -- Mirror Validation Pipeline  "
+              f"({TARGET_COUNT} markets | {NUM_BATCHES} batches | Symmetrical Percentile Labels)[/]",
         border_style="cyan",
     )
 
@@ -373,8 +373,13 @@ def load_reference_cohort_map() -> dict:
     cohort_map: dict = {}
     for m in data.get("markets", []):
         try:
-            struct = m["step3"]["feature_matrix"]["market_structure"]["value"]
-            comp   = float(m["step4"]["composite_score"])
+            # New schema (rated_350.json / run_scale_pipeline v4)
+            struct = (
+                m.get("dimensions", {}).get("market_structure", {}).get("classification")
+                or m.get("step3", {}).get("feature_matrix", {}).get("market_structure", {}).get("value")
+                or "winner_take_most"
+            )
+            comp = float(m["step4"]["composite_score"])
             cohort_map.setdefault(struct, []).append(comp)
         except (KeyError, TypeError):
             pass
@@ -1185,7 +1190,7 @@ def main() -> None:
     if logbook.exists():
         with open(logbook, "a", encoding="utf-8") as fh:
             fh.write(
-                f"* Mirror Validation Pipeline Complete: {total_processed}/60 markets | "
+                f"* Mirror Validation Pipeline Complete: {total_processed}/{TARGET_COUNT} markets | "
                 f"Exact={acc['exact_pct']}% | Within-1={acc['off1_pct']}% | "
                 f"blacklisted={len(blacklist)}\n"
             )
