@@ -18,6 +18,7 @@ Processing steps
 
 from __future__ import annotations
 
+import argparse
 import json
 import warnings
 from datetime import datetime, timezone
@@ -30,11 +31,11 @@ from sklearn.preprocessing import StandardScaler
 
 warnings.filterwarnings("ignore")
 
-# ── Paths ──────────────────────────────────────────────────────────────────────
-BASE_DIR    = Path(__file__).resolve().parent.parent
-INPUT_FILE  = BASE_DIR / "reference_population_master.json"
-OUTPUT_FILE = BASE_DIR / "final_rated_population.json"
-REPORT_FILE = BASE_DIR / "sample_report.md"
+# ── Paths (defaults; overridden at runtime by argparse) ───────────────────────
+BASE_DIR             = Path(__file__).resolve().parent.parent
+DEFAULT_INPUT_FILE   = BASE_DIR / "reference_population_master.json"
+DEFAULT_OUTPUT_FILE  = BASE_DIR / "data" / "final_rated_population.json"
+REPORT_FILE          = BASE_DIR / "sample_report.md"
 
 # ── 7 scored dimensions (order also used for NN vector) ───────────────────────
 SCORE_DIMS = [
@@ -127,8 +128,31 @@ def _score_tier_label(score: float) -> str:
 
 
 def _get_structure(market: dict) -> str:
-    """Return the verified market_structure classification from step3 (canonical)."""
-    return market["step3"]["feature_matrix"]["market_structure"]["value"]
+    """Return the market_structure classification.
+
+    Tries the new scale-pipeline schema first
+    (market["dimensions"]["market_structure"]["classification"]),
+    then falls back to the legacy step3.feature_matrix schema used by
+    markets rated before the v4 architecture overhaul.
+    """
+    # New schema (run_scale_pipeline v4 / reference_population_master.json)
+    new = (market
+           .get("dimensions", {})
+           .get("market_structure", {})
+           .get("classification"))
+    if new:
+        return new
+
+    # Legacy schema (pipeline_step3 output → final_rated_population pre-350)
+    legacy = (market
+              .get("step3", {})
+              .get("feature_matrix", {})
+              .get("market_structure", {})
+              .get("value"))
+    if legacy:
+        return legacy
+
+    return "winner_take_most"   # safe fallback — uses default causal weights
 
 
 def _get_scores(market: dict) -> dict[str, float]:
@@ -517,17 +541,40 @@ def build_report(markets: list[dict], n: int = 3) -> str:
 # Main
 # ══════════════════════════════════════════════════════════════════════════════
 
+def _parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Step 4 — Composite Scoring, Percentile Rating, LR, NN"
+    )
+    parser.add_argument(
+        "--input", "-i",
+        type=Path,
+        default=DEFAULT_INPUT_FILE,
+        help=f"Path to scored population JSON (default: {DEFAULT_INPUT_FILE})",
+    )
+    parser.add_argument(
+        "--output", "-o",
+        type=Path,
+        default=DEFAULT_OUTPUT_FILE,
+        help=f"Path to write rated output JSON (default: {DEFAULT_OUTPUT_FILE})",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
+    args = _parse_args()
+    input_file  = args.input
+    output_file = args.output
+
     print("=" * 60)
     print("  Pipeline Step 4 — Rating Engine")
     print("=" * 60)
-    print(f"  Input  : {INPUT_FILE}")
-    print(f"  Output : {OUTPUT_FILE}")
+    print(f"  Input  : {input_file}")
+    print(f"  Output : {output_file}")
     print(f"  Report : {REPORT_FILE}")
     print()
 
     # ── Step 0: Load ──────────────────────────────────────────────────────────
-    markets = load_markets(INPUT_FILE)
+    markets = load_markets(input_file)
     if not markets:
         print("[ERROR] No valid scored markets found. Exiting.")
         return
@@ -602,8 +649,9 @@ def main() -> None:
               f"{count:>3}  {bar}")
     print(f"    {'Total':>42}  {total:>3}")
 
-    # ── Save final_rated_population.json ──────────────────────────────────────
-    print(f"\n  Writing {OUTPUT_FILE.name}...")
+    # ── Save output ───────────────────────────────────────────────────────────
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    print(f"\n  Writing {output_file.name}...")
     output_payload = {
         "schema_version":      "3.0",
         "generated_at":        datetime.now(timezone.utc).isoformat(),
@@ -630,9 +678,9 @@ def main() -> None:
         "markets": markets,
     }
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as fh:
+    with open(output_file, "w", encoding="utf-8") as fh:
         json.dump(output_payload, fh, indent=2, ensure_ascii=False)
-    print(f"  Saved {total} markets → {OUTPUT_FILE}")
+    print(f"  Saved {total} markets → {output_file}")
 
     # ── Generate sample Markdown report ───────────────────────────────────────
     print(f"\n  Writing sample report for first 3 markets → {REPORT_FILE.name}...")
