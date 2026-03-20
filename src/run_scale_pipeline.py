@@ -93,7 +93,7 @@ BATCH_SIZE          = 15
 MAX_WORKERS         = 12
 REF_YEARS           = list(range(2009, 2022))   # 2009–2021 inclusive
 CLAUDE_MODEL        = "claude-sonnet-4-6"
-GEMINI_TIMEOUT_SECS = 20.0   # strict 20-second cut-off for Role 2; timeout → blacklist
+GEMINI_TIMEOUT_SECS = 45.0   # Role 2 verification timeout (complex 7-dim + T+5 call needs ~25-45s)
 ROLE0_TIMEOUT_SECS  = 60.0   # Role 0 seed search timeout (batch call, needs more headroom)
 DEDUP_THRESHOLD     = 0.75   # SequenceMatcher ratio above which a market is a duplicate
 
