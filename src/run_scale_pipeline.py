@@ -88,12 +88,12 @@ from pipeline_step3 import (
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-TARGET_COUNT        = 120
+TARGET_COUNT        = 350
 BATCH_SIZE          = 15
 MAX_WORKERS         = 12
 REF_YEARS           = list(range(2009, 2022))   # 2009–2021 inclusive
 CLAUDE_MODEL        = "claude-sonnet-4-6"
-GEMINI_TIMEOUT_SECS = 90.0
+GEMINI_TIMEOUT_SECS = 20.0   # strict 20-second cut-off; timeout → blacklist
 DEDUP_THRESHOLD     = 0.75   # SequenceMatcher ratio above which a market is a duplicate
 
 MASTER_JSON = os.path.join(_ROOT, "reference_population_master.json")
