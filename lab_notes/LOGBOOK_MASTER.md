@@ -14,4 +14,5 @@
 * [Step 4 Rating Engine Execution: 120 markets rated, L1-L5 assigned, logistic regression + NN computed](./2026-03-20_Step4_Rating_Execution.md)
 * [OOS Case Study: Enterprise Social Networking (2012) — model L3 vs actual L2, 1-band miss](./2026-03-20_OOS_CaseStudy_ESN.md)
 * [120-Market EDA Report: agreement 45% HIGH, Market Size lowest mean (43.7), 2017 peak year, full score distributions](./120_Market_EDA_Report.md)
-* OOS Case Study #2: On-Demand Home Services Marketplace (2013) — L3 VIABLE, P(≥L3)=66.7%, 2 analyst flags (Market Size, Regulatory)
+* [OOS Case Study #2: On-Demand Home Services Marketplace (2013) — L3 VIABLE, P(≥L3)=66.7%, 2 analyst flags (Market Size, Regulatory)](./2026-03-20_OOS_CaseStudy2_HomeServices.md)
+* [10-Market Out-of-Sample Validation: 40% exact match, 70% within ±1 band, 3 misses on pre-inflection winner-take-most markets](./10_Market_Validation_Test.md)
