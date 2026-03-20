@@ -3152,3 +3152,6913 @@ Replace each 0 with your integer score. Return nothing but this JSON object.
 | `infrastructure` | 1 | 0 | 0 |
 | `market_structure` | 0 | 0 | 1 |
 
+
+---
+
+## Batch 10  —  2026-03-20 12:18:37
+
+**Markets processed this batch:** 4  
+**Cumulative total:** 124 / 350  
+**Batch agreement:** HIGH (score=0.732)  
+**HIGH:** 15  **MEDIUM:** 11  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### E-Commerce Brand Acquisition and Scaling Aggregators (2020)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | 2020 marked the emergence of the e-commerce brand acquisition aggregator busines | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwqmJgUT8UWTNcI-2ZgWCzz_UKlQkJQO76qKI5YcwMtQGvzbyMZmHcpd4FwczJTEugkTGdH-FRZzFBT6HmKx6EHisjEY9P0JCLKEG5s_kbbRhYDQegHRWae8aNjOhk3Eyw) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | By 2020, there were 72 active Amazon aggregators. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwqmJgUT8UWTNcI-2ZgWCzz_UKlQkJQO76qKI5YcwMtQGvzbyMZmHcpd4FwczJTEugkTGdH-FRZzFBT6HmKx6EHisjEY9P0JCLKEG5s_kbbRhYDQegHRWae8aNjOhk3Eyw) |
+| `market_size` | `small` | `large` | LOW | The global e-commerce market size was valued at $6.16 billion in 2020. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwqmJgUT8UWTNcI-2ZgWCzz_UKlQkJQO76qKI5YcwMtQGvzbyMZmHcpd4FwczJTEugkTGdH-FRZzFBT6HmKx6EHisjEY9P0JCLKEG5s_kbbRhYDQegHRWae8aNjOhk3Eyw) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | Average valuation multiples for FBA-led brands peaked in the summer of 2021 at 4 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwqmJgUT8UWTNcI-2ZgWCzz_UKlQkJQO76qKI5YcwMtQGvzbyMZmHcpd4FwczJTEugkTGdH-FRZzFBT6HmKx6EHisjEY9P0JCLKEG5s_kbbRhYDQegHRWae8aNjOhk3Eyw) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | No specific regulations for e-commerce brand aggregators were prominently report | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwqmJgUT8UWTNcI-2ZgWCzz_UKlQkJQO76qKI5YcwMtQGvzbyMZmHcpd4FwczJTEugkTGdH-FRZzFBT6HmKx6EHisjEY9P0JCLKEG5s_kbbRhYDQegHRWae8aNjOhk3Eyw) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Perch, an aggregator, planned to 'further invest in its technology platform' wit | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwqmJgUT8UWTNcI-2ZgWCzz_UKlQkJQO76qKI5YcwMtQGvzbyMZmHcpd4FwczJTEugkTGdH-FRZzFBT6HmKx6EHisjEY9P0JCLKEG5s_kbbRhYDQegHRWae8aNjOhk3Eyw) |
+| `market_structure` | `fragmented_niche` | `fragmented_niche` | HIGH | There were 35,000 Amazon FBA brands with over $1 million in revenue, indicating  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwqmJgUT8UWTNcI-2ZgWCzz_UKlQkJQO76qKI5YcwMtQGvzbyMZmHcpd4FwczJTEugkTGdH-FRZzFBT6HmKx6EHisjEY9P0JCLKEG5s_kbbRhYDQegHRWae8aNjOhk3Eyw) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 48 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `fragmented_niche` | 58 |
+| **Mean** | — | **62** |
+
+### Digital Identity Verification and KYC Compliance Platforms (2015)
+
+**T+5:** VERIFIED (6 sources)  **Agreement:** HIGH (H=5 M=2 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Over 180 startups were operating in the digital identity niche by 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk6OrHkUiMxl8E7n1lsMZRnF2chhjTAVGTkweFX9rybXtJyBXo-x_9DYLN4bJrpV5-Tml6Nvx1xkjEoyQmN4nGVJX-B3xCy6b0NxABtIzFddaLmiu61YFCdIv6CffqgJst3qsWKz_8xbHjiN3SvMKyTGZbo3YQvST52RqAK_Z5oNacpFGNGLDF_x4uxhvJBQ==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | More than 180 startups were identified in the digital identity niche by 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk6OrHkUiMxl8E7n1lsMZRnF2chhjTAVGTkweFX9rybXtJyBXo-x_9DYLN4bJrpV5-Tml6Nvx1xkjEoyQmN4nGVJX-B3xCy6b0NxABtIzFddaLmiu61YFCdIv6CffqgJst3qsWKz_8xbHjiN3SvMKyTGZbo3YQvST52RqAK_Z5oNacpFGNGLDF_x4uxhvJBQ==) |
+| `market_size` | `small` | `medium` | MEDIUM | RegTech investment, including digital identity verification, was $777.3 million  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk6OrHkUiMxl8E7n1lsMZRnF2chhjTAVGTkweFX9rybXtJyBXo-x_9DYLN4bJrpV5-Tml6Nvx1xkjEoyQmN4nGVJX-B3xCy6b0NxABtIzFddaLmiu61YFCdIv6CffqgJst3qsWKz_8xbHjiN3SvMKyTGZbo3YQvST52RqAK_Z5oNacpFGNGLDF_x4uxhvJBQ==) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | Rising data breaches and stricter AML/privacy rules were driving demand for digi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk6OrHkUiMxl8E7n1lsMZRnF2chhjTAVGTkweFX9rybXtJyBXo-x_9DYLN4bJrpV5-Tml6Nvx1xkjEoyQmN4nGVJX-B3xCy6b0NxABtIzFddaLmiu61YFCdIv6CffqgJst3qsWKz_8xbHjiN3SvMKyTGZbo3YQvST52RqAK_Z5oNacpFGNGLDF_x4uxhvJBQ==) |
+| `regulatory` | `heavily_regulated` | `heavily_regulated` | HIGH | Stiffening anti-money laundering and privacy rules were a key driver for the mar | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk6OrHkUiMxl8E7n1lsMZRnF2chhjTAVGTkweFX9rybXtJyBXo-x_9DYLN4bJrpV5-Tml6Nvx1xkjEoyQmN4nGVJX-B3xCy6b0NxABtIzFddaLmiu61YFCdIv6CffqgJst3qsWKz_8xbHjiN3SvMKyTGZbo3YQvST52RqAK_Z5oNacpFGNGLDF_x4uxhvJBQ==) |
+| `infrastructure` | `developing` | `developing` | HIGH | 58% of the world's population had internet access by 2019, enabling digital iden | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk6OrHkUiMxl8E7n1lsMZRnF2chhjTAVGTkweFX9rybXtJyBXo-x_9DYLN4bJrpV5-Tml6Nvx1xkjEoyQmN4nGVJX-B3xCy6b0NxABtIzFddaLmiu61YFCdIv6CffqgJst3qsWKz_8xbHjiN3SvMKyTGZbo3YQvST52RqAK_Z5oNacpFGNGLDF_x4uxhvJBQ==) |
+| `market_structure` | `technology_enablement` | `technology_enablement` | HIGH | Digital identity verification tools enable businesses to securely onboard custom | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk6OrHkUiMxl8E7n1lsMZRnF2chhjTAVGTkweFX9rybXtJyBXo-x_9DYLN4bJrpV5-Tml6Nvx1xkjEoyQmN4nGVJX-B3xCy6b0NxABtIzFddaLmiu61YFCdIv6CffqgJst3qsWKz_8xbHjiN3SvMKyTGZbo3YQvST52RqAK_Z5oNacpFGNGLDF_x4uxhvJBQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `heavily_regulated` | 30 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 78 |
+| **Mean** | — | **61** |
+
+### Indoor Vertical Farming Advanced Technology Systems (2017)
+
+**T+5:** VERIFIED (21 sources)  **Agreement:** HIGH (H=3 M=4 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Plenty received $200 million in venture funding in July 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfcWkMy6HT01eMw3Q_oViF7mzWf_paBdnp3fttmo62xKUa-AcKKNJXTb3QmbDDUZjlQrAr-m-3L7m8d4zCK8B76O6xGP_gyKfp4j8hB85MMxGyEi6j2pN7xFPebIpqpB_SPoWPGhED588dchmz-5_RUmBtRHk2jASqSHWG2AuIN-lX3zvhadBdX9U-2q_7-874nblnm8rRfuJJ2jdocROlfC1bbgoL8FKHkEg=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Over $660 million was deployed into 221 vertical farm deals in 2017, with an ave | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfcWkMy6HT01eMw3Q_oViF7mzWf_paBdnp3fttmo62xKUa-AcKKNJXTb3QmbDDUZjlQrAr-m-3L7m8d4zCK8B76O6xGP_gyKfp4j8hB85MMxGyEi6j2pN7xFPebIpqpB_SPoWPGhED588dchmz-5_RUmBtRHk2jASqSHWG2AuIN-lX3zvhadBdX9U-2q_7-874nblnm8rRfuJJ2jdocROlfC1bbgoL8FKHkEg=) |
+| `market_size` | `micro` | `small` | MEDIUM | The global vertical farming market was valued at $1.5 billion in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfcWkMy6HT01eMw3Q_oViF7mzWf_paBdnp3fttmo62xKUa-AcKKNJXTb3QmbDDUZjlQrAr-m-3L7m8d4zCK8B76O6xGP_gyKfp4j8hB85MMxGyEi6j2pN7xFPebIpqpB_SPoWPGhED588dchmz-5_RUmBtRHk2jASqSHWG2AuIN-lX3zvhadBdX9U-2q_7-874nblnm8rRfuJJ2jdocROlfC1bbgoL8FKHkEg=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | Softbank invested $200 million in Plenty in July 2017, reflecting high investor  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfcWkMy6HT01eMw3Q_oViF7mzWf_paBdnp3fttmo62xKUa-AcKKNJXTb3QmbDDUZjlQrAr-m-3L7m8d4zCK8B76O6xGP_gyKfp4j8hB85MMxGyEi6j2pN7xFPebIpqpB_SPoWPGhED588dchmz-5_RUmBtRHk2jASqSHWG2AuIN-lX3zvhadBdX9U-2q_7-874nblnm8rRfuJJ2jdocROlfC1bbgoL8FKHkEg=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | NOP regulations were updated in 2017 to allow hydroponic systems to be certified | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfcWkMy6HT01eMw3Q_oViF7mzWf_paBdnp3fttmo62xKUa-AcKKNJXTb3QmbDDUZjlQrAr-m-3L7m8d4zCK8B76O6xGP_gyKfp4j8hB85MMxGyEi6j2pN7xFPebIpqpB_SPoWPGhED588dchmz-5_RUmBtRHk2jASqSHWG2AuIN-lX3zvhadBdX9U-2q_7-874nblnm8rRfuJJ2jdocROlfC1bbgoL8FKHkEg=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | AeroFarms operated a 70,000-square-foot vertical farm in a renovated steel plant | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfcWkMy6HT01eMw3Q_oViF7mzWf_paBdnp3fttmo62xKUa-AcKKNJXTb3QmbDDUZjlQrAr-m-3L7m8d4zCK8B76O6xGP_gyKfp4j8hB85MMxGyEi6j2pN7xFPebIpqpB_SPoWPGhED588dchmz-5_RUmBtRHk2jASqSHWG2AuIN-lX3zvhadBdX9U-2q_7-874nblnm8rRfuJJ2jdocROlfC1bbgoL8FKHkEg=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | In 2017, 221 vertical farming deals were recorded, with an average deal size of  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfcWkMy6HT01eMw3Q_oViF7mzWf_paBdnp3fttmo62xKUa-AcKKNJXTb3QmbDDUZjlQrAr-m-3L7m8d4zCK8B76O6xGP_gyKfp4j8hB85MMxGyEi6j2pN7xFPebIpqpB_SPoWPGhED588dchmz-5_RUmBtRHk2jASqSHWG2AuIN-lX3zvhadBdX9U-2q_7-874nblnm8rRfuJJ2jdocROlfC1bbgoL8FKHkEg=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 30 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `emerging` | 58 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **61** |
+
+### K-12 Online Tutoring and Test Preparation Platforms (2013)
+
+**T+5:** VERIFIED (4 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | K12 edtech venture funding was $452 million in 2013. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj6e1ieNlsO9VNm9iq8bDZhZoDPgxaKLfzylWDlVDsE30p2VVc85EQVipJRjPzXcb44c12rivODpofv-qcUqGRX8bTrcj7OnRvw-O-l2ncQL-0h6TCZclT04OYVEVvyG8gHS9oz8wfAzf58CP7QCTMf5tQtGkMD556Qo8JICmCdxJvF9_WRrBWHX9qdMWoYyxUuf5H2Z4Of4K_MlYSYYdJN-F0ZmjESjkQPEl8e2DvyjA4bwkJNu-dXKLcEFoAjTF7nbAIOhAnD5RPHSnpLRg=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | 59 K12 edtech seed investments occurred in 2013. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj6e1ieNlsO9VNm9iq8bDZhZoDPgxaKLfzylWDlVDsE30p2VVc85EQVipJRjPzXcb44c12rivODpofv-qcUqGRX8bTrcj7OnRvw-O-l2ncQL-0h6TCZclT04OYVEVvyG8gHS9oz8wfAzf58CP7QCTMf5tQtGkMD556Qo8JICmCdxJvF9_WRrBWHX9qdMWoYyxUuf5H2Z4Of4K_MlYSYYdJN-F0ZmjESjkQPEl8e2DvyjA4bwkJNu-dXKLcEFoAjTF7nbAIOhAnD5RPHSnpLRg=) |
+| `market_size` | `small` | `medium` | MEDIUM | K12 edtech venture funding totaled $452 million in 2013. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj6e1ieNlsO9VNm9iq8bDZhZoDPgxaKLfzylWDlVDsE30p2VVc85EQVipJRjPzXcb44c12rivODpofv-qcUqGRX8bTrcj7OnRvw-O-l2ncQL-0h6TCZclT04OYVEVvyG8gHS9oz8wfAzf58CP7QCTMf5tQtGkMD556Qo8JICmCdxJvF9_WRrBWHX9qdMWoYyxUuf5H2Z4Of4K_MlYSYYdJN-F0ZmjESjkQPEl8e2DvyjA4bwkJNu-dXKLcEFoAjTF7nbAIOhAnD5RPHSnpLRg=) |
+| `customer_readiness` | `slope_of_enlightenment` | `peak_of_inflated_expectations` | LOW | Venture capital was taking 'greater risk on consumer looking education products' | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj6e1ieNlsO9VNm9iq8bDZhZoDPgxaKLfzylWDlVDsE30p2VVc85EQVipJRjPzXcb44c12rivODpofv-qcUqGRX8bTrcj7OnRvw-O-l2ncQL-0h6TCZclT04OYVEVvyG8gHS9oz8wfAzf58CP7QCTMf5tQtGkMD556Qo8JICmCdxJvF9_WRrBWHX9qdMWoYyxUuf5H2Z4Of4K_MlYSYYdJN-F0ZmjESjkQPEl8e2DvyjA4bwkJNu-dXKLcEFoAjTF7nbAIOhAnD5RPHSnpLRg=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | No specific online tutoring regulations were prominently mentioned in 2013. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj6e1ieNlsO9VNm9iq8bDZhZoDPgxaKLfzylWDlVDsE30p2VVc85EQVipJRjPzXcb44c12rivODpofv-qcUqGRX8bTrcj7OnRvw-O-l2ncQL-0h6TCZclT04OYVEVvyG8gHS9oz8wfAzf58CP7QCTMf5tQtGkMD556Qo8JICmCdxJvF9_WRrBWHX9qdMWoYyxUuf5H2Z4Of4K_MlYSYYdJN-F0ZmjESjkQPEl8e2DvyjA4bwkJNu-dXKLcEFoAjTF7nbAIOhAnD5RPHSnpLRg=) |
+| `infrastructure` | `developing` | `developing` | HIGH | Broadband penetration in US schools was approximately 30% around 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj6e1ieNlsO9VNm9iq8bDZhZoDPgxaKLfzylWDlVDsE30p2VVc85EQVipJRjPzXcb44c12rivODpofv-qcUqGRX8bTrcj7OnRvw-O-l2ncQL-0h6TCZclT04OYVEVvyG8gHS9oz8wfAzf58CP7QCTMf5tQtGkMD556Qo8JICmCdxJvF9_WRrBWHX9qdMWoYyxUuf5H2Z4Of4K_MlYSYYdJN-F0ZmjESjkQPEl8e2DvyjA4bwkJNu-dXKLcEFoAjTF7nbAIOhAnD5RPHSnpLRg=) |
+| `market_structure` | `platform_two_sided` | `winner_take_most` | MEDIUM | 'Consumer-ish' education products with compelling user engagement and growth had | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj6e1ieNlsO9VNm9iq8bDZhZoDPgxaKLfzylWDlVDsE30p2VVc85EQVipJRjPzXcb44c12rivODpofv-qcUqGRX8bTrcj7OnRvw-O-l2ncQL-0h6TCZclT04OYVEVvyG8gHS9oz8wfAzf58CP7QCTMf5tQtGkMD556Qo8JICmCdxJvF9_WRrBWHX9qdMWoYyxUuf5H2Z4Of4K_MlYSYYdJN-F0ZmjESjkQPEl8e2DvyjA4bwkJNu-dXKLcEFoAjTF7nbAIOhAnD5RPHSnpLRg=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 48 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 58 |
+| `market_structure` | `winner_take_most` | 74 |
+| **Mean** | — | **64** |
+
+### Role 3 Prompt Audit — E-Commerce Brand Acquisition and Scaling Aggregators
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               large                                 LOW
+  customer_readiness        peak_of_inflated_expectations         HIGH
+  regulatory                unregulated                           MEDIUM
+  infrastructure            developing                            MEDIUM
+  market_structure          fragmented_niche                      HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 4 | 0 | 0 |
+| `competition` | 1 | 3 | 0 |
+| `market_size` | 0 | 3 | 1 |
+| `customer_readiness` | 3 | 0 | 1 |
+| `regulatory` | 3 | 1 | 0 |
+| `infrastructure` | 2 | 2 | 0 |
+| `market_structure` | 2 | 2 | 0 |
+
+
+---
+
+## Batch 11  —  2026-03-20 12:22:18
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 125 / 350  
+**Batch agreement:** MEDIUM (score=0.643)  
+**HIGH:** 4  **MEDIUM:** 1  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Mobile-First Digital Banking Platforms Emerging Markets (2019)
+
+**T+5:** VERIFIED (11 sources)  **Agreement:** MEDIUM (H=4 M=1 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | Global FinTech adoption rate was 64% in 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV2k1C_11hDeug-SixqCi0TE9SRw1ZYcsJPp89gqlT2uU53TS2gpUuINpszHSQgx5oM7rURCERdWz3KTdBEdEo-2Cn8O1bMeuFB9ptwq8bDG9jsxW9VUf2bzMSUO0vHFxg_1jFvCIxjo1uhX4F2B7XkCt9rJ8HK_tdDfKqhFT0Sr8Ec8l-K4itEnVSzIKGtozbFObEo9STv9g=) |
+| `competition` | `unknown` | `monopolistic_competition` | LOW | In 2019, the FinTech100 list included 9 neo/challenger banks and 27 payments and | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV2k1C_11hDeug-SixqCi0TE9SRw1ZYcsJPp89gqlT2uU53TS2gpUuINpszHSQgx5oM7rURCERdWz3KTdBEdEo-2Cn8O1bMeuFB9ptwq8bDG9jsxW9VUf2bzMSUO0vHFxg_1jFvCIxjo1uhX4F2B7XkCt9rJ8HK_tdDfKqhFT0Sr8Ec8l-K4itEnVSzIKGtozbFObEo9STv9g=) |
+| `market_size` | `unknown` | `large` | LOW | Over 2 billion adults globally, mostly in emerging markets, did not have a bank  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV2k1C_11hDeug-SixqCi0TE9SRw1ZYcsJPp89gqlT2uU53TS2gpUuINpszHSQgx5oM7rURCERdWz3KTdBEdEo-2Cn8O1bMeuFB9ptwq8bDG9jsxW9VUf2bzMSUO0vHFxg_1jFvCIxjo1uhX4F2B7XkCt9rJ8HK_tdDfKqhFT0Sr8Ec8l-K4itEnVSzIKGtozbFObEo9STv9g=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | 96% of consumers worldwide were aware of at least one alternative FinTech servic | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV2k1C_11hDeug-SixqCi0TE9SRw1ZYcsJPp89gqlT2uU53TS2gpUuINpszHSQgx5oM7rURCERdWz3KTdBEdEo-2Cn8O1bMeuFB9ptwq8bDG9jsxW9VUf2bzMSUO0vHFxg_1jFvCIxjo1uhX4F2B7XkCt9rJ8HK_tdDfKqhFT0Sr8Ec8l-K4itEnVSzIKGtozbFObEo9STv9g=) |
+| `regulatory` | `moderate_compliance` | `moderate_compliance` | HIGH | In 2019, some countries had issued regulations on digital lending and equity cro | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV2k1C_11hDeug-SixqCi0TE9SRw1ZYcsJPp89gqlT2uU53TS2gpUuINpszHSQgx5oM7rURCERdWz3KTdBEdEo-2Cn8O1bMeuFB9ptwq8bDG9jsxW9VUf2bzMSUO0vHFxg_1jFvCIxjo1uhX4F2B7XkCt9rJ8HK_tdDfKqhFT0Sr8Ec8l-K4itEnVSzIKGtozbFObEo9STv9g=) |
+| `infrastructure` | `developing` | `developing` | HIGH | In 2018, almost 300 million people connected to mobile internet for the first ti | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV2k1C_11hDeug-SixqCi0TE9SRw1ZYcsJPp89gqlT2uU53TS2gpUuINpszHSQgx5oM7rURCERdWz3KTdBEdEo-2Cn8O1bMeuFB9ptwq8bDG9jsxW9VUf2bzMSUO0vHFxg_1jFvCIxjo1uhX4F2B7XkCt9rJ8HK_tdDfKqhFT0Sr8Ec8l-K4itEnVSzIKGtozbFObEo9STv9g=) |
+| `market_structure` | `winner_take_most` | `platform_two_sided` | MEDIUM | In 2019, WeChat's hóngbāo feature was used by over 820 million people during Chi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV2k1C_11hDeug-SixqCi0TE9SRw1ZYcsJPp89gqlT2uU53TS2gpUuINpszHSQgx5oM7rURCERdWz3KTdBEdEo-2Cn8O1bMeuFB9ptwq8bDG9jsxW9VUf2bzMSUO0vHFxg_1jFvCIxjo1uhX4F2B7XkCt9rJ8HK_tdDfKqhFT0Sr8Ec8l-K4itEnVSzIKGtozbFObEo9STv9g=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 52 |
+| `regulatory` | `moderate_compliance` | 67 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 68 |
+| **Mean** | — | **63** |
+
+### Role 3 Prompt Audit — Mobile-First Digital Banking Platforms Emerging Markets
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        HIGH
+  competition               monopolistic_competition              LOW
+  market_size               large                                 LOW
+  customer_readiness        peak_of_inflated_expectations         HIGH
+  regulatory                moderate_compliance                   HIGH
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 0 | 0 | 1 |
+| `market_size` | 0 | 0 | 1 |
+| `customer_readiness` | 1 | 0 | 0 |
+| `regulatory` | 1 | 0 | 0 |
+| `infrastructure` | 1 | 0 | 0 |
+| `market_structure` | 0 | 1 | 0 |
+
+
+---
+
+## Batch 12  —  2026-03-20 12:27:21
+
+**Markets processed this batch:** 4  
+**Cumulative total:** 129 / 350  
+**Batch agreement:** MEDIUM (score=0.536)  
+**HIGH:** 9  **MEDIUM:** 12  **LOW:** 7  
+**Auto-correction triggered:** no
+
+### On-Demand Ride-Hailing and Mobility Platforms (2014)
+
+**T+5:** VERIFIED (24 sources)  **Agreement:** HIGH (H=4 M=3 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_adopters` | MEDIUM | Uber's valuation reached $40 billion by December 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhiGva1cvPhd-rgzjpeXKPhRyOo3nsiWSdF4Uojrw2j2UGaM4SCWF1bPHQYGfBx0Ce64own9-1TKUFtWNeUEJ6QXss0qimMKoE8RD-4ffKhOAZvYJKUppZ1paiau2GNjJN_mfLeqZHfUPKMTzP4mXYoOZd56b4MDNnRANFDeuCFbPAi_xSnNweIN2xd6oMTx4W1SDTq69uxlW4cBJZ6eIToCbJq1NKWgshdgs13UQh2aQwQ2Oup9lCRIF6sBjzX01iY_sa-RR1EiueD2SgRAdHANIgUhzApvyeTxG7-A2bOiY9A_RdpLBrp1dlljaYXUIS7d-03IDYZ79N7NiBYt13SksgutuPu-2pREft5m6sOhxsOw==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | By September 2014, Uber was facilitating seven times more rides than Lyft in the | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhiGva1cvPhd-rgzjpeXKPhRyOo3nsiWSdF4Uojrw2j2UGaM4SCWF1bPHQYGfBx0Ce64own9-1TKUFtWNeUEJ6QXss0qimMKoE8RD-4ffKhOAZvYJKUppZ1paiau2GNjJN_mfLeqZHfUPKMTzP4mXYoOZd56b4MDNnRANFDeuCFbPAi_xSnNweIN2xd6oMTx4W1SDTq69uxlW4cBJZ6eIToCbJq1NKWgshdgs13UQh2aQwQ2Oup9lCRIF6sBjzX01iY_sa-RR1EiueD2SgRAdHANIgUhzApvyeTxG7-A2bOiY9A_RdpLBrp1dlljaYXUIS7d-03IDYZ79N7NiBYt13SksgutuPu-2pREft5m6sOhxsOw==) |
+| `market_size` | `medium` | `large` | MEDIUM | Uber's valuation was $40 billion by December 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhiGva1cvPhd-rgzjpeXKPhRyOo3nsiWSdF4Uojrw2j2UGaM4SCWF1bPHQYGfBx0Ce64own9-1TKUFtWNeUEJ6QXss0qimMKoE8RD-4ffKhOAZvYJKUppZ1paiau2GNjJN_mfLeqZHfUPKMTzP4mXYoOZd56b4MDNnRANFDeuCFbPAi_xSnNweIN2xd6oMTx4W1SDTq69uxlW4cBJZ6eIToCbJq1NKWgshdgs13UQh2aQwQ2Oup9lCRIF6sBjzX01iY_sa-RR1EiueD2SgRAdHANIgUhzApvyeTxG7-A2bOiY9A_RdpLBrp1dlljaYXUIS7d-03IDYZ79N7NiBYt13SksgutuPu-2pREft5m6sOhxsOw==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | Uber was valued at $17 billion in June 2014, a record for technology startups in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhiGva1cvPhd-rgzjpeXKPhRyOo3nsiWSdF4Uojrw2j2UGaM4SCWF1bPHQYGfBx0Ce64own9-1TKUFtWNeUEJ6QXss0qimMKoE8RD-4ffKhOAZvYJKUppZ1paiau2GNjJN_mfLeqZHfUPKMTzP4mXYoOZd56b4MDNnRANFDeuCFbPAi_xSnNweIN2xd6oMTx4W1SDTq69uxlW4cBJZ6eIToCbJq1NKWgshdgs13UQh2aQwQ2Oup9lCRIF6sBjzX01iY_sa-RR1EiueD2SgRAdHANIgUhzApvyeTxG7-A2bOiY9A_RdpLBrp1dlljaYXUIS7d-03IDYZ79N7NiBYt13SksgutuPu-2pREft5m6sOhxsOw==) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | In April 2014, New South Wales clarified that ridesharing services needed to be  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhiGva1cvPhd-rgzjpeXKPhRyOo3nsiWSdF4Uojrw2j2UGaM4SCWF1bPHQYGfBx0Ce64own9-1TKUFtWNeUEJ6QXss0qimMKoE8RD-4ffKhOAZvYJKUppZ1paiau2GNjJN_mfLeqZHfUPKMTzP4mXYoOZd56b4MDNnRANFDeuCFbPAi_xSnNweIN2xd6oMTx4W1SDTq69uxlW4cBJZ6eIToCbJq1NKWgshdgs13UQh2aQwQ2Oup9lCRIF6sBjzX01iY_sa-RR1EiueD2SgRAdHANIgUhzApvyeTxG7-A2bOiY9A_RdpLBrp1dlljaYXUIS7d-03IDYZ79N7NiBYt13SksgutuPu-2pREft5m6sOhxsOw==) |
+| `infrastructure` | `developing` | `developing` | HIGH | Global smartphone users totaled 1.76 billion in 2014, a 25% increase over 2013. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhiGva1cvPhd-rgzjpeXKPhRyOo3nsiWSdF4Uojrw2j2UGaM4SCWF1bPHQYGfBx0Ce64own9-1TKUFtWNeUEJ6QXss0qimMKoE8RD-4ffKhOAZvYJKUppZ1paiau2GNjJN_mfLeqZHfUPKMTzP4mXYoOZd56b4MDNnRANFDeuCFbPAi_xSnNweIN2xd6oMTx4W1SDTq69uxlW4cBJZ6eIToCbJq1NKWgshdgs13UQh2aQwQ2Oup9lCRIF6sBjzX01iY_sa-RR1EiueD2SgRAdHANIgUhzApvyeTxG7-A2bOiY9A_RdpLBrp1dlljaYXUIS7d-03IDYZ79N7NiBYt13SksgutuPu-2pREft5m6sOhxsOw==) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Uber's business model in 2014 was based on connecting riders with drivers in rea | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhiGva1cvPhd-rgzjpeXKPhRyOo3nsiWSdF4Uojrw2j2UGaM4SCWF1bPHQYGfBx0Ce64own9-1TKUFtWNeUEJ6QXss0qimMKoE8RD-4ffKhOAZvYJKUppZ1paiau2GNjJN_mfLeqZHfUPKMTzP4mXYoOZd56b4MDNnRANFDeuCFbPAi_xSnNweIN2xd6oMTx4W1SDTq69uxlW4cBJZ6eIToCbJq1NKWgshdgs13UQh2aQwQ2Oup9lCRIF6sBjzX01iY_sa-RR1EiueD2SgRAdHANIgUhzApvyeTxG7-A2bOiY9A_RdpLBrp1dlljaYXUIS7d-03IDYZ79N7NiBYt13SksgutuPu-2pREft5m6sOhxsOw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `large` | 78 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `unregulated` | 72 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 80 |
+| **Mean** | — | **63** |
+
+### Mobile-First Digital-Only Challenger Banks Europe (2018)
+
+**T+5:** VERIFIED (23 sources)  **Agreement:** LOW (H=0 M=4 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_adopters` | MEDIUM | The customer base for 7 key European challenger banks grew to over 8 million in  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60D5HFvKmZmMgyrZjnhuVFHrFSyNt1g3GUaEu0W3tG68PEgHVAuIk_wAedTmnc-QqkKqcZ2SssW1UNW774icix14LeDaaYGezoRCBzlCvZhtMxqypdRhTDzXwDzROvcBnrPQJM4apNhLjZHxuPl1AYXLjJ3c5gOHYg--5Ytdy-T_oPF6y8jRRfRiRdeXHVlaN7nju7GwcW79pBhAQvJEN5jdHqkPmqt_D6ZJctg==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Over 100 challenger banks existed globally in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60D5HFvKmZmMgyrZjnhuVFHrFSyNt1g3GUaEu0W3tG68PEgHVAuIk_wAedTmnc-QqkKqcZ2SssW1UNW774icix14LeDaaYGezoRCBzlCvZhtMxqypdRhTDzXwDzROvcBnrPQJM4apNhLjZHxuPl1AYXLjJ3c5gOHYg--5Ytdy-T_oPF6y8jRRfRiRdeXHVlaN7nju7GwcW79pBhAQvJEN5jdHqkPmqt_D6ZJctg==) |
+| `market_size` | `small` | `large` | LOW | The global neobank market was valued at USD 18.6 billion in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60D5HFvKmZmMgyrZjnhuVFHrFSyNt1g3GUaEu0W3tG68PEgHVAuIk_wAedTmnc-QqkKqcZ2SssW1UNW774icix14LeDaaYGezoRCBzlCvZhtMxqypdRhTDzXwDzROvcBnrPQJM4apNhLjZHxuPl1AYXLjJ3c5gOHYg--5Ytdy-T_oPF6y8jRRfRiRdeXHVlaN7nju7GwcW79pBhAQvJEN5jdHqkPmqt_D6ZJctg==) |
+| `customer_readiness` | `slope_of_enlightenment` | `peak_of_inflated_expectations` | LOW | Monzo, Revolut, and N26 each had customer bases exceeding 2-3 million users in 2 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60D5HFvKmZmMgyrZjnhuVFHrFSyNt1g3GUaEu0W3tG68PEgHVAuIk_wAedTmnc-QqkKqcZ2SssW1UNW774icix14LeDaaYGezoRCBzlCvZhtMxqypdRhTDzXwDzROvcBnrPQJM4apNhLjZHxuPl1AYXLjJ3c5gOHYg--5Ytdy-T_oPF6y8jRRfRiRdeXHVlaN7nju7GwcW79pBhAQvJEN5jdHqkPmqt_D6ZJctg==) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | PSD2 was enforced from 2018, strengthening open banking and competition in Europ | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60D5HFvKmZmMgyrZjnhuVFHrFSyNt1g3GUaEu0W3tG68PEgHVAuIk_wAedTmnc-QqkKqcZ2SssW1UNW774icix14LeDaaYGezoRCBzlCvZhtMxqypdRhTDzXwDzROvcBnrPQJM4apNhLjZHxuPl1AYXLjJ3c5gOHYg--5Ytdy-T_oPF6y8jRRfRiRdeXHVlaN7nju7GwcW79pBhAQvJEN5jdHqkPmqt_D6ZJctg==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Mobile banking usage in Europe increased to 61% in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60D5HFvKmZmMgyrZjnhuVFHrFSyNt1g3GUaEu0W3tG68PEgHVAuIk_wAedTmnc-QqkKqcZ2SssW1UNW774icix14LeDaaYGezoRCBzlCvZhtMxqypdRhTDzXwDzROvcBnrPQJM4apNhLjZHxuPl1AYXLjJ3c5gOHYg--5Ytdy-T_oPF6y8jRRfRiRdeXHVlaN7nju7GwcW79pBhAQvJEN5jdHqkPmqt_D6ZJctg==) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | PSD2, enforced in 2018, required banks to open their payments infrastructure and | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60D5HFvKmZmMgyrZjnhuVFHrFSyNt1g3GUaEu0W3tG68PEgHVAuIk_wAedTmnc-QqkKqcZ2SssW1UNW774icix14LeDaaYGezoRCBzlCvZhtMxqypdRhTDzXwDzROvcBnrPQJM4apNhLjZHxuPl1AYXLjJ3c5gOHYg--5Ytdy-T_oPF6y8jRRfRiRdeXHVlaN7nju7GwcW79pBhAQvJEN5jdHqkPmqt_D6ZJctg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 58 |
+| `market_size` | `large` | 70 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 48 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 55 |
+| **Mean** | — | **59** |
+
+### Dedicated Small Satellite Launch Services Providers (2017)
+
+**T+5:** VERIFIED (5 sources)  **Agreement:** MEDIUM (H=2 M=2 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `early_adopters` | MEDIUM | In 2017, 27 new small launchers were founded. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOYxarYemPNEKzPswEa6CLC9vQEQiRZXHEakboEsTJ0C3d7rm0FIfa4aE3Tq6kg53Y8OZ__G4j7kFTfcKcm3zSD3q3X1_c89zZtGlKKiIzfUlBC6rYKKYqNJhifM8s6pSQWAHj1epq7Aq4UXQtY-rueGdXbbevHdDSNg0swdIYJw==) |
+| `competition` | `monopoly` | `monopolistic_competition` | LOW | In 2017, 27 new small launchers were founded, and over 40 small launch vehicles  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOYxarYemPNEKzPswEa6CLC9vQEQiRZXHEakboEsTJ0C3d7rm0FIfa4aE3Tq6kg53Y8OZ__G4j7kFTfcKcm3zSD3q3X1_c89zZtGlKKiIzfUlBC6rYKKYqNJhifM8s6pSQWAHj1epq7Aq4UXQtY-rueGdXbbevHdDSNg0swdIYJw==) |
+| `market_size` | `micro` | `medium` | LOW | The small satellite launch services market was projected to soar past $62 billio | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOYxarYemPNEKzPswEa6CLC9vQEQiRZXHEakboEsTJ0C3d7rm0FIfa4aE3Tq6kg53Y8OZ__G4j7kFTfcKcm3zSD3q3X1_c89zZtGlKKiIzfUlBC6rYKKYqNJhifM8s6pSQWAHj1epq7Aq4UXQtY-rueGdXbbevHdDSNg0swdIYJw==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | More than 30 commercial operators were building smallsat capabilities and planni | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOYxarYemPNEKzPswEa6CLC9vQEQiRZXHEakboEsTJ0C3d7rm0FIfa4aE3Tq6kg53Y8OZ__G4j7kFTfcKcm3zSD3q3X1_c89zZtGlKKiIzfUlBC6rYKKYqNJhifM8s6pSQWAHj1epq7Aq4UXQtY-rueGdXbbevHdDSNg0swdIYJw==) |
+| `regulatory` | `moderate_compliance` | `light_touch` | MEDIUM | The U.S. Commercial Space Launch Competitiveness Act of 2015 postponed significa | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOYxarYemPNEKzPswEa6CLC9vQEQiRZXHEakboEsTJ0C3d7rm0FIfa4aE3Tq6kg53Y8OZ__G4j7kFTfcKcm3zSD3q3X1_c89zZtGlKKiIzfUlBC6rYKKYqNJhifM8s6pSQWAHj1epq7Aq4UXQtY-rueGdXbbevHdDSNg0swdIYJw==) |
+| `infrastructure` | `emerging` | `emerging` | HIGH | Existing launch services addressed only about 52% of the total demand, and over  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOYxarYemPNEKzPswEa6CLC9vQEQiRZXHEakboEsTJ0C3d7rm0FIfa4aE3Tq6kg53Y8OZ__G4j7kFTfcKcm3zSD3q3X1_c89zZtGlKKiIzfUlBC6rYKKYqNJhifM8s6pSQWAHj1epq7Aq4UXQtY-rueGdXbbevHdDSNg0swdIYJw==) |
+| `market_structure` | `winner_take_most` | `fragmented_niche` | LOW | In 2017, there was an 'immense boom in prospective small launchers across the gl | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOYxarYemPNEKzPswEa6CLC9vQEQiRZXHEakboEsTJ0C3d7rm0FIfa4aE3Tq6kg53Y8OZ__G4j7kFTfcKcm3zSD3q3X1_c89zZtGlKKiIzfUlBC6rYKKYqNJhifM8s6pSQWAHj1epq7Aq4UXQtY-rueGdXbbevHdDSNg0swdIYJw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 55 |
+| `market_size` | `medium` | 50 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 58 |
+| `regulatory` | `light_touch` | 72 |
+| `infrastructure` | `emerging` | 55 |
+| `market_structure` | `fragmented_niche` | 52 |
+| **Mean** | — | **58** |
+
+### Next Generation DNA RNA Sequencing Platforms (2010)
+
+**T+5:** VERIFIED (11 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The cost of sequencing a human genome was approximately $20,000 in 2010. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErBGcTa6AmncbHpIBpcp3PxLK6Koxm3Y7Bb8NWAycr7IM_fFnp1dIDtLC0HGb8xgO0rmreHrf0HDtDV9KmBeoSlP39Nq5L_puZTY2JqEb2BbBtYthRqZ-NW9IkcOVcxBLHka2qX_4jk9MPdXy92ktN9KrD63Tzd6rSBBnq4ZFzL_lxKZWJZTDQSVsZIaqIqi70TzhKLX6v8TsIc-cj6yDY3a8xxKDbK2yA1LamRv9vGA==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Illumina held a greater-than-50% market share in next-gen sequencing in 2010. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErBGcTa6AmncbHpIBpcp3PxLK6Koxm3Y7Bb8NWAycr7IM_fFnp1dIDtLC0HGb8xgO0rmreHrf0HDtDV9KmBeoSlP39Nq5L_puZTY2JqEb2BbBtYthRqZ-NW9IkcOVcxBLHka2qX_4jk9MPdXy92ktN9KrD63Tzd6rSBBnq4ZFzL_lxKZWJZTDQSVsZIaqIqi70TzhKLX6v8TsIc-cj6yDY3a8xxKDbK2yA1LamRv9vGA==) |
+| `market_size` | `small` | `medium` | MEDIUM | The global market for DNA sequencing products was valued at $2.3 billion in 2010 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErBGcTa6AmncbHpIBpcp3PxLK6Koxm3Y7Bb8NWAycr7IM_fFnp1dIDtLC0HGb8xgO0rmreHrf0HDtDV9KmBeoSlP39Nq5L_puZTY2JqEb2BbBtYthRqZ-NW9IkcOVcxBLHka2qX_4jk9MPdXy92ktN9KrD63Tzd6rSBBnq4ZFzL_lxKZWJZTDQSVsZIaqIqi70TzhKLX6v8TsIc-cj6yDY3a8xxKDbK2yA1LamRv9vGA==) |
+| `customer_readiness` | `slope_of_enlightenment` | `innovation_trigger` | LOW | Predictions in 2010 anticipated a $1,000 human genome within 3-5 years. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErBGcTa6AmncbHpIBpcp3PxLK6Koxm3Y7Bb8NWAycr7IM_fFnp1dIDtLC0HGb8xgO0rmreHrf0HDtDV9KmBeoSlP39Nq5L_puZTY2JqEb2BbBtYthRqZ-NW9IkcOVcxBLHka2qX_4jk9MPdXy92ktN9KrD63Tzd6rSBBnq4ZFzL_lxKZWJZTDQSVsZIaqIqi70TzhKLX6v8TsIc-cj6yDY3a8xxKDbK2yA1LamRv9vGA==) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | The FDA cleared its first NGS sequencing platform for clinical use in November 2 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErBGcTa6AmncbHpIBpcp3PxLK6Koxm3Y7Bb8NWAycr7IM_fFnp1dIDtLC0HGb8xgO0rmreHrf0HDtDV9KmBeoSlP39Nq5L_puZTY2JqEb2BbBtYthRqZ-NW9IkcOVcxBLHka2qX_4jk9MPdXy92ktN9KrD63Tzd6rSBBnq4ZFzL_lxKZWJZTDQSVsZIaqIqi70TzhKLX6v8TsIc-cj6yDY3a8xxKDbK2yA1LamRv9vGA==) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Bioinformatics tools and infrastructure in 2010 were challenged by the 'overwhel | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErBGcTa6AmncbHpIBpcp3PxLK6Koxm3Y7Bb8NWAycr7IM_fFnp1dIDtLC0HGb8xgO0rmreHrf0HDtDV9KmBeoSlP39Nq5L_puZTY2JqEb2BbBtYthRqZ-NW9IkcOVcxBLHka2qX_4jk9MPdXy92ktN9KrD63Tzd6rSBBnq4ZFzL_lxKZWJZTDQSVsZIaqIqi70TzhKLX6v8TsIc-cj6yDY3a8xxKDbK2yA1LamRv9vGA==) |
+| `market_structure` | `winner_take_most` | `winner_take_most` | HIGH | Illumina held over 50% of the next-gen sequencing market share in 2010. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErBGcTa6AmncbHpIBpcp3PxLK6Koxm3Y7Bb8NWAycr7IM_fFnp1dIDtLC0HGb8xgO0rmreHrf0HDtDV9KmBeoSlP39Nq5L_puZTY2JqEb2BbBtYthRqZ-NW9IkcOVcxBLHka2qX_4jk9MPdXy92ktN9KrD63Tzd6rSBBnq4ZFzL_lxKZWJZTDQSVsZIaqIqi70TzhKLX6v8TsIc-cj6yDY3a8xxKDbK2yA1LamRv9vGA==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 45 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `innovation_trigger` | 30 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `emerging` | 52 |
+| `market_structure` | `winner_take_most` | 80 |
+| **Mean** | — | **59** |
+
+### Role 3 Prompt Audit — On-Demand Ride-Hailing and Mobility Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        MEDIUM
+  competition               oligopoly                             HIGH
+  market_size               large                                 MEDIUM
+  customer_readiness        peak_of_inflated_expectations         HIGH
+  regulatory                unregulated                           MEDIUM
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 3 | 0 |
+| `competition` | 2 | 1 | 1 |
+| `market_size` | 0 | 2 | 2 |
+| `customer_readiness` | 2 | 0 | 2 |
+| `regulatory` | 0 | 4 | 0 |
+| `infrastructure` | 2 | 2 | 0 |
+| `market_structure` | 2 | 0 | 2 |
+
+
+---
+
+## Batch 13  —  2026-03-20 12:31:13
+
+**Markets processed this batch:** 7  
+**Cumulative total:** 136 / 350  
+**Batch agreement:** HIGH (score=0.735)  
+**HIGH:** 29  **MEDIUM:** 14  **LOW:** 6  
+**Auto-correction triggered:** no
+
+### Online Travel Search Booking and Accommodation Platforms (2011)
+
+**T+5:** VERIFIED (20 sources)  **Agreement:** HIGH (H=4 M=3 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | The online travel industry in the US was projected to reach $125 billion in book | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTRbJchTlwGfAfFM8HmCbefgko6yVlR0R3-SNWyjlEvZCYS2ifeVbramN46jtqg3TGuUBIi0IPoOLViV4m8e0eKMxoOpRWbwi2hZhR7m1eMd58nu4bWySEoUGK3FvEUhqd1HbNXJZWhQvtFkLoYngxosBcs8pvr0h9VudrI5aYjbRo399SnF_CdE6wt5nEDBQc0DPbPmiV2vPPe0_yKaG0n22Rn07ElhWNDk_P-MEtBeEA) |
+| `competition` | `monopolistic_competition` | `oligopoly` | MEDIUM | Four brands (Expedia, Priceline, Orbitz, and Travelocity) controlled around 95%  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTRbJchTlwGfAfFM8HmCbefgko6yVlR0R3-SNWyjlEvZCYS2ifeVbramN46jtqg3TGuUBIi0IPoOLViV4m8e0eKMxoOpRWbwi2hZhR7m1eMd58nu4bWySEoUGK3FvEUhqd1HbNXJZWhQvtFkLoYngxosBcs8pvr0h9VudrI5aYjbRo399SnF_CdE6wt5nEDBQc0DPbPmiV2vPPe0_yKaG0n22Rn07ElhWNDk_P-MEtBeEA) |
+| `market_size` | `large` | `massive` | MEDIUM | The online travel industry in the US was projected to reach $125 billion in book | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTRbJchTlwGfAfFM8HmCbefgko6yVlR0R3-SNWyjlEvZCYS2ifeVbramN46jtqg3TGuUBIi0IPoOLViV4m8e0eKMxoOpRWbwi2hZhR7m1eMd58nu4bWySEoUGK3FvEUhqd1HbNXJZWhQvtFkLoYngxosBcs8pvr0h9VudrI5aYjbRo399SnF_CdE6wt5nEDBQc0DPbPmiV2vPPe0_yKaG0n22Rn07ElhWNDk_P-MEtBeEA) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | One-third of all American adults (35%) were smartphone owners in May 2011. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTRbJchTlwGfAfFM8HmCbefgko6yVlR0R3-SNWyjlEvZCYS2ifeVbramN46jtqg3TGuUBIi0IPoOLViV4m8e0eKMxoOpRWbwi2hZhR7m1eMd58nu4bWySEoUGK3FvEUhqd1HbNXJZWhQvtFkLoYngxosBcs8pvr0h9VudrI5aYjbRo399SnF_CdE6wt5nEDBQc0DPbPmiV2vPPe0_yKaG0n22Rn07ElhWNDk_P-MEtBeEA) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | Travel reservation websites had a legal obligation to post immediate updates and | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTRbJchTlwGfAfFM8HmCbefgko6yVlR0R3-SNWyjlEvZCYS2ifeVbramN46jtqg3TGuUBIi0IPoOLViV4m8e0eKMxoOpRWbwi2hZhR7m1eMd58nu4bWySEoUGK3FvEUhqd1HbNXJZWhQvtFkLoYngxosBcs8pvr0h9VudrI5aYjbRo399SnF_CdE6wt5nEDBQc0DPbPmiV2vPPe0_yKaG0n22Rn07ElhWNDk_P-MEtBeEA) |
+| `infrastructure` | `developing` | `developing` | HIGH | In 2011, there were 2.1 billion internet users worldwide and 1.2 billion active  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTRbJchTlwGfAfFM8HmCbefgko6yVlR0R3-SNWyjlEvZCYS2ifeVbramN46jtqg3TGuUBIi0IPoOLViV4m8e0eKMxoOpRWbwi2hZhR7m1eMd58nu4bWySEoUGK3FvEUhqd1HbNXJZWhQvtFkLoYngxosBcs8pvr0h9VudrI5aYjbRo399SnF_CdE6wt5nEDBQc0DPbPmiV2vPPe0_yKaG0n22Rn07ElhWNDk_P-MEtBeEA) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | OTAs provided a trusted platform for consumers to shop, buy, and share informati | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTRbJchTlwGfAfFM8HmCbefgko6yVlR0R3-SNWyjlEvZCYS2ifeVbramN46jtqg3TGuUBIi0IPoOLViV4m8e0eKMxoOpRWbwi2hZhR7m1eMd58nu4bWySEoUGK3FvEUhqd1HbNXJZWhQvtFkLoYngxosBcs8pvr0h9VudrI5aYjbRo399SnF_CdE6wt5nEDBQc0DPbPmiV2vPPe0_yKaG0n22Rn07ElhWNDk_P-MEtBeEA) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 78 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `massive` | 85 |
+| `customer_readiness` | `slope_of_enlightenment` | 74 |
+| `regulatory` | `moderate_compliance` | 62 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 80 |
+| **Mean** | — | **68** |
+
+### Digital-First Mobile Consumer Neobanks (2015)
+
+**T+5:** VERIFIED (18 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `early_adopters` | MEDIUM | By 2015, 53% of Americans were using online and mobile channels for their bankin | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg8oogSDezwKHJgvZIjLZROzxg2FRtHyqWTP1PRz7iPFhr_tuszXl8KRvAEZkQF2r9sfgy38kYy12NbOVFBv2w2KkYWNqtazH-LSLbyNd6cjCHW6udwoO3rauMKxn_HUj5IaumJ5mMcw78drKBsR_PDEP-dg==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Prominent neobanks like Revolut, Monzo, and N26 all launched in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg8oogSDezwKHJgvZIjLZROzxg2FRtHyqWTP1PRz7iPFhr_tuszXl8KRvAEZkQF2r9sfgy38kYy12NbOVFBv2w2KkYWNqtazH-LSLbyNd6cjCHW6udwoO3rauMKxn_HUj5IaumJ5mMcw78drKBsR_PDEP-dg==) |
+| `market_size` | `micro` | `small` | MEDIUM | The global banking industry's estimated spending on mobile banking projects in 2 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg8oogSDezwKHJgvZIjLZROzxg2FRtHyqWTP1PRz7iPFhr_tuszXl8KRvAEZkQF2r9sfgy38kYy12NbOVFBv2w2KkYWNqtazH-LSLbyNd6cjCHW6udwoO3rauMKxn_HUj5IaumJ5mMcw78drKBsR_PDEP-dg==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | Mobile banking satisfaction declined by 3 points in 2015, largely due to custome | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg8oogSDezwKHJgvZIjLZROzxg2FRtHyqWTP1PRz7iPFhr_tuszXl8KRvAEZkQF2r9sfgy38kYy12NbOVFBv2w2KkYWNqtazH-LSLbyNd6cjCHW6udwoO3rauMKxn_HUj5IaumJ5mMcw78drKBsR_PDEP-dg==) |
+| `regulatory` | `heavily_regulated` | `light_touch` | LOW | Neobanks frequently operated in a 'regulatory gray area' in 2015, not always fal | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg8oogSDezwKHJgvZIjLZROzxg2FRtHyqWTP1PRz7iPFhr_tuszXl8KRvAEZkQF2r9sfgy38kYy12NbOVFBv2w2KkYWNqtazH-LSLbyNd6cjCHW6udwoO3rauMKxn_HUj5IaumJ5mMcw78drKBsR_PDEP-dg==) |
+| `infrastructure` | `developing` | `developing` | HIGH | Mobile banking adoption surpassed the 50% threshold between 2014 and 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg8oogSDezwKHJgvZIjLZROzxg2FRtHyqWTP1PRz7iPFhr_tuszXl8KRvAEZkQF2r9sfgy38kYy12NbOVFBv2w2KkYWNqtazH-LSLbyNd6cjCHW6udwoO3rauMKxn_HUj5IaumJ5mMcw78drKBsR_PDEP-dg==) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Neobanks typically developed their own IT systems from scratch, often using clou | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg8oogSDezwKHJgvZIjLZROzxg2FRtHyqWTP1PRz7iPFhr_tuszXl8KRvAEZkQF2r9sfgy38kYy12NbOVFBv2w2KkYWNqtazH-LSLbyNd6cjCHW6udwoO3rauMKxn_HUj5IaumJ5mMcw78drKBsR_PDEP-dg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 55 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 48 |
+| `regulatory` | `light_touch` | 65 |
+| `infrastructure` | `developing` | 42 |
+| `market_structure` | `technology_enablement` | 63 |
+| **Mean** | — | **51** |
+
+### Residential iBuying Instant Cash Offer Platforms (2014)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=4 M=0 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | Opendoor, the pioneer iBuyer, was founded in March 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXOaD__M_FnCuwwe8fyy2kl1auEdQ1-R5hW2WDoKLrK9sHiC7MDBDQE7Lll7OOHC-lTWCoZgheHPTruV0fU8xN0fVDABI14K3SJCQ4_E5P3YCHWcwUQRUHGHLlyflRy2Ir) |
+| `competition` | `monopoly` | `monopoly` | HIGH | Opendoor was the first iBuying company to launch in the U.S. in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXOaD__M_FnCuwwe8fyy2kl1auEdQ1-R5hW2WDoKLrK9sHiC7MDBDQE7Lll7OOHC-lTWCoZgheHPTruV0fU8xN0fVDABI14K3SJCQ4_E5P3YCHWcwUQRUHGHLlyflRy2Ir) |
+| `market_size` | `micro` | `micro` | HIGH | Opendoor began its operations in May 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXOaD__M_FnCuwwe8fyy2kl1auEdQ1-R5hW2WDoKLrK9sHiC7MDBDQE7Lll7OOHC-lTWCoZgheHPTruV0fU8xN0fVDABI14K3SJCQ4_E5P3YCHWcwUQRUHGHLlyflRy2Ir) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | The iBuyer model was first introduced to the U.S. market in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXOaD__M_FnCuwwe8fyy2kl1auEdQ1-R5hW2WDoKLrK9sHiC7MDBDQE7Lll7OOHC-lTWCoZgheHPTruV0fU8xN0fVDABI14K3SJCQ4_E5P3YCHWcwUQRUHGHLlyflRy2Ir) |
+| `regulatory` | `moderate_compliance` | `unregulated` | LOW | Specific regulations for iBuying platforms were not established in 2014 due to t | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXOaD__M_FnCuwwe8fyy2kl1auEdQ1-R5hW2WDoKLrK9sHiC7MDBDQE7Lll7OOHC-lTWCoZgheHPTruV0fU8xN0fVDABI14K3SJCQ4_E5P3YCHWcwUQRUHGHLlyflRy2Ir) |
+| `infrastructure` | `developing` | `nascent` | LOW | Opendoor was founded in 2014 with the goal of digitizing home buying and selling | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXOaD__M_FnCuwwe8fyy2kl1auEdQ1-R5hW2WDoKLrK9sHiC7MDBDQE7Lll7OOHC-lTWCoZgheHPTruV0fU8xN0fVDABI14K3SJCQ4_E5P3YCHWcwUQRUHGHLlyflRy2Ir) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | iBuyers utilize algorithms and technology to facilitate rapid home purchases and | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXOaD__M_FnCuwwe8fyy2kl1auEdQ1-R5hW2WDoKLrK9sHiC7MDBDQE7Lll7OOHC-lTWCoZgheHPTruV0fU8xN0fVDABI14K3SJCQ4_E5P3YCHWcwUQRUHGHLlyflRy2Ir) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `monopoly` | 85 |
+| `market_size` | `micro` | 15 |
+| `customer_readiness` | `innovation_trigger` | 55 |
+| `regulatory` | `unregulated` | 65 |
+| `infrastructure` | `nascent` | 30 |
+| `market_structure` | `technology_enablement` | 55 |
+| **Mean** | — | **52** |
+
+### Digitally Native Direct To Consumer Vertical Brands (2014)
+
+**T+5:** VERIFIED (19 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Many well-known DTC brands like Casper, Glossier, and Cotopaxi were founded in 2 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2IEnx2xrZL4_DGCeyxKUlpl4GzVijW3yuKKZzB8etVXFEh6thSSRDUplhxZiRXxZBDq0AA037WzcPtzQyptr9mZp8kNEQ5gI7T2fwGWyyQ7Jx8jYwNU-S66tRLRJ0pP5NimGe_azwP7I4wmTkSTHwefUQgNewVBNXvBcH6Ig_-peubwIQ) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | DTC brands in 2014 utilized digital ads and social media to connect with custome | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2IEnx2xrZL4_DGCeyxKUlpl4GzVijW3yuKKZzB8etVXFEh6thSSRDUplhxZiRXxZBDq0AA037WzcPtzQyptr9mZp8kNEQ5gI7T2fwGWyyQ7Jx8jYwNU-S66tRLRJ0pP5NimGe_azwP7I4wmTkSTHwefUQgNewVBNXvBcH6Ig_-peubwIQ) |
+| `market_size` | `small` | `medium` | MEDIUM | Global direct selling retail sales, which include DTC, amounted to $182.8 billio | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2IEnx2xrZL4_DGCeyxKUlpl4GzVijW3yuKKZzB8etVXFEh6thSSRDUplhxZiRXxZBDq0AA037WzcPtzQyptr9mZp8kNEQ5gI7T2fwGWyyQ7Jx8jYwNU-S66tRLRJ0pP5NimGe_azwP7I4wmTkSTHwefUQgNewVBNXvBcH6Ig_-peubwIQ) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `slope_of_enlightenment` | LOW | In 2014, 24% of consumers regularly used mobile for shopping, indicating a signi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2IEnx2xrZL4_DGCeyxKUlpl4GzVijW3yuKKZzB8etVXFEh6thSSRDUplhxZiRXxZBDq0AA037WzcPtzQyptr9mZp8kNEQ5gI7T2fwGWyyQ7Jx8jYwNU-S66tRLRJ0pP5NimGe_azwP7I4wmTkSTHwefUQgNewVBNXvBcH6Ig_-peubwIQ) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | In 2014, brands had 'unprecedented access to consumer information' and social me | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2IEnx2xrZL4_DGCeyxKUlpl4GzVijW3yuKKZzB8etVXFEh6thSSRDUplhxZiRXxZBDq0AA037WzcPtzQyptr9mZp8kNEQ5gI7T2fwGWyyQ7Jx8jYwNU-S66tRLRJ0pP5NimGe_azwP7I4wmTkSTHwefUQgNewVBNXvBcH6Ig_-peubwIQ) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | In 2014, mobile commerce was making an 'increasingly meaningful contribution' to | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2IEnx2xrZL4_DGCeyxKUlpl4GzVijW3yuKKZzB8etVXFEh6thSSRDUplhxZiRXxZBDq0AA037WzcPtzQyptr9mZp8kNEQ5gI7T2fwGWyyQ7Jx8jYwNU-S66tRLRJ0pP5NimGe_azwP7I4wmTkSTHwefUQgNewVBNXvBcH6Ig_-peubwIQ) |
+| `market_structure` | `fragmented_niche` | `fragmented_niche` | HIGH | DTC brands in 2014 focused on selling directly to consumers online, bypassing tr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2IEnx2xrZL4_DGCeyxKUlpl4GzVijW3yuKKZzB8etVXFEh6thSSRDUplhxZiRXxZBDq0AA037WzcPtzQyptr9mZp8kNEQ5gI7T2fwGWyyQ7Jx8jYwNU-S66tRLRJ0pP5NimGe_azwP7I4wmTkSTHwefUQgNewVBNXvBcH6Ig_-peubwIQ) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `slope_of_enlightenment` | 65 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `fragmented_niche` | 58 |
+| **Mean** | — | **64** |
+
+### Private Commercial Nuclear Fusion Energy Development (2018)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** HIGH (H=5 M=2 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | Commonwealth Fusion Systems, a major private fusion company, was founded in 2018 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWZH7d91yAzo8gJ3OUcYzWsaeAwBblTsTKrJhk_H7WXYU9WbuCq1UA-WyvZ-D0Sri6A7s7RCELuhZYcgkl9QQB4UaL8J3ZKrUSRV2OvX4o0TF_ljwa8DaOrUcOk19MYbYyqoWCrmjhnRCIHMmvZmaSf2X6QA==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | In 2018, Commonwealth Fusion Systems received initial funding of $50 million, in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWZH7d91yAzo8gJ3OUcYzWsaeAwBblTsTKrJhk_H7WXYU9WbuCq1UA-WyvZ-D0Sri6A7s7RCELuhZYcgkl9QQB4UaL8J3ZKrUSRV2OvX4o0TF_ljwa8DaOrUcOk19MYbYyqoWCrmjhnRCIHMmvZmaSf2X6QA==) |
+| `market_size` | `micro` | `micro` | HIGH | In 2018, Commonwealth Fusion Systems secured $50 million in initial funding, whi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWZH7d91yAzo8gJ3OUcYzWsaeAwBblTsTKrJhk_H7WXYU9WbuCq1UA-WyvZ-D0Sri6A7s7RCELuhZYcgkl9QQB4UaL8J3ZKrUSRV2OvX4o0TF_ljwa8DaOrUcOk19MYbYyqoWCrmjhnRCIHMmvZmaSf2X6QA==) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | In 2018, the idea of fusion startups and billions in VC funding would have been  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWZH7d91yAzo8gJ3OUcYzWsaeAwBblTsTKrJhk_H7WXYU9WbuCq1UA-WyvZ-D0Sri6A7s7RCELuhZYcgkl9QQB4UaL8J3ZKrUSRV2OvX4o0TF_ljwa8DaOrUcOk19MYbYyqoWCrmjhnRCIHMmvZmaSf2X6QA==) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | The 2018 Nuclear Energy Innovation and Modernization Act initiated discussions o | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWZH7d91yAzo8gJ3OUcYzWsaeAwBblTsTKrJhk_H7WXYU9WbuCq1UA-WyvZ-D0Sri6A7s7RCELuhZYcgkl9QQB4UaL8J3ZKrUSRV2OvX4o0TF_ljwa8DaOrUcOk19MYbYyqoWCrmjhnRCIHMmvZmaSf2X6QA==) |
+| `infrastructure` | `nascent` | `nascent` | HIGH | Commonwealth Fusion Systems, a key player, was founded in 2018 as a spin-off fro | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWZH7d91yAzo8gJ3OUcYzWsaeAwBblTsTKrJhk_H7WXYU9WbuCq1UA-WyvZ-D0Sri6A7s7RCELuhZYcgkl9QQB4UaL8J3ZKrUSRV2OvX4o0TF_ljwa8DaOrUcOk19MYbYyqoWCrmjhnRCIHMmvZmaSf2X6QA==) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Companies like CFS were focused on developing groundbreaking high-temperature su | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWZH7d91yAzo8gJ3OUcYzWsaeAwBblTsTKrJhk_H7WXYU9WbuCq1UA-WyvZ-D0Sri6A7s7RCELuhZYcgkl9QQB4UaL8J3ZKrUSRV2OvX4o0TF_ljwa8DaOrUcOk19MYbYyqoWCrmjhnRCIHMmvZmaSf2X6QA==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `oligopoly` | 72 |
+| `market_size` | `micro` | 18 |
+| `customer_readiness` | `innovation_trigger` | 55 |
+| `regulatory` | `unregulated` | 74 |
+| `infrastructure` | `nascent` | 35 |
+| `market_structure` | `technology_enablement` | 63 |
+| **Mean** | — | **54** |
+
+### Short-Term Technical Skills Bootcamp Programs (2014)
+
+**T+5:** VERIFIED (16 sources)  **Agreement:** HIGH (H=6 M=1 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The market grew by 175% in graduates from 2013 to 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEizqehwAMR0ENuZqkUYfeH0PHWd49Omz8a8HZBPf3ckGTFbyf-nSjYEhwJDD9Nl1gEewWpTTLD2XluyfajgffZI4OD9I1--TzQL5IMT_a8bPJ0O_b7wLue4jBq6QJosIg5jrzq6r_IW0HR15VMyblARtNuMQ==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | The number of US coding bootcamps increased from 33 in 2013 to 43 in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEizqehwAMR0ENuZqkUYfeH0PHWd49Omz8a8HZBPf3ckGTFbyf-nSjYEhwJDD9Nl1gEewWpTTLD2XluyfajgffZI4OD9I1--TzQL5IMT_a8bPJ0O_b7wLue4jBq6QJosIg5jrzq6r_IW0HR15VMyblARtNuMQ==) |
+| `market_size` | `small` | `small` | HIGH | Estimated tuition revenue in 2014 was $59 million. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEizqehwAMR0ENuZqkUYfeH0PHWd49Omz8a8HZBPf3ckGTFbyf-nSjYEhwJDD9Nl1gEewWpTTLD2XluyfajgffZI4OD9I1--TzQL5IMT_a8bPJ0O_b7wLue4jBq6QJosIg5jrzq6r_IW0HR15VMyblARtNuMQ==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | Bootcamps were seen as a solution to an 'extreme shortage' of developers. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEizqehwAMR0ENuZqkUYfeH0PHWd49Omz8a8HZBPf3ckGTFbyf-nSjYEhwJDD9Nl1gEewWpTTLD2XluyfajgffZI4OD9I1--TzQL5IMT_a8bPJ0O_b7wLue4jBq6QJosIg5jrzq6r_IW0HR15VMyblARtNuMQ==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | California regulators issued cease-and-desist letters to bootcamps in January 20 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEizqehwAMR0ENuZqkUYfeH0PHWd49Omz8a8HZBPf3ckGTFbyf-nSjYEhwJDD9Nl1gEewWpTTLD2XluyfajgffZI4OD9I1--TzQL5IMT_a8bPJ0O_b7wLue4jBq6QJosIg5jrzq6r_IW0HR15VMyblARtNuMQ==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Ruby was the most common teaching language, used in 57% of courses in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEizqehwAMR0ENuZqkUYfeH0PHWd49Omz8a8HZBPf3ckGTFbyf-nSjYEhwJDD9Nl1gEewWpTTLD2XluyfajgffZI4OD9I1--TzQL5IMT_a8bPJ0O_b7wLue4jBq6QJosIg5jrzq6r_IW0HR15VMyblARtNuMQ==) |
+| `market_structure` | `fragmented_niche` | `fragmented_niche` | HIGH | The number of US coding bootcamps increased from 33 in 2013 to 43 in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEizqehwAMR0ENuZqkUYfeH0PHWd49Omz8a8HZBPf3ckGTFbyf-nSjYEhwJDD9Nl1gEewWpTTLD2XluyfajgffZI4OD9I1--TzQL5IMT_a8bPJ0O_b7wLue4jBq6QJosIg5jrzq6r_IW0HR15VMyblARtNuMQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `fragmented_niche` | 58 |
+| **Mean** | — | **58** |
+
+### Cold Chain Visibility and Monitoring Solutions (2018)
+
+**T+5:** VERIFIED (6 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | The global cold chain logistics market size was valued at $159,988.1 million in  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-tLnNEOehqcBrv-Gp8TMZgaSrftMA5qn5mnRYFCMe0DD1Gatf2ffO1yZ_CA9KglElUPtkd9J5epEi9d8oeJw9Aa_57W51BkqV7i2BM9w8METVIkWCPUc8gIVYhwl936yvZuoRBUV_pKEP-5csmz2ttwls88BYs34VrWw37V9wHB3w4TkNrX1Muz9zOyOvOBe8IfIlArvT2iQ_AoTECYw3rCclkA-pztKs_UUowD72aRw=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | In 2018, the market was driven by growing demand across chemical, food and bever | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-tLnNEOehqcBrv-Gp8TMZgaSrftMA5qn5mnRYFCMe0DD1Gatf2ffO1yZ_CA9KglElUPtkd9J5epEi9d8oeJw9Aa_57W51BkqV7i2BM9w8METVIkWCPUc8gIVYhwl936yvZuoRBUV_pKEP-5csmz2ttwls88BYs34VrWw37V9wHB3w4TkNrX1Muz9zOyOvOBe8IfIlArvT2iQ_AoTECYw3rCclkA-pztKs_UUowD72aRw=) |
+| `market_size` | `small` | `large` | LOW | The global cold chain logistics market size was valued at $159,988.1 million in  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-tLnNEOehqcBrv-Gp8TMZgaSrftMA5qn5mnRYFCMe0DD1Gatf2ffO1yZ_CA9KglElUPtkd9J5epEi9d8oeJw9Aa_57W51BkqV7i2BM9w8METVIkWCPUc8gIVYhwl936yvZuoRBUV_pKEP-5csmz2ttwls88BYs34VrWw37V9wHB3w4TkNrX1Muz9zOyOvOBe8IfIlArvT2iQ_AoTECYw3rCclkA-pztKs_UUowD72aRw=) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | The FDA's Sanitary Transportation Rule under FSMA had compliance milestones in 2 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-tLnNEOehqcBrv-Gp8TMZgaSrftMA5qn5mnRYFCMe0DD1Gatf2ffO1yZ_CA9KglElUPtkd9J5epEi9d8oeJw9Aa_57W51BkqV7i2BM9w8METVIkWCPUc8gIVYhwl936yvZuoRBUV_pKEP-5csmz2ttwls88BYs34VrWw37V9wHB3w4TkNrX1Muz9zOyOvOBe8IfIlArvT2iQ_AoTECYw3rCclkA-pztKs_UUowD72aRw=) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | The FDA's Sanitary Transportation Rule under FSMA had compliance deadlines for s | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-tLnNEOehqcBrv-Gp8TMZgaSrftMA5qn5mnRYFCMe0DD1Gatf2ffO1yZ_CA9KglElUPtkd9J5epEi9d8oeJw9Aa_57W51BkqV7i2BM9w8METVIkWCPUc8gIVYhwl936yvZuoRBUV_pKEP-5csmz2ttwls88BYs34VrWw37V9wHB3w4TkNrX1Muz9zOyOvOBe8IfIlArvT2iQ_AoTECYw3rCclkA-pztKs_UUowD72aRw=) |
+| `infrastructure` | `developing` | `developing` | HIGH | In 2018, technologies like RFID, GPS, and IoT were being adopted to improve visi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-tLnNEOehqcBrv-Gp8TMZgaSrftMA5qn5mnRYFCMe0DD1Gatf2ffO1yZ_CA9KglElUPtkd9J5epEi9d8oeJw9Aa_57W51BkqV7i2BM9w8METVIkWCPUc8gIVYhwl936yvZuoRBUV_pKEP-5csmz2ttwls88BYs34VrWw37V9wHB3w4TkNrX1Muz9zOyOvOBe8IfIlArvT2iQ_AoTECYw3rCclkA-pztKs_UUowD72aRw=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Solutions in 2018 were leveraging technologies like RFID, GPS, and IoT for real- | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-tLnNEOehqcBrv-Gp8TMZgaSrftMA5qn5mnRYFCMe0DD1Gatf2ffO1yZ_CA9KglElUPtkd9J5epEi9d8oeJw9Aa_57W51BkqV7i2BM9w8METVIkWCPUc8gIVYhwl936yvZuoRBUV_pKEP-5csmz2ttwls88BYs34VrWw37V9wHB3w4TkNrX1Muz9zOyOvOBe8IfIlArvT2iQ_AoTECYw3rCclkA-pztKs_UUowD72aRw=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 70 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 68 |
+| **Mean** | — | **66** |
+
+### Role 3 Prompt Audit — Online Travel Search Booking and Accommodation Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        HIGH
+  competition               oligopoly                             MEDIUM
+  market_size               massive                               MEDIUM
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                moderate_compliance                   MEDIUM
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 5 | 2 | 0 |
+| `competition` | 6 | 1 | 0 |
+| `market_size` | 3 | 3 | 1 |
+| `customer_readiness` | 6 | 0 | 1 |
+| `regulatory` | 2 | 3 | 2 |
+| `infrastructure` | 4 | 2 | 1 |
+| `market_structure` | 3 | 3 | 1 |
+
+
+---
+
+## Batch 15  —  2026-03-20 12:39:16
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 137 / 350  
+**Batch agreement:** MEDIUM (score=0.643)  
+**HIGH:** 4  **MEDIUM:** 1  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### MLOps Machine Learning Model Lifecycle Platforms (2020)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** MEDIUM (H=4 M=1 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | 2020 was a 'clear breakthrough year for MLOps'. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRcgYhArEhryWq5LLa4UoAnBAYV4xoaFvjl4giOC5y7VvnQIiKtG3LcArPV15j-bfDCc5rkyMYbzX-v5DKcXkhRp7_QJiiLmpe79TdsQu0jeB36TotYVBKCjThsQo=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | In 2020, there were 284 MLOps tools, including 180 startups. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRcgYhArEhryWq5LLa4UoAnBAYV4xoaFvjl4giOC5y7VvnQIiKtG3LcArPV15j-bfDCc5rkyMYbzX-v5DKcXkhRp7_QJiiLmpe79TdsQu0jeB36TotYVBKCjThsQo=) |
+| `market_size` | `small` | `small` | HIGH | The global MLOps market size was valued at USD 2.98 billion in 2025. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRcgYhArEhryWq5LLa4UoAnBAYV4xoaFvjl4giOC5y7VvnQIiKtG3LcArPV15j-bfDCc5rkyMYbzX-v5DKcXkhRp7_QJiiLmpe79TdsQu0jeB36TotYVBKCjThsQo=) |
+| `customer_readiness` | `slope_of_enlightenment` | `innovation_trigger` | LOW | In 2020, 55% of businesses actively using machine learning had not yet produced  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRcgYhArEhryWq5LLa4UoAnBAYV4xoaFvjl4giOC5y7VvnQIiKtG3LcArPV15j-bfDCc5rkyMYbzX-v5DKcXkhRp7_QJiiLmpe79TdsQu0jeB36TotYVBKCjThsQo=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | The MLOps framework was 'still evolving' to embrace requirements for regulatory  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRcgYhArEhryWq5LLa4UoAnBAYV4xoaFvjl4giOC5y7VvnQIiKtG3LcArPV15j-bfDCc5rkyMYbzX-v5DKcXkhRp7_QJiiLmpe79TdsQu0jeB36TotYVBKCjThsQo=) |
+| `infrastructure` | `developing` | `nascent` | LOW | Google and Microsoft published MLOps maturity models in 2020, with 'Level 0: No  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRcgYhArEhryWq5LLa4UoAnBAYV4xoaFvjl4giOC5y7VvnQIiKtG3LcArPV15j-bfDCc5rkyMYbzX-v5DKcXkhRp7_QJiiLmpe79TdsQu0jeB36TotYVBKCjThsQo=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | MLOps is an 'essential function of ML engineering, dedicated to simplifying the  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRcgYhArEhryWq5LLa4UoAnBAYV4xoaFvjl4giOC5y7VvnQIiKtG3LcArPV15j-bfDCc5rkyMYbzX-v5DKcXkhRp7_QJiiLmpe79TdsQu0jeB36TotYVBKCjThsQo=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 20 |
+| `customer_readiness` | `innovation_trigger` | 30 |
+| `regulatory` | `light_touch` | 78 |
+| `infrastructure` | `nascent` | 25 |
+| `market_structure` | `technology_enablement` | 60 |
+| **Mean** | — | **48** |
+
+### Role 3 Prompt Audit — MLOps Machine Learning Model Lifecycle Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              HIGH
+  market_size               small                                 HIGH
+  customer_readiness        innovation_trigger                    LOW
+  regulatory                light_touch                           HIGH
+  infrastructure            nascent                               LOW
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 1 | 0 | 0 |
+| `market_size` | 1 | 0 | 0 |
+| `customer_readiness` | 0 | 0 | 1 |
+| `regulatory` | 1 | 0 | 0 |
+| `infrastructure` | 0 | 0 | 1 |
+| `market_structure` | 0 | 1 | 0 |
+
+
+---
+
+## Batch 16  —  2026-03-20 12:43:32
+
+**Markets processed this batch:** 3  
+**Cumulative total:** 140 / 350  
+**Batch agreement:** MEDIUM (score=0.667)  
+**HIGH:** 10  **MEDIUM:** 8  **LOW:** 3  
+**Auto-correction triggered:** no
+
+### Private Satellite Constellation Internet Infrastructure Investment (2016)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** MEDIUM (H=2 M=4 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | SpaceX publicly announced Starlink in January 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaeFI-ILpjcSnVwKRwaKOD5tn3mt94CHC7lpWHKK9mzeWd6qFchQMCyg92fej-2a4HL66PQR14osKxAn8axudinIMoaDoxsw8IVDcaUFl0-iQ0w9aqhSdXCcX5OmgFhPE=) |
+| `competition` | `monopoly` | `oligopoly` | MEDIUM | SpaceX applied for an FCC license for its NGSO satellite system in November 2016 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaeFI-ILpjcSnVwKRwaKOD5tn3mt94CHC7lpWHKK9mzeWd6qFchQMCyg92fej-2a4HL66PQR14osKxAn8axudinIMoaDoxsw8IVDcaUFl0-iQ0w9aqhSdXCcX5OmgFhPE=) |
+| `market_size` | `micro` | `large` | LOW | The small satellites market reported a revenue of $2,528.1 million in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaeFI-ILpjcSnVwKRwaKOD5tn3mt94CHC7lpWHKK9mzeWd6qFchQMCyg92fej-2a4HL66PQR14osKxAn8axudinIMoaDoxsw8IVDcaUFl0-iQ0w9aqhSdXCcX5OmgFhPE=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | More than half of the world's population lacked internet access in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaeFI-ILpjcSnVwKRwaKOD5tn3mt94CHC7lpWHKK9mzeWd6qFchQMCyg92fej-2a4HL66PQR14osKxAn8axudinIMoaDoxsw8IVDcaUFl0-iQ0w9aqhSdXCcX5OmgFhPE=) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | SpaceX submitted an FCC license application for its satellite system in November | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaeFI-ILpjcSnVwKRwaKOD5tn3mt94CHC7lpWHKK9mzeWd6qFchQMCyg92fej-2a4HL66PQR14osKxAn8axudinIMoaDoxsw8IVDcaUFl0-iQ0w9aqhSdXCcX5OmgFhPE=) |
+| `infrastructure` | `nascent` | `emerging` | MEDIUM | SpaceX opened its satellite development facility in Redmond, Washington, in Janu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaeFI-ILpjcSnVwKRwaKOD5tn3mt94CHC7lpWHKK9mzeWd6qFchQMCyg92fej-2a4HL66PQR14osKxAn8axudinIMoaDoxsw8IVDcaUFl0-iQ0w9aqhSdXCcX5OmgFhPE=) |
+| `market_structure` | `winner_take_most` | `winner_take_most` | HIGH | Elon Musk stated in 2015 that Starlink aimed to carry up to 50% of all backhaul  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaeFI-ILpjcSnVwKRwaKOD5tn3mt94CHC7lpWHKK9mzeWd6qFchQMCyg92fej-2a4HL66PQR14osKxAn8axudinIMoaDoxsw8IVDcaUFl0-iQ0w9aqhSdXCcX5OmgFhPE=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 72 |
+| `competition` | `oligopoly` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `innovation_trigger` | 55 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `emerging` | 52 |
+| `market_structure` | `winner_take_most` | 78 |
+| **Mean** | — | **64** |
+
+### Consumer Online Grocery Delivery and Pickup Platforms (2010)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | In 2010, Peapod, a pioneer in online grocery, released its first smartphone and  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxvtRKSpXReLUg_NZBx0haE1ry-ck7sJjUv0xdQJF4-F3u9YNdEFlzGyyhHY3AkfCfsbM3bTV8McBDC1IpnJH9fhswYwvVuv7oKoWGGiC6eBvqyD8ZONUSQHizz1V7l5B1npfik9GSaT9auVXH7Hc6IhmBEtSKRDU3OdVuKg==) |
+| `competition` | `monopoly` | `monopolistic_competition` | LOW | In 2010, Amazon launched its grocery division in the UK, competing with existing | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxvtRKSpXReLUg_NZBx0haE1ry-ck7sJjUv0xdQJF4-F3u9YNdEFlzGyyhHY3AkfCfsbM3bTV8McBDC1IpnJH9fhswYwvVuv7oKoWGGiC6eBvqyD8ZONUSQHizz1V7l5B1npfik9GSaT9auVXH7Hc6IhmBEtSKRDU3OdVuKg==) |
+| `market_size` | `small` | `small` | HIGH | Prior to the pandemic, online grocery sales accounted for less than 2% of total  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxvtRKSpXReLUg_NZBx0haE1ry-ck7sJjUv0xdQJF4-F3u9YNdEFlzGyyhHY3AkfCfsbM3bTV8McBDC1IpnJH9fhswYwvVuv7oKoWGGiC6eBvqyD8ZONUSQHizz1V7l5B1npfik9GSaT9auVXH7Hc6IhmBEtSKRDU3OdVuKg==) |
+| `customer_readiness` | `trough_of_disillusionment` | `trough_of_disillusionment` | HIGH | Webvan, an online grocery delivery service, shut down in 2001 after racking up $ | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxvtRKSpXReLUg_NZBx0haE1ry-ck7sJjUv0xdQJF4-F3u9YNdEFlzGyyhHY3AkfCfsbM3bTV8McBDC1IpnJH9fhswYwvVuv7oKoWGGiC6eBvqyD8ZONUSQHizz1V7l5B1npfik9GSaT9auVXH7Hc6IhmBEtSKRDU3OdVuKg==) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | In 2010, the online provision of nutrition and allergen information in online gr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxvtRKSpXReLUg_NZBx0haE1ry-ck7sJjUv0xdQJF4-F3u9YNdEFlzGyyhHY3AkfCfsbM3bTV8McBDC1IpnJH9fhswYwvVuv7oKoWGGiC6eBvqyD8ZONUSQHizz1V7l5B1npfik9GSaT9auVXH7Hc6IhmBEtSKRDU3OdVuKg==) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | In 2010, Peapod was transitioning from using affiliated retail stores to dedicat | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxvtRKSpXReLUg_NZBx0haE1ry-ck7sJjUv0xdQJF4-F3u9YNdEFlzGyyhHY3AkfCfsbM3bTV8McBDC1IpnJH9fhswYwvVuv7oKoWGGiC6eBvqyD8ZONUSQHizz1V7l5B1npfik9GSaT9auVXH7Hc6IhmBEtSKRDU3OdVuKg==) |
+| `market_structure` | `fragmented_niche` | `fragmented_niche` | HIGH | In 2010, companies like Ocado and Tesco.com in the UK, and Sears in the US, were | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxvtRKSpXReLUg_NZBx0haE1ry-ck7sJjUv0xdQJF4-F3u9YNdEFlzGyyhHY3AkfCfsbM3bTV8McBDC1IpnJH9fhswYwvVuv7oKoWGGiC6eBvqyD8ZONUSQHizz1V7l5B1npfik9GSaT9auVXH7Hc6IhmBEtSKRDU3OdVuKg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 55 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `trough_of_disillusionment` | 30 |
+| `regulatory` | `unregulated` | 72 |
+| `infrastructure` | `emerging` | 52 |
+| `market_structure` | `fragmented_niche` | 48 |
+| **Mean** | — | **49** |
+
+### Employer-Sponsored Evidence-Based Digital Mental Health Platforms (2018)
+
+**T+5:** VERIFIED (12 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Digital health investments hit $8.6 billion in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcQAXQYxJ3X4P7D0RJ5h9GeJ0u8_B_uzn9o4R5IAGqnAFkcIjjO-S_g44D3ix_K2op8oXVp5h1JgpKMIQCmVHddskdVKfiLCWx_Mi8k8sb8UsTrgoh8FavNVDPs8E5r5bT1kDdKDtAlT_1W7zICGlxyvg0N1RjJqlTan2rlb2W80WwjNlE9fPA0sZ_ExSLPUogZgT5AlUtm5FXzRaWKEmpw==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | 25 funding rounds for digital behavioral health companies occurred in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcQAXQYxJ3X4P7D0RJ5h9GeJ0u8_B_uzn9o4R5IAGqnAFkcIjjO-S_g44D3ix_K2op8oXVp5h1JgpKMIQCmVHddskdVKfiLCWx_Mi8k8sb8UsTrgoh8FavNVDPs8E5r5bT1kDdKDtAlT_1W7zICGlxyvg0N1RjJqlTan2rlb2W80WwjNlE9fPA0sZ_ExSLPUogZgT5AlUtm5FXzRaWKEmpw==) |
+| `market_size` | `small` | `small` | HIGH | Mental health and wellness companies raised $227 million in Q2 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcQAXQYxJ3X4P7D0RJ5h9GeJ0u8_B_uzn9o4R5IAGqnAFkcIjjO-S_g44D3ix_K2op8oXVp5h1JgpKMIQCmVHddskdVKfiLCWx_Mi8k8sb8UsTrgoh8FavNVDPs8E5r5bT1kDdKDtAlT_1W7zICGlxyvg0N1RjJqlTan2rlb2W80WwjNlE9fPA0sZ_ExSLPUogZgT5AlUtm5FXzRaWKEmpw==) |
+| `customer_readiness` | `slope_of_enlightenment` | `innovation_trigger` | LOW | 55% of U.S. counties lacked a mental health professional in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcQAXQYxJ3X4P7D0RJ5h9GeJ0u8_B_uzn9o4R5IAGqnAFkcIjjO-S_g44D3ix_K2op8oXVp5h1JgpKMIQCmVHddskdVKfiLCWx_Mi8k8sb8UsTrgoh8FavNVDPs8E5r5bT1kDdKDtAlT_1W7zICGlxyvg0N1RjJqlTan2rlb2W80WwjNlE9fPA0sZ_ExSLPUogZgT5AlUtm5FXzRaWKEmpw==) |
+| `regulatory` | `moderate_compliance` | `light_touch` | MEDIUM | The FDA was expanding opportunities for digital health tools and piloting a pre- | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcQAXQYxJ3X4P7D0RJ5h9GeJ0u8_B_uzn9o4R5IAGqnAFkcIjjO-S_g44D3ix_K2op8oXVp5h1JgpKMIQCmVHddskdVKfiLCWx_Mi8k8sb8UsTrgoh8FavNVDPs8E5r5bT1kDdKDtAlT_1W7zICGlxyvg0N1RjJqlTan2rlb2W80WwjNlE9fPA0sZ_ExSLPUogZgT5AlUtm5FXzRaWKEmpw==) |
+| `infrastructure` | `developing` | `developing` | HIGH | The FCC increased funds for the Universal Service Fund's Rural Healthcare Progra | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcQAXQYxJ3X4P7D0RJ5h9GeJ0u8_B_uzn9o4R5IAGqnAFkcIjjO-S_g44D3ix_K2op8oXVp5h1JgpKMIQCmVHddskdVKfiLCWx_Mi8k8sb8UsTrgoh8FavNVDPs8E5r5bT1kDdKDtAlT_1W7zICGlxyvg0N1RjJqlTan2rlb2W80WwjNlE9fPA0sZ_ExSLPUogZgT5AlUtm5FXzRaWKEmpw==) |
+| `market_structure` | `platform_two_sided` | `technology_enablement` | MEDIUM | Digital health tools were recognized in 2018 for their potential to improve diag | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcQAXQYxJ3X4P7D0RJ5h9GeJ0u8_B_uzn9o4R5IAGqnAFkcIjjO-S_g44D3ix_K2op8oXVp5h1JgpKMIQCmVHddskdVKfiLCWx_Mi8k8sb8UsTrgoh8FavNVDPs8E5r5bT1kDdKDtAlT_1W7zICGlxyvg0N1RjJqlTan2rlb2W80WwjNlE9fPA0sZ_ExSLPUogZgT5AlUtm5FXzRaWKEmpw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 35 |
+| `regulatory` | `light_touch` | 74 |
+| `infrastructure` | `developing` | 48 |
+| `market_structure` | `technology_enablement` | 63 |
+| **Mean** | — | **54** |
+
+### Role 3 Prompt Audit — Private Satellite Constellation Internet Infrastructure Investment
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    innovators                            HIGH
+  competition               oligopoly                             MEDIUM
+  market_size               large                                 LOW
+  customer_readiness        innovation_trigger                    MEDIUM
+  regulatory                moderate_compliance                   MEDIUM
+  infrastructure            emerging                              MEDIUM
+  market_structure          winner_take_most                      HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 3 | 0 | 0 |
+| `competition` | 1 | 1 | 1 |
+| `market_size` | 2 | 0 | 1 |
+| `customer_readiness` | 1 | 1 | 1 |
+| `regulatory` | 0 | 3 | 0 |
+| `infrastructure` | 1 | 2 | 0 |
+| `market_structure` | 2 | 1 | 0 |
+
+
+---
+
+## Batch 17  —  2026-03-20 12:47:54
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 142 / 350  
+**Batch agreement:** MEDIUM (score=0.536)  
+**HIGH:** 3  **MEDIUM:** 9  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Online Therapy and Virtual Mental Health Counseling Platforms (2013)
+
+**T+5:** VERIFIED (23 sources)  **Agreement:** MEDIUM (H=2 M=4 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `early_adopters` | MEDIUM | By 2013, telemental health was entering its sixth decade as a recognized practic | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHag37vCJPGnJw7GV6mRe2RZ9nkJqWZI99uvCsbQxYD6KqYUWx1bU_TWu2ppIJpxNTCBJKV_yqgBgNSDpEf-uv0CvBolo01CQFhWqfIM-CqcfRBX9dzROe0-itar8qoY5NDiCiVt3Xo_XJobq097ckrGeGLcyUSH1RZN02cIgvGK_j3LZ1G4QdWkaxBjtWCKzpJRa4bdvf6rewvcZQdgNvvuSvvSs4z0h3lIQJ6iSVJ) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Breakthrough, an online counseling and telepsychiatry service, secured $5 millio | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHag37vCJPGnJw7GV6mRe2RZ9nkJqWZI99uvCsbQxYD6KqYUWx1bU_TWu2ppIJpxNTCBJKV_yqgBgNSDpEf-uv0CvBolo01CQFhWqfIM-CqcfRBX9dzROe0-itar8qoY5NDiCiVt3Xo_XJobq097ckrGeGLcyUSH1RZN02cIgvGK_j3LZ1G4QdWkaxBjtWCKzpJRa4bdvf6rewvcZQdgNvvuSvvSs4z0h3lIQJ6iSVJ) |
+| `market_size` | `micro` | `small` | MEDIUM | Venture capital investment in mental health companies in 2013 was a small fracti | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHag37vCJPGnJw7GV6mRe2RZ9nkJqWZI99uvCsbQxYD6KqYUWx1bU_TWu2ppIJpxNTCBJKV_yqgBgNSDpEf-uv0CvBolo01CQFhWqfIM-CqcfRBX9dzROe0-itar8qoY5NDiCiVt3Xo_XJobq097ckrGeGLcyUSH1RZN02cIgvGK_j3LZ1G4QdWkaxBjtWCKzpJRa4bdvf6rewvcZQdgNvvuSvvSs4z0h3lIQJ6iSVJ) |
+| `customer_readiness` | `innovation_trigger` | `slope_of_enlightenment` | LOW | A 2013 University of Zurich study found that 57% of patients receiving online th | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHag37vCJPGnJw7GV6mRe2RZ9nkJqWZI99uvCsbQxYD6KqYUWx1bU_TWu2ppIJpxNTCBJKV_yqgBgNSDpEf-uv0CvBolo01CQFhWqfIM-CqcfRBX9dzROe0-itar8qoY5NDiCiVt3Xo_XJobq097ckrGeGLcyUSH1RZN02cIgvGK_j3LZ1G4QdWkaxBjtWCKzpJRa4bdvf6rewvcZQdgNvvuSvvSs4z0h3lIQJ6iSVJ) |
+| `regulatory` | `moderate_compliance` | `moderate_compliance` | HIGH | The American Telemedicine Association published 'Practice Guidelines for Video-B | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHag37vCJPGnJw7GV6mRe2RZ9nkJqWZI99uvCsbQxYD6KqYUWx1bU_TWu2ppIJpxNTCBJKV_yqgBgNSDpEf-uv0CvBolo01CQFhWqfIM-CqcfRBX9dzROe0-itar8qoY5NDiCiVt3Xo_XJobq097ckrGeGLcyUSH1RZN02cIgvGK_j3LZ1G4QdWkaxBjtWCKzpJRa4bdvf6rewvcZQdgNvvuSvvSs4z0h3lIQJ6iSVJ) |
+| `infrastructure` | `developing` | `developing` | HIGH | In May 2013, 70% of American adults had a high-speed broadband connection at hom | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHag37vCJPGnJw7GV6mRe2RZ9nkJqWZI99uvCsbQxYD6KqYUWx1bU_TWu2ppIJpxNTCBJKV_yqgBgNSDpEf-uv0CvBolo01CQFhWqfIM-CqcfRBX9dzROe0-itar8qoY5NDiCiVt3Xo_XJobq097ckrGeGLcyUSH1RZN02cIgvGK_j3LZ1G4QdWkaxBjtWCKzpJRa4bdvf6rewvcZQdgNvvuSvvSs4z0h3lIQJ6iSVJ) |
+| `market_structure` | `platform_two_sided` | `technology_enablement` | MEDIUM | In 2013, telemedicine was viewed as a service innovation rather than a technolog | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHag37vCJPGnJw7GV6mRe2RZ9nkJqWZI99uvCsbQxYD6KqYUWx1bU_TWu2ppIJpxNTCBJKV_yqgBgNSDpEf-uv0CvBolo01CQFhWqfIM-CqcfRBX9dzROe0-itar8qoY5NDiCiVt3Xo_XJobq097ckrGeGLcyUSH1RZN02cIgvGK_j3LZ1G4QdWkaxBjtWCKzpJRa4bdvf6rewvcZQdgNvvuSvvSs4z0h3lIQJ6iSVJ) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 55 |
+| `market_size` | `small` | 30 |
+| `customer_readiness` | `slope_of_enlightenment` | 65 |
+| `regulatory` | `moderate_compliance` | 67 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 68 |
+| **Mean** | — | **57** |
+
+### Technology-Driven Controlled Environment Indoor Farming (2015)
+
+**T+5:** VERIFIED (8 sources)  **Agreement:** MEDIUM (H=1 M=5 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `early_adopters` | MEDIUM | In 2015, 30 new commercial-scale vertical farms and rooftop greenhouses were exp | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbIMEgRlL9WX0HTDu9lh6HM0UsvydWCYpMOjeUZUjpIIfMhWQ-IcrZJiDcQxUyLeQ6mYenzAXq_6BnBtM1R46M7Hpx2b_oBV_uglqLSF2d_6LAfx6iCynn4A8GOST-1-FRXV-DHj-RZNFGNaBX9V8i6GRl-a-K-VnM6ZPSe0HkGXEuHiQSq1XaGSSWnmy1kBKzaPX_zBFysl07NZlSyrcL) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Key players in the global vertical farming market in 2015 included Aerofarms, Ag | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbIMEgRlL9WX0HTDu9lh6HM0UsvydWCYpMOjeUZUjpIIfMhWQ-IcrZJiDcQxUyLeQ6mYenzAXq_6BnBtM1R46M7Hpx2b_oBV_uglqLSF2d_6LAfx6iCynn4A8GOST-1-FRXV-DHj-RZNFGNaBX9V8i6GRl-a-K-VnM6ZPSe0HkGXEuHiQSq1XaGSSWnmy1kBKzaPX_zBFysl07NZlSyrcL) |
+| `market_size` | `micro` | `small` | MEDIUM | The global vertical farming market was estimated at $1.15 billion in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbIMEgRlL9WX0HTDu9lh6HM0UsvydWCYpMOjeUZUjpIIfMhWQ-IcrZJiDcQxUyLeQ6mYenzAXq_6BnBtM1R46M7Hpx2b_oBV_uglqLSF2d_6LAfx6iCynn4A8GOST-1-FRXV-DHj-RZNFGNaBX9V8i6GRl-a-K-VnM6ZPSe0HkGXEuHiQSq1XaGSSWnmy1kBKzaPX_zBFysl07NZlSyrcL) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | In 2015, 'local' was overtaking 'organic' in consumer appeal, driven by a desire | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbIMEgRlL9WX0HTDu9lh6HM0UsvydWCYpMOjeUZUjpIIfMhWQ-IcrZJiDcQxUyLeQ6mYenzAXq_6BnBtM1R46M7Hpx2b_oBV_uglqLSF2d_6LAfx6iCynn4A8GOST-1-FRXV-DHj-RZNFGNaBX9V8i6GRl-a-K-VnM6ZPSe0HkGXEuHiQSq1XaGSSWnmy1kBKzaPX_zBFysl07NZlSyrcL) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | In 2015, the International Building Code (IBC) lacked specific provisions for la | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbIMEgRlL9WX0HTDu9lh6HM0UsvydWCYpMOjeUZUjpIIfMhWQ-IcrZJiDcQxUyLeQ6mYenzAXq_6BnBtM1R46M7Hpx2b_oBV_uglqLSF2d_6LAfx6iCynn4A8GOST-1-FRXV-DHj-RZNFGNaBX9V8i6GRl-a-K-VnM6ZPSe0HkGXEuHiQSq1XaGSSWnmy1kBKzaPX_zBFysl07NZlSyrcL) |
+| `infrastructure` | `developing` | `nascent` | LOW | In 2015, there were only 15 commercial-scale vertical farms and rooftop greenhou | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbIMEgRlL9WX0HTDu9lh6HM0UsvydWCYpMOjeUZUjpIIfMhWQ-IcrZJiDcQxUyLeQ6mYenzAXq_6BnBtM1R46M7Hpx2b_oBV_uglqLSF2d_6LAfx6iCynn4A8GOST-1-FRXV-DHj-RZNFGNaBX9V8i6GRl-a-K-VnM6ZPSe0HkGXEuHiQSq1XaGSSWnmy1kBKzaPX_zBFysl07NZlSyrcL) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Rapid falls in technology costs in areas like lighting, seed development, and co | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbIMEgRlL9WX0HTDu9lh6HM0UsvydWCYpMOjeUZUjpIIfMhWQ-IcrZJiDcQxUyLeQ6mYenzAXq_6BnBtM1R46M7Hpx2b_oBV_uglqLSF2d_6LAfx6iCynn4A8GOST-1-FRXV-DHj-RZNFGNaBX9V8i6GRl-a-K-VnM6ZPSe0HkGXEuHiQSq1XaGSSWnmy1kBKzaPX_zBFysl07NZlSyrcL) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 45 |
+| `regulatory` | `unregulated` | 72 |
+| `infrastructure` | `nascent` | 30 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **49** |
+
+### Role 3 Prompt Audit — Online Therapy and Virtual Mental Health Counseling Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        MEDIUM
+  competition               monopolistic_competition              MEDIUM
+  market_size               small                                 MEDIUM
+  customer_readiness        slope_of_enlightenment                LOW
+  regulatory                moderate_compliance                   HIGH
+  infrastructure            developing                            HIGH
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 0 | 2 | 0 |
+| `competition` | 1 | 1 | 0 |
+| `market_size` | 0 | 2 | 0 |
+| `customer_readiness` | 0 | 1 | 1 |
+| `regulatory` | 1 | 1 | 0 |
+| `infrastructure` | 1 | 0 | 1 |
+| `market_structure` | 0 | 2 | 0 |
+
+
+---
+
+## Batch 18  —  2026-03-20 12:52:00
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 143 / 350  
+**Batch agreement:** MEDIUM (score=0.643)  
+**HIGH:** 2  **MEDIUM:** 5  **LOW:** 0  
+**Auto-correction triggered:** no
+
+### Technology-Driven Vertical Indoor Farming Systems (2017)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** MEDIUM (H=2 M=5 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | More than $660 million was deployed into 221 vertical farming deals in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK0Hxsx4G0N-5W0DVF1aS_WjtP3kHW5MIvp4Cu9rFJEeDLIdmXnmd3XRYSAwo6umonX3ZsjhRM3_rIjmho8Cy6-V-O8YvQ223E1v2CdUZ_8BPpXS0Ii9LxKXRh-lbRHvj5VcSR0HhxuDlHmtbWAdqWvS7dBNynio3uLLy4TumYWFBfVQzeqUqdUneJphxAbl8RL6u5XzTr8OP7pn0UBocH8es4Y38v61FRSA==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Approximately 72% of vertical farming deal counts in 2017 were attributed to sma | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK0Hxsx4G0N-5W0DVF1aS_WjtP3kHW5MIvp4Cu9rFJEeDLIdmXnmd3XRYSAwo6umonX3ZsjhRM3_rIjmho8Cy6-V-O8YvQ223E1v2CdUZ_8BPpXS0Ii9LxKXRh-lbRHvj5VcSR0HhxuDlHmtbWAdqWvS7dBNynio3uLLy4TumYWFBfVQzeqUqdUneJphxAbl8RL6u5XzTr8OP7pn0UBocH8es4Y38v61FRSA==) |
+| `market_size` | `micro` | `small` | MEDIUM | Over $660 million was deployed into vertical farming deals in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK0Hxsx4G0N-5W0DVF1aS_WjtP3kHW5MIvp4Cu9rFJEeDLIdmXnmd3XRYSAwo6umonX3ZsjhRM3_rIjmho8Cy6-V-O8YvQ223E1v2CdUZ_8BPpXS0Ii9LxKXRh-lbRHvj5VcSR0HhxuDlHmtbWAdqWvS7dBNynio3uLLy4TumYWFBfVQzeqUqdUneJphxAbl8RL6u5XzTr8OP7pn0UBocH8es4Y38v61FRSA==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | In 2017, experts were discussing how vertical farming could 'revolutionize the w | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK0Hxsx4G0N-5W0DVF1aS_WjtP3kHW5MIvp4Cu9rFJEeDLIdmXnmd3XRYSAwo6umonX3ZsjhRM3_rIjmho8Cy6-V-O8YvQ223E1v2CdUZ_8BPpXS0Ii9LxKXRh-lbRHvj5VcSR0HhxuDlHmtbWAdqWvS7dBNynio3uLLy4TumYWFBfVQzeqUqdUneJphxAbl8RL6u5XzTr8OP7pn0UBocH8es4Y38v61FRSA==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | NOP regulations were updated in 2017 to allow hydroponic systems to be certified | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK0Hxsx4G0N-5W0DVF1aS_WjtP3kHW5MIvp4Cu9rFJEeDLIdmXnmd3XRYSAwo6umonX3ZsjhRM3_rIjmho8Cy6-V-O8YvQ223E1v2CdUZ_8BPpXS0Ii9LxKXRh-lbRHvj5VcSR0HhxuDlHmtbWAdqWvS7dBNynio3uLLy4TumYWFBfVQzeqUqdUneJphxAbl8RL6u5XzTr8OP7pn0UBocH8es4Y38v61FRSA==) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Container farms and indoor vertical farms represented 37% of controlled environm | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK0Hxsx4G0N-5W0DVF1aS_WjtP3kHW5MIvp4Cu9rFJEeDLIdmXnmd3XRYSAwo6umonX3ZsjhRM3_rIjmho8Cy6-V-O8YvQ223E1v2CdUZ_8BPpXS0Ii9LxKXRh-lbRHvj5VcSR0HhxuDlHmtbWAdqWvS7dBNynio3uLLy4TumYWFBfVQzeqUqdUneJphxAbl8RL6u5XzTr8OP7pn0UBocH8es4Y38v61FRSA==) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Vertical farming incorporates controlled environment agriculture using soilless  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK0Hxsx4G0N-5W0DVF1aS_WjtP3kHW5MIvp4Cu9rFJEeDLIdmXnmd3XRYSAwo6umonX3ZsjhRM3_rIjmho8Cy6-V-O8YvQ223E1v2CdUZ_8BPpXS0Ii9LxKXRh-lbRHvj5VcSR0HhxuDlHmtbWAdqWvS7dBNynio3uLLy4TumYWFBfVQzeqUqdUneJphxAbl8RL6u5XzTr8OP7pn0UBocH8es4Y38v61FRSA==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 70 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 30 |
+| `customer_readiness` | `innovation_trigger` | 52 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `emerging` | 55 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **59** |
+
+### Role 3 Prompt Audit — Technology-Driven Vertical Indoor Farming Systems
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               small                                 MEDIUM
+  customer_readiness        innovation_trigger                    MEDIUM
+  regulatory                light_touch                           HIGH
+  infrastructure            emerging                              MEDIUM
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 0 | 1 | 0 |
+| `market_size` | 0 | 1 | 0 |
+| `customer_readiness` | 0 | 1 | 0 |
+| `regulatory` | 1 | 0 | 0 |
+| `infrastructure` | 0 | 1 | 0 |
+| `market_structure` | 0 | 1 | 0 |
+
+
+---
+
+## Batch 21  —  2026-03-20 13:04:32
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 145 / 350  
+**Batch agreement:** MEDIUM (score=0.536)  
+**HIGH:** 3  **MEDIUM:** 9  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Clinically Validated Software-Based Digital Therapeutics (2017)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** MEDIUM (H=0 M=6 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `early_adopters` | MEDIUM | Pear Therapeutics received the first FDA clearance for a digital therapeutic (re | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEskqvY8gDKYDXcgbxUjgBgnrJXK4DsBXX0BjnimoBsFvglacKeuMTXPZG5r5pgow6jFDGr4V0EOtDH9Kw9_JiRz9Z6tlg7h8L7CeEArrxhEFDmIHkTRCqZGzk8pu-mzndLKy53ehYdVkV_iltUC69pBVY098W2by-KOx-fkw6LPNBLNqgvid7fWyxKiLvAdcidH5zzd9d1KlJYuY_ymHbTSM6n7HZskupW3J4N0PkistGiodyBLqOgr9M9nYuVlM-bJkHA6XI2DIuktwnDeosHfizLaUJRWhEARw==) |
+| `competition` | `monopoly` | `monopolistic_competition` | LOW | In 2017, over 325,000 health apps were on the market, with DTx representing a cl | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEskqvY8gDKYDXcgbxUjgBgnrJXK4DsBXX0BjnimoBsFvglacKeuMTXPZG5r5pgow6jFDGr4V0EOtDH9Kw9_JiRz9Z6tlg7h8L7CeEArrxhEFDmIHkTRCqZGzk8pu-mzndLKy53ehYdVkV_iltUC69pBVY098W2by-KOx-fkw6LPNBLNqgvid7fWyxKiLvAdcidH5zzd9d1KlJYuY_ymHbTSM6n7HZskupW3J4N0PkistGiodyBLqOgr9M9nYuVlM-bJkHA6XI2DIuktwnDeosHfizLaUJRWhEARw==) |
+| `market_size` | `micro` | `small` | MEDIUM | The global digital therapeutics market was valued at US$4.5 billion in 2022, wit | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEskqvY8gDKYDXcgbxUjgBgnrJXK4DsBXX0BjnimoBsFvglacKeuMTXPZG5r5pgow6jFDGr4V0EOtDH9Kw9_JiRz9Z6tlg7h8L7CeEArrxhEFDmIHkTRCqZGzk8pu-mzndLKy53ehYdVkV_iltUC69pBVY098W2by-KOx-fkw6LPNBLNqgvid7fWyxKiLvAdcidH5zzd9d1KlJYuY_ymHbTSM6n7HZskupW3J4N0PkistGiodyBLqOgr9M9nYuVlM-bJkHA6XI2DIuktwnDeosHfizLaUJRWhEARw==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `trough_of_disillusionment` | MEDIUM | Only 26% of clinicians recommended patient engagement technologies in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEskqvY8gDKYDXcgbxUjgBgnrJXK4DsBXX0BjnimoBsFvglacKeuMTXPZG5r5pgow6jFDGr4V0EOtDH9Kw9_JiRz9Z6tlg7h8L7CeEArrxhEFDmIHkTRCqZGzk8pu-mzndLKy53ehYdVkV_iltUC69pBVY098W2by-KOx-fkw6LPNBLNqgvid7fWyxKiLvAdcidH5zzd9d1KlJYuY_ymHbTSM6n7HZskupW3J4N0PkistGiodyBLqOgr9M9nYuVlM-bJkHA6XI2DIuktwnDeosHfizLaUJRWhEARw==) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | The FDA published its Digital Health Innovation Action Plan in 2017 and approved | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEskqvY8gDKYDXcgbxUjgBgnrJXK4DsBXX0BjnimoBsFvglacKeuMTXPZG5r5pgow6jFDGr4V0EOtDH9Kw9_JiRz9Z6tlg7h8L7CeEArrxhEFDmIHkTRCqZGzk8pu-mzndLKy53ehYdVkV_iltUC69pBVY098W2by-KOx-fkw6LPNBLNqgvid7fWyxKiLvAdcidH5zzd9d1KlJYuY_ymHbTSM6n7HZskupW3J4N0PkistGiodyBLqOgr9M9nYuVlM-bJkHA6XI2DIuktwnDeosHfizLaUJRWhEARw==) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | New infrastructure was required for DTx products to reach the market at scale in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEskqvY8gDKYDXcgbxUjgBgnrJXK4DsBXX0BjnimoBsFvglacKeuMTXPZG5r5pgow6jFDGr4V0EOtDH9Kw9_JiRz9Z6tlg7h8L7CeEArrxhEFDmIHkTRCqZGzk8pu-mzndLKy53ehYdVkV_iltUC69pBVY098W2by-KOx-fkw6LPNBLNqgvid7fWyxKiLvAdcidH5zzd9d1KlJYuY_ymHbTSM6n7HZskupW3J4N0PkistGiodyBLqOgr9M9nYuVlM-bJkHA6XI2DIuktwnDeosHfizLaUJRWhEARw==) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Digital therapeutics are defined as evidence-based therapeutic interventions dri | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEskqvY8gDKYDXcgbxUjgBgnrJXK4DsBXX0BjnimoBsFvglacKeuMTXPZG5r5pgow6jFDGr4V0EOtDH9Kw9_JiRz9Z6tlg7h8L7CeEArrxhEFDmIHkTRCqZGzk8pu-mzndLKy53ehYdVkV_iltUC69pBVY098W2by-KOx-fkw6LPNBLNqgvid7fWyxKiLvAdcidH5zzd9d1KlJYuY_ymHbTSM6n7HZskupW3J4N0PkistGiodyBLqOgr9M9nYuVlM-bJkHA6XI2DIuktwnDeosHfizLaUJRWhEARw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 55 |
+| `market_size` | `small` | 30 |
+| `customer_readiness` | `trough_of_disillusionment` | 35 |
+| `regulatory` | `moderate_compliance` | 62 |
+| `infrastructure` | `emerging` | 52 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **52** |
+
+### Virtual Therapy and Psychiatric Telehealth Platforms (2016)
+
+**T+5:** VERIFIED (11 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | In 2016, mental health technology was noted as 'lagging behind' other telemedici | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Xl1l9pbsFywVFoEoiqlN3VBO8a9gem-WuqPBw-jQDDHDXn6CgOkr5U08e-l9U0Kac49srwUPZu0jYy6ySAu5RNyv4JLpY82BvwO0SAacM7B1eJt9oj7mLnBXStfTwtrURHdw0bZn_-VN8Pm3-wPaZqG697FhEvapBiSkanN0cfjqRtwmOiLUCTiyn1TvdyjS29wUes6YhYiKzg==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | In 2016, 'many new companies' were developing mental health technology solutions | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Xl1l9pbsFywVFoEoiqlN3VBO8a9gem-WuqPBw-jQDDHDXn6CgOkr5U08e-l9U0Kac49srwUPZu0jYy6ySAu5RNyv4JLpY82BvwO0SAacM7B1eJt9oj7mLnBXStfTwtrURHdw0bZn_-VN8Pm3-wPaZqG697FhEvapBiSkanN0cfjqRtwmOiLUCTiyn1TvdyjS29wUes6YhYiKzg==) |
+| `market_size` | `micro` | `small` | MEDIUM | Pre-COVID-19 (including 2016), the total annual revenues of US telehealth player | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Xl1l9pbsFywVFoEoiqlN3VBO8a9gem-WuqPBw-jQDDHDXn6CgOkr5U08e-l9U0Kac49srwUPZu0jYy6ySAu5RNyv4JLpY82BvwO0SAacM7B1eJt9oj7mLnBXStfTwtrURHdw0bZn_-VN8Pm3-wPaZqG697FhEvapBiSkanN0cfjqRtwmOiLUCTiyn1TvdyjS29wUes6YhYiKzg==) |
+| `customer_readiness` | `slope_of_enlightenment` | `trough_of_disillusionment` | MEDIUM | In 2016, there was a recognized need for 'statewide education, training and prom | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Xl1l9pbsFywVFoEoiqlN3VBO8a9gem-WuqPBw-jQDDHDXn6CgOkr5U08e-l9U0Kac49srwUPZu0jYy6ySAu5RNyv4JLpY82BvwO0SAacM7B1eJt9oj7mLnBXStfTwtrURHdw0bZn_-VN8Pm3-wPaZqG697FhEvapBiSkanN0cfjqRtwmOiLUCTiyn1TvdyjS29wUes6YhYiKzg==) |
+| `regulatory` | `moderate_compliance` | `moderate_compliance` | HIGH | In 2016, the South Carolina Telemedicine Act was passed, including amendments fr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Xl1l9pbsFywVFoEoiqlN3VBO8a9gem-WuqPBw-jQDDHDXn6CgOkr5U08e-l9U0Kac49srwUPZu0jYy6ySAu5RNyv4JLpY82BvwO0SAacM7B1eJt9oj7mLnBXStfTwtrURHdw0bZn_-VN8Pm3-wPaZqG697FhEvapBiSkanN0cfjqRtwmOiLUCTiyn1TvdyjS29wUes6YhYiKzg==) |
+| `infrastructure` | `developing` | `developing` | HIGH | In 2016, 34 million Americans lacked access to fixed broadband, with 39% of rura | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Xl1l9pbsFywVFoEoiqlN3VBO8a9gem-WuqPBw-jQDDHDXn6CgOkr5U08e-l9U0Kac49srwUPZu0jYy6ySAu5RNyv4JLpY82BvwO0SAacM7B1eJt9oj7mLnBXStfTwtrURHdw0bZn_-VN8Pm3-wPaZqG697FhEvapBiSkanN0cfjqRtwmOiLUCTiyn1TvdyjS29wUes6YhYiKzg==) |
+| `market_structure` | `platform_two_sided` | `fragmented_niche` | LOW | In 2016, 'many new companies' were developing technology to address mental healt | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Xl1l9pbsFywVFoEoiqlN3VBO8a9gem-WuqPBw-jQDDHDXn6CgOkr5U08e-l9U0Kac49srwUPZu0jYy6ySAu5RNyv4JLpY82BvwO0SAacM7B1eJt9oj7mLnBXStfTwtrURHdw0bZn_-VN8Pm3-wPaZqG697FhEvapBiSkanN0cfjqRtwmOiLUCTiyn1TvdyjS29wUes6YhYiKzg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 58 |
+| `market_size` | `small` | 30 |
+| `customer_readiness` | `trough_of_disillusionment` | 35 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 48 |
+| `market_structure` | `fragmented_niche` | 42 |
+| **Mean** | — | **49** |
+
+### Role 3 Prompt Audit — Clinically Validated Software-Based Digital Therapeutics
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        MEDIUM
+  competition               monopolistic_competition              LOW
+  market_size               small                                 MEDIUM
+  customer_readiness        trough_of_disillusionment             MEDIUM
+  regulatory                moderate_compliance                   MEDIUM
+  infrastructure            emerging                              MEDIUM
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 1 | 0 |
+| `competition` | 0 | 1 | 1 |
+| `market_size` | 0 | 2 | 0 |
+| `customer_readiness` | 0 | 2 | 0 |
+| `regulatory` | 1 | 1 | 0 |
+| `infrastructure` | 1 | 1 | 0 |
+| `market_structure` | 0 | 1 | 1 |
+
+
+---
+
+## Batch 22  —  2026-03-20 13:08:23
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 147 / 350  
+**Batch agreement:** MEDIUM (score=0.643)  
+**HIGH:** 6  **MEDIUM:** 6  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Mobile Game Development and Publishing Platforms (2011)
+
+**T+5:** VERIFIED (17 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | Smartphone penetration in the US jumped from 18% in Q3 2009 to 44% in Q3 2011. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM7TfEYThozNPdvTUApuOEEHuf3-E7uK53DU9PM5bU2rAaEDDakUbZ9cNM0tfRW5ttKsHXRXJ_WXJWMbh4DUjgZCd2LZNEF-rtp-CfJOcuoWPCjlL0-3rm6xGn5yK9IfdGy7GPiLyOilRbDZkX8DKkarml1w17eN4pEg==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | There were almost 130,000 active publishers in the Apple App Store in 2011. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM7TfEYThozNPdvTUApuOEEHuf3-E7uK53DU9PM5bU2rAaEDDakUbZ9cNM0tfRW5ttKsHXRXJ_WXJWMbh4DUjgZCd2LZNEF-rtp-CfJOcuoWPCjlL0-3rm6xGn5yK9IfdGy7GPiLyOilRbDZkX8DKkarml1w17eN4pEg==) |
+| `market_size` | `medium` | `large` | MEDIUM | The global mobile gaming market was worth $8 billion in 2011. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM7TfEYThozNPdvTUApuOEEHuf3-E7uK53DU9PM5bU2rAaEDDakUbZ9cNM0tfRW5ttKsHXRXJ_WXJWMbh4DUjgZCd2LZNEF-rtp-CfJOcuoWPCjlL0-3rm6xGn5yK9IfdGy7GPiLyOilRbDZkX8DKkarml1w17eN4pEg==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `slope_of_enlightenment` | LOW | 55% of users played games on their phones or handheld devices in 2010. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM7TfEYThozNPdvTUApuOEEHuf3-E7uK53DU9PM5bU2rAaEDDakUbZ9cNM0tfRW5ttKsHXRXJ_WXJWMbh4DUjgZCd2LZNEF-rtp-CfJOcuoWPCjlL0-3rm6xGn5yK9IfdGy7GPiLyOilRbDZkX8DKkarml1w17eN4pEg==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Apple's 30% revenue cut on in-app purchases was a key policy in 2011. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM7TfEYThozNPdvTUApuOEEHuf3-E7uK53DU9PM5bU2rAaEDDakUbZ9cNM0tfRW5ttKsHXRXJ_WXJWMbh4DUjgZCd2LZNEF-rtp-CfJOcuoWPCjlL0-3rm6xGn5yK9IfdGy7GPiLyOilRbDZkX8DKkarml1w17eN4pEg==) |
+| `infrastructure` | `developing` | `developing` | HIGH | There were 5.9 billion mobile-cellular subscriptions worldwide in 2011. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM7TfEYThozNPdvTUApuOEEHuf3-E7uK53DU9PM5bU2rAaEDDakUbZ9cNM0tfRW5ttKsHXRXJ_WXJWMbh4DUjgZCd2LZNEF-rtp-CfJOcuoWPCjlL0-3rm6xGn5yK9IfdGy7GPiLyOilRbDZkX8DKkarml1w17eN4pEg==) |
+| `market_structure` | `technology_enablement` | `platform_two_sided` | MEDIUM | The freemium model accounted for 65% of mobile game revenue in the US App Store  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM7TfEYThozNPdvTUApuOEEHuf3-E7uK53DU9PM5bU2rAaEDDakUbZ9cNM0tfRW5ttKsHXRXJ_WXJWMbh4DUjgZCd2LZNEF-rtp-CfJOcuoWPCjlL0-3rm6xGn5yK9IfdGy7GPiLyOilRbDZkX8DKkarml1w17eN4pEg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 78 |
+| `customer_readiness` | `slope_of_enlightenment` | 55 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 58 |
+| `market_structure` | `platform_two_sided` | 70 |
+| **Mean** | — | **68** |
+
+### Collaborative Industrial Robot Manufacturing Automation (2012)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `innovators` | MEDIUM | Rethink Robotics launched its first commercial collaborative robot, Baxter, in l | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkdNwl0Cue5TBFK4EU8QJEle6eoZLyQESTYmIl3SkWnAXVwRuKfhR_1tbc2IQcbKAj4hWDlvC_TrEgPaRRLz8N_w3eEAt8uVOvhS1C6khH1fMvVBRA-isP1-56IKKuMqlnFVHzqWDw0GN7juAmCKgxgAML24LQJO7qjL4Rx3GYANI32ySlBzWh2quzrbR1nXn7cxZT5Npma8=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Rethink Robotics was listed among leading global robotics companies, including l | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkdNwl0Cue5TBFK4EU8QJEle6eoZLyQESTYmIl3SkWnAXVwRuKfhR_1tbc2IQcbKAj4hWDlvC_TrEgPaRRLz8N_w3eEAt8uVOvhS1C6khH1fMvVBRA-isP1-56IKKuMqlnFVHzqWDw0GN7juAmCKgxgAML24LQJO7qjL4Rx3GYANI32ySlBzWh2quzrbR1nXn7cxZT5Npma8=) |
+| `market_size` | `micro` | `micro` | HIGH | By early 2013, only a few dozen Baxter robots had been deployed, reflecting a ve | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkdNwl0Cue5TBFK4EU8QJEle6eoZLyQESTYmIl3SkWnAXVwRuKfhR_1tbc2IQcbKAj4hWDlvC_TrEgPaRRLz8N_w3eEAt8uVOvhS1C6khH1fMvVBRA-isP1-56IKKuMqlnFVHzqWDw0GN7juAmCKgxgAML24LQJO7qjL4Rx3GYANI32ySlBzWh2quzrbR1nXn7cxZT5Npma8=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | Baxter was praised for its intuitiveness and safety features upon its launch in  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkdNwl0Cue5TBFK4EU8QJEle6eoZLyQESTYmIl3SkWnAXVwRuKfhR_1tbc2IQcbKAj4hWDlvC_TrEgPaRRLz8N_w3eEAt8uVOvhS1C6khH1fMvVBRA-isP1-56IKKuMqlnFVHzqWDw0GN7juAmCKgxgAML24LQJO7qjL4Rx3GYANI32ySlBzWh2quzrbR1nXn7cxZT5Npma8=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | The U.S. national robot safety standard ANSI/RIA R15.06-2012, which was updated  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkdNwl0Cue5TBFK4EU8QJEle6eoZLyQESTYmIl3SkWnAXVwRuKfhR_1tbc2IQcbKAj4hWDlvC_TrEgPaRRLz8N_w3eEAt8uVOvhS1C6khH1fMvVBRA-isP1-56IKKuMqlnFVHzqWDw0GN7juAmCKgxgAML24LQJO7qjL4Rx3GYANI32ySlBzWh2quzrbR1nXn7cxZT5Npma8=) |
+| `infrastructure` | `developing` | `nascent` | LOW | Collaborative robots were designed to be simpler and safer than traditional indu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkdNwl0Cue5TBFK4EU8QJEle6eoZLyQESTYmIl3SkWnAXVwRuKfhR_1tbc2IQcbKAj4hWDlvC_TrEgPaRRLz8N_w3eEAt8uVOvhS1C6khH1fMvVBRA-isP1-56IKKuMqlnFVHzqWDw0GN7juAmCKgxgAML24LQJO7qjL4Rx3GYANI32ySlBzWh2quzrbR1nXn7cxZT5Npma8=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Rethink Robotics aimed for its robots to 'increase their productivity by giving  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkdNwl0Cue5TBFK4EU8QJEle6eoZLyQESTYmIl3SkWnAXVwRuKfhR_1tbc2IQcbKAj4hWDlvC_TrEgPaRRLz8N_w3eEAt8uVOvhS1C6khH1fMvVBRA-isP1-56IKKuMqlnFVHzqWDw0GN7juAmCKgxgAML24LQJO7qjL4Rx3GYANI32ySlBzWh2quzrbR1nXn7cxZT5Npma8=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 42 |
+| `competition` | `oligopoly` | 55 |
+| `market_size` | `micro` | 18 |
+| `customer_readiness` | `innovation_trigger` | 38 |
+| `regulatory` | `light_touch` | 78 |
+| `infrastructure` | `nascent` | 22 |
+| `market_structure` | `technology_enablement` | 62 |
+| **Mean** | — | **45** |
+
+### Role 3 Prompt Audit — Mobile Game Development and Publishing Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        MEDIUM
+  competition               monopolistic_competition              HIGH
+  market_size               large                                 MEDIUM
+  customer_readiness        slope_of_enlightenment                LOW
+  regulatory                light_touch                           HIGH
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 0 | 2 | 0 |
+| `competition` | 2 | 0 | 0 |
+| `market_size` | 1 | 1 | 0 |
+| `customer_readiness` | 0 | 1 | 1 |
+| `regulatory` | 2 | 0 | 0 |
+| `infrastructure` | 1 | 0 | 1 |
+| `market_structure` | 0 | 2 | 0 |
+
+
+---
+
+## Batch 23  —  2026-03-20 13:12:22
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 148 / 350  
+**Batch agreement:** MEDIUM (score=0.571)  
+**HIGH:** 2  **MEDIUM:** 4  **LOW:** 1  
+**Auto-correction triggered:** no
+
+### Container Orchestration Cloud Native Application Platforms (2014)
+
+**T+5:** VERIFIED (18 sources)  **Agreement:** MEDIUM (H=2 M=4 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `innovators` | MEDIUM | Kubernetes was announced in June 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8RVYyPweg1tp5VvRIHFFh6gkfIBpjsOpPDlagHYnSmQ9OnnOIiQzYSXrBOzXvqgIel43FqDRHlGVm5zXWZU_JjOXT8caiTmhgvuhWBh26Uq9B-WuQQbxaTioorR92huHykqNhIw==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Docker 1.0 was released in 2014, and Kubernetes was announced in the same year. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8RVYyPweg1tp5VvRIHFFh6gkfIBpjsOpPDlagHYnSmQ9OnnOIiQzYSXrBOzXvqgIel43FqDRHlGVm5zXWZU_JjOXT8caiTmhgvuhWBh26Uq9B-WuQQbxaTioorR92huHykqNhIw==) |
+| `market_size` | `micro` | `small` | MEDIUM | In 2014, containers had not yet replaced virtual machines and were primarily ado | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8RVYyPweg1tp5VvRIHFFh6gkfIBpjsOpPDlagHYnSmQ9OnnOIiQzYSXrBOzXvqgIel43FqDRHlGVm5zXWZU_JjOXT8caiTmhgvuhWBh26Uq9B-WuQQbxaTioorR92huHykqNhIw==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | Container networking and storage were identified as complex, unsolved problems i | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8RVYyPweg1tp5VvRIHFFh6gkfIBpjsOpPDlagHYnSmQ9OnnOIiQzYSXrBOzXvqgIel43FqDRHlGVm5zXWZU_JjOXT8caiTmhgvuhWBh26Uq9B-WuQQbxaTioorR92huHykqNhIw==) |
+| `regulatory` | `unregulated` | `unregulated` | HIGH | No prominent regulatory discussions or compliance requirements were found for co | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8RVYyPweg1tp5VvRIHFFh6gkfIBpjsOpPDlagHYnSmQ9OnnOIiQzYSXrBOzXvqgIel43FqDRHlGVm5zXWZU_JjOXT8caiTmhgvuhWBh26Uq9B-WuQQbxaTioorR92huHykqNhIw==) |
+| `infrastructure` | `developing` | `nascent` | LOW | Cloud providers began building container services in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8RVYyPweg1tp5VvRIHFFh6gkfIBpjsOpPDlagHYnSmQ9OnnOIiQzYSXrBOzXvqgIel43FqDRHlGVm5zXWZU_JjOXT8caiTmhgvuhWBh26Uq9B-WuQQbxaTioorR92huHykqNhIw==) |
+| `market_structure` | `technology_enablement` | `technology_enablement` | HIGH | Docker simplified container creation and management, popularizing the 'build onc | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8RVYyPweg1tp5VvRIHFFh6gkfIBpjsOpPDlagHYnSmQ9OnnOIiQzYSXrBOzXvqgIel43FqDRHlGVm5zXWZU_JjOXT8caiTmhgvuhWBh26Uq9B-WuQQbxaTioorR92huHykqNhIw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 42 |
+| `regulatory` | `unregulated` | 82 |
+| `infrastructure` | `nascent` | 28 |
+| `market_structure` | `technology_enablement` | 78 |
+| **Mean** | — | **54** |
+
+### Role 3 Prompt Audit — Container Orchestration Cloud Native Application Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    innovators                            MEDIUM
+  competition               monopolistic_competition              MEDIUM
+  market_size               small                                 MEDIUM
+  customer_readiness        innovation_trigger                    MEDIUM
+  regulatory                unregulated                           HIGH
+  infrastructure            nascent                               LOW
+  market_structure          technology_enablement                 HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 0 | 1 | 0 |
+| `competition` | 0 | 1 | 0 |
+| `market_size` | 0 | 1 | 0 |
+| `customer_readiness` | 0 | 1 | 0 |
+| `regulatory` | 1 | 0 | 0 |
+| `infrastructure` | 0 | 0 | 1 |
+| `market_structure` | 1 | 0 | 0 |
+
+
+---
+
+## Batch 24  —  2026-03-20 13:15:13
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 149 / 350  
+**Batch agreement:** HIGH (score=0.714)  
+**HIGH:** 3  **MEDIUM:** 4  **LOW:** 0  
+**Auto-correction triggered:** no
+
+### Embedded Insurance Distribution Platforms For Non-Insurers (2018)
+
+**T+5:** VERIFIED (13 sources)  **Agreement:** HIGH (H=3 M=4 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The InsureTech Connect conference was expected to draw over 5,500 attendees in 2 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFja-9vziWQHS-C3woh-gxPc5ccuowqwh5ju6SGvoWK88SJLn8dUAMnmzdZT7PCONVQMGE8w5V0V13HQW2vrmJ6s9pG_t4lOQmENJHrvuX2-4TTr0H2OCVC5OIZ-paAd6y1TqiB3ufY85aMFbAtSG5AsB4R3i_A-oYcAS1yU98vu_6nQ==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Over 1,500 InsurTech startups existed by 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFja-9vziWQHS-C3woh-gxPc5ccuowqwh5ju6SGvoWK88SJLn8dUAMnmzdZT7PCONVQMGE8w5V0V13HQW2vrmJ6s9pG_t4lOQmENJHrvuX2-4TTr0H2OCVC5OIZ-paAd6y1TqiB3ufY85aMFbAtSG5AsB4R3i_A-oYcAS1yU98vu_6nQ==) |
+| `market_size` | `micro` | `small` | MEDIUM | The global embedded insurance market was valued at USD 65.41 billion in 2022. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFja-9vziWQHS-C3woh-gxPc5ccuowqwh5ju6SGvoWK88SJLn8dUAMnmzdZT7PCONVQMGE8w5V0V13HQW2vrmJ6s9pG_t4lOQmENJHrvuX2-4TTr0H2OCVC5OIZ-paAd6y1TqiB3ufY85aMFbAtSG5AsB4R3i_A-oYcAS1yU98vu_6nQ==) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | Consumers in 2018 increasingly sought secure, personalized, and frictionless pro | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFja-9vziWQHS-C3woh-gxPc5ccuowqwh5ju6SGvoWK88SJLn8dUAMnmzdZT7PCONVQMGE8w5V0V13HQW2vrmJ6s9pG_t4lOQmENJHrvuX2-4TTr0H2OCVC5OIZ-paAd6y1TqiB3ufY85aMFbAtSG5AsB4R3i_A-oYcAS1yU98vu_6nQ==) |
+| `regulatory` | `moderate_compliance` | `heavily_regulated` | MEDIUM | Each state had its own licensing requirements for insurance producers in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFja-9vziWQHS-C3woh-gxPc5ccuowqwh5ju6SGvoWK88SJLn8dUAMnmzdZT7PCONVQMGE8w5V0V13HQW2vrmJ6s9pG_t4lOQmENJHrvuX2-4TTr0H2OCVC5OIZ-paAd6y1TqiB3ufY85aMFbAtSG5AsB4R3i_A-oYcAS1yU98vu_6nQ==) |
+| `infrastructure` | `developing` | `developing` | HIGH | Cloud offerings were sufficiently mature and AI was advancing to interpret loss  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFja-9vziWQHS-C3woh-gxPc5ccuowqwh5ju6SGvoWK88SJLn8dUAMnmzdZT7PCONVQMGE8w5V0V13HQW2vrmJ6s9pG_t4lOQmENJHrvuX2-4TTr0H2OCVC5OIZ-paAd6y1TqiB3ufY85aMFbAtSG5AsB4R3i_A-oYcAS1yU98vu_6nQ==) |
+| `market_structure` | `platform_two_sided` | `technology_enablement` | MEDIUM | Embedded insurance benefits from delivering insurance through third-party digita | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFja-9vziWQHS-C3woh-gxPc5ccuowqwh5ju6SGvoWK88SJLn8dUAMnmzdZT7PCONVQMGE8w5V0V13HQW2vrmJ6s9pG_t4lOQmENJHrvuX2-4TTr0H2OCVC5OIZ-paAd6y1TqiB3ufY85aMFbAtSG5AsB4R3i_A-oYcAS1yU98vu_6nQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 55 |
+| `regulatory` | `heavily_regulated` | 30 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 63 |
+| **Mean** | — | **51** |
+
+### Role 3 Prompt Audit — Embedded Insurance Distribution Platforms For Non-Insurers
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               small                                 MEDIUM
+  customer_readiness        innovation_trigger                    HIGH
+  regulatory                heavily_regulated                     MEDIUM
+  infrastructure            developing                            HIGH
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 0 | 1 | 0 |
+| `market_size` | 0 | 1 | 0 |
+| `customer_readiness` | 1 | 0 | 0 |
+| `regulatory` | 0 | 1 | 0 |
+| `infrastructure` | 1 | 0 | 0 |
+| `market_structure` | 0 | 1 | 0 |
+
+
+---
+
+## Batch 28  —  2026-03-20 13:31:27
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 150 / 350  
+**Batch agreement:** HIGH (score=0.714)  
+**HIGH:** 4  **MEDIUM:** 2  **LOW:** 1  
+**Auto-correction triggered:** no
+
+### Consumer Digital-First Insurance Products Platforms (2016)
+
+**T+5:** VERIFIED (19 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | InsurTech investments reached $1 billion in the first half of 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8lYg0O-1QK0a5hZVx-H0kcZO52zey6KnVOo8xD45DOr9L63UZUJiuqOUE5KyrTvX0BBOb_bkq447Xeiq5MO68Rgbgg5VGoo6YTBdGxtr52sW_Y3GBy3ZThbsK1cgMncOUqyxUgSM4ykoH9MmCft9ef1fiBS1jHLKsfGJMFLD2exVJ8NXl3rDG4sG_ncMSwfzkRkO4KvwuwYuU_v8sBecZ3lVBkE3eiyW5h9GELYfLtg==) |
+| `competition` | `monopoly` | `monopolistic_competition` | LOW | Insurtech startups were numerous but often focused on niche areas, while traditi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8lYg0O-1QK0a5hZVx-H0kcZO52zey6KnVOo8xD45DOr9L63UZUJiuqOUE5KyrTvX0BBOb_bkq447Xeiq5MO68Rgbgg5VGoo6YTBdGxtr52sW_Y3GBy3ZThbsK1cgMncOUqyxUgSM4ykoH9MmCft9ef1fiBS1jHLKsfGJMFLD2exVJ8NXl3rDG4sG_ncMSwfzkRkO4KvwuwYuU_v8sBecZ3lVBkE3eiyW5h9GELYfLtg==) |
+| `market_size` | `micro` | `small` | MEDIUM | InsurTech investments totaled $1 billion in the first half of 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8lYg0O-1QK0a5hZVx-H0kcZO52zey6KnVOo8xD45DOr9L63UZUJiuqOUE5KyrTvX0BBOb_bkq447Xeiq5MO68Rgbgg5VGoo6YTBdGxtr52sW_Y3GBy3ZThbsK1cgMncOUqyxUgSM4ykoH9MmCft9ef1fiBS1jHLKsfGJMFLD2exVJ8NXl3rDG4sG_ncMSwfzkRkO4KvwuwYuU_v8sBecZ3lVBkE3eiyW5h9GELYfLtg==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | More than 75% of consumers expected to use digital channels for insurance intera | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8lYg0O-1QK0a5hZVx-H0kcZO52zey6KnVOo8xD45DOr9L63UZUJiuqOUE5KyrTvX0BBOb_bkq447Xeiq5MO68Rgbgg5VGoo6YTBdGxtr52sW_Y3GBy3ZThbsK1cgMncOUqyxUgSM4ykoH9MmCft9ef1fiBS1jHLKsfGJMFLD2exVJ8NXl3rDG4sG_ncMSwfzkRkO4KvwuwYuU_v8sBecZ3lVBkE3eiyW5h9GELYfLtg==) |
+| `regulatory` | `heavily_regulated` | `heavily_regulated` | HIGH | The insurance industry was heavily regulated with state-by-state standards, posi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8lYg0O-1QK0a5hZVx-H0kcZO52zey6KnVOo8xD45DOr9L63UZUJiuqOUE5KyrTvX0BBOb_bkq447Xeiq5MO68Rgbgg5VGoo6YTBdGxtr52sW_Y3GBy3ZThbsK1cgMncOUqyxUgSM4ykoH9MmCft9ef1fiBS1jHLKsfGJMFLD2exVJ8NXl3rDG4sG_ncMSwfzkRkO4KvwuwYuU_v8sBecZ3lVBkE3eiyW5h9GELYfLtg==) |
+| `infrastructure` | `developing` | `developing` | HIGH | A significant portion of the insurance industry relied on outdated 40-year-old a | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8lYg0O-1QK0a5hZVx-H0kcZO52zey6KnVOo8xD45DOr9L63UZUJiuqOUE5KyrTvX0BBOb_bkq447Xeiq5MO68Rgbgg5VGoo6YTBdGxtr52sW_Y3GBy3ZThbsK1cgMncOUqyxUgSM4ykoH9MmCft9ef1fiBS1jHLKsfGJMFLD2exVJ8NXl3rDG4sG_ncMSwfzkRkO4KvwuwYuU_v8sBecZ3lVBkE3eiyW5h9GELYfLtg==) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Insurtech's primary impact in 2016 was enabling and transforming existing insura | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8lYg0O-1QK0a5hZVx-H0kcZO52zey6KnVOo8xD45DOr9L63UZUJiuqOUE5KyrTvX0BBOb_bkq447Xeiq5MO68Rgbgg5VGoo6YTBdGxtr52sW_Y3GBy3ZThbsK1cgMncOUqyxUgSM4ykoH9MmCft9ef1fiBS1jHLKsfGJMFLD2exVJ8NXl3rDG4sG_ncMSwfzkRkO4KvwuwYuU_v8sBecZ3lVBkE3eiyW5h9GELYfLtg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 68 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `heavily_regulated` | 22 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **50** |
+
+### Role 3 Prompt Audit — Consumer Digital-First Insurance Products Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              LOW
+  market_size               small                                 MEDIUM
+  customer_readiness        peak_of_inflated_expectations         HIGH
+  regulatory                heavily_regulated                     HIGH
+  infrastructure            developing                            HIGH
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 0 | 0 | 1 |
+| `market_size` | 0 | 1 | 0 |
+| `customer_readiness` | 1 | 0 | 0 |
+| `regulatory` | 1 | 0 | 0 |
+| `infrastructure` | 1 | 0 | 0 |
+| `market_structure` | 0 | 1 | 0 |
+
+
+---
+
+## Batch 29  —  2026-03-20 13:35:58
+
+**Markets processed this batch:** 5  
+**Cumulative total:** 155 / 350  
+**Batch agreement:** MEDIUM (score=0.657)  
+**HIGH:** 17  **MEDIUM:** 12  **LOW:** 6  
+**Auto-correction triggered:** no
+
+### Influencer Marketing and Creator Collaboration Platforms (2018)
+
+**T+5:** VERIFIED (17 sources)  **Agreement:** HIGH (H=5 M=1 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | 86% of marketers used influencer marketing in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYt9NDk4mJ3dNCaMFcsAZSwNhLCz5CXfhLHd-tybK7xs_d3lciKzUcRQQQX6V9JDod5kr7W7vWDb9r0R7hO_jZyElwJung-LZLajZqYvUp8kkd3rgYV4cq9znaC3vALNEqoZGxzXuMe85Vlouwjn6F7mBqCPfDLsK7FYAP3i4MHq-frW7U1iolMzLkxdFzBt62BRvrMI8L1ZY9yB50rz3Fuf-CuHwLE66PeT5gnSCx304lVMqqTWKADUKVxyubOaZzAfMy6uwu) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Over 200 influencer marketing platforms were available in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYt9NDk4mJ3dNCaMFcsAZSwNhLCz5CXfhLHd-tybK7xs_d3lciKzUcRQQQX6V9JDod5kr7W7vWDb9r0R7hO_jZyElwJung-LZLajZqYvUp8kkd3rgYV4cq9znaC3vALNEqoZGxzXuMe85Vlouwjn6F7mBqCPfDLsK7FYAP3i4MHq-frW7U1iolMzLkxdFzBt62BRvrMI8L1ZY9yB50rz3Fuf-CuHwLE66PeT5gnSCx304lVMqqTWKADUKVxyubOaZzAfMy6uwu) |
+| `market_size` | `small` | `large` | LOW | The global influencer marketing platform market size was USD 4.6 billion in 2018 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYt9NDk4mJ3dNCaMFcsAZSwNhLCz5CXfhLHd-tybK7xs_d3lciKzUcRQQQX6V9JDod5kr7W7vWDb9r0R7hO_jZyElwJung-LZLajZqYvUp8kkd3rgYV4cq9znaC3vALNEqoZGxzXuMe85Vlouwjn6F7mBqCPfDLsK7FYAP3i4MHq-frW7U1iolMzLkxdFzBt62BRvrMI8L1ZY9yB50rz3Fuf-CuHwLE66PeT5gnSCx304lVMqqTWKADUKVxyubOaZzAfMy6uwu) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | 92% of marketers who used influencer marketing in 2017 found it effective. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYt9NDk4mJ3dNCaMFcsAZSwNhLCz5CXfhLHd-tybK7xs_d3lciKzUcRQQQX6V9JDod5kr7W7vWDb9r0R7hO_jZyElwJung-LZLajZqYvUp8kkd3rgYV4cq9znaC3vALNEqoZGxzXuMe85Vlouwjn6F7mBqCPfDLsK7FYAP3i4MHq-frW7U1iolMzLkxdFzBt62BRvrMI8L1ZY9yB50rz3Fuf-CuHwLE66PeT5gnSCx304lVMqqTWKADUKVxyubOaZzAfMy6uwu) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | FTC guidelines in 2018 mandated disclosure for sponsored influencer content. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYt9NDk4mJ3dNCaMFcsAZSwNhLCz5CXfhLHd-tybK7xs_d3lciKzUcRQQQX6V9JDod5kr7W7vWDb9r0R7hO_jZyElwJung-LZLajZqYvUp8kkd3rgYV4cq9znaC3vALNEqoZGxzXuMe85Vlouwjn6F7mBqCPfDLsK7FYAP3i4MHq-frW7U1iolMzLkxdFzBt62BRvrMI8L1ZY9yB50rz3Fuf-CuHwLE66PeT5gnSCx304lVMqqTWKADUKVxyubOaZzAfMy6uwu) |
+| `infrastructure` | `developing` | `developing` | HIGH | Over 200 influencer marketing platforms existed in 2018, but a fully integrated, | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYt9NDk4mJ3dNCaMFcsAZSwNhLCz5CXfhLHd-tybK7xs_d3lciKzUcRQQQX6V9JDod5kr7W7vWDb9r0R7hO_jZyElwJung-LZLajZqYvUp8kkd3rgYV4cq9znaC3vALNEqoZGxzXuMe85Vlouwjn6F7mBqCPfDLsK7FYAP3i4MHq-frW7U1iolMzLkxdFzBt62BRvrMI8L1ZY9yB50rz3Fuf-CuHwLE66PeT5gnSCx304lVMqqTWKADUKVxyubOaZzAfMy6uwu) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Influencer marketing platforms served as a bridge between brands and influencers | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYt9NDk4mJ3dNCaMFcsAZSwNhLCz5CXfhLHd-tybK7xs_d3lciKzUcRQQQX6V9JDod5kr7W7vWDb9r0R7hO_jZyElwJung-LZLajZqYvUp8kkd3rgYV4cq9znaC3vALNEqoZGxzXuMe85Vlouwjn6F7mBqCPfDLsK7FYAP3i4MHq-frW7U1iolMzLkxdFzBt62BRvrMI8L1ZY9yB50rz3Fuf-CuHwLE66PeT5gnSCx304lVMqqTWKADUKVxyubOaZzAfMy6uwu) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **70** |
+
+### Security Awareness Training Human Risk Management Platforms (2017)
+
+**T+5:** VERIFIED (17 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | The global market growth for security awareness training was 13% in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-M03DQ9uKmQ4oYKIi4JOC9ZMVRgRd5-QIm8djJqcMCJ1-2j0WNdDsiC-rsJ6SvTjuvFXcqqYiHz6hBOgP8NLJK7EzDa4o9GGv9tW5VmAlTrFGW2835jwWc_I4_3FI0lm1DFTleMC6uADKZmEAR2b8hXlJze-yz4gIzOBdlxfoVw==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Gartner's 2016 Magic Quadrant for security awareness CBT included 18 companies. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-M03DQ9uKmQ4oYKIi4JOC9ZMVRgRd5-QIm8djJqcMCJ1-2j0WNdDsiC-rsJ6SvTjuvFXcqqYiHz6hBOgP8NLJK7EzDa4o9GGv9tW5VmAlTrFGW2835jwWc_I4_3FI0lm1DFTleMC6uADKZmEAR2b8hXlJze-yz4gIzOBdlxfoVw==) |
+| `market_size` | `small` | `medium` | MEDIUM | The market was estimated at over $1 billion in late 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-M03DQ9uKmQ4oYKIi4JOC9ZMVRgRd5-QIm8djJqcMCJ1-2j0WNdDsiC-rsJ6SvTjuvFXcqqYiHz6hBOgP8NLJK7EzDa4o9GGv9tW5VmAlTrFGW2835jwWc_I4_3FI0lm1DFTleMC6uADKZmEAR2b8hXlJze-yz4gIzOBdlxfoVw==) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | Customer satisfaction with security awareness training firms was high in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-M03DQ9uKmQ4oYKIi4JOC9ZMVRgRd5-QIm8djJqcMCJ1-2j0WNdDsiC-rsJ6SvTjuvFXcqqYiHz6hBOgP8NLJK7EzDa4o9GGv9tW5VmAlTrFGW2835jwWc_I4_3FI0lm1DFTleMC6uADKZmEAR2b8hXlJze-yz4gIzOBdlxfoVw==) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | Regulations such as HIPAA, PCI-DSS, and GLBA mandated security awareness trainin | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-M03DQ9uKmQ4oYKIi4JOC9ZMVRgRd5-QIm8djJqcMCJ1-2j0WNdDsiC-rsJ6SvTjuvFXcqqYiHz6hBOgP8NLJK7EzDa4o9GGv9tW5VmAlTrFGW2835jwWc_I4_3FI0lm1DFTleMC6uADKZmEAR2b8hXlJze-yz4gIzOBdlxfoVw==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Computer-based training (CBT) was a growing segment of the security awareness tr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-M03DQ9uKmQ4oYKIi4JOC9ZMVRgRd5-QIm8djJqcMCJ1-2j0WNdDsiC-rsJ6SvTjuvFXcqqYiHz6hBOgP8NLJK7EzDa4o9GGv9tW5VmAlTrFGW2835jwWc_I4_3FI0lm1DFTleMC6uADKZmEAR2b8hXlJze-yz4gIzOBdlxfoVw==) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | More than 90% of security breaches in 2017 originated with internal enterprise e | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-M03DQ9uKmQ4oYKIi4JOC9ZMVRgRd5-QIm8djJqcMCJ1-2j0WNdDsiC-rsJ6SvTjuvFXcqqYiHz6hBOgP8NLJK7EzDa4o9GGv9tW5VmAlTrFGW2835jwWc_I4_3FI0lm1DFTleMC6uADKZmEAR2b8hXlJze-yz4gIzOBdlxfoVw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `moderate_compliance` | 63 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 58 |
+| **Mean** | — | **63** |
+
+### Mobile-First Neobank Multi-Currency Consumer Accounts (2017)
+
+**T+5:** VERIFIED (8 sources)  **Agreement:** MEDIUM (H=3 M=2 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The number of neobanks worldwide was approximately 100 in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF92Dy7PEi8SmUeHD5iBYygAQY7O_UW4LtqSRatAJrcuQRcun-JNdVwwxUZvG-gDeSc2_FZ47fv61KDZmNdpnAu29gyZPOCzcif1WjWL7zT-iyO_SDsXvr7icacNMXb2TaYrOGqic9yuA==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | About 20% of the 6,800 financial services companies in Europe in 2017 entered th | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF92Dy7PEi8SmUeHD5iBYygAQY7O_UW4LtqSRatAJrcuQRcun-JNdVwwxUZvG-gDeSc2_FZ47fv61KDZmNdpnAu29gyZPOCzcif1WjWL7zT-iyO_SDsXvr7icacNMXb2TaYrOGqic9yuA==) |
+| `market_size` | `micro` | `small` | MEDIUM | The global neobank market was worth USD 18.6 billion in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF92Dy7PEi8SmUeHD5iBYygAQY7O_UW4LtqSRatAJrcuQRcun-JNdVwwxUZvG-gDeSc2_FZ47fv61KDZmNdpnAu29gyZPOCzcif1WjWL7zT-iyO_SDsXvr7icacNMXb2TaYrOGqic9yuA==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | The term 'neobank' gained widespread recognition since 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF92Dy7PEi8SmUeHD5iBYygAQY7O_UW4LtqSRatAJrcuQRcun-JNdVwwxUZvG-gDeSc2_FZ47fv61KDZmNdpnAu29gyZPOCzcif1WjWL7zT-iyO_SDsXvr7icacNMXb2TaYrOGqic9yuA==) |
+| `regulatory` | `heavily_regulated` | `light_touch` | LOW | The European Union's Payment Services Directive 2 (PSD2) was launched in 2017, f | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF92Dy7PEi8SmUeHD5iBYygAQY7O_UW4LtqSRatAJrcuQRcun-JNdVwwxUZvG-gDeSc2_FZ47fv61KDZmNdpnAu29gyZPOCzcif1WjWL7zT-iyO_SDsXvr7icacNMXb2TaYrOGqic9yuA==) |
+| `infrastructure` | `developing` | `developing` | HIGH | Over 1 billion mobile phone users were expected to have used their devices for b | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF92Dy7PEi8SmUeHD5iBYygAQY7O_UW4LtqSRatAJrcuQRcun-JNdVwwxUZvG-gDeSc2_FZ47fv61KDZmNdpnAu29gyZPOCzcif1WjWL7zT-iyO_SDsXvr7icacNMXb2TaYrOGqic9yuA==) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | Neobanks offer 42% more features in their mobile apps than traditional banks and | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF92Dy7PEi8SmUeHD5iBYygAQY7O_UW4LtqSRatAJrcuQRcun-JNdVwwxUZvG-gDeSc2_FZ47fv61KDZmNdpnAu29gyZPOCzcif1WjWL7zT-iyO_SDsXvr7icacNMXb2TaYrOGqic9yuA==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 45 |
+| `regulatory` | `light_touch` | 70 |
+| `infrastructure` | `developing` | 48 |
+| `market_structure` | `technology_enablement` | 52 |
+| **Mean** | — | **53** |
+
+### On-Demand Restaurant Food Delivery Marketplaces (2015)
+
+**T+5:** VERIFIED (5 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Online delivery was expected to grow by 25.0% per year from 2015 to 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGmfByv5HnicFmhhVYIDd4kzHDPWfcglGTJp3rAxqOBudkRR0ZAOTSaF7uAvs1M4McEciI3PRecP5eB-xZq6uiS9QZfpbaQ9zI1vgOfrRa5mlBmS-7en1ZlHnW4027kMELPa0FljP3fzIlB7MYVDWkECuG_21I9hNta6smqie-Hi49mFWVKrWQXoPJvsGMgg8ZpXZG4jV8TyX9RmT2NexzKbKy7DCsh2CLiwCzmPbPbEapbi-QZt2AMw==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | In 2015, 'Delivery was the buzzword of the year' as numerous restaurant chains a | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGmfByv5HnicFmhhVYIDd4kzHDPWfcglGTJp3rAxqOBudkRR0ZAOTSaF7uAvs1M4McEciI3PRecP5eB-xZq6uiS9QZfpbaQ9zI1vgOfrRa5mlBmS-7en1ZlHnW4027kMELPa0FljP3fzIlB7MYVDWkECuG_21I9hNta6smqie-Hi49mFWVKrWQXoPJvsGMgg8ZpXZG4jV8TyX9RmT2NexzKbKy7DCsh2CLiwCzmPbPbEapbi-QZt2AMw==) |
+| `market_size` | `small` | `large` | LOW | The worldwide food delivery market was €83 billion in 2016, with online penetrat | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGmfByv5HnicFmhhVYIDd4kzHDPWfcglGTJp3rAxqOBudkRR0ZAOTSaF7uAvs1M4McEciI3PRecP5eB-xZq6uiS9QZfpbaQ9zI1vgOfrRa5mlBmS-7en1ZlHnW4027kMELPa0FljP3fzIlB7MYVDWkECuG_21I9hNta6smqie-Hi49mFWVKrWQXoPJvsGMgg8ZpXZG4jV8TyX9RmT2NexzKbKy7DCsh2CLiwCzmPbPbEapbi-QZt2AMw==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | More than $1 billion was invested in food delivery in 2014, with a further half  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGmfByv5HnicFmhhVYIDd4kzHDPWfcglGTJp3rAxqOBudkRR0ZAOTSaF7uAvs1M4McEciI3PRecP5eB-xZq6uiS9QZfpbaQ9zI1vgOfrRa5mlBmS-7en1ZlHnW4027kMELPa0FljP3fzIlB7MYVDWkECuG_21I9hNta6smqie-Hi49mFWVKrWQXoPJvsGMgg8ZpXZG4jV8TyX9RmT2NexzKbKy7DCsh2CLiwCzmPbPbEapbi-QZt2AMw==) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | Many restaurant chains stated that third-party delivery providers delivered food | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGmfByv5HnicFmhhVYIDd4kzHDPWfcglGTJp3rAxqOBudkRR0ZAOTSaF7uAvs1M4McEciI3PRecP5eB-xZq6uiS9QZfpbaQ9zI1vgOfrRa5mlBmS-7en1ZlHnW4027kMELPa0FljP3fzIlB7MYVDWkECuG_21I9hNta6smqie-Hi49mFWVKrWQXoPJvsGMgg8ZpXZG4jV8TyX9RmT2NexzKbKy7DCsh2CLiwCzmPbPbEapbi-QZt2AMw==) |
+| `infrastructure` | `developing` | `developing` | HIGH | DoorDash was operating in 21 markets by the end of 2015 and actively investing i | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGmfByv5HnicFmhhVYIDd4kzHDPWfcglGTJp3rAxqOBudkRR0ZAOTSaF7uAvs1M4McEciI3PRecP5eB-xZq6uiS9QZfpbaQ9zI1vgOfrRa5mlBmS-7en1ZlHnW4027kMELPa0FljP3fzIlB7MYVDWkECuG_21I9hNta6smqie-Hi49mFWVKrWQXoPJvsGMgg8ZpXZG4jV8TyX9RmT2NexzKbKy7DCsh2CLiwCzmPbPbEapbi-QZt2AMw==) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Online food-delivery platforms expanded choice and convenience by allowing custo | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGmfByv5HnicFmhhVYIDd4kzHDPWfcglGTJp3rAxqOBudkRR0ZAOTSaF7uAvs1M4McEciI3PRecP5eB-xZq6uiS9QZfpbaQ9zI1vgOfrRa5mlBmS-7en1ZlHnW4027kMELPa0FljP3fzIlB7MYVDWkECuG_21I9hNta6smqie-Hi49mFWVKrWQXoPJvsGMgg8ZpXZG4jV8TyX9RmT2NexzKbKy7DCsh2CLiwCzmPbPbEapbi-QZt2AMw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 58 |
+| `market_structure` | `platform_two_sided` | 80 |
+| **Mean** | — | **67** |
+
+### Cryptocurrency Exchange and Wallet Platforms (2017)
+
+**T+5:** VERIFIED (17 sources)  **Agreement:** MEDIUM (H=2 M=4 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_adopters` | MEDIUM | Bitcoin's market capitalization grew from $16 billion to $220 billion in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGevY4lMx5MTJH40_MQLHYhrfZR_JH1zcgLnFL5nAbVoqziBy3XLOh-ikc3babcL7MNx3mtm_HqkxFKzRTAhcrhq2-N4LRA_sNr0rf2B-oh0COCLgB-_DSau88hYWrQEm-arp1QJFH8k-Oaln2TALLftf3R2Wuz8XnCUX6jpeOFsJa7s6BN1c9OEJE=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Over 1,100 cryptocurrencies were trading in the financial market in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGevY4lMx5MTJH40_MQLHYhrfZR_JH1zcgLnFL5nAbVoqziBy3XLOh-ikc3babcL7MNx3mtm_HqkxFKzRTAhcrhq2-N4LRA_sNr0rf2B-oh0COCLgB-_DSau88hYWrQEm-arp1QJFH8k-Oaln2TALLftf3R2Wuz8XnCUX6jpeOFsJa7s6BN1c9OEJE=) |
+| `market_size` | `medium` | `large` | MEDIUM | The total cryptocurrency market capitalization reached over $170 billion in Sept | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGevY4lMx5MTJH40_MQLHYhrfZR_JH1zcgLnFL5nAbVoqziBy3XLOh-ikc3babcL7MNx3mtm_HqkxFKzRTAhcrhq2-N4LRA_sNr0rf2B-oh0COCLgB-_DSau88hYWrQEm-arp1QJFH8k-Oaln2TALLftf3R2Wuz8XnCUX6jpeOFsJa7s6BN1c9OEJE=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | The total market cap of cryptocurrencies increased by over 850% in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGevY4lMx5MTJH40_MQLHYhrfZR_JH1zcgLnFL5nAbVoqziBy3XLOh-ikc3babcL7MNx3mtm_HqkxFKzRTAhcrhq2-N4LRA_sNr0rf2B-oh0COCLgB-_DSau88hYWrQEm-arp1QJFH8k-Oaln2TALLftf3R2Wuz8XnCUX6jpeOFsJa7s6BN1c9OEJE=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | The SEC began declaring some ICOs as unregistered securities in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGevY4lMx5MTJH40_MQLHYhrfZR_JH1zcgLnFL5nAbVoqziBy3XLOh-ikc3babcL7MNx3mtm_HqkxFKzRTAhcrhq2-N4LRA_sNr0rf2B-oh0COCLgB-_DSau88hYWrQEm-arp1QJFH8k-Oaln2TALLftf3R2Wuz8XnCUX6jpeOFsJa7s6BN1c9OEJE=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Bitcoin's network could only handle four transactions per second in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGevY4lMx5MTJH40_MQLHYhrfZR_JH1zcgLnFL5nAbVoqziBy3XLOh-ikc3babcL7MNx3mtm_HqkxFKzRTAhcrhq2-N4LRA_sNr0rf2B-oh0COCLgB-_DSau88hYWrQEm-arp1QJFH8k-Oaln2TALLftf3R2Wuz8XnCUX6jpeOFsJa7s6BN1c9OEJE=) |
+| `market_structure` | `platform_two_sided` | `fragmented_niche` | LOW | Over a thousand active cryptocurrency exchanges existed worldwide in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGevY4lMx5MTJH40_MQLHYhrfZR_JH1zcgLnFL5nAbVoqziBy3XLOh-ikc3babcL7MNx3mtm_HqkxFKzRTAhcrhq2-N4LRA_sNr0rf2B-oh0COCLgB-_DSau88hYWrQEm-arp1QJFH8k-Oaln2TALLftf3R2Wuz8XnCUX6jpeOFsJa7s6BN1c9OEJE=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 75 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `emerging` | 52 |
+| `market_structure` | `fragmented_niche` | 44 |
+| **Mean** | — | **62** |
+
+### Role 3 Prompt Audit — Influencer Marketing and Creator Collaboration Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        MEDIUM
+  competition               monopolistic_competition              HIGH
+  market_size               large                                 LOW
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                light_touch                           HIGH
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 3 | 2 | 0 |
+| `competition` | 3 | 2 | 0 |
+| `market_size` | 0 | 3 | 2 |
+| `customer_readiness` | 4 | 1 | 0 |
+| `regulatory` | 2 | 2 | 1 |
+| `infrastructure` | 3 | 2 | 0 |
+| `market_structure` | 2 | 0 | 3 |
+
+
+---
+
+## Batch 31  —  2026-03-20 13:42:35
+
+**Markets processed this batch:** 4  
+**Cumulative total:** 159 / 350  
+**Batch agreement:** MEDIUM (score=0.643)  
+**HIGH:** 11  **MEDIUM:** 14  **LOW:** 3  
+**Auto-correction triggered:** no
+
+### Online Lodging and Vacation Rental Booking Platforms (2011)
+
+**T+5:** VERIFIED (7 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Airbnb booked 4 million guest nights in 2011. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUWuBChU7PWxSXvhDvjWHM8qbqvg3guP-oNmR0ap53yK_LXX53LzUWQgEOO3PSOhsPkxcQ17ZahNKMMizWcVCBzV28jc7pVowqDrg-yjrbkTZtFCSj3U3KnudDB0rJ1nmat4tXLvOi20LVmidC4S42U9IIpOAlMLgz66WnE4LXbaRSSkwmVsQ9aG4xkmrkiNLhG9_0QaPAkzhp5aL9jl4=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | HomeAway had over 560,000 paid listings, and Airbnb had 110,000 listings in 2011 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUWuBChU7PWxSXvhDvjWHM8qbqvg3guP-oNmR0ap53yK_LXX53LzUWQgEOO3PSOhsPkxcQ17ZahNKMMizWcVCBzV28jc7pVowqDrg-yjrbkTZtFCSj3U3KnudDB0rJ1nmat4tXLvOi20LVmidC4S42U9IIpOAlMLgz66WnE4LXbaRSSkwmVsQ9aG4xkmrkiNLhG9_0QaPAkzhp5aL9jl4=) |
+| `market_size` | `small` | `large` | LOW | The U.S. and Europe vacation rental market was worth $85 billion in 2010. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUWuBChU7PWxSXvhDvjWHM8qbqvg3guP-oNmR0ap53yK_LXX53LzUWQgEOO3PSOhsPkxcQ17ZahNKMMizWcVCBzV28jc7pVowqDrg-yjrbkTZtFCSj3U3KnudDB0rJ1nmat4tXLvOi20LVmidC4S42U9IIpOAlMLgz66WnE4LXbaRSSkwmVsQ9aG4xkmrkiNLhG9_0QaPAkzhp5aL9jl4=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | Airbnb instituted a $50,000 Host Guarantee in 2011 after a negative incident. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUWuBChU7PWxSXvhDvjWHM8qbqvg3guP-oNmR0ap53yK_LXX53LzUWQgEOO3PSOhsPkxcQ17ZahNKMMizWcVCBzV28jc7pVowqDrg-yjrbkTZtFCSj3U3KnudDB0rJ1nmat4tXLvOi20LVmidC4S42U9IIpOAlMLgz66WnE4LXbaRSSkwmVsQ9aG4xkmrkiNLhG9_0QaPAkzhp5aL9jl4=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | Local governments were beginning to resist the growth of short-term rentals with | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUWuBChU7PWxSXvhDvjWHM8qbqvg3guP-oNmR0ap53yK_LXX53LzUWQgEOO3PSOhsPkxcQ17ZahNKMMizWcVCBzV28jc7pVowqDrg-yjrbkTZtFCSj3U3KnudDB0rJ1nmat4tXLvOi20LVmidC4S42U9IIpOAlMLgz66WnE4LXbaRSSkwmVsQ9aG4xkmrkiNLhG9_0QaPAkzhp5aL9jl4=) |
+| `infrastructure` | `developing` | `developing` | HIGH | One-third of households worldwide had internet access in 2011. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUWuBChU7PWxSXvhDvjWHM8qbqvg3guP-oNmR0ap53yK_LXX53LzUWQgEOO3PSOhsPkxcQ17ZahNKMMizWcVCBzV28jc7pVowqDrg-yjrbkTZtFCSj3U3KnudDB0rJ1nmat4tXLvOi20LVmidC4S42U9IIpOAlMLgz66WnE4LXbaRSSkwmVsQ9aG4xkmrkiNLhG9_0QaPAkzhp5aL9jl4=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Airbnb charged a commission from both property owners (3%) and renters (6-12%) i | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUWuBChU7PWxSXvhDvjWHM8qbqvg3guP-oNmR0ap53yK_LXX53LzUWQgEOO3PSOhsPkxcQ17ZahNKMMizWcVCBzV28jc7pVowqDrg-yjrbkTZtFCSj3U3KnudDB0rJ1nmat4tXLvOi20LVmidC4S42U9IIpOAlMLgz66WnE4LXbaRSSkwmVsQ9aG4xkmrkiNLhG9_0QaPAkzhp5aL9jl4=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 80 |
+| **Mean** | — | **66** |
+
+### Genomic Sequencing Personalized Diagnostics and Targeted Therapies (2015)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=1 M=5 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | President Obama's Precision Medicine Initiative was launched in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZY3Tv0IE-Gj7gKMfCOuMWW637qfTHfFMgBrUa0mjhhf63tQUJvANMOTIK4Q0esuRAYPaH3O6S4ZLG077WJCZQI8sNsO7k3wexpbY-bNt-VdoxY3zCjZpFbeKh16PgT7QLI39lq-c4LOmwhXDYg9PS5iNgpVMsY70HGYHIcAfhVL3v75Q=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | The market in 2015 was characterized by 'strong, competitive players' making str | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZY3Tv0IE-Gj7gKMfCOuMWW637qfTHfFMgBrUa0mjhhf63tQUJvANMOTIK4Q0esuRAYPaH3O6S4ZLG077WJCZQI8sNsO7k3wexpbY-bNt-VdoxY3zCjZpFbeKh16PgT7QLI39lq-c4LOmwhXDYg9PS5iNgpVMsY70HGYHIcAfhVL3v75Q=) |
+| `market_size` | `small` | `medium` | MEDIUM | The global clinical NGS services market was $2.2 billion in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZY3Tv0IE-Gj7gKMfCOuMWW637qfTHfFMgBrUa0mjhhf63tQUJvANMOTIK4Q0esuRAYPaH3O6S4ZLG077WJCZQI8sNsO7k3wexpbY-bNt-VdoxY3zCjZpFbeKh16PgT7QLI39lq-c4LOmwhXDYg9PS5iNgpVMsY70HGYHIcAfhVL3v75Q=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `trough_of_disillusionment` | MEDIUM | An 'evidence-based paradigm' was needed in 2015 to demonstrate clinical utility  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZY3Tv0IE-Gj7gKMfCOuMWW637qfTHfFMgBrUa0mjhhf63tQUJvANMOTIK4Q0esuRAYPaH3O6S4ZLG077WJCZQI8sNsO7k3wexpbY-bNt-VdoxY3zCjZpFbeKh16PgT7QLI39lq-c4LOmwhXDYg9PS5iNgpVMsY70HGYHIcAfhVL3v75Q=) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | The FDA advanced draft guidances for genomic tests in 2015, initiating debate on | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZY3Tv0IE-Gj7gKMfCOuMWW637qfTHfFMgBrUa0mjhhf63tQUJvANMOTIK4Q0esuRAYPaH3O6S4ZLG077WJCZQI8sNsO7k3wexpbY-bNt-VdoxY3zCjZpFbeKh16PgT7QLI39lq-c4LOmwhXDYg9PS5iNgpVMsY70HGYHIcAfhVL3v75Q=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | In 2015, there was a recognized need to develop informatics infrastructure and m | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZY3Tv0IE-Gj7gKMfCOuMWW637qfTHfFMgBrUa0mjhhf63tQUJvANMOTIK4Q0esuRAYPaH3O6S4ZLG077WJCZQI8sNsO7k3wexpbY-bNt-VdoxY3zCjZpFbeKh16PgT7QLI39lq-c4LOmwhXDYg9PS5iNgpVMsY70HGYHIcAfhVL3v75Q=) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | The market was fundamentally driven by 'new generation sequencing technologies'  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZY3Tv0IE-Gj7gKMfCOuMWW637qfTHfFMgBrUa0mjhhf63tQUJvANMOTIK4Q0esuRAYPaH3O6S4ZLG077WJCZQI8sNsO7k3wexpbY-bNt-VdoxY3zCjZpFbeKh16PgT7QLI39lq-c4LOmwhXDYg9PS5iNgpVMsY70HGYHIcAfhVL3v75Q=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `trough_of_disillusionment` | 38 |
+| `regulatory` | `moderate_compliance` | 63 |
+| `infrastructure` | `emerging` | 52 |
+| `market_structure` | `technology_enablement` | 48 |
+| **Mean** | — | **56** |
+
+### DevOps Developer Tools And Infrastructure Automation Platforms (2018)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | Forrester proclaimed 2018 as 'the year of enterprise DevOps adoption'. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwXJy-_ua_4-GvZmrqln3vbQLWeYALthwFcNLo3dMBxtoy3K5I52y_lS7JlBdFlYm7KFO9vzwx9WYeVoQXaw1X8dnNlh20dRRQP4z_ssr0RlYSR6EMX-3_MfsxAevyJwgN2Aa2Ypj5EQ5_RscYGYrdNCZHn1710fSrpljhFGhI4ubRsM6xmAO-lnEvtGNy) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | In 2018, the market saw numerous vendors offering a wide array of specialized to | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwXJy-_ua_4-GvZmrqln3vbQLWeYALthwFcNLo3dMBxtoy3K5I52y_lS7JlBdFlYm7KFO9vzwx9WYeVoQXaw1X8dnNlh20dRRQP4z_ssr0RlYSR6EMX-3_MfsxAevyJwgN2Aa2Ypj5EQ5_RscYGYrdNCZHn1710fSrpljhFGhI4ubRsM6xmAO-lnEvtGNy) |
+| `market_size` | `medium` | `medium` | HIGH | The global DevOps market size was USD 3,709.1 million in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwXJy-_ua_4-GvZmrqln3vbQLWeYALthwFcNLo3dMBxtoy3K5I52y_lS7JlBdFlYm7KFO9vzwx9WYeVoQXaw1X8dnNlh20dRRQP4z_ssr0RlYSR6EMX-3_MfsxAevyJwgN2Aa2Ypj5EQ5_RscYGYrdNCZHn1710fSrpljhFGhI4ubRsM6xmAO-lnEvtGNy) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | In 2018, 80% of enterprise C-suite executives were actively implementing DevOps, | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwXJy-_ua_4-GvZmrqln3vbQLWeYALthwFcNLo3dMBxtoy3K5I52y_lS7JlBdFlYm7KFO9vzwx9WYeVoQXaw1X8dnNlh20dRRQP4z_ssr0RlYSR6EMX-3_MfsxAevyJwgN2Aa2Ypj5EQ5_RscYGYrdNCZHn1710fSrpljhFGhI4ubRsM6xmAO-lnEvtGNy) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | GDPR went live in mid-2018, and industries like financial services and healthcar | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwXJy-_ua_4-GvZmrqln3vbQLWeYALthwFcNLo3dMBxtoy3K5I52y_lS7JlBdFlYm7KFO9vzwx9WYeVoQXaw1X8dnNlh20dRRQP4z_ssr0RlYSR6EMX-3_MfsxAevyJwgN2Aa2Ypj5EQ5_RscYGYrdNCZHn1710fSrpljhFGhI4ubRsM6xmAO-lnEvtGNy) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | In 2018, there was a significant trend towards the adoption of cloud infrastruct | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwXJy-_ua_4-GvZmrqln3vbQLWeYALthwFcNLo3dMBxtoy3K5I52y_lS7JlBdFlYm7KFO9vzwx9WYeVoQXaw1X8dnNlh20dRRQP4z_ssr0RlYSR6EMX-3_MfsxAevyJwgN2Aa2Ypj5EQ5_RscYGYrdNCZHn1710fSrpljhFGhI4ubRsM6xmAO-lnEvtGNy) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | DevOps is a set of practices and methodologies that combines software developmen | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwXJy-_ua_4-GvZmrqln3vbQLWeYALthwFcNLo3dMBxtoy3K5I52y_lS7JlBdFlYm7KFO9vzwx9WYeVoQXaw1X8dnNlh20dRRQP4z_ssr0RlYSR6EMX-3_MfsxAevyJwgN2Aa2Ypj5EQ5_RscYGYrdNCZHn1710fSrpljhFGhI4ubRsM6xmAO-lnEvtGNy) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 78 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `slope_of_enlightenment` | 74 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 58 |
+| **Mean** | — | **63** |
+
+### Online Freelance Marketplace Platforms for Independent Contractors (2013)
+
+**T+5:** VERIFIED (11 sources)  **Agreement:** HIGH (H=3 M=4 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_adopters` | MEDIUM | Elance predicted service hiring would double online in 2013. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGih79wyJ_vMl_UhTiGk5BQF75oV1aK8Xfo1KJKZ3Ti8XWHS0_t1l-al0f7Mwcuo_eH5Aprkqr1tQIPoHlgKcYh9FhK45TK1Ez2dx7qOcIBeANRXFxgOw1JSbPgJgdyP6pLUgjURSfUu48Yy3in9vTXE6C91V9HdizazGOo7Wv81T20nmP3tLgRgAn7djR3HQMKFsotQ4BS1g==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Elance and oDesk, two of the biggest freelance marketplaces, merged in December  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGih79wyJ_vMl_UhTiGk5BQF75oV1aK8Xfo1KJKZ3Ti8XWHS0_t1l-al0f7Mwcuo_eH5Aprkqr1tQIPoHlgKcYh9FhK45TK1Ez2dx7qOcIBeANRXFxgOw1JSbPgJgdyP6pLUgjURSfUu48Yy3in9vTXE6C91V9HdizazGOo7Wv81T20nmP3tLgRgAn7djR3HQMKFsotQ4BS1g==) |
+| `market_size` | `small` | `medium` | MEDIUM | The global online work industry was estimated at $1-2 billion in revenue in 2013 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGih79wyJ_vMl_UhTiGk5BQF75oV1aK8Xfo1KJKZ3Ti8XWHS0_t1l-al0f7Mwcuo_eH5Aprkqr1tQIPoHlgKcYh9FhK45TK1Ez2dx7qOcIBeANRXFxgOw1JSbPgJgdyP6pLUgjURSfUu48Yy3in9vTXE6C91V9HdizazGOo7Wv81T20nmP3tLgRgAn7djR3HQMKFsotQ4BS1g==) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | 85% of small business respondents from the Elance Global Business Survey in 2013 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGih79wyJ_vMl_UhTiGk5BQF75oV1aK8Xfo1KJKZ3Ti8XWHS0_t1l-al0f7Mwcuo_eH5Aprkqr1tQIPoHlgKcYh9FhK45TK1Ez2dx7qOcIBeANRXFxgOw1JSbPgJgdyP6pLUgjURSfUu48Yy3in9vTXE6C91V9HdizazGOo7Wv81T20nmP3tLgRgAn7djR3HQMKFsotQ4BS1g==) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | Online job marketplaces relieved companies from minimum wage, maximum working ho | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGih79wyJ_vMl_UhTiGk5BQF75oV1aK8Xfo1KJKZ3Ti8XWHS0_t1l-al0f7Mwcuo_eH5Aprkqr1tQIPoHlgKcYh9FhK45TK1Ez2dx7qOcIBeANRXFxgOw1JSbPgJgdyP6pLUgjURSfUu48Yy3in9vTXE6C91V9HdizazGOo7Wv81T20nmP3tLgRgAn7djR3HQMKFsotQ4BS1g==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | In 2013, 39% of the world's population was using the internet. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGih79wyJ_vMl_UhTiGk5BQF75oV1aK8Xfo1KJKZ3Ti8XWHS0_t1l-al0f7Mwcuo_eH5Aprkqr1tQIPoHlgKcYh9FhK45TK1Ez2dx7qOcIBeANRXFxgOw1JSbPgJgdyP6pLUgjURSfUu48Yy3in9vTXE6C91V9HdizazGOo7Wv81T20nmP3tLgRgAn7djR3HQMKFsotQ4BS1g==) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Online freelance marketplaces are websites that match buyers of electronically d | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGih79wyJ_vMl_UhTiGk5BQF75oV1aK8Xfo1KJKZ3Ti8XWHS0_t1l-al0f7Mwcuo_eH5Aprkqr1tQIPoHlgKcYh9FhK45TK1Ez2dx7qOcIBeANRXFxgOw1JSbPgJgdyP6pLUgjURSfUu48Yy3in9vTXE6C91V9HdizazGOo7Wv81T20nmP3tLgRgAn7djR3HQMKFsotQ4BS1g==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 68 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `medium` | 62 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `unregulated` | 72 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 80 |
+| **Mean** | — | **65** |
+
+### Role 3 Prompt Audit — Online Lodging and Vacation Rental Booking Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               large                                 LOW
+  customer_readiness        peak_of_inflated_expectations         HIGH
+  regulatory                unregulated                           MEDIUM
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 3 | 1 | 0 |
+| `competition` | 1 | 3 | 0 |
+| `market_size` | 1 | 2 | 1 |
+| `customer_readiness` | 3 | 1 | 0 |
+| `regulatory` | 0 | 4 | 0 |
+| `infrastructure` | 1 | 3 | 0 |
+| `market_structure` | 2 | 0 | 2 |
+
+
+---
+
+## Batch 32  —  2026-03-20 13:46:42
+
+**Markets processed this batch:** 5  
+**Cumulative total:** 164 / 350  
+**Batch agreement:** MEDIUM (score=0.629)  
+**HIGH:** 15  **MEDIUM:** 14  **LOW:** 6  
+**Auto-correction triggered:** no
+
+### Digital iBuying Residential Real Estate Transaction Platforms (2014)
+
+**T+5:** VERIFIED (19 sources)  **Agreement:** MEDIUM (H=4 M=0 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | Opendoor, the first iBuyer, launched in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEjpXbjURoB55yknga67-dGF64nFgX5E2GxcJuT0iAdFx7UPcx-xXBeOINV0vX9gTZkl_bjL2_2GxP-CpdPJKNsT9lhevLzWKTAB2c4YmVPJgtsOM8jsNc0aHKB3dDXpbkPesstOOZEN_UXz-JKC7g8fhau0j2Jo2gBS0=) |
+| `competition` | `monopoly` | `monopoly` | HIGH | Opendoor was the pioneering iBuying platform, launching in 2014, with other majo | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEjpXbjURoB55yknga67-dGF64nFgX5E2GxcJuT0iAdFx7UPcx-xXBeOINV0vX9gTZkl_bjL2_2GxP-CpdPJKNsT9lhevLzWKTAB2c4YmVPJgtsOM8jsNc0aHKB3dDXpbkPesstOOZEN_UXz-JKC7g8fhau0j2Jo2gBS0=) |
+| `market_size` | `micro` | `micro` | HIGH | The iBuying concept was launched in 2014, representing a negligible share of the | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEjpXbjURoB55yknga67-dGF64nFgX5E2GxcJuT0iAdFx7UPcx-xXBeOINV0vX9gTZkl_bjL2_2GxP-CpdPJKNsT9lhevLzWKTAB2c4YmVPJgtsOM8jsNc0aHKB3dDXpbkPesstOOZEN_UXz-JKC7g8fhau0j2Jo2gBS0=) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | The iBuyer model, launched in 2014, introduced a novel way to sell homes, addres | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEjpXbjURoB55yknga67-dGF64nFgX5E2GxcJuT0iAdFx7UPcx-xXBeOINV0vX9gTZkl_bjL2_2GxP-CpdPJKNsT9lhevLzWKTAB2c4YmVPJgtsOM8jsNc0aHKB3dDXpbkPesstOOZEN_UXz-JKC7g8fhau0j2Jo2gBS0=) |
+| `regulatory` | `moderate_compliance` | `unregulated` | LOW | In 2014, the digital iBuying market operated without specific regulatory framewo | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEjpXbjURoB55yknga67-dGF64nFgX5E2GxcJuT0iAdFx7UPcx-xXBeOINV0vX9gTZkl_bjL2_2GxP-CpdPJKNsT9lhevLzWKTAB2c4YmVPJgtsOM8jsNc0aHKB3dDXpbkPesstOOZEN_UXz-JKC7g8fhau0j2Jo2gBS0=) |
+| `infrastructure` | `developing` | `nascent` | LOW | The specific digital infrastructure for instant, cash-backed residential real es | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEjpXbjURoB55yknga67-dGF64nFgX5E2GxcJuT0iAdFx7UPcx-xXBeOINV0vX9gTZkl_bjL2_2GxP-CpdPJKNsT9lhevLzWKTAB2c4YmVPJgtsOM8jsNc0aHKB3dDXpbkPesstOOZEN_UXz-JKC7g8fhau0j2Jo2gBS0=) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | The iBuying model, exemplified by Opendoor's 2014 launch, uses technology and al | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEjpXbjURoB55yknga67-dGF64nFgX5E2GxcJuT0iAdFx7UPcx-xXBeOINV0vX9gTZkl_bjL2_2GxP-CpdPJKNsT9lhevLzWKTAB2c4YmVPJgtsOM8jsNc0aHKB3dDXpbkPesstOOZEN_UXz-JKC7g8fhau0j2Jo2gBS0=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 30 |
+| `competition` | `monopoly` | 85 |
+| `market_size` | `micro` | 15 |
+| `customer_readiness` | `innovation_trigger` | 35 |
+| `regulatory` | `unregulated` | 62 |
+| `infrastructure` | `nascent` | 25 |
+| `market_structure` | `technology_enablement` | 52 |
+| **Mean** | — | **43** |
+
+### Extended Detection and Response XDR Security Platforms (2020)
+
+**T+5:** VERIFIED (5 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | XDR appeared on Gartner's Hype Cycle for Endpoint Security for the first time in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKTk_ldRxQB0cv6dN1Jf9qiJEKoG2DSH6bqfwMeb6tnCuL5qQlkBzFsC-pHnWZetcZWk3CObMj_yrRg6hcr3dAs_6WSTKW0DATKnHT1SAuY9fEcroZoalUg_ZYZs9bwgHKDlzxKoY0G0R237d8xsqPikMEKyQFvlngZwYbzfF3qrukF3kas6HhtwbqNYc-pBRNOMm2V7YNcvTTvltuR7S2VzBBPsu5fOGHeDLeFQ==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Nearly 40 vendors were offering XDR capabilities in 2020. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKTk_ldRxQB0cv6dN1Jf9qiJEKoG2DSH6bqfwMeb6tnCuL5qQlkBzFsC-pHnWZetcZWk3CObMj_yrRg6hcr3dAs_6WSTKW0DATKnHT1SAuY9fEcroZoalUg_ZYZs9bwgHKDlzxKoY0G0R237d8xsqPikMEKyQFvlngZwYbzfF3qrukF3kas6HhtwbqNYc-pBRNOMm2V7YNcvTTvltuR7S2VzBBPsu5fOGHeDLeFQ==) |
+| `market_size` | `small` | `medium` | MEDIUM | The global XDR market was valued at USD 505.0 million in 2020. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKTk_ldRxQB0cv6dN1Jf9qiJEKoG2DSH6bqfwMeb6tnCuL5qQlkBzFsC-pHnWZetcZWk3CObMj_yrRg6hcr3dAs_6WSTKW0DATKnHT1SAuY9fEcroZoalUg_ZYZs9bwgHKDlzxKoY0G0R237d8xsqPikMEKyQFvlngZwYbzfF3qrukF3kas6HhtwbqNYc-pBRNOMm2V7YNcvTTvltuR7S2VzBBPsu5fOGHeDLeFQ==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | XDR appeared on Gartner's Hype Cycle for Endpoint Security for the first time in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKTk_ldRxQB0cv6dN1Jf9qiJEKoG2DSH6bqfwMeb6tnCuL5qQlkBzFsC-pHnWZetcZWk3CObMj_yrRg6hcr3dAs_6WSTKW0DATKnHT1SAuY9fEcroZoalUg_ZYZs9bwgHKDlzxKoY0G0R237d8xsqPikMEKyQFvlngZwYbzfF3qrukF3kas6HhtwbqNYc-pBRNOMm2V7YNcvTTvltuR7S2VzBBPsu5fOGHeDLeFQ==) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | In 2020, the US had no single federal law for information security, cybersecurit | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKTk_ldRxQB0cv6dN1Jf9qiJEKoG2DSH6bqfwMeb6tnCuL5qQlkBzFsC-pHnWZetcZWk3CObMj_yrRg6hcr3dAs_6WSTKW0DATKnHT1SAuY9fEcroZoalUg_ZYZs9bwgHKDlzxKoY0G0R237d8xsqPikMEKyQFvlngZwYbzfF3qrukF3kas6HhtwbqNYc-pBRNOMm2V7YNcvTTvltuR7S2VzBBPsu5fOGHeDLeFQ==) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | In 2020, the on-premises deployment held approximately 55.0% revenue share of th | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKTk_ldRxQB0cv6dN1Jf9qiJEKoG2DSH6bqfwMeb6tnCuL5qQlkBzFsC-pHnWZetcZWk3CObMj_yrRg6hcr3dAs_6WSTKW0DATKnHT1SAuY9fEcroZoalUg_ZYZs9bwgHKDlzxKoY0G0R237d8xsqPikMEKyQFvlngZwYbzfF3qrukF3kas6HhtwbqNYc-pBRNOMm2V7YNcvTTvltuR7S2VzBBPsu5fOGHeDLeFQ==) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | Gartner defined XDR in 2020 as a vendor-specific tool that unifies multiple secu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKTk_ldRxQB0cv6dN1Jf9qiJEKoG2DSH6bqfwMeb6tnCuL5qQlkBzFsC-pHnWZetcZWk3CObMj_yrRg6hcr3dAs_6WSTKW0DATKnHT1SAuY9fEcroZoalUg_ZYZs9bwgHKDlzxKoY0G0R237d8xsqPikMEKyQFvlngZwYbzfF3qrukF3kas6HhtwbqNYc-pBRNOMm2V7YNcvTTvltuR7S2VzBBPsu5fOGHeDLeFQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 58 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `emerging` | 52 |
+| `market_structure` | `technology_enablement` | 45 |
+| **Mean** | — | **58** |
+
+### Virtual Licensed Mental Health Therapy Platforms (2020)
+
+**T+5:** VERIFIED (27 sources)  **Agreement:** MEDIUM (H=2 M=4 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | Telehealth visits for mental health reasons represented 47% of all telehealth vi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHRfxpeI90bGvp0BKfwynGQ_sFlHiMpoqcjmqYWM0X09621eKqLI6IpPTZdj8PEzHObLP8BFOvZoqY7Yv8sg20XB8Y5DJld4F7ep53SWsL4VbvyjbLoAJnvBnbI8ElRJhCVAkMzt0-Kn-Cy70c7jeEEZHIe5yKYq6n3CgdHMD3SAJPB_ZjC71nK5VW6XkpH-j7GPGpK32IioqQpSRGrMfagw524aSN-gJynecBHgSWwoo=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Hundreds of mental health startups had sprung up over recent years by 2020, offe | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHRfxpeI90bGvp0BKfwynGQ_sFlHiMpoqcjmqYWM0X09621eKqLI6IpPTZdj8PEzHObLP8BFOvZoqY7Yv8sg20XB8Y5DJld4F7ep53SWsL4VbvyjbLoAJnvBnbI8ElRJhCVAkMzt0-Kn-Cy70c7jeEEZHIe5yKYq6n3CgdHMD3SAJPB_ZjC71nK5VW6XkpH-j7GPGpK32IioqQpSRGrMfagw524aSN-gJynecBHgSWwoo=) |
+| `market_size` | `small` | `large` | LOW | The U.S. telehealth market was valued at $17.9 billion in 2020. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHRfxpeI90bGvp0BKfwynGQ_sFlHiMpoqcjmqYWM0X09621eKqLI6IpPTZdj8PEzHObLP8BFOvZoqY7Yv8sg20XB8Y5DJld4F7ep53SWsL4VbvyjbLoAJnvBnbI8ElRJhCVAkMzt0-Kn-Cy70c7jeEEZHIe5yKYq6n3CgdHMD3SAJPB_ZjC71nK5VW6XkpH-j7GPGpK32IioqQpSRGrMfagw524aSN-gJynecBHgSWwoo=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | Telehealth claims for mental health diagnoses accounted for more than 51% of all | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHRfxpeI90bGvp0BKfwynGQ_sFlHiMpoqcjmqYWM0X09621eKqLI6IpPTZdj8PEzHObLP8BFOvZoqY7Yv8sg20XB8Y5DJld4F7ep53SWsL4VbvyjbLoAJnvBnbI8ElRJhCVAkMzt0-Kn-Cy70c7jeEEZHIe5yKYq6n3CgdHMD3SAJPB_ZjC71nK5VW6XkpH-j7GPGpK32IioqQpSRGrMfagw524aSN-gJynecBHgSWwoo=) |
+| `regulatory` | `moderate_compliance` | `light_touch` | MEDIUM | Medicare telehealth benefits were expanded in March 2020, and many prior restric | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHRfxpeI90bGvp0BKfwynGQ_sFlHiMpoqcjmqYWM0X09621eKqLI6IpPTZdj8PEzHObLP8BFOvZoqY7Yv8sg20XB8Y5DJld4F7ep53SWsL4VbvyjbLoAJnvBnbI8ElRJhCVAkMzt0-Kn-Cy70c7jeEEZHIe5yKYq6n3CgdHMD3SAJPB_ZjC71nK5VW6XkpH-j7GPGpK32IioqQpSRGrMfagw524aSN-gJynecBHgSWwoo=) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | The number of mental health facilities offering telemedicine services increased  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHRfxpeI90bGvp0BKfwynGQ_sFlHiMpoqcjmqYWM0X09621eKqLI6IpPTZdj8PEzHObLP8BFOvZoqY7Yv8sg20XB8Y5DJld4F7ep53SWsL4VbvyjbLoAJnvBnbI8ElRJhCVAkMzt0-Kn-Cy70c7jeEEZHIe5yKYq6n3CgdHMD3SAJPB_ZjC71nK5VW6XkpH-j7GPGpK32IioqQpSRGrMfagw524aSN-gJynecBHgSWwoo=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Companies like Talkspace and BetterHelp explicitly match users with licensed the | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHRfxpeI90bGvp0BKfwynGQ_sFlHiMpoqcjmqYWM0X09621eKqLI6IpPTZdj8PEzHObLP8BFOvZoqY7Yv8sg20XB8Y5DJld4F7ep53SWsL4VbvyjbLoAJnvBnbI8ElRJhCVAkMzt0-Kn-Cy70c7jeEEZHIe5yKYq6n3CgdHMD3SAJPB_ZjC71nK5VW6XkpH-j7GPGpK32IioqQpSRGrMfagw524aSN-gJynecBHgSWwoo=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 70 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `light_touch` | 76 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 80 |
+| **Mean** | — | **67** |
+
+### Cloud-Based Quantum Computing Access Platforms (2016)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | IBM launched the IBM Quantum Experience in May 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsok7B6eAzD4VE8ddfry9behAfuwmgmFHEJvRS6kvIrpe37oBlZtYnQ4us5OF7H73xYYqylXnPwS3Ne4X6v_NEf9UJ7riEkRJF42Gt3-98hOWjD1cR9McumrfUmMumo8dFWwp1AMny1xY8VH5YgjAIU1aiWdR8) |
+| `competition` | `monopoly` | `oligopoly` | MEDIUM | IBM launched one of the first publicly accessible cloud-based quantum processors | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsok7B6eAzD4VE8ddfry9behAfuwmgmFHEJvRS6kvIrpe37oBlZtYnQ4us5OF7H73xYYqylXnPwS3Ne4X6v_NEf9UJ7riEkRJF42Gt3-98hOWjD1cR9McumrfUmMumo8dFWwp1AMny1xY8VH5YgjAIU1aiWdR8) |
+| `market_size` | `micro` | `micro` | HIGH | The market was in an 'early development stage' in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsok7B6eAzD4VE8ddfry9behAfuwmgmFHEJvRS6kvIrpe37oBlZtYnQ4us5OF7H73xYYqylXnPwS3Ne4X6v_NEf9UJ7riEkRJF42Gt3-98hOWjD1cR9McumrfUmMumo8dFWwp1AMny1xY8VH5YgjAIU1aiWdR8) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | Quantum Computing was identified as an emerging technology in Gartner's 2016 Hyp | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsok7B6eAzD4VE8ddfry9behAfuwmgmFHEJvRS6kvIrpe37oBlZtYnQ4us5OF7H73xYYqylXnPwS3Ne4X6v_NEf9UJ7riEkRJF42Gt3-98hOWjD1cR9McumrfUmMumo8dFWwp1AMny1xY8VH5YgjAIU1aiWdR8) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | NIST published a report on Post-Quantum Cryptography in April 2016, highlighting | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsok7B6eAzD4VE8ddfry9behAfuwmgmFHEJvRS6kvIrpe37oBlZtYnQ4us5OF7H73xYYqylXnPwS3Ne4X6v_NEf9UJ7riEkRJF42Gt3-98hOWjD1cR9McumrfUmMumo8dFWwp1AMny1xY8VH5YgjAIU1aiWdR8) |
+| `infrastructure` | `emerging` | `nascent` | MEDIUM | IBM's publicly accessible quantum processor in 2016 had five superconducting qub | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsok7B6eAzD4VE8ddfry9behAfuwmgmFHEJvRS6kvIrpe37oBlZtYnQ4us5OF7H73xYYqylXnPwS3Ne4X6v_NEf9UJ7riEkRJF42Gt3-98hOWjD1cR9McumrfUmMumo8dFWwp1AMny1xY8VH5YgjAIU1aiWdR8) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | IBM's Quantum Experience in 2016 allowed users to run algorithms and experiments | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsok7B6eAzD4VE8ddfry9behAfuwmgmFHEJvRS6kvIrpe37oBlZtYnQ4us5OF7H73xYYqylXnPwS3Ne4X6v_NEf9UJ7riEkRJF42Gt3-98hOWjD1cR9McumrfUmMumo8dFWwp1AMny1xY8VH5YgjAIU1aiWdR8) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `oligopoly` | 55 |
+| `market_size` | `micro` | 18 |
+| `customer_readiness` | `innovation_trigger` | 52 |
+| `regulatory` | `unregulated` | 72 |
+| `infrastructure` | `nascent` | 30 |
+| `market_structure` | `technology_enablement` | 48 |
+| **Mean** | — | **48** |
+
+### Telemedicine Virtual Consultations for Specialized Care (2018)
+
+**T+5:** VERIFIED (7 sources)  **Agreement:** HIGH (H=3 M=4 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | In 2018, 25.1% of physicians reported using telehealth weekly. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHRxgJwxI6iac0frA_ub--QkDb4LmuWnr6jO6B9mXXJeu0FMPaSPBmypEQcYjR9vrz_pmbZkubFl3fru_aq6r-TVph6oeBQVbH7Ic3PcJEfbTyskQELzDefPgXwrdgUjD6MXRwOuMDNGAP8LbTraEv0-4pLd1Y4_9bTqVfkmHWVozVIEpMnoIEcYeH6iDVd-rvKoXnihgidWB7k1Us2Y5qCcW7kWazAHSuZw==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Over 250 telehealth companies were noted in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHRxgJwxI6iac0frA_ub--QkDb4LmuWnr6jO6B9mXXJeu0FMPaSPBmypEQcYjR9vrz_pmbZkubFl3fru_aq6r-TVph6oeBQVbH7Ic3PcJEfbTyskQELzDefPgXwrdgUjD6MXRwOuMDNGAP8LbTraEv0-4pLd1Y4_9bTqVfkmHWVozVIEpMnoIEcYeH6iDVd-rvKoXnihgidWB7k1Us2Y5qCcW7kWazAHSuZw==) |
+| `market_size` | `small` | `medium` | MEDIUM | The global telemedicine market size was $27.8 billion in 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHRxgJwxI6iac0frA_ub--QkDb4LmuWnr6jO6B9mXXJeu0FMPaSPBmypEQcYjR9vrz_pmbZkubFl3fru_aq6r-TVph6oeBQVbH7Ic3PcJEfbTyskQELzDefPgXwrdgUjD6MXRwOuMDNGAP8LbTraEv0-4pLd1Y4_9bTqVfkmHWVozVIEpMnoIEcYeH6iDVd-rvKoXnihgidWB7k1Us2Y5qCcW7kWazAHSuZw==) |
+| `customer_readiness` | `slope_of_enlightenment` | `trough_of_disillusionment` | MEDIUM | Only 20% of people were aware of telehealth prior to the pandemic (around 2019-2 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHRxgJwxI6iac0frA_ub--QkDb4LmuWnr6jO6B9mXXJeu0FMPaSPBmypEQcYjR9vrz_pmbZkubFl3fru_aq6r-TVph6oeBQVbH7Ic3PcJEfbTyskQELzDefPgXwrdgUjD6MXRwOuMDNGAP8LbTraEv0-4pLd1Y4_9bTqVfkmHWVozVIEpMnoIEcYeH6iDVd-rvKoXnihgidWB7k1Us2Y5qCcW7kWazAHSuZw==) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | As of October 2018, 40 jurisdictions had laws governing private payer telehealth | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHRxgJwxI6iac0frA_ub--QkDb4LmuWnr6jO6B9mXXJeu0FMPaSPBmypEQcYjR9vrz_pmbZkubFl3fru_aq6r-TVph6oeBQVbH7Ic3PcJEfbTyskQELzDefPgXwrdgUjD6MXRwOuMDNGAP8LbTraEv0-4pLd1Y4_9bTqVfkmHWVozVIEpMnoIEcYeH6iDVd-rvKoXnihgidWB7k1Us2Y5qCcW7kWazAHSuZw==) |
+| `infrastructure` | `developing` | `developing` | HIGH | Approximately 14 million rural Americans lacked mobile LTE broadband at 10 Mbps/ | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHRxgJwxI6iac0frA_ub--QkDb4LmuWnr6jO6B9mXXJeu0FMPaSPBmypEQcYjR9vrz_pmbZkubFl3fru_aq6r-TVph6oeBQVbH7Ic3PcJEfbTyskQELzDefPgXwrdgUjD6MXRwOuMDNGAP8LbTraEv0-4pLd1Y4_9bTqVfkmHWVozVIEpMnoIEcYeH6iDVd-rvKoXnihgidWB7k1Us2Y5qCcW7kWazAHSuZw==) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Telemedicine was primarily used to overcome distance barriers and improve access | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHRxgJwxI6iac0frA_ub--QkDb4LmuWnr6jO6B9mXXJeu0FMPaSPBmypEQcYjR9vrz_pmbZkubFl3fru_aq6r-TVph6oeBQVbH7Ic3PcJEfbTyskQELzDefPgXwrdgUjD6MXRwOuMDNGAP8LbTraEv0-4pLd1Y4_9bTqVfkmHWVozVIEpMnoIEcYeH6iDVd-rvKoXnihgidWB7k1Us2Y5qCcW7kWazAHSuZw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `trough_of_disillusionment` | 35 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **58** |
+
+### Role 3 Prompt Audit — Digital iBuying Residential Real Estate Transaction Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    innovators                            HIGH
+  competition               monopoly                              HIGH
+  market_size               micro                                 HIGH
+  customer_readiness        innovation_trigger                    HIGH
+  regulatory                unregulated                           LOW
+  infrastructure            nascent                               LOW
+  market_structure          technology_enablement                 LOW
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 4 | 1 | 0 |
+| `competition` | 3 | 2 | 0 |
+| `market_size` | 2 | 2 | 1 |
+| `customer_readiness` | 4 | 1 | 0 |
+| `regulatory` | 0 | 4 | 1 |
+| `infrastructure` | 1 | 3 | 1 |
+| `market_structure` | 1 | 1 | 3 |
+
+
+---
+
+## Batch 33  —  2026-03-20 13:50:49
+
+**Markets processed this batch:** 4  
+**Cumulative total:** 168 / 350  
+**Batch agreement:** MEDIUM (score=0.661)  
+**HIGH:** 14  **MEDIUM:** 9  **LOW:** 5  
+**Auto-correction triggered:** no
+
+### DevOps Lifecycle Automation and Developer Tooling Platforms (2017)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** MEDIUM (H=4 M=1 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | 81% of businesses had adopted DevOps practices by 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoG7xOy9yv-BaiS9zWXp9aGtF__g8X31HWpXAqXHtoIwp7Is3X67jYFDQqSgx44u9Z3xKzQ9PTtSUUwfBxgc-M5CNP4x0TLiOn4xvmUk5zJOfNYQ9C8kNkEcmQa6rYp38oHZbRSMjBaApJndDgH3gkiCsa) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | AWS was expected to maintain a dominant position, but Microsoft and Google were  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoG7xOy9yv-BaiS9zWXp9aGtF__g8X31HWpXAqXHtoIwp7Is3X67jYFDQqSgx44u9Z3xKzQ9PTtSUUwfBxgc-M5CNP4x0TLiOn4xvmUk5zJOfNYQ9C8kNkEcmQa6rYp38oHZbRSMjBaApJndDgH3gkiCsa) |
+| `market_size` | `small` | `large` | LOW | Software companies received $30.8 billion in venture capital in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoG7xOy9yv-BaiS9zWXp9aGtF__g8X31HWpXAqXHtoIwp7Is3X67jYFDQqSgx44u9Z3xKzQ9PTtSUUwfBxgc-M5CNP4x0TLiOn4xvmUk5zJOfNYQ9C8kNkEcmQa6rYp38oHZbRSMjBaApJndDgH3gkiCsa) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | The market was driven by the rising need for reducing the software development c | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoG7xOy9yv-BaiS9zWXp9aGtF__g8X31HWpXAqXHtoIwp7Is3X67jYFDQqSgx44u9Z3xKzQ9PTtSUUwfBxgc-M5CNP4x0TLiOn4xvmUk5zJOfNYQ9C8kNkEcmQa6rYp38oHZbRSMjBaApJndDgH3gkiCsa) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | No specific heavy regulations were identified for this market in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoG7xOy9yv-BaiS9zWXp9aGtF__g8X31HWpXAqXHtoIwp7Is3X67jYFDQqSgx44u9Z3xKzQ9PTtSUUwfBxgc-M5CNP4x0TLiOn4xvmUk5zJOfNYQ9C8kNkEcmQa6rYp38oHZbRSMjBaApJndDgH3gkiCsa) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | The shift to hybrid cloud and improvement in operational efficiency were key dri | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoG7xOy9yv-BaiS9zWXp9aGtF__g8X31HWpXAqXHtoIwp7Is3X67jYFDQqSgx44u9Z3xKzQ9PTtSUUwfBxgc-M5CNP4x0TLiOn4xvmUk5zJOfNYQ9C8kNkEcmQa6rYp38oHZbRSMjBaApJndDgH3gkiCsa) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | DevOps emphasizes collaboration, automation, and continuous integration and deli | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoG7xOy9yv-BaiS9zWXp9aGtF__g8X31HWpXAqXHtoIwp7Is3X67jYFDQqSgx44u9Z3xKzQ9PTtSUUwfBxgc-M5CNP4x0TLiOn4xvmUk5zJOfNYQ9C8kNkEcmQa6rYp38oHZbRSMjBaApJndDgH3gkiCsa) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 76 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `slope_of_enlightenment` | 74 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 60 |
+| **Mean** | — | **67** |
+
+### Advanced Industrial Robotics Complex Task Automation (2017)
+
+**T+5:** VERIFIED (12 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The global average of industrial robots per 10,000 manufacturing workers was 85  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc5dv7RWUSkYdky8MqkbZlxbuxGsnmDEyPKHRe2iVwuNDAOEgCXaGFJNCwSv9yxy90of5QXi8oS5SvjjaFBZqSJ4xGOZ5hqtoslnq0YJSEPMCXzqIhhoY_2xyY_fvTkHYooSZXnc8QTk5eqCR7bJZ1DUM=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | In January 2017, ABB was reported to account for nearly half of worldwide indust | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc5dv7RWUSkYdky8MqkbZlxbuxGsnmDEyPKHRe2iVwuNDAOEgCXaGFJNCwSv9yxy90of5QXi8oS5SvjjaFBZqSJ4xGOZ5hqtoslnq0YJSEPMCXzqIhhoY_2xyY_fvTkHYooSZXnc8QTk5eqCR7bJZ1DUM=) |
+| `market_size` | `medium` | `large` | MEDIUM | The total market for industrial robotics systems was USD 48 billion in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc5dv7RWUSkYdky8MqkbZlxbuxGsnmDEyPKHRe2iVwuNDAOEgCXaGFJNCwSv9yxy90of5QXi8oS5SvjjaFBZqSJ4xGOZ5hqtoslnq0YJSEPMCXzqIhhoY_2xyY_fvTkHYooSZXnc8QTk5eqCR7bJZ1DUM=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `slope_of_enlightenment` | LOW | 88% of respondents in 2017 anticipated an increase in investment in robotics and | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc5dv7RWUSkYdky8MqkbZlxbuxGsnmDEyPKHRe2iVwuNDAOEgCXaGFJNCwSv9yxy90of5QXi8oS5SvjjaFBZqSJ4xGOZ5hqtoslnq0YJSEPMCXzqIhhoY_2xyY_fvTkHYooSZXnc8QTk5eqCR7bJZ1DUM=) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | ISO 10218:2011 was the primary international safety standard for industrial robo | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc5dv7RWUSkYdky8MqkbZlxbuxGsnmDEyPKHRe2iVwuNDAOEgCXaGFJNCwSv9yxy90of5QXi8oS5SvjjaFBZqSJ4xGOZ5hqtoslnq0YJSEPMCXzqIhhoY_2xyY_fvTkHYooSZXnc8QTk5eqCR7bJZ1DUM=) |
+| `infrastructure` | `developing` | `developing` | HIGH | The robotics ecosystem in 2017 was focused on developing solutions that were 'si | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc5dv7RWUSkYdky8MqkbZlxbuxGsnmDEyPKHRe2iVwuNDAOEgCXaGFJNCwSv9yxy90of5QXi8oS5SvjjaFBZqSJ4xGOZ5hqtoslnq0YJSEPMCXzqIhhoY_2xyY_fvTkHYooSZXnc8QTk5eqCR7bJZ1DUM=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Industrial robots were identified as 'major enablers of automation with large ec | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc5dv7RWUSkYdky8MqkbZlxbuxGsnmDEyPKHRe2iVwuNDAOEgCXaGFJNCwSv9yxy90of5QXi8oS5SvjjaFBZqSJ4xGOZ5hqtoslnq0YJSEPMCXzqIhhoY_2xyY_fvTkHYooSZXnc8QTk5eqCR7bJZ1DUM=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 78 |
+| `competition` | `oligopoly` | 52 |
+| `market_size` | `large` | 72 |
+| `customer_readiness` | `slope_of_enlightenment` | 65 |
+| `regulatory` | `moderate_compliance` | 63 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `technology_enablement` | 70 |
+| **Mean** | — | **65** |
+
+### Online Pre-Owned Goods Recommerce Platforms (2018)
+
+**T+5:** VERIFIED (16 sources)  **Agreement:** HIGH (H=5 M=2 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | The U.S. apparel resale market was projected to reach $33 billion by 2021, growi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH_lgnLEIg2uHb3OvgWLNkKaQjP4qTtTWBkupB8veyzPj989Rhwr2khXvbT9D3Ork_DssZ3tSF9CxVY5Hy7A-Hrt6CeNWKhtp_sepWQ2Ys1EIxEimxESqS79DT4RT6DKpIHKg=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | The second-hand luxury market in 2018 featured multiple platforms, including The | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH_lgnLEIg2uHb3OvgWLNkKaQjP4qTtTWBkupB8veyzPj989Rhwr2khXvbT9D3Ork_DssZ3tSF9CxVY5Hy7A-Hrt6CeNWKhtp_sepWQ2Ys1EIxEimxESqS79DT4RT6DKpIHKg=) |
+| `market_size` | `medium` | `large` | MEDIUM | The global second-hand luxury goods market was valued at $261.2 billion in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH_lgnLEIg2uHb3OvgWLNkKaQjP4qTtTWBkupB8veyzPj989Rhwr2khXvbT9D3Ork_DssZ3tSF9CxVY5Hy7A-Hrt6CeNWKhtp_sepWQ2Ys1EIxEimxESqS79DT4RT6DKpIHKg=) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | Investors in 2018 observed a growing consumer appetite for high-end used fashion | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH_lgnLEIg2uHb3OvgWLNkKaQjP4qTtTWBkupB8veyzPj989Rhwr2khXvbT9D3Ork_DssZ3tSF9CxVY5Hy7A-Hrt6CeNWKhtp_sepWQ2Ys1EIxEimxESqS79DT4RT6DKpIHKg=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | No specific heavy regulations for online pre-owned goods recommerce platforms we | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH_lgnLEIg2uHb3OvgWLNkKaQjP4qTtTWBkupB8veyzPj989Rhwr2khXvbT9D3Ork_DssZ3tSF9CxVY5Hy7A-Hrt6CeNWKhtp_sepWQ2Ys1EIxEimxESqS79DT4RT6DKpIHKg=) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | In 2018, 6.4% of online merchants cited downtime as their biggest e-commerce cha | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH_lgnLEIg2uHb3OvgWLNkKaQjP4qTtTWBkupB8veyzPj989Rhwr2khXvbT9D3Ork_DssZ3tSF9CxVY5Hy7A-Hrt6CeNWKhtp_sepWQ2Ys1EIxEimxESqS79DT4RT6DKpIHKg=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Recommerce platforms like The RealReal and ThredUp operate as online marketplace | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH_lgnLEIg2uHb3OvgWLNkKaQjP4qTtTWBkupB8veyzPj989Rhwr2khXvbT9D3Ork_DssZ3tSF9CxVY5Hy7A-Hrt6CeNWKhtp_sepWQ2Ys1EIxEimxESqS79DT4RT6DKpIHKg=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 78 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 75 |
+| `customer_readiness` | `slope_of_enlightenment` | 80 |
+| `regulatory` | `light_touch` | 85 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 82 |
+| **Mean** | — | **73** |
+
+### Cloud Security Posture Management Multi-Cloud Platforms (2020)
+
+**T+5:** VERIFIED (16 sources)  **Agreement:** MEDIUM (H=2 M=3 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `unknown` | LOW | Gartner's 2020 Hype Cycle for Cloud Security placed CSPM emerging from the Troug | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGlTujOOd7Pdy6zbFDvNPN9P7jY81ClwrlzFS3mGx3uZzY8nymfvmvgxhtj06hW4rY7I9Esd4f8fqzAHEB8oKQPr_gmtLOZJVbLmF1WR0CKjFfUa-XHmpCRK6IRYP-RLUYQZYUUM7XvX9FT_AXMu2PyVoCV3kd6jg-iH_hcbax-mOdiI0G1Z5ymYLFmx3JysJjLRJt9PaEWnVj-9GvCYbbUkIf8CDC_g==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Microsoft was identified as a leader in the CSPM space with Azure Defender's cro | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGlTujOOd7Pdy6zbFDvNPN9P7jY81ClwrlzFS3mGx3uZzY8nymfvmvgxhtj06hW4rY7I9Esd4f8fqzAHEB8oKQPr_gmtLOZJVbLmF1WR0CKjFfUa-XHmpCRK6IRYP-RLUYQZYUUM7XvX9FT_AXMu2PyVoCV3kd6jg-iH_hcbax-mOdiI0G1Z5ymYLFmx3JysJjLRJt9PaEWnVj-9GvCYbbUkIf8CDC_g==) |
+| `market_size` | `small` | `medium` | MEDIUM | The global CSPM market was valued at approximately USD 4.2 billion in 2022. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGlTujOOd7Pdy6zbFDvNPN9P7jY81ClwrlzFS3mGx3uZzY8nymfvmvgxhtj06hW4rY7I9Esd4f8fqzAHEB8oKQPr_gmtLOZJVbLmF1WR0CKjFfUa-XHmpCRK6IRYP-RLUYQZYUUM7XvX9FT_AXMu2PyVoCV3kd6jg-iH_hcbax-mOdiI0G1Z5ymYLFmx3JysJjLRJt9PaEWnVj-9GvCYbbUkIf8CDC_g==) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | 67% of survey respondents in 2020 identified cloud platform misconfiguration as  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGlTujOOd7Pdy6zbFDvNPN9P7jY81ClwrlzFS3mGx3uZzY8nymfvmvgxhtj06hW4rY7I9Esd4f8fqzAHEB8oKQPr_gmtLOZJVbLmF1WR0CKjFfUa-XHmpCRK6IRYP-RLUYQZYUUM7XvX9FT_AXMu2PyVoCV3kd6jg-iH_hcbax-mOdiI0G1Z5ymYLFmx3JysJjLRJt9PaEWnVj-9GvCYbbUkIf8CDC_g==) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | CSPM solutions in 2020 supported compliance with standards like SOC2, HIPAA, PCI | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGlTujOOd7Pdy6zbFDvNPN9P7jY81ClwrlzFS3mGx3uZzY8nymfvmvgxhtj06hW4rY7I9Esd4f8fqzAHEB8oKQPr_gmtLOZJVbLmF1WR0CKjFfUa-XHmpCRK6IRYP-RLUYQZYUUM7XvX9FT_AXMu2PyVoCV3kd6jg-iH_hcbax-mOdiI0G1Z5ymYLFmx3JysJjLRJt9PaEWnVj-9GvCYbbUkIf8CDC_g==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | The rapid shift of businesses toward cloud environments, including multi-cloud s | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGlTujOOd7Pdy6zbFDvNPN9P7jY81ClwrlzFS3mGx3uZzY8nymfvmvgxhtj06hW4rY7I9Esd4f8fqzAHEB8oKQPr_gmtLOZJVbLmF1WR0CKjFfUa-XHmpCRK6IRYP-RLUYQZYUUM7XvX9FT_AXMu2PyVoCV3kd6jg-iH_hcbax-mOdiI0G1Z5ymYLFmx3JysJjLRJt9PaEWnVj-9GvCYbbUkIf8CDC_g==) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | CSPM solutions in 2020 focused on automated detection and remediation of securit | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGlTujOOd7Pdy6zbFDvNPN9P7jY81ClwrlzFS3mGx3uZzY8nymfvmvgxhtj06hW4rY7I9Esd4f8fqzAHEB8oKQPr_gmtLOZJVbLmF1WR0CKjFfUa-XHmpCRK6IRYP-RLUYQZYUUM7XvX9FT_AXMu2PyVoCV3kd6jg-iH_hcbax-mOdiI0G1Z5ymYLFmx3JysJjLRJt9PaEWnVj-9GvCYbbUkIf8CDC_g==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `moderate_compliance` | 63 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 58 |
+| **Mean** | — | **61** |
+
+### Role 3 Prompt Audit — DevOps Lifecycle Automation and Developer Tooling Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        HIGH
+  competition               monopolistic_competition              HIGH
+  market_size               large                                 LOW
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                light_touch                           HIGH
+  infrastructure            developing                            MEDIUM
+  market_structure          technology_enablement                 LOW
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 3 | 0 | 1 |
+| `competition` | 4 | 0 | 0 |
+| `market_size` | 0 | 3 | 1 |
+| `customer_readiness` | 3 | 0 | 1 |
+| `regulatory` | 2 | 2 | 0 |
+| `infrastructure` | 1 | 3 | 0 |
+| `market_structure` | 1 | 1 | 2 |
+
+
+---
+
+## Batch 34  —  2026-03-20 13:54:45
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 170 / 350  
+**Batch agreement:** MEDIUM (score=0.607)  
+**HIGH:** 5  **MEDIUM:** 7  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### B2B Sales Engagement and Outreach Automation Platforms (2019)
+
+**T+5:** VERIFIED (5 sources)  **Agreement:** LOW (H=0 M=5 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_adopters` | MEDIUM | Gartner's 2019 Market Guide for Sales Engagement Platforms described it as 'rapi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8ioza9yLYstKjQfopT1-9BA-h1sVEnSf-7dss1hjJZLvknOfBLrI2fwCK2QcgUqq2EcFNVamC3JVTGRB5elHwHLJ5O8ft4YnveY3rRawXXBrmW09Ob0bSMfifVUSN9gqr8kXpr7cFejH8Vq-YOEQt4EtEhIY5w9dbvb8R_oLNyDDrXjB496seZIKt7naIAe1jWf9Xw==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Highspot was listed as a 'Representative Vendor' in Gartner's 2019 Market Guide, | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8ioza9yLYstKjQfopT1-9BA-h1sVEnSf-7dss1hjJZLvknOfBLrI2fwCK2QcgUqq2EcFNVamC3JVTGRB5elHwHLJ5O8ft4YnveY3rRawXXBrmW09Ob0bSMfifVUSN9gqr8kXpr7cFejH8Vq-YOEQt4EtEhIY5w9dbvb8R_oLNyDDrXjB496seZIKt7naIAe1jWf9Xw==) |
+| `market_size` | `small` | `medium` | MEDIUM | The global market for sales automation was $7.8 billion in 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8ioza9yLYstKjQfopT1-9BA-h1sVEnSf-7dss1hjJZLvknOfBLrI2fwCK2QcgUqq2EcFNVamC3JVTGRB5elHwHLJ5O8ft4YnveY3rRawXXBrmW09Ob0bSMfifVUSN9gqr8kXpr7cFejH8Vq-YOEQt4EtEhIY5w9dbvb8R_oLNyDDrXjB496seZIKt7naIAe1jWf9Xw==) |
+| `customer_readiness` | `plateau_of_productivity` | `peak_of_inflated_expectations` | LOW | Gartner's 2019 Market Guide emphasized 'transformational technologies' and 'futu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8ioza9yLYstKjQfopT1-9BA-h1sVEnSf-7dss1hjJZLvknOfBLrI2fwCK2QcgUqq2EcFNVamC3JVTGRB5elHwHLJ5O8ft4YnveY3rRawXXBrmW09Ob0bSMfifVUSN9gqr8kXpr7cFejH8Vq-YOEQt4EtEhIY5w9dbvb8R_oLNyDDrXjB496seZIKt7naIAe1jWf9Xw==) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | There was no mention of specific regulatory frameworks governing this market in  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8ioza9yLYstKjQfopT1-9BA-h1sVEnSf-7dss1hjJZLvknOfBLrI2fwCK2QcgUqq2EcFNVamC3JVTGRB5elHwHLJ5O8ft4YnveY3rRawXXBrmW09Ob0bSMfifVUSN9gqr8kXpr7cFejH8Vq-YOEQt4EtEhIY5w9dbvb8R_oLNyDDrXjB496seZIKt7naIAe1jWf9Xw==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Sales engagement platforms were integrating with CRM systems and other sales too | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8ioza9yLYstKjQfopT1-9BA-h1sVEnSf-7dss1hjJZLvknOfBLrI2fwCK2QcgUqq2EcFNVamC3JVTGRB5elHwHLJ5O8ft4YnveY3rRawXXBrmW09Ob0bSMfifVUSN9gqr8kXpr7cFejH8Vq-YOEQt4EtEhIY5w9dbvb8R_oLNyDDrXjB496seZIKt7naIAe1jWf9Xw==) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | Sales engagement platforms serve as 'centralized hubs for automating and monitor | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8ioza9yLYstKjQfopT1-9BA-h1sVEnSf-7dss1hjJZLvknOfBLrI2fwCK2QcgUqq2EcFNVamC3JVTGRB5elHwHLJ5O8ft4YnveY3rRawXXBrmW09Ob0bSMfifVUSN9gqr8kXpr7cFejH8Vq-YOEQt4EtEhIY5w9dbvb8R_oLNyDDrXjB496seZIKt7naIAe1jWf9Xw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 58 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 45 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 48 |
+| **Mean** | — | **57** |
+
+### Retail Institutional Cryptocurrency Exchange Platforms (2017)
+
+**T+5:** VERIFIED (21 sources)  **Agreement:** HIGH (H=5 M=2 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Bitcoin's market capitalization grew from $16 billion to $220 billion in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHskyCOoLlHud7b5jFuhBsd-OT_6_kJ6bmnYcl1j8tkhuwTfNR257JZ_U_oZuxJN8eMzQg0m43GqTanbC0V7jRjP3P3JaGKu7ObN-dPjrbG4E7hrKeFJKJpscXzSzi6SqxKTXm7EgvvTTq8ovte7CToqccx3AJ-9U6yNtq2CIqNZU26Wn7m-7LbQu4=) |
+| `competition` | `monopolistic_competition` | `oligopoly` | MEDIUM | Binance emerged as one of the fastest-growing cryptocurrency exchanges in 2017,  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHskyCOoLlHud7b5jFuhBsd-OT_6_kJ6bmnYcl1j8tkhuwTfNR257JZ_U_oZuxJN8eMzQg0m43GqTanbC0V7jRjP3P3JaGKu7ObN-dPjrbG4E7hrKeFJKJpscXzSzi6SqxKTXm7EgvvTTq8ovte7CToqccx3AJ-9U6yNtq2CIqNZU26Wn7m-7LbQu4=) |
+| `market_size` | `medium` | `medium` | HIGH | The global cryptocurrency market had a total market capitalization of $172.2 bil | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHskyCOoLlHud7b5jFuhBsd-OT_6_kJ6bmnYcl1j8tkhuwTfNR257JZ_U_oZuxJN8eMzQg0m43GqTanbC0V7jRjP3P3JaGKu7ObN-dPjrbG4E7hrKeFJKJpscXzSzi6SqxKTXm7EgvvTTq8ovte7CToqccx3AJ-9U6yNtq2CIqNZU26Wn7m-7LbQu4=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | ICOs raised over $3.7 billion in 2017, surpassing early-stage venture capital fu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHskyCOoLlHud7b5jFuhBsd-OT_6_kJ6bmnYcl1j8tkhuwTfNR257JZ_U_oZuxJN8eMzQg0m43GqTanbC0V7jRjP3P3JaGKu7ObN-dPjrbG4E7hrKeFJKJpscXzSzi6SqxKTXm7EgvvTTq8ovte7CToqccx3AJ-9U6yNtq2CIqNZU26Wn7m-7LbQu4=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Japan passed the Virtual Currency Act in April 2017, granting legal status to Bi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHskyCOoLlHud7b5jFuhBsd-OT_6_kJ6bmnYcl1j8tkhuwTfNR257JZ_U_oZuxJN8eMzQg0m43GqTanbC0V7jRjP3P3JaGKu7ObN-dPjrbG4E7hrKeFJKJpscXzSzi6SqxKTXm7EgvvTTq8ovte7CToqccx3AJ-9U6yNtq2CIqNZU26Wn7m-7LbQu4=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Bitcoin futures markets launched in December 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHskyCOoLlHud7b5jFuhBsd-OT_6_kJ6bmnYcl1j8tkhuwTfNR257JZ_U_oZuxJN8eMzQg0m43GqTanbC0V7jRjP3P3JaGKu7ObN-dPjrbG4E7hrKeFJKJpscXzSzi6SqxKTXm7EgvvTTq8ovte7CToqccx3AJ-9U6yNtq2CIqNZU26Wn7m-7LbQu4=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Popular exchanges such as Binance, Coinbase, Bitfinex, Bittrex, and Poloniex ser | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHskyCOoLlHud7b5jFuhBsd-OT_6_kJ6bmnYcl1j8tkhuwTfNR257JZ_U_oZuxJN8eMzQg0m43GqTanbC0V7jRjP3P3JaGKu7ObN-dPjrbG4E7hrKeFJKJpscXzSzi6SqxKTXm7EgvvTTq8ovte7CToqccx3AJ-9U6yNtq2CIqNZU26Wn7m-7LbQu4=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 55 |
+| `market_size` | `medium` | 62 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 58 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `emerging` | 55 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **66** |
+
+### Role 3 Prompt Audit — B2B Sales Engagement and Outreach Automation Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        MEDIUM
+  competition               monopolistic_competition              MEDIUM
+  market_size               medium                                MEDIUM
+  customer_readiness        peak_of_inflated_expectations         LOW
+  regulatory                unregulated                           MEDIUM
+  infrastructure            developing                            MEDIUM
+  market_structure          technology_enablement                 LOW
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 1 | 0 |
+| `competition` | 0 | 2 | 0 |
+| `market_size` | 1 | 1 | 0 |
+| `customer_readiness` | 1 | 0 | 1 |
+| `regulatory` | 1 | 1 | 0 |
+| `infrastructure` | 0 | 2 | 0 |
+| `market_structure` | 1 | 0 | 1 |
+
+
+---
+
+## Batch 35  —  2026-03-20 13:58:59
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 171 / 350  
+**Batch agreement:** MEDIUM (score=0.571)  
+**HIGH:** 2  **MEDIUM:** 4  **LOW:** 1  
+**Auto-correction triggered:** no
+
+### Developer-First DevSecOps Integration Security Platforms (2020)
+
+**T+5:** VERIFIED (7 sources)  **Agreement:** MEDIUM (H=2 M=4 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_adopters` | MEDIUM | Organizations adopting DevSecOps practices increased from 25% in 2020 to 33% by  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Zx-mGzotTbplICJuzQ7ua_r1KVRPjOXjTr_EiwfNCK9svZOjIez99OU-9cx9kKJKeNK1_pZTHQfFigRy3QuLYmSG91OLEoFsqYDWgA1jjg9zFRt7MQ4EJ5_J7sAt0jjAngsQLXxeuIhReo8Vt2A=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Major players in the DevSecOps industry include Aqua Security Software Ltd., Ama | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Zx-mGzotTbplICJuzQ7ua_r1KVRPjOXjTr_EiwfNCK9svZOjIez99OU-9cx9kKJKeNK1_pZTHQfFigRy3QuLYmSG91OLEoFsqYDWgA1jjg9zFRt7MQ4EJ5_J7sAt0jjAngsQLXxeuIhReo8Vt2A=) |
+| `market_size` | `small` | `medium` | MEDIUM | The global DevSecOps market size was valued at USD 4.79 billion in 2022. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Zx-mGzotTbplICJuzQ7ua_r1KVRPjOXjTr_EiwfNCK9svZOjIez99OU-9cx9kKJKeNK1_pZTHQfFigRy3QuLYmSG91OLEoFsqYDWgA1jjg9zFRt7MQ4EJ5_J7sAt0jjAngsQLXxeuIhReo8Vt2A=) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | Enterprises were accelerating adoption of DevSecOps due to the inability of trad | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Zx-mGzotTbplICJuzQ7ua_r1KVRPjOXjTr_EiwfNCK9svZOjIez99OU-9cx9kKJKeNK1_pZTHQfFigRy3QuLYmSG91OLEoFsqYDWgA1jjg9zFRt7MQ4EJ5_J7sAt0jjAngsQLXxeuIhReo8Vt2A=) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | Regulatory pressure from initiatives like the United States' Executive Order 140 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Zx-mGzotTbplICJuzQ7ua_r1KVRPjOXjTr_EiwfNCK9svZOjIez99OU-9cx9kKJKeNK1_pZTHQfFigRy3QuLYmSG91OLEoFsqYDWgA1jjg9zFRt7MQ4EJ5_J7sAt0jjAngsQLXxeuIhReo8Vt2A=) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | In 2020, there was increased adoption of cloud-native security tools, indicating | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Zx-mGzotTbplICJuzQ7ua_r1KVRPjOXjTr_EiwfNCK9svZOjIez99OU-9cx9kKJKeNK1_pZTHQfFigRy3QuLYmSG91OLEoFsqYDWgA1jjg9zFRt7MQ4EJ5_J7sAt0jjAngsQLXxeuIhReo8Vt2A=) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | The market is driven by the integration of security into continuous integration  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Zx-mGzotTbplICJuzQ7ua_r1KVRPjOXjTr_EiwfNCK9svZOjIez99OU-9cx9kKJKeNK1_pZTHQfFigRy3QuLYmSG91OLEoFsqYDWgA1jjg9zFRt7MQ4EJ5_J7sAt0jjAngsQLXxeuIhReo8Vt2A=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 68 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `slope_of_enlightenment` | 74 |
+| `regulatory` | `moderate_compliance` | 63 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 58 |
+| **Mean** | — | **62** |
+
+### Role 3 Prompt Audit — Developer-First DevSecOps Integration Security Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        MEDIUM
+  competition               monopolistic_competition              HIGH
+  market_size               medium                                MEDIUM
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                moderate_compliance                   MEDIUM
+  infrastructure            developing                            MEDIUM
+  market_structure          technology_enablement                 LOW
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 0 | 1 | 0 |
+| `competition` | 1 | 0 | 0 |
+| `market_size` | 0 | 1 | 0 |
+| `customer_readiness` | 1 | 0 | 0 |
+| `regulatory` | 0 | 1 | 0 |
+| `infrastructure` | 0 | 1 | 0 |
+| `market_structure` | 0 | 0 | 1 |
+
+
+---
+
+## Batch 38  —  2026-03-20 14:08:11
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 173 / 350  
+**Batch agreement:** HIGH (score=0.750)  
+**HIGH:** 8  **MEDIUM:** 5  **LOW:** 1  
+**Auto-correction triggered:** no
+
+### Quantum Computing Hardware Algorithms Commercialization (2018)
+
+**T+5:** VERIFIED (14 sources)  **Agreement:** HIGH (H=4 M=3 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | The National Quantum Initiative Act was signed in December 2018, authorizing ove | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBs1xBjLV8gUwy6sEL6vQUljEw74pIwu5tXj96JQiwi1-bThZW9eWR-2St8MaiwMq7v4yy0oLYrpvTLP_29cOFAas8TzpCOAk7peqNUTp9LOJ_syI1eKDGqDTn76U_wt9fdmP25Adh0qUANB27LiuB_BawieB4liqUNk0TPYHMWk1kyxTFFm4mWXeTNA==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | IBM had a working prototype of a 50-qubit processor in 2017 and provided cloud-b | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBs1xBjLV8gUwy6sEL6vQUljEw74pIwu5tXj96JQiwi1-bThZW9eWR-2St8MaiwMq7v4yy0oLYrpvTLP_29cOFAas8TzpCOAk7peqNUTp9LOJ_syI1eKDGqDTn76U_wt9fdmP25Adh0qUANB27LiuB_BawieB4liqUNk0TPYHMWk1kyxTFFm4mWXeTNA==) |
+| `market_size` | `micro` | `micro` | HIGH | The total enterprise quantum computing market revenue in 2018 was $111.6 million | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBs1xBjLV8gUwy6sEL6vQUljEw74pIwu5tXj96JQiwi1-bThZW9eWR-2St8MaiwMq7v4yy0oLYrpvTLP_29cOFAas8TzpCOAk7peqNUTp9LOJ_syI1eKDGqDTn76U_wt9fdmP25Adh0qUANB27LiuB_BawieB4liqUNk0TPYHMWk1kyxTFFm4mWXeTNA==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | IBM's Q Experience tools were utilized by over 1,500 universities, 300 private e | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBs1xBjLV8gUwy6sEL6vQUljEw74pIwu5tXj96JQiwi1-bThZW9eWR-2St8MaiwMq7v4yy0oLYrpvTLP_29cOFAas8TzpCOAk7peqNUTp9LOJ_syI1eKDGqDTn76U_wt9fdmP25Adh0qUANB27LiuB_BawieB4liqUNk0TPYHMWk1kyxTFFm4mWXeTNA==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | The National Quantum Initiative Act of 2018 provided a framework for federal sup | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBs1xBjLV8gUwy6sEL6vQUljEw74pIwu5tXj96JQiwi1-bThZW9eWR-2St8MaiwMq7v4yy0oLYrpvTLP_29cOFAas8TzpCOAk7peqNUTp9LOJ_syI1eKDGqDTn76U_wt9fdmP25Adh0qUANB27LiuB_BawieB4liqUNk0TPYHMWk1kyxTFFm4mWXeTNA==) |
+| `infrastructure` | `emerging` | `nascent` | MEDIUM | In 2018, chips with over 50 general-purpose qubits were expected, but mass-marke | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBs1xBjLV8gUwy6sEL6vQUljEw74pIwu5tXj96JQiwi1-bThZW9eWR-2St8MaiwMq7v4yy0oLYrpvTLP_29cOFAas8TzpCOAk7peqNUTp9LOJ_syI1eKDGqDTn76U_wt9fdmP25Adh0qUANB27LiuB_BawieB4liqUNk0TPYHMWk1kyxTFFm4mWXeTNA==) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | 65% of quantum computing companies founded in 2018 were in the software sector. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBs1xBjLV8gUwy6sEL6vQUljEw74pIwu5tXj96JQiwi1-bThZW9eWR-2St8MaiwMq7v4yy0oLYrpvTLP_29cOFAas8TzpCOAk7peqNUTp9LOJ_syI1eKDGqDTn76U_wt9fdmP25Adh0qUANB27LiuB_BawieB4liqUNk0TPYHMWk1kyxTFFm4mWXeTNA==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 42 |
+| `competition` | `oligopoly` | 62 |
+| `market_size` | `micro` | 18 |
+| `customer_readiness` | `innovation_trigger` | 38 |
+| `regulatory` | `light_touch` | 78 |
+| `infrastructure` | `nascent` | 30 |
+| `market_structure` | `technology_enablement` | 62 |
+| **Mean** | — | **47** |
+
+### Online Restaurant Food Ordering and Delivery Platforms (2013)
+
+**T+5:** VERIFIED (4 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The 'new delivery' model of online food delivery platforms emerged in 2013. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg2Ozr5RqRmA11iL4u-2pjQJhjtDWFARCAuT7FnoiBJB_A7yylpQ8vy2EQ-hDQZs7grY0OtTrMNzuN7zcQ59UusGyOvJhOB_65o6IAwPDXaiJsJtmzoxkTshuxWmWUFIANbdKP8gp1zDlwbXIf484y8k-nCd4kAHgxE4kinIUNYTM77Yjg10iEdl-TCueqOdvRSl_Rpnqos367HS1VEQgZQ9Db3FsTFhiQJVx6R7XzZsSSeawjcF4Wcg==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | GrubHub and Seamless, two prominent online food ordering services, merged in 201 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg2Ozr5RqRmA11iL4u-2pjQJhjtDWFARCAuT7FnoiBJB_A7yylpQ8vy2EQ-hDQZs7grY0OtTrMNzuN7zcQ59UusGyOvJhOB_65o6IAwPDXaiJsJtmzoxkTshuxWmWUFIANbdKP8gp1zDlwbXIf484y8k-nCd4kAHgxE4kinIUNYTM77Yjg10iEdl-TCueqOdvRSl_Rpnqos367HS1VEQgZQ9Db3FsTFhiQJVx6R7XzZsSSeawjcF4Wcg==) |
+| `market_size` | `small` | `small` | HIGH | By September 2015, online delivery constituted approximately 3% of U.S. restaura | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg2Ozr5RqRmA11iL4u-2pjQJhjtDWFARCAuT7FnoiBJB_A7yylpQ8vy2EQ-hDQZs7grY0OtTrMNzuN7zcQ59UusGyOvJhOB_65o6IAwPDXaiJsJtmzoxkTshuxWmWUFIANbdKP8gp1zDlwbXIf484y8k-nCd4kAHgxE4kinIUNYTM77Yjg10iEdl-TCueqOdvRSl_Rpnqos367HS1VEQgZQ9Db3FsTFhiQJVx6R7XzZsSSeawjcF4Wcg==) |
+| `customer_readiness` | `slope_of_enlightenment` | `innovation_trigger` | LOW | The 'new delivery' model, providing logistics for restaurants, was introduced in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg2Ozr5RqRmA11iL4u-2pjQJhjtDWFARCAuT7FnoiBJB_A7yylpQ8vy2EQ-hDQZs7grY0OtTrMNzuN7zcQ59UusGyOvJhOB_65o6IAwPDXaiJsJtmzoxkTshuxWmWUFIANbdKP8gp1zDlwbXIf484y8k-nCd4kAHgxE4kinIUNYTM77Yjg10iEdl-TCueqOdvRSl_Rpnqos367HS1VEQgZQ9Db3FsTFhiQJVx6R7XzZsSSeawjcF4Wcg==) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | No specific regulatory frameworks for online food delivery platforms were promin | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg2Ozr5RqRmA11iL4u-2pjQJhjtDWFARCAuT7FnoiBJB_A7yylpQ8vy2EQ-hDQZs7grY0OtTrMNzuN7zcQ59UusGyOvJhOB_65o6IAwPDXaiJsJtmzoxkTshuxWmWUFIANbdKP8gp1zDlwbXIf484y8k-nCd4kAHgxE4kinIUNYTM77Yjg10iEdl-TCueqOdvRSl_Rpnqos367HS1VEQgZQ9Db3FsTFhiQJVx6R7XzZsSSeawjcF4Wcg==) |
+| `infrastructure` | `developing` | `developing` | HIGH | Increased smartphone penetration was a key catalyst for the emergence of food de | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg2Ozr5RqRmA11iL4u-2pjQJhjtDWFARCAuT7FnoiBJB_A7yylpQ8vy2EQ-hDQZs7grY0OtTrMNzuN7zcQ59UusGyOvJhOB_65o6IAwPDXaiJsJtmzoxkTshuxWmWUFIANbdKP8gp1zDlwbXIf484y8k-nCd4kAHgxE4kinIUNYTM77Yjg10iEdl-TCueqOdvRSl_Rpnqos367HS1VEQgZQ9Db3FsTFhiQJVx6R7XzZsSSeawjcF4Wcg==) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | The market was characterized by two-sided platforms, either aggregating orders o | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg2Ozr5RqRmA11iL4u-2pjQJhjtDWFARCAuT7FnoiBJB_A7yylpQ8vy2EQ-hDQZs7grY0OtTrMNzuN7zcQ59UusGyOvJhOB_65o6IAwPDXaiJsJtmzoxkTshuxWmWUFIANbdKP8gp1zDlwbXIf484y8k-nCd4kAHgxE4kinIUNYTM77Yjg10iEdl-TCueqOdvRSl_Rpnqos367HS1VEQgZQ9Db3FsTFhiQJVx6R7XzZsSSeawjcF4Wcg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 30 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 45 |
+| `market_structure` | `platform_two_sided` | 74 |
+| **Mean** | — | **55** |
+
+### Role 3 Prompt Audit — Quantum Computing Hardware Algorithms Commercialization
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    innovators                            HIGH
+  competition               oligopoly                             HIGH
+  market_size               micro                                 HIGH
+  customer_readiness        innovation_trigger                    MEDIUM
+  regulatory                light_touch                           HIGH
+  infrastructure            nascent                               MEDIUM
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 2 | 0 | 0 |
+| `competition` | 1 | 1 | 0 |
+| `market_size` | 2 | 0 | 0 |
+| `customer_readiness` | 0 | 1 | 1 |
+| `regulatory` | 1 | 1 | 0 |
+| `infrastructure` | 1 | 1 | 0 |
+| `market_structure` | 1 | 1 | 0 |
+
+
+---
+
+## Batch 40  —  2026-03-20 14:15:51
+
+**Markets processed this batch:** 3  
+**Cumulative total:** 176 / 350  
+**Batch agreement:** HIGH (score=0.786)  
+**HIGH:** 13  **MEDIUM:** 7  **LOW:** 1  
+**Auto-correction triggered:** no
+
+### Public Commercial Residential EV Charging Networks (2009)
+
+**T+5:** VERIFIED (11 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | The global stock of plug-in electric vehicles was almost 6,000 units in 2009. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErXDJgtXYnKvDjRRiS1D4aA1bE6EXwMYwyWkhZz7EnlllKnsx9gi6t3CY4S5xG1d02pBkzlBzrR56dZmPg8kKhieeE1CYrpHfRg_c4D7FD6g9AX8YNqZ2pbFEZwDUYfT03p3H3gucZEwyJ7SeP6G53KwLP) |
+| `competition` | `monopoly` | `monopolistic_competition` | LOW | The number of companies marketing EV charging stations proliferated in 2009. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErXDJgtXYnKvDjRRiS1D4aA1bE6EXwMYwyWkhZz7EnlllKnsx9gi6t3CY4S5xG1d02pBkzlBzrR56dZmPg8kKhieeE1CYrpHfRg_c4D7FD6g9AX8YNqZ2pbFEZwDUYfT03p3H3gucZEwyJ7SeP6G53KwLP) |
+| `market_size` | `micro` | `micro` | HIGH | Only 2,500 electric vehicles were on U.S. roads in 2009. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErXDJgtXYnKvDjRRiS1D4aA1bE6EXwMYwyWkhZz7EnlllKnsx9gi6t3CY4S5xG1d02pBkzlBzrR56dZmPg8kKhieeE1CYrpHfRg_c4D7FD6g9AX8YNqZ2pbFEZwDUYfT03p3H3gucZEwyJ7SeP6G53KwLP) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | 42% of consumers surveyed in 2008-2009 expressed some chance of buying a PHEV in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErXDJgtXYnKvDjRRiS1D4aA1bE6EXwMYwyWkhZz7EnlllKnsx9gi6t3CY4S5xG1d02pBkzlBzrR56dZmPg8kKhieeE1CYrpHfRg_c4D7FD6g9AX8YNqZ2pbFEZwDUYfT03p3H3gucZEwyJ7SeP6G53KwLP) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Washington State enacted a law in 2009 to encourage EVs and infrastructure. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErXDJgtXYnKvDjRRiS1D4aA1bE6EXwMYwyWkhZz7EnlllKnsx9gi6t3CY4S5xG1d02pBkzlBzrR56dZmPg8kKhieeE1CYrpHfRg_c4D7FD6g9AX8YNqZ2pbFEZwDUYfT03p3H3gucZEwyJ7SeP6G53KwLP) |
+| `infrastructure` | `emerging` | `nascent` | MEDIUM | In 2010, the U.S. Station Locator included only 541 legacy chargers. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErXDJgtXYnKvDjRRiS1D4aA1bE6EXwMYwyWkhZz7EnlllKnsx9gi6t3CY4S5xG1d02pBkzlBzrR56dZmPg8kKhieeE1CYrpHfRg_c4D7FD6g9AX8YNqZ2pbFEZwDUYfT03p3H3gucZEwyJ7SeP6G53KwLP) |
+| `market_structure` | `platform_two_sided` | `technology_enablement` | MEDIUM | The electric car industry in 2009 required a vast infrastructure of charging sta | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErXDJgtXYnKvDjRRiS1D4aA1bE6EXwMYwyWkhZz7EnlllKnsx9gi6t3CY4S5xG1d02pBkzlBzrR56dZmPg8kKhieeE1CYrpHfRg_c4D7FD6g9AX8YNqZ2pbFEZwDUYfT03p3H3gucZEwyJ7SeP6G53KwLP) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 42 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `micro` | 18 |
+| `customer_readiness` | `innovation_trigger` | 38 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `nascent` | 30 |
+| `market_structure` | `technology_enablement` | 63 |
+| **Mean** | — | **48** |
+
+### Online MOOC Platforms University Professional Skill Courses (2012)
+
+**T+5:** VERIFIED (12 sources)  **Agreement:** HIGH (H=5 M=2 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The New York Times declared 2012 'the year of MOOCs'. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETbzjOgOLVFemKycfHwuXS78A_vVcJYI7OsxfhVBgxgONUhS2C618vUByxX5Jhlu9-ydBmRGm39N6ws0RCS1KDWn-_DmfgjLSV1BYhO9DwLesIpE89JLS8FQUZnGJoQCE_735AsPhHs2eoHVt8yj3wyisyHu4bvRK8vv_On3cZS3f8vyGVL8s0) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Coursera, Udacity, and edX were the dominant platforms emerging in 2012. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETbzjOgOLVFemKycfHwuXS78A_vVcJYI7OsxfhVBgxgONUhS2C618vUByxX5Jhlu9-ydBmRGm39N6ws0RCS1KDWn-_DmfgjLSV1BYhO9DwLesIpE89JLS8FQUZnGJoQCE_735AsPhHs2eoHVt8yj3wyisyHu4bvRK8vv_On3cZS3f8vyGVL8s0) |
+| `market_size` | `micro` | `small` | MEDIUM | By June 2012, over 1.5 million people had registered for classes through Courser | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETbzjOgOLVFemKycfHwuXS78A_vVcJYI7OsxfhVBgxgONUhS2C618vUByxX5Jhlu9-ydBmRGm39N6ws0RCS1KDWn-_DmfgjLSV1BYhO9DwLesIpE89JLS8FQUZnGJoQCE_735AsPhHs2eoHVt8yj3wyisyHu4bvRK8vv_On3cZS3f8vyGVL8s0) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | The MOOC topic was heavily trending leading up to the larger universities design | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETbzjOgOLVFemKycfHwuXS78A_vVcJYI7OsxfhVBgxgONUhS2C618vUByxX5Jhlu9-ydBmRGm39N6ws0RCS1KDWn-_DmfgjLSV1BYhO9DwLesIpE89JLS8FQUZnGJoQCE_735AsPhHs2eoHVt8yj3wyisyHu4bvRK8vv_On3cZS3f8vyGVL8s0) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | Most MOOCs in 2012 did not offer formal accreditation or college credits. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETbzjOgOLVFemKycfHwuXS78A_vVcJYI7OsxfhVBgxgONUhS2C618vUByxX5Jhlu9-ydBmRGm39N6ws0RCS1KDWn-_DmfgjLSV1BYhO9DwLesIpE89JLS8FQUZnGJoQCE_735AsPhHs2eoHVt8yj3wyisyHu4bvRK8vv_On3cZS3f8vyGVL8s0) |
+| `infrastructure` | `developing` | `developing` | HIGH | MOOCs emerged as a popular mode of learning in 2012, utilizing the latest intern | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETbzjOgOLVFemKycfHwuXS78A_vVcJYI7OsxfhVBgxgONUhS2C618vUByxX5Jhlu9-ydBmRGm39N6ws0RCS1KDWn-_DmfgjLSV1BYhO9DwLesIpE89JLS8FQUZnGJoQCE_735AsPhHs2eoHVt8yj3wyisyHu4bvRK8vv_On3cZS3f8vyGVL8s0) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Coursera and edX partnered with universities to offer courses to millions of stu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETbzjOgOLVFemKycfHwuXS78A_vVcJYI7OsxfhVBgxgONUhS2C618vUByxX5Jhlu9-ydBmRGm39N6ws0RCS1KDWn-_DmfgjLSV1BYhO9DwLesIpE89JLS8FQUZnGJoQCE_735AsPhHs2eoHVt8yj3wyisyHu4bvRK8vv_On3cZS3f8vyGVL8s0) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 45 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 75 |
+| **Mean** | — | **57** |
+
+### Mobile On-Demand Ride-Hailing Passenger Platforms (2010)
+
+**T+5:** VERIFIED (14 sources)  **Agreement:** HIGH (H=5 M=2 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | Uber launched its beta service in San Francisco in May 2010. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3pPzb24dtEwgY6TuilN-quuW-RoHJjnS6WZ4MNHmkOdm5QD7Ju58z2H3bnwOgZCgvVU7D8FPDEidt_k6fyEMJOqoZKs_ivihiX31dVaYDdnnBN2l47qzLiO0V35A=) |
+| `competition` | `monopoly` | `monopoly` | HIGH | Uber launched in 2010 as UberCab, initially offering luxury black car services. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3pPzb24dtEwgY6TuilN-quuW-RoHJjnS6WZ4MNHmkOdm5QD7Ju58z2H3bnwOgZCgvVU7D8FPDEidt_k6fyEMJOqoZKs_ivihiX31dVaYDdnnBN2l47qzLiO0V35A=) |
+| `market_size` | `micro` | `micro` | HIGH | Uber's first ride was requested in San Francisco on July 5, 2010. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3pPzb24dtEwgY6TuilN-quuW-RoHJjnS6WZ4MNHmkOdm5QD7Ju58z2H3bnwOgZCgvVU7D8FPDEidt_k6fyEMJOqoZKs_ivihiX31dVaYDdnnBN2l47qzLiO0V35A=) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | Uber's app was designed to make ordering a taxi far more reliable than the exist | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3pPzb24dtEwgY6TuilN-quuW-RoHJjnS6WZ4MNHmkOdm5QD7Ju58z2H3bnwOgZCgvVU7D8FPDEidt_k6fyEMJOqoZKs_ivihiX31dVaYDdnnBN2l47qzLiO0V35A=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | Uber changed its name from UberCab in 2011 after complaints from San Francisco t | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3pPzb24dtEwgY6TuilN-quuW-RoHJjnS6WZ4MNHmkOdm5QD7Ju58z2H3bnwOgZCgvVU7D8FPDEidt_k6fyEMJOqoZKs_ivihiX31dVaYDdnnBN2l47qzLiO0V35A=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Smartphone ownership in the US reached 23% (nearly 59 million Americans) by Sept | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3pPzb24dtEwgY6TuilN-quuW-RoHJjnS6WZ4MNHmkOdm5QD7Ju58z2H3bnwOgZCgvVU7D8FPDEidt_k6fyEMJOqoZKs_ivihiX31dVaYDdnnBN2l47qzLiO0V35A=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Uber's business model was to connect riders with drivers through a mobile app, a | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3pPzb24dtEwgY6TuilN-quuW-RoHJjnS6WZ4MNHmkOdm5QD7Ju58z2H3bnwOgZCgvVU7D8FPDEidt_k6fyEMJOqoZKs_ivihiX31dVaYDdnnBN2l47qzLiO0V35A=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 42 |
+| `competition` | `monopoly` | 85 |
+| `market_size` | `micro` | 15 |
+| `customer_readiness` | `innovation_trigger` | 38 |
+| `regulatory` | `unregulated` | 72 |
+| `infrastructure` | `emerging` | 48 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **54** |
+
+### Role 3 Prompt Audit — Public Commercial Residential EV Charging Networks
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    innovators                            HIGH
+  competition               monopolistic_competition              LOW
+  market_size               micro                                 HIGH
+  customer_readiness        innovation_trigger                    MEDIUM
+  regulatory                light_touch                           HIGH
+  infrastructure            nascent                               MEDIUM
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 3 | 0 | 0 |
+| `competition` | 2 | 0 | 1 |
+| `market_size` | 2 | 1 | 0 |
+| `customer_readiness` | 2 | 1 | 0 |
+| `regulatory` | 1 | 2 | 0 |
+| `infrastructure` | 1 | 2 | 0 |
+| `market_structure` | 2 | 1 | 0 |
+
+
+---
+
+## Batch 41  —  2026-03-20 14:20:04
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 178 / 350  
+**Batch agreement:** MEDIUM (score=0.679)  
+**HIGH:** 7  **MEDIUM:** 5  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Online Platforms Connecting Users With Licensed Therapists Virtually (2015)
+
+**T+5:** VERIFIED (8 sources)  **Agreement:** MEDIUM (H=4 M=1 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | In 2015, 18.6% of outpatient mental health treatment facilities in the US offere | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBGvuqMD01eI1XATLdA8wUsHS5g26m0WrRPBTqGABDBaA75yncZQAmxGd_3lCMivJtvz-yN44zmncad0c5QAclhuy5_OBjXU35L4gkg4WO4MyY5ahQ_N2Ry2GMgaaBRQUHcxZ8AaEbq2r2PNkO) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | As of early 2017, nearly a dozen online therapy companies had launched in the pr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBGvuqMD01eI1XATLdA8wUsHS5g26m0WrRPBTqGABDBaA75yncZQAmxGd_3lCMivJtvz-yN44zmncad0c5QAclhuy5_OBjXU35L4gkg4WO4MyY5ahQ_N2Ry2GMgaaBRQUHcxZ8AaEbq2r2PNkO) |
+| `market_size` | `micro` | `medium` | LOW | The overall telehealth market was projected to reach $38.5 billion in revenue by | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBGvuqMD01eI1XATLdA8wUsHS5g26m0WrRPBTqGABDBaA75yncZQAmxGd_3lCMivJtvz-yN44zmncad0c5QAclhuy5_OBjXU35L4gkg4WO4MyY5ahQ_N2Ry2GMgaaBRQUHcxZ8AaEbq2r2PNkO) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `slope_of_enlightenment` | LOW | In 2015, 72% of consumers were willing to see a doctor via telehealth video conf | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBGvuqMD01eI1XATLdA8wUsHS5g26m0WrRPBTqGABDBaA75yncZQAmxGd_3lCMivJtvz-yN44zmncad0c5QAclhuy5_OBjXU35L4gkg4WO4MyY5ahQ_N2Ry2GMgaaBRQUHcxZ8AaEbq2r2PNkO) |
+| `regulatory` | `moderate_compliance` | `moderate_compliance` | HIGH | The main challenges to telehealth in 2015 were regulatory and legislative. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBGvuqMD01eI1XATLdA8wUsHS5g26m0WrRPBTqGABDBaA75yncZQAmxGd_3lCMivJtvz-yN44zmncad0c5QAclhuy5_OBjXU35L4gkg4WO4MyY5ahQ_N2Ry2GMgaaBRQUHcxZ8AaEbq2r2PNkO) |
+| `infrastructure` | `developing` | `developing` | HIGH | The widespread adoption of smartphones was a key enabler for new app-based thera | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBGvuqMD01eI1XATLdA8wUsHS5g26m0WrRPBTqGABDBaA75yncZQAmxGd_3lCMivJtvz-yN44zmncad0c5QAclhuy5_OBjXU35L4gkg4WO4MyY5ahQ_N2Ry2GMgaaBRQUHcxZ8AaEbq2r2PNkO) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Online therapy platforms connect users with licensed therapists, functioning as  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBGvuqMD01eI1XATLdA8wUsHS5g26m0WrRPBTqGABDBaA75yncZQAmxGd_3lCMivJtvz-yN44zmncad0c5QAclhuy5_OBjXU35L4gkg4WO4MyY5ahQ_N2Ry2GMgaaBRQUHcxZ8AaEbq2r2PNkO) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 52 |
+| `customer_readiness` | `slope_of_enlightenment` | 68 |
+| `regulatory` | `moderate_compliance` | 70 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **65** |
+
+### Online Prescription Delivery and Medication Management Platforms (2018)
+
+**T+5:** VERIFIED (14 sources)  **Agreement:** HIGH (H=3 M=4 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Mail-order pharmacy use among U.S. adult prescription users was 15.7% in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLvnC5QM2trYPLVJAMKCiSMswOZwC7zj5Hw0SeYwyyZ8pqh3VgGiBtcQFAg6tj5irnHNsTtIcQkzl4me9k9OzuM25VaJFmAYQl7ANufju9yYQEBQ7uzzIUlxXRdX9imnuHIEasakebm3m_av0bYRtaalPw2FksqkG1EaS8mWYJYdS1Og==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Amazon.com, Inc. acquired PillPack in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLvnC5QM2trYPLVJAMKCiSMswOZwC7zj5Hw0SeYwyyZ8pqh3VgGiBtcQFAg6tj5irnHNsTtIcQkzl4me9k9OzuM25VaJFmAYQl7ANufju9yYQEBQ7uzzIUlxXRdX9imnuHIEasakebm3m_av0bYRtaalPw2FksqkG1EaS8mWYJYdS1Og==) |
+| `market_size` | `small` | `medium` | MEDIUM | The U.S. pharma E-commerce market had historical data from 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLvnC5QM2trYPLVJAMKCiSMswOZwC7zj5Hw0SeYwyyZ8pqh3VgGiBtcQFAg6tj5irnHNsTtIcQkzl4me9k9OzuM25VaJFmAYQl7ANufju9yYQEBQ7uzzIUlxXRdX9imnuHIEasakebm3m_av0bYRtaalPw2FksqkG1EaS8mWYJYdS1Og==) |
+| `customer_readiness` | `slope_of_enlightenment` | `trough_of_disillusionment` | MEDIUM | In 2018, only 4.17% of Hungarian respondents had used the internet for medicatio | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLvnC5QM2trYPLVJAMKCiSMswOZwC7zj5Hw0SeYwyyZ8pqh3VgGiBtcQFAg6tj5irnHNsTtIcQkzl4me9k9OzuM25VaJFmAYQl7ANufju9yYQEBQ7uzzIUlxXRdX9imnuHIEasakebm3m_av0bYRtaalPw2FksqkG1EaS8mWYJYdS1Og==) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | The SUPPORT for Patients and Communities Act of 2018 mandated electronic prescri | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLvnC5QM2trYPLVJAMKCiSMswOZwC7zj5Hw0SeYwyyZ8pqh3VgGiBtcQFAg6tj5irnHNsTtIcQkzl4me9k9OzuM25VaJFmAYQl7ANufju9yYQEBQ7uzzIUlxXRdX9imnuHIEasakebm3m_av0bYRtaalPw2FksqkG1EaS8mWYJYdS1Og==) |
+| `infrastructure` | `developing` | `developing` | HIGH | Surescripts processed 1.91 billion e-prescriptions in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLvnC5QM2trYPLVJAMKCiSMswOZwC7zj5Hw0SeYwyyZ8pqh3VgGiBtcQFAg6tj5irnHNsTtIcQkzl4me9k9OzuM25VaJFmAYQl7ANufju9yYQEBQ7uzzIUlxXRdX9imnuHIEasakebm3m_av0bYRtaalPw2FksqkG1EaS8mWYJYdS1Og==) |
+| `market_structure` | `winner_take_most` | `platform_two_sided` | MEDIUM | Online pharmacy platforms enable customers to buy medicinal products and service | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLvnC5QM2trYPLVJAMKCiSMswOZwC7zj5Hw0SeYwyyZ8pqh3VgGiBtcQFAg6tj5irnHNsTtIcQkzl4me9k9OzuM25VaJFmAYQl7ANufju9yYQEBQ7uzzIUlxXRdX9imnuHIEasakebm3m_av0bYRtaalPw2FksqkG1EaS8mWYJYdS1Og==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `trough_of_disillusionment` | 35 |
+| `regulatory` | `moderate_compliance` | 63 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 65 |
+| **Mean** | — | **58** |
+
+### Role 3 Prompt Audit — Online Platforms Connecting Users With Licensed Therapists Virtually
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               medium                                LOW
+  customer_readiness        slope_of_enlightenment                LOW
+  regulatory                moderate_compliance                   HIGH
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 2 | 0 | 0 |
+| `competition` | 1 | 1 | 0 |
+| `market_size` | 0 | 1 | 1 |
+| `customer_readiness` | 0 | 1 | 1 |
+| `regulatory` | 1 | 1 | 0 |
+| `infrastructure` | 2 | 0 | 0 |
+| `market_structure` | 1 | 1 | 0 |
+
+
+---
+
+## Batch 42  —  2026-03-20 14:22:52
+
+**Markets processed this batch:** 3  
+**Cumulative total:** 181 / 350  
+**Batch agreement:** MEDIUM (score=0.643)  
+**HIGH:** 8  **MEDIUM:** 11  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### No-Code Low-Code Citizen Developer App Platforms (2018)
+
+**T+5:** VERIFIED (6 sources)  **Agreement:** MEDIUM (H=1 M=5 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | 84% of enterprise businesses had adopted low-code solutions by 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXp0ydoDSembacmjQp1nMf4d9qBCNNV9gyAN3Uy6_LYykSKGfZlVesA9FW8hPOYtKIG9m_fir33eUxDkeC0CElsHvXhFrhgRZBSVijqvkNt1tHZEoSoSmvBAHXlN0RwrXXNiC6icmEAWpv6BY6ku0j4yXa-A==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | The rapid application development market size was USD 7.8 billion in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXp0ydoDSembacmjQp1nMf4d9qBCNNV9gyAN3Uy6_LYykSKGfZlVesA9FW8hPOYtKIG9m_fir33eUxDkeC0CElsHvXhFrhgRZBSVijqvkNt1tHZEoSoSmvBAHXlN0RwrXXNiC6icmEAWpv6BY6ku0j4yXa-A==) |
+| `market_size` | `small` | `medium` | MEDIUM | The rapid application development market size was USD 7.8 billion in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXp0ydoDSembacmjQp1nMf4d9qBCNNV9gyAN3Uy6_LYykSKGfZlVesA9FW8hPOYtKIG9m_fir33eUxDkeC0CElsHvXhFrhgRZBSVijqvkNt1tHZEoSoSmvBAHXlN0RwrXXNiC6icmEAWpv6BY6ku0j4yXa-A==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `slope_of_enlightenment` | LOW | 84% of enterprise businesses had adopted low-code solutions by 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXp0ydoDSembacmjQp1nMf4d9qBCNNV9gyAN3Uy6_LYykSKGfZlVesA9FW8hPOYtKIG9m_fir33eUxDkeC0CElsHvXhFrhgRZBSVijqvkNt1tHZEoSoSmvBAHXlN0RwrXXNiC6icmEAWpv6BY6ku0j4yXa-A==) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | No specific regulations for no-code/low-code platforms were highlighted in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXp0ydoDSembacmjQp1nMf4d9qBCNNV9gyAN3Uy6_LYykSKGfZlVesA9FW8hPOYtKIG9m_fir33eUxDkeC0CElsHvXhFrhgRZBSVijqvkNt1tHZEoSoSmvBAHXlN0RwrXXNiC6icmEAWpv6BY6ku0j4yXa-A==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Low-code development platforms were already being used by large enterprises in 2 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXp0ydoDSembacmjQp1nMf4d9qBCNNV9gyAN3Uy6_LYykSKGfZlVesA9FW8hPOYtKIG9m_fir33eUxDkeC0CElsHvXhFrhgRZBSVijqvkNt1tHZEoSoSmvBAHXlN0RwrXXNiC6icmEAWpv6BY6ku0j4yXa-A==) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Low-code and no-code platforms were enabling both professional and 'citizen' dev | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXp0ydoDSembacmjQp1nMf4d9qBCNNV9gyAN3Uy6_LYykSKGfZlVesA9FW8hPOYtKIG9m_fir33eUxDkeC0CElsHvXhFrhgRZBSVijqvkNt1tHZEoSoSmvBAHXlN0RwrXXNiC6icmEAWpv6BY6ku0j4yXa-A==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `slope_of_enlightenment` | 65 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 58 |
+| `market_structure` | `technology_enablement` | 68 |
+| **Mean** | — | **65** |
+
+### Indoor Vertical Farming Controlled Environment Agriculture (2017)
+
+**T+5:** VERIFIED (17 sources)  **Agreement:** HIGH (H=3 M=4 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Plenty received a $200 million Series B funding round in July 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv0DcmrYpXyS_2eTJUx5RYAxQAMN4-HLM-IfQKx5N0VwJ16QxlzEedXNoSVv239o6ePbLWib-NQhB7wJ_koTko3HaIIrv802XcRKqZQ01HIbUIbLy1pG3RdwBpn49papDYj8p3u9CXBnWd6AgGrDnvVyqZzFfBzgwm0g13l7pbkbzJlsYi7hnYZI8320yP3uqysy4mYg6Sd370_aOEvxXi4VU6qZo2kGAhJEQ=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | More than $660 million was deployed into 221 deals within the vertical farm sect | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv0DcmrYpXyS_2eTJUx5RYAxQAMN4-HLM-IfQKx5N0VwJ16QxlzEedXNoSVv239o6ePbLWib-NQhB7wJ_koTko3HaIIrv802XcRKqZQ01HIbUIbLy1pG3RdwBpn49papDYj8p3u9CXBnWd6AgGrDnvVyqZzFfBzgwm0g13l7pbkbzJlsYi7hnYZI8320yP3uqysy4mYg6Sd370_aOEvxXi4VU6qZo2kGAhJEQ=) |
+| `market_size` | `small` | `small` | HIGH | Over $660 million was deployed into the vertical farm sector in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv0DcmrYpXyS_2eTJUx5RYAxQAMN4-HLM-IfQKx5N0VwJ16QxlzEedXNoSVv239o6ePbLWib-NQhB7wJ_koTko3HaIIrv802XcRKqZQ01HIbUIbLy1pG3RdwBpn49papDYj8p3u9CXBnWd6AgGrDnvVyqZzFfBzgwm0g13l7pbkbzJlsYi7hnYZI8320yP3uqysy4mYg6Sd370_aOEvxXi4VU6qZo2kGAhJEQ=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | In 2017, there was a recognized need to 'Educate consumers' about vertical farmi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv0DcmrYpXyS_2eTJUx5RYAxQAMN4-HLM-IfQKx5N0VwJ16QxlzEedXNoSVv239o6ePbLWib-NQhB7wJ_koTko3HaIIrv802XcRKqZQ01HIbUIbLy1pG3RdwBpn49papDYj8p3u9CXBnWd6AgGrDnvVyqZzFfBzgwm0g13l7pbkbzJlsYi7hnYZI8320yP3uqysy4mYg6Sd370_aOEvxXi4VU6qZo2kGAhJEQ=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | NOP regulations were updated in 2017 to allow hydroponic systems to be certified | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv0DcmrYpXyS_2eTJUx5RYAxQAMN4-HLM-IfQKx5N0VwJ16QxlzEedXNoSVv239o6ePbLWib-NQhB7wJ_koTko3HaIIrv802XcRKqZQ01HIbUIbLy1pG3RdwBpn49papDYj8p3u9CXBnWd6AgGrDnvVyqZzFfBzgwm0g13l7pbkbzJlsYi7hnYZI8320yP3uqysy4mYg6Sd370_aOEvxXi4VU6qZo2kGAhJEQ=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Shipping container-based structures were projected to gain traction and growth i | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv0DcmrYpXyS_2eTJUx5RYAxQAMN4-HLM-IfQKx5N0VwJ16QxlzEedXNoSVv239o6ePbLWib-NQhB7wJ_koTko3HaIIrv802XcRKqZQ01HIbUIbLy1pG3RdwBpn49papDYj8p3u9CXBnWd6AgGrDnvVyqZzFfBzgwm0g13l7pbkbzJlsYi7hnYZI8320yP3uqysy4mYg6Sd370_aOEvxXi4VU6qZo2kGAhJEQ=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Vertical farming creates an artificial environment inside a facility using techn | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv0DcmrYpXyS_2eTJUx5RYAxQAMN4-HLM-IfQKx5N0VwJ16QxlzEedXNoSVv239o6ePbLWib-NQhB7wJ_koTko3HaIIrv802XcRKqZQ01HIbUIbLy1pG3RdwBpn49papDYj8p3u9CXBnWd6AgGrDnvVyqZzFfBzgwm0g13l7pbkbzJlsYi7hnYZI8320yP3uqysy4mYg6Sd370_aOEvxXi4VU6qZo2kGAhJEQ=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 48 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `emerging` | 55 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **58** |
+
+### Private Investment Fusion Energy Development Companies (2021)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | In 2021, 15 of the 23 surveyed private fusion companies (65%) were founded in th | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFsVxW_Asa1YkR-mv3ESifDt4pma7OnbmfLCMxpRlX81dBT227GPR2xRULmuJaiOV2lD9tB_--CbWzQxfdlvIkAjl8Ua0fngECWokcQbi67vRTEJfsiTnC3oDFJlWkwPLQ5BFJQFUVxuJFOUa6m8ahcotXJNFRJtTint7gm0WYEJ06H3d90V8fjo7ID4yS9qmlKRVYx6H0F5kzuL682D8=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | The top four companies in terms of investment raised accounted for 85% of the pr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFsVxW_Asa1YkR-mv3ESifDt4pma7OnbmfLCMxpRlX81dBT227GPR2xRULmuJaiOV2lD9tB_--CbWzQxfdlvIkAjl8Ua0fngECWokcQbi67vRTEJfsiTnC3oDFJlWkwPLQ5BFJQFUVxuJFOUa6m8ahcotXJNFRJtTint7gm0WYEJ06H3d90V8fjo7ID4yS9qmlKRVYx6H0F5kzuL682D8=) |
+| `market_size` | `small` | `small` | HIGH | In 2021, private fusion companies had declared almost $1.9 billion in private fu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFsVxW_Asa1YkR-mv3ESifDt4pma7OnbmfLCMxpRlX81dBT227GPR2xRULmuJaiOV2lD9tB_--CbWzQxfdlvIkAjl8Ua0fngECWokcQbi67vRTEJfsiTnC3oDFJlWkwPLQ5BFJQFUVxuJFOUa6m8ahcotXJNFRJtTint7gm0WYEJ06H3d90V8fjo7ID4yS9qmlKRVYx6H0F5kzuL682D8=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | In 2021, researchers at Lawrence Livermore National Laboratory created a fusion  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFsVxW_Asa1YkR-mv3ESifDt4pma7OnbmfLCMxpRlX81dBT227GPR2xRULmuJaiOV2lD9tB_--CbWzQxfdlvIkAjl8Ua0fngECWokcQbi67vRTEJfsiTnC3oDFJlWkwPLQ5BFJQFUVxuJFOUa6m8ahcotXJNFRJtTint7gm0WYEJ06H3d90V8fjo7ID4yS9qmlKRVYx6H0F5kzuL682D8=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | In 2021, regulators were still in the process of determining appropriate framewo | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFsVxW_Asa1YkR-mv3ESifDt4pma7OnbmfLCMxpRlX81dBT227GPR2xRULmuJaiOV2lD9tB_--CbWzQxfdlvIkAjl8Ua0fngECWokcQbi67vRTEJfsiTnC3oDFJlWkwPLQ5BFJQFUVxuJFOUa6m8ahcotXJNFRJtTint7gm0WYEJ06H3d90V8fjo7ID4yS9qmlKRVYx6H0F5kzuL682D8=) |
+| `infrastructure` | `nascent` | `nascent` | HIGH | In 2021, designs were being drawn up for fusion demonstrators and pilot power pl | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFsVxW_Asa1YkR-mv3ESifDt4pma7OnbmfLCMxpRlX81dBT227GPR2xRULmuJaiOV2lD9tB_--CbWzQxfdlvIkAjl8Ua0fngECWokcQbi67vRTEJfsiTnC3oDFJlWkwPLQ5BFJQFUVxuJFOUa6m8ahcotXJNFRJtTint7gm0WYEJ06H3d90V8fjo7ID4yS9qmlKRVYx6H0F5kzuL682D8=) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | In 2021, private fusion companies were exploring new concepts and technologies w | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFsVxW_Asa1YkR-mv3ESifDt4pma7OnbmfLCMxpRlX81dBT227GPR2xRULmuJaiOV2lD9tB_--CbWzQxfdlvIkAjl8Ua0fngECWokcQbi67vRTEJfsiTnC3oDFJlWkwPLQ5BFJQFUVxuJFOUa6m8ahcotXJNFRJtTint7gm0WYEJ06H3d90V8fjo7ID4yS9qmlKRVYx6H0F5kzuL682D8=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `oligopoly` | 72 |
+| `market_size` | `small` | 20 |
+| `customer_readiness` | `innovation_trigger` | 42 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `nascent` | 35 |
+| `market_structure` | `technology_enablement` | 52 |
+| **Mean** | — | **52** |
+
+### Role 3 Prompt Audit — No-Code Low-Code Citizen Developer App Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        MEDIUM
+  competition               monopolistic_competition              HIGH
+  market_size               medium                                MEDIUM
+  customer_readiness        slope_of_enlightenment                LOW
+  regulatory                unregulated                           MEDIUM
+  infrastructure            developing                            MEDIUM
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 2 | 1 | 0 |
+| `competition` | 2 | 1 | 0 |
+| `market_size` | 2 | 1 | 0 |
+| `customer_readiness` | 0 | 2 | 1 |
+| `regulatory` | 1 | 2 | 0 |
+| `infrastructure` | 1 | 2 | 0 |
+| `market_structure` | 0 | 2 | 1 |
+
+
+---
+
+## Batch 46  —  2026-03-20 14:38:40
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 182 / 350  
+**Batch agreement:** MEDIUM (score=0.571)  
+**HIGH:** 3  **MEDIUM:** 2  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Online Mental Health Therapy Platform Connections (2020)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=3 M=2 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | Telehealth services for mental health reasons represented 47% of all telehealth  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaNV4BNfa6UEx6W43iHqBOCqzFEQ7KYZlM4u3j3SbOxE-DDtLTCa7JNO2Z1c1MAx3FZx9q7X56gZ9oFlDBACVsiRzMMTUJK5_iVh4-nTCMFcuUiHwrVMNpMZqzezYJAEIODpb0F8WTMXtIUzAIDm9vhJFQ1OyvcQtSZKWhALPG7j0VpmQfRXf8bR-PIFncVUE-ukVe5YuRY1ierSiIYePGVp-Wj34k232sXz9dIIOy2Ug=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Talkspace, a leading online therapy provider, had raised over $106 million in fu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaNV4BNfa6UEx6W43iHqBOCqzFEQ7KYZlM4u3j3SbOxE-DDtLTCa7JNO2Z1c1MAx3FZx9q7X56gZ9oFlDBACVsiRzMMTUJK5_iVh4-nTCMFcuUiHwrVMNpMZqzezYJAEIODpb0F8WTMXtIUzAIDm9vhJFQ1OyvcQtSZKWhALPG7j0VpmQfRXf8bR-PIFncVUE-ukVe5YuRY1ierSiIYePGVp-Wj34k232sXz9dIIOy2Ug=) |
+| `market_size` | `small` | `large` | LOW | The global online therapy services market was estimated to be valued at USD 11.0 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaNV4BNfa6UEx6W43iHqBOCqzFEQ7KYZlM4u3j3SbOxE-DDtLTCa7JNO2Z1c1MAx3FZx9q7X56gZ9oFlDBACVsiRzMMTUJK5_iVh4-nTCMFcuUiHwrVMNpMZqzezYJAEIODpb0F8WTMXtIUzAIDm9vhJFQ1OyvcQtSZKWhALPG7j0VpmQfRXf8bR-PIFncVUE-ukVe5YuRY1ierSiIYePGVp-Wj34k232sXz9dIIOy2Ug=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | The use of telehealth services increased by 154% during the pandemic from the pr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaNV4BNfa6UEx6W43iHqBOCqzFEQ7KYZlM4u3j3SbOxE-DDtLTCa7JNO2Z1c1MAx3FZx9q7X56gZ9oFlDBACVsiRzMMTUJK5_iVh4-nTCMFcuUiHwrVMNpMZqzezYJAEIODpb0F8WTMXtIUzAIDm9vhJFQ1OyvcQtSZKWhALPG7j0VpmQfRXf8bR-PIFncVUE-ukVe5YuRY1ierSiIYePGVp-Wj34k232sXz9dIIOy2Ug=) |
+| `regulatory` | `moderate_compliance` | `light_touch` | MEDIUM | The PSYPACT agreement, allowing psychologists to practice across state lines, be | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaNV4BNfa6UEx6W43iHqBOCqzFEQ7KYZlM4u3j3SbOxE-DDtLTCa7JNO2Z1c1MAx3FZx9q7X56gZ9oFlDBACVsiRzMMTUJK5_iVh4-nTCMFcuUiHwrVMNpMZqzezYJAEIODpb0F8WTMXtIUzAIDm9vhJFQ1OyvcQtSZKWhALPG7j0VpmQfRXf8bR-PIFncVUE-ukVe5YuRY1ierSiIYePGVp-Wj34k232sXz9dIIOy2Ug=) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Many startups were raising funds in 2020 to invest in technologies aimed at maki | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaNV4BNfa6UEx6W43iHqBOCqzFEQ7KYZlM4u3j3SbOxE-DDtLTCa7JNO2Z1c1MAx3FZx9q7X56gZ9oFlDBACVsiRzMMTUJK5_iVh4-nTCMFcuUiHwrVMNpMZqzezYJAEIODpb0F8WTMXtIUzAIDm9vhJFQ1OyvcQtSZKWhALPG7j0VpmQfRXf8bR-PIFncVUE-ukVe5YuRY1ierSiIYePGVp-Wj34k232sXz9dIIOy2Ug=) |
+| `market_structure` | `platform_two_sided` | `fragmented_niche` | LOW | In the first half of 2020, $588 million was invested in behavioral health startu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaNV4BNfa6UEx6W43iHqBOCqzFEQ7KYZlM4u3j3SbOxE-DDtLTCa7JNO2Z1c1MAx3FZx9q7X56gZ9oFlDBACVsiRzMMTUJK5_iVh4-nTCMFcuUiHwrVMNpMZqzezYJAEIODpb0F8WTMXtIUzAIDm9vhJFQ1OyvcQtSZKWhALPG7j0VpmQfRXf8bR-PIFncVUE-ukVe5YuRY1ierSiIYePGVp-Wj34k232sXz9dIIOy2Ug=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 60 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `light_touch` | 74 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `fragmented_niche` | 48 |
+| **Mean** | — | **60** |
+
+### Role 3 Prompt Audit — Online Mental Health Therapy Platform Connections
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        HIGH
+  competition               monopolistic_competition              HIGH
+  market_size               large                                 LOW
+  customer_readiness        peak_of_inflated_expectations         HIGH
+  regulatory                light_touch                           MEDIUM
+  infrastructure            developing                            MEDIUM
+  market_structure          fragmented_niche                      LOW
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 1 | 0 | 0 |
+| `market_size` | 0 | 0 | 1 |
+| `customer_readiness` | 1 | 0 | 0 |
+| `regulatory` | 0 | 1 | 0 |
+| `infrastructure` | 0 | 1 | 0 |
+| `market_structure` | 0 | 0 | 1 |
+
+
+---
+
+## Batch 47  —  2026-03-20 14:43:09
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 183 / 350  
+**Batch agreement:** MEDIUM (score=0.500)  
+**HIGH:** 2  **MEDIUM:** 3  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Enterprise Online Learning and Workforce Upskilling Platforms (2015)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=2 M=3 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | E-learning enrollment grew by 10% in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2SHj6q3GnqXI68BqOT8XjpAtI9xtCx7lWScCb3oZ6vNhbv5Q2m1CBFtJmiF36euFepVklHkdCrf0GKY_3MHtwArcwNTEmm2ck-1LvZXHRMNxDvS-UWgIxtgSpi2zG9OpRx3Xrb-Qjpg==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Cornerstone OnDemand, SAP, and Saba Software were among the top companies in the | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2SHj6q3GnqXI68BqOT8XjpAtI9xtCx7lWScCb3oZ6vNhbv5Q2m1CBFtJmiF36euFepVklHkdCrf0GKY_3MHtwArcwNTEmm2ck-1LvZXHRMNxDvS-UWgIxtgSpi2zG9OpRx3Xrb-Qjpg==) |
+| `market_size` | `small` | `large` | LOW | The global eLearning Market was expected to reach $107 billion by 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2SHj6q3GnqXI68BqOT8XjpAtI9xtCx7lWScCb3oZ6vNhbv5Q2m1CBFtJmiF36euFepVklHkdCrf0GKY_3MHtwArcwNTEmm2ck-1LvZXHRMNxDvS-UWgIxtgSpi2zG9OpRx3Xrb-Qjpg==) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | 85% of organizations believed e-learning enhanced employee retention rates in 20 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2SHj6q3GnqXI68BqOT8XjpAtI9xtCx7lWScCb3oZ6vNhbv5Q2m1CBFtJmiF36euFepVklHkdCrf0GKY_3MHtwArcwNTEmm2ck-1LvZXHRMNxDvS-UWgIxtgSpi2zG9OpRx3Xrb-Qjpg==) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | The Every Student Succeeds Act (ESSA) replaced NCLB in 2015, initiating a shift  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2SHj6q3GnqXI68BqOT8XjpAtI9xtCx7lWScCb3oZ6vNhbv5Q2m1CBFtJmiF36euFepVklHkdCrf0GKY_3MHtwArcwNTEmm2ck-1LvZXHRMNxDvS-UWgIxtgSpi2zG9OpRx3Xrb-Qjpg==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Cloud-based LMS usage was identified as a key trend in the market in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2SHj6q3GnqXI68BqOT8XjpAtI9xtCx7lWScCb3oZ6vNhbv5Q2m1CBFtJmiF36euFepVklHkdCrf0GKY_3MHtwArcwNTEmm2ck-1LvZXHRMNxDvS-UWgIxtgSpi2zG9OpRx3Xrb-Qjpg==) |
+| `market_structure` | `winner_take_most` | `fragmented_niche` | LOW | The LMS market was over $3 billion in size in 2016 and included hundreds of plat | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2SHj6q3GnqXI68BqOT8XjpAtI9xtCx7lWScCb3oZ6vNhbv5Q2m1CBFtJmiF36euFepVklHkdCrf0GKY_3MHtwArcwNTEmm2ck-1LvZXHRMNxDvS-UWgIxtgSpi2zG9OpRx3Xrb-Qjpg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `fragmented_niche` | 48 |
+| **Mean** | — | **63** |
+
+### Role 3 Prompt Audit — Enterprise Online Learning and Workforce Upskilling Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        MEDIUM
+  competition               monopolistic_competition              HIGH
+  market_size               large                                 LOW
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                moderate_compliance                   MEDIUM
+  infrastructure            developing                            MEDIUM
+  market_structure          fragmented_niche                      LOW
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 0 | 1 | 0 |
+| `competition` | 1 | 0 | 0 |
+| `market_size` | 0 | 0 | 1 |
+| `customer_readiness` | 1 | 0 | 0 |
+| `regulatory` | 0 | 1 | 0 |
+| `infrastructure` | 0 | 1 | 0 |
+| `market_structure` | 0 | 0 | 1 |
+
+
+---
+
+## Batch 48  —  2026-03-20 14:47:19
+
+**Markets processed this batch:** 3  
+**Cumulative total:** 186 / 350  
+**Batch agreement:** HIGH (score=0.714)  
+**HIGH:** 13  **MEDIUM:** 4  **LOW:** 4  
+**Auto-correction triggered:** no
+
+### Unified Customer Data Platform Software (2016)
+
+**T+5:** VERIFIED (5 sources)  **Agreement:** MEDIUM (H=4 M=1 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | CDPs first appeared on the Gartner Hype Cycle in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGA1_HMsjUxm9VG0IYnxZIuwUU6JUgXoMytNXrV83JRxbKW4_3yHOSMIKuWyThjYttUKJe7rN6NFFDb-A-596PbvHR7jnwobjdkvch8v5pYNxncDJrpf1DwdEsE9yOkUjJVvF6WcJ2OpfAkeOKPJ8nsx9h9QJbgw7TD5CzUqjSzFxTEg==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | 23 CDP vendors existed in December 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGA1_HMsjUxm9VG0IYnxZIuwUU6JUgXoMytNXrV83JRxbKW4_3yHOSMIKuWyThjYttUKJe7rN6NFFDb-A-596PbvHR7jnwobjdkvch8v5pYNxncDJrpf1DwdEsE9yOkUjJVvF6WcJ2OpfAkeOKPJ8nsx9h9QJbgw7TD5CzUqjSzFxTEg==) |
+| `market_size` | `micro` | `medium` | LOW | The CDP market was 'rapidly growing' since 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGA1_HMsjUxm9VG0IYnxZIuwUU6JUgXoMytNXrV83JRxbKW4_3yHOSMIKuWyThjYttUKJe7rN6NFFDb-A-596PbvHR7jnwobjdkvch8v5pYNxncDJrpf1DwdEsE9yOkUjJVvF6WcJ2OpfAkeOKPJ8nsx9h9QJbgw7TD5CzUqjSzFxTEg==) |
+| `customer_readiness` | `slope_of_enlightenment` | `peak_of_inflated_expectations` | LOW | CDPs were placed in the 'peak of inflated expectations' on the Gartner Hype Cycl | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGA1_HMsjUxm9VG0IYnxZIuwUU6JUgXoMytNXrV83JRxbKW4_3yHOSMIKuWyThjYttUKJe7rN6NFFDb-A-596PbvHR7jnwobjdkvch8v5pYNxncDJrpf1DwdEsE9yOkUjJVvF6WcJ2OpfAkeOKPJ8nsx9h9QJbgw7TD5CzUqjSzFxTEg==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | No specific heavy regulations for CDPs were highlighted in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGA1_HMsjUxm9VG0IYnxZIuwUU6JUgXoMytNXrV83JRxbKW4_3yHOSMIKuWyThjYttUKJe7rN6NFFDb-A-596PbvHR7jnwobjdkvch8v5pYNxncDJrpf1DwdEsE9yOkUjJVvF6WcJ2OpfAkeOKPJ8nsx9h9QJbgw7TD5CzUqjSzFxTEg==) |
+| `infrastructure` | `developing` | `developing` | HIGH | CDPs integrate data from various existing digital sources like CRM, DMP, web, an | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGA1_HMsjUxm9VG0IYnxZIuwUU6JUgXoMytNXrV83JRxbKW4_3yHOSMIKuWyThjYttUKJe7rN6NFFDb-A-596PbvHR7jnwobjdkvch8v5pYNxncDJrpf1DwdEsE9yOkUjJVvF6WcJ2OpfAkeOKPJ8nsx9h9QJbgw7TD5CzUqjSzFxTEg==) |
+| `market_structure` | `technology_enablement` | `technology_enablement` | HIGH | CDPs unify customer data to enable personalized marketing and improved customer  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGA1_HMsjUxm9VG0IYnxZIuwUU6JUgXoMytNXrV83JRxbKW4_3yHOSMIKuWyThjYttUKJe7rN6NFFDb-A-596PbvHR7jnwobjdkvch8v5pYNxncDJrpf1DwdEsE9yOkUjJVvF6WcJ2OpfAkeOKPJ8nsx9h9QJbgw7TD5CzUqjSzFxTEg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 52 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 48 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 58 |
+| `market_structure` | `technology_enablement` | 80 |
+| **Mean** | — | **65** |
+
+### University MOOC and Open Online Degree Platforms (2012)
+
+**T+5:** VERIFIED (26 sources)  **Agreement:** HIGH (H=5 M=2 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The New York Times declared 2012 'The Year of the MOOC'. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzcHacj9kKG6rtSexuMH8Nf2Ty_dqrI1_VOTup3yQIx3Mi-rLpCDRSTM1roAz0FLMP03tiJ7Xg9d37FsKvlFnykleCkIEpUMGeR-unYKQYiOm2jN6-Rehg05RN0Q4EuIDFjS339VzoFgOPtAztMo5PX9kIXA==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Coursera, Udacity, and edX were the dominant platforms in 2012. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzcHacj9kKG6rtSexuMH8Nf2Ty_dqrI1_VOTup3yQIx3Mi-rLpCDRSTM1roAz0FLMP03tiJ7Xg9d37FsKvlFnykleCkIEpUMGeR-unYKQYiOm2jN6-Rehg05RN0Q4EuIDFjS339VzoFgOPtAztMo5PX9kIXA==) |
+| `market_size` | `micro` | `small` | MEDIUM | By July 2012, Coursera had reached 1 million learners. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzcHacj9kKG6rtSexuMH8Nf2Ty_dqrI1_VOTup3yQIx3Mi-rLpCDRSTM1roAz0FLMP03tiJ7Xg9d37FsKvlFnykleCkIEpUMGeR-unYKQYiOm2jN6-Rehg05RN0Q4EuIDFjS339VzoFgOPtAztMo5PX9kIXA==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | MOOCs were placed at the 'peak of inflated expectations' on the Gartner Hype Cyc | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzcHacj9kKG6rtSexuMH8Nf2Ty_dqrI1_VOTup3yQIx3Mi-rLpCDRSTM1roAz0FLMP03tiJ7Xg9d37FsKvlFnykleCkIEpUMGeR-unYKQYiOm2jN6-Rehg05RN0Q4EuIDFjS339VzoFgOPtAztMo5PX9kIXA==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | In July 2012, the U.S. Department of Education stated it would no longer tie Tit | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzcHacj9kKG6rtSexuMH8Nf2Ty_dqrI1_VOTup3yQIx3Mi-rLpCDRSTM1roAz0FLMP03tiJ7Xg9d37FsKvlFnykleCkIEpUMGeR-unYKQYiOm2jN6-Rehg05RN0Q4EuIDFjS339VzoFgOPtAztMo5PX9kIXA==) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Major MOOC platforms like Coursera, Udacity, and edX launched in 2011-2012, leve | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzcHacj9kKG6rtSexuMH8Nf2Ty_dqrI1_VOTup3yQIx3Mi-rLpCDRSTM1roAz0FLMP03tiJ7Xg9d37FsKvlFnykleCkIEpUMGeR-unYKQYiOm2jN6-Rehg05RN0Q4EuIDFjS339VzoFgOPtAztMo5PX9kIXA==) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Platforms like Coursera partnered with numerous universities to offer courses to | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzcHacj9kKG6rtSexuMH8Nf2Ty_dqrI1_VOTup3yQIx3Mi-rLpCDRSTM1roAz0FLMP03tiJ7Xg9d37FsKvlFnykleCkIEpUMGeR-unYKQYiOm2jN6-Rehg05RN0Q4EuIDFjS339VzoFgOPtAztMo5PX9kIXA==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 45 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `emerging` | 58 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **59** |
+
+### Mobile-First Digital-Only Retail Banking Neobanks (2017)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** MEDIUM (H=4 M=1 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The number of neobanks worldwide tripled from 100 in 2017 to nearly 300 by 2020. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLQYcP3ltqCMomlpTrJk8xLaNsfOC7F1PdhIr7tmWbs-ubyubt7IF4ayKCRkaiNDcVAem1-wT4J7XLuQMZWUVvIVVf-RZhfjV-18u_z0ig-hN9nWZUeU6W8t-UTvn_ktqQAWYdR4UChQ==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | The UK had 40 challenger banks in 2017, compared to 5 in the US. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLQYcP3ltqCMomlpTrJk8xLaNsfOC7F1PdhIr7tmWbs-ubyubt7IF4ayKCRkaiNDcVAem1-wT4J7XLuQMZWUVvIVVf-RZhfjV-18u_z0ig-hN9nWZUeU6W8t-UTvn_ktqQAWYdR4UChQ==) |
+| `market_size` | `small` | `small` | HIGH | The global neobanking transaction value was $230 million USD in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLQYcP3ltqCMomlpTrJk8xLaNsfOC7F1PdhIr7tmWbs-ubyubt7IF4ayKCRkaiNDcVAem1-wT4J7XLuQMZWUVvIVVf-RZhfjV-18u_z0ig-hN9nWZUeU6W8t-UTvn_ktqQAWYdR4UChQ==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `unknown` | LOW | In 2017, 54% of consumers in Asia-Pacific emerging markets actively used digital | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLQYcP3ltqCMomlpTrJk8xLaNsfOC7F1PdhIr7tmWbs-ubyubt7IF4ayKCRkaiNDcVAem1-wT4J7XLuQMZWUVvIVVf-RZhfjV-18u_z0ig-hN9nWZUeU6W8t-UTvn_ktqQAWYdR4UChQ==) |
+| `regulatory` | `heavily_regulated` | `light_touch` | LOW | The EU's Payment Services Directive 2 (PSD2) was launched in Europe in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLQYcP3ltqCMomlpTrJk8xLaNsfOC7F1PdhIr7tmWbs-ubyubt7IF4ayKCRkaiNDcVAem1-wT4J7XLuQMZWUVvIVVf-RZhfjV-18u_z0ig-hN9nWZUeU6W8t-UTvn_ktqQAWYdR4UChQ==) |
+| `infrastructure` | `developing` | `developing` | HIGH | Mobile wallets had attracted $2.4 billion in cumulative investment over 10 years | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLQYcP3ltqCMomlpTrJk8xLaNsfOC7F1PdhIr7tmWbs-ubyubt7IF4ayKCRkaiNDcVAem1-wT4J7XLuQMZWUVvIVVf-RZhfjV-18u_z0ig-hN9nWZUeU6W8t-UTvn_ktqQAWYdR4UChQ==) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Neobanks operated without physical branches, focusing on digital services to red | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLQYcP3ltqCMomlpTrJk8xLaNsfOC7F1PdhIr7tmWbs-ubyubt7IF4ayKCRkaiNDcVAem1-wT4J7XLuQMZWUVvIVVf-RZhfjV-18u_z0ig-hN9nWZUeU6W8t-UTvn_ktqQAWYdR4UChQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 20 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 45 |
+| `regulatory` | `light_touch` | 68 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **55** |
+
+### Role 3 Prompt Audit — Unified Customer Data Platform Software
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               medium                                LOW
+  customer_readiness        peak_of_inflated_expectations         LOW
+  regulatory                light_touch                           HIGH
+  infrastructure            developing                            HIGH
+  market_structure          technology_enablement                 HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 3 | 0 | 0 |
+| `competition` | 2 | 1 | 0 |
+| `market_size` | 1 | 1 | 1 |
+| `customer_readiness` | 1 | 0 | 2 |
+| `regulatory` | 2 | 0 | 1 |
+| `infrastructure` | 2 | 1 | 0 |
+| `market_structure` | 2 | 1 | 0 |
+
+
+---
+
+## Batch 49  —  2026-03-20 14:51:22
+
+**Markets processed this batch:** 3  
+**Cumulative total:** 189 / 350  
+**Batch agreement:** MEDIUM (score=0.571)  
+**HIGH:** 8  **MEDIUM:** 8  **LOW:** 5  
+**Auto-correction triggered:** no
+
+### Cloud-Native DevOps and Developer Tooling Platforms (2019)
+
+**T+5:** VERIFIED (8 sources)  **Agreement:** HIGH (H=4 M=3 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | DevOps adoption increased by approximately 8% from 2015 to 2016, and was expecte | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2XqYTRPp_b1-SlWrfBxLm6ygmQqF_hmTXd_vzNTYx8QshiYRY0-foR4_nNfcI0CA9bmgqRsdIW1AY5Amu-2bwFjqq1-qHBR-cmf6JDSvPa_2tI7eU7i30TOqnVPNeziFrHquhAHX3sOIiiN39AmPtWQDlGbSS3maG2pGtbBNBJ-xvPA==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | In 2019, VMware acquired Bitnami and Palo Alto Networks acquired Twistlock, indi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2XqYTRPp_b1-SlWrfBxLm6ygmQqF_hmTXd_vzNTYx8QshiYRY0-foR4_nNfcI0CA9bmgqRsdIW1AY5Amu-2bwFjqq1-qHBR-cmf6JDSvPa_2tI7eU7i30TOqnVPNeziFrHquhAHX3sOIiiN39AmPtWQDlGbSS3maG2pGtbBNBJ-xvPA==) |
+| `market_size` | `medium` | `large` | MEDIUM | The global DevOps market size was $4,461.2 million in 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2XqYTRPp_b1-SlWrfBxLm6ygmQqF_hmTXd_vzNTYx8QshiYRY0-foR4_nNfcI0CA9bmgqRsdIW1AY5Amu-2bwFjqq1-qHBR-cmf6JDSvPa_2tI7eU7i30TOqnVPNeziFrHquhAHX3sOIiiN39AmPtWQDlGbSS3maG2pGtbBNBJ-xvPA==) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | Experts predicted DevOps would become mainstream and reach its peak popularity i | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2XqYTRPp_b1-SlWrfBxLm6ygmQqF_hmTXd_vzNTYx8QshiYRY0-foR4_nNfcI0CA9bmgqRsdIW1AY5Amu-2bwFjqq1-qHBR-cmf6JDSvPa_2tI7eU7i30TOqnVPNeziFrHquhAHX3sOIiiN39AmPtWQDlGbSS3maG2pGtbBNBJ-xvPA==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | GDPR and similar privacy laws were becoming a reality in 2019, leading to increa | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2XqYTRPp_b1-SlWrfBxLm6ygmQqF_hmTXd_vzNTYx8QshiYRY0-foR4_nNfcI0CA9bmgqRsdIW1AY5Amu-2bwFjqq1-qHBR-cmf6JDSvPa_2tI7eU7i30TOqnVPNeziFrHquhAHX3sOIiiN39AmPtWQDlGbSS3maG2pGtbBNBJ-xvPA==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Kubernetes solidified its position as the dominant container orchestration platf | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2XqYTRPp_b1-SlWrfBxLm6ygmQqF_hmTXd_vzNTYx8QshiYRY0-foR4_nNfcI0CA9bmgqRsdIW1AY5Amu-2bwFjqq1-qHBR-cmf6JDSvPa_2tI7eU7i30TOqnVPNeziFrHquhAHX3sOIiiN39AmPtWQDlGbSS3maG2pGtbBNBJ-xvPA==) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Key innovation hubs were emerging within major technology ecosystems, facilitate | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2XqYTRPp_b1-SlWrfBxLm6ygmQqF_hmTXd_vzNTYx8QshiYRY0-foR4_nNfcI0CA9bmgqRsdIW1AY5Amu-2bwFjqq1-qHBR-cmf6JDSvPa_2tI7eU7i30TOqnVPNeziFrHquhAHX3sOIiiN39AmPtWQDlGbSS3maG2pGtbBNBJ-xvPA==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 78 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 75 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 68 |
+| **Mean** | — | **70** |
+
+### Institutional Cryptocurrency Custody and Digital Asset Platforms (2021)
+
+**T+5:** VERIFIED (7 sources)  **Agreement:** MEDIUM (H=3 M=2 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Venture capital firms invested an estimated $32.8 billion into crypto and blockc | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9VHdapaX9mE-SXOL0TjWXVhQo3MLSOYfAoST2caMYQmR5ASYj3PZElQ7BH3LsrFR1aVKYY-fPndl3rbV14hqfuFdvw-E6dikiqH300efYQe7UP0nPR-2P8w5R8I-pxHUxj6qC7dMdTlOZpttm_k6emTTHWGpJ4A==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | By 2024, North America accounted for a 39.5% share of the overall digital asset  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9VHdapaX9mE-SXOL0TjWXVhQo3MLSOYfAoST2caMYQmR5ASYj3PZElQ7BH3LsrFR1aVKYY-fPndl3rbV14hqfuFdvw-E6dikiqH300efYQe7UP0nPR-2P8w5R8I-pxHUxj6qC7dMdTlOZpttm_k6emTTHWGpJ4A==) |
+| `market_size` | `small` | `medium` | MEDIUM | The total value locked in decentralized finance (DeFi) surged from under $20 bil | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9VHdapaX9mE-SXOL0TjWXVhQo3MLSOYfAoST2caMYQmR5ASYj3PZElQ7BH3LsrFR1aVKYY-fPndl3rbV14hqfuFdvw-E6dikiqH300efYQe7UP0nPR-2P8w5R8I-pxHUxj6qC7dMdTlOZpttm_k6emTTHWGpJ4A==) |
+| `customer_readiness` | `slope_of_enlightenment` | `peak_of_inflated_expectations` | LOW | Bitcoin prices hit an all-time high, exceeding $65,000 in 2021. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9VHdapaX9mE-SXOL0TjWXVhQo3MLSOYfAoST2caMYQmR5ASYj3PZElQ7BH3LsrFR1aVKYY-fPndl3rbV14hqfuFdvw-E6dikiqH300efYQe7UP0nPR-2P8w5R8I-pxHUxj6qC7dMdTlOZpttm_k6emTTHWGpJ4A==) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | The OCC provided guidance on crypto custody services in 2021, and the SEC asked  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9VHdapaX9mE-SXOL0TjWXVhQo3MLSOYfAoST2caMYQmR5ASYj3PZElQ7BH3LsrFR1aVKYY-fPndl3rbV14hqfuFdvw-E6dikiqH300efYQe7UP0nPR-2P8w5R8I-pxHUxj6qC7dMdTlOZpttm_k6emTTHWGpJ4A==) |
+| `infrastructure` | `developing` | `developing` | HIGH | In 2021, trusted technology partnerships were playing a significant role due to  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9VHdapaX9mE-SXOL0TjWXVhQo3MLSOYfAoST2caMYQmR5ASYj3PZElQ7BH3LsrFR1aVKYY-fPndl3rbV14hqfuFdvw-E6dikiqH300efYQe7UP0nPR-2P8w5R8I-pxHUxj6qC7dMdTlOZpttm_k6emTTHWGpJ4A==) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | Talos, an end-to-end technology platform for institutional cryptoasset trading,  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9VHdapaX9mE-SXOL0TjWXVhQo3MLSOYfAoST2caMYQmR5ASYj3PZElQ7BH3LsrFR1aVKYY-fPndl3rbV14hqfuFdvw-E6dikiqH300efYQe7UP0nPR-2P8w5R8I-pxHUxj6qC7dMdTlOZpttm_k6emTTHWGpJ4A==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 45 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 48 |
+| `regulatory` | `moderate_compliance` | 62 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 55 |
+| **Mean** | — | **56** |
+
+### Real Estate Transaction Management Software Platforms (2015)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** LOW (H=1 M=3 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | PropTech investment in 2015 saw a 50% year-over-year increase in funding. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7n_TIZsc8aLUp-DjL8hqtJwpUH0_Ugp7RZ_AKfjFUIROLWHk7z_QsVhxqXUggz_yRMQSadCWQJuZtLrAzGezDyraIaoj7orQsDuBqJ651MXe1TfULw5mTCYeFd8H9y5NYenFfVeKQkeyVFdnBQjjxDCBQJORApTXKrWi-GgUhw==) |
+| `competition` | `monopolistic_competition` | `oligopoly` | MEDIUM | Dotloop, acquired by Zillow in 2015, was used in over 50% of all real estate tra | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7n_TIZsc8aLUp-DjL8hqtJwpUH0_Ugp7RZ_AKfjFUIROLWHk7z_QsVhxqXUggz_yRMQSadCWQJuZtLrAzGezDyraIaoj7orQsDuBqJ651MXe1TfULw5mTCYeFd8H9y5NYenFfVeKQkeyVFdnBQjjxDCBQJORApTXKrWi-GgUhw==) |
+| `market_size` | `micro` | `medium` | LOW | Over $1.7 billion was invested in PropTech in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7n_TIZsc8aLUp-DjL8hqtJwpUH0_Ugp7RZ_AKfjFUIROLWHk7z_QsVhxqXUggz_yRMQSadCWQJuZtLrAzGezDyraIaoj7orQsDuBqJ651MXe1TfULw5mTCYeFd8H9y5NYenFfVeKQkeyVFdnBQjjxDCBQJORApTXKrWi-GgUhw==) |
+| `customer_readiness` | `slope_of_enlightenment` | `innovation_trigger` | LOW | The PropTech investment boom started post-2014, indicating a trigger for innovat | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7n_TIZsc8aLUp-DjL8hqtJwpUH0_Ugp7RZ_AKfjFUIROLWHk7z_QsVhxqXUggz_yRMQSadCWQJuZtLrAzGezDyraIaoj7orQsDuBqJ651MXe1TfULw5mTCYeFd8H9y5NYenFfVeKQkeyVFdnBQjjxDCBQJORApTXKrWi-GgUhw==) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | Real estate transaction management software includes features for compliance ass | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7n_TIZsc8aLUp-DjL8hqtJwpUH0_Ugp7RZ_AKfjFUIROLWHk7z_QsVhxqXUggz_yRMQSadCWQJuZtLrAzGezDyraIaoj7orQsDuBqJ651MXe1TfULw5mTCYeFd8H9y5NYenFfVeKQkeyVFdnBQjjxDCBQJORApTXKrWi-GgUhw==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Cloud property management software was gaining popularity in 2015, offering scal | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7n_TIZsc8aLUp-DjL8hqtJwpUH0_Ugp7RZ_AKfjFUIROLWHk7z_QsVhxqXUggz_yRMQSadCWQJuZtLrAzGezDyraIaoj7orQsDuBqJ651MXe1TfULw5mTCYeFd8H9y5NYenFfVeKQkeyVFdnBQjjxDCBQJORApTXKrWi-GgUhw==) |
+| `market_structure` | `fragmented_niche` | `winner_take_most` | LOW | In many PropTech categories, one or two companies tend to dominate the market. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7n_TIZsc8aLUp-DjL8hqtJwpUH0_Ugp7RZ_AKfjFUIROLWHk7z_QsVhxqXUggz_yRMQSadCWQJuZtLrAzGezDyraIaoj7orQsDuBqJ651MXe1TfULw5mTCYeFd8H9y5NYenFfVeKQkeyVFdnBQjjxDCBQJORApTXKrWi-GgUhw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 55 |
+| `market_size` | `medium` | 52 |
+| `customer_readiness` | `innovation_trigger` | 35 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 48 |
+| `market_structure` | `winner_take_most` | 62 |
+| **Mean** | — | **56** |
+
+### Role 3 Prompt Audit — Cloud-Native DevOps and Developer Tooling Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        HIGH
+  competition               monopolistic_competition              HIGH
+  market_size               large                                 MEDIUM
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                light_touch                           HIGH
+  infrastructure            developing                            MEDIUM
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 3 | 0 | 0 |
+| `competition` | 2 | 1 | 0 |
+| `market_size` | 0 | 2 | 1 |
+| `customer_readiness` | 1 | 0 | 2 |
+| `regulatory` | 1 | 2 | 0 |
+| `infrastructure` | 1 | 2 | 0 |
+| `market_structure` | 0 | 1 | 2 |
+
+
+---
+
+## Batch 51  —  2026-03-20 14:58:28
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 190 / 350  
+**Batch agreement:** HIGH (score=0.714)  
+**HIGH:** 3  **MEDIUM:** 4  **LOW:** 0  
+**Auto-correction triggered:** no
+
+### Quantum Processor and Software Development Companies (2015)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** HIGH (H=3 M=4 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | The second wave of quantum computing development, marked by a surge of startups  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAp_IT5g_Gb3yBg-9uG6iz3L46Hge3A5FXqw-ECvYMF7RrZbP5Y2xTtZAJhJrvdti4MsmI2kxFmsSB5pGsdRzP2726r4H4OWI7y7j4CkBubxR3j09SGmA=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Major IT companies like Microsoft, Intel, Google, and IBM were leading efforts i | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAp_IT5g_Gb3yBg-9uG6iz3L46Hge3A5FXqw-ECvYMF7RrZbP5Y2xTtZAJhJrvdti4MsmI2kxFmsSB5pGsdRzP2726r4H4OWI7y7j4CkBubxR3j09SGmA=) |
+| `market_size` | `micro` | `small` | MEDIUM | Worldwide investment in quantum technology research was $1.5 billion in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAp_IT5g_Gb3yBg-9uG6iz3L46Hge3A5FXqw-ECvYMF7RrZbP5Y2xTtZAJhJrvdti4MsmI2kxFmsSB5pGsdRzP2726r4H4OWI7y7j4CkBubxR3j09SGmA=) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | In 2015, quantum computing was moving from theoretical concepts to practical res | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAp_IT5g_Gb3yBg-9uG6iz3L46Hge3A5FXqw-ECvYMF7RrZbP5Y2xTtZAJhJrvdti4MsmI2kxFmsSB5pGsdRzP2726r4H4OWI7y7j4CkBubxR3j09SGmA=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | In 2015, the regulation of quantum technologies was in its infancy. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAp_IT5g_Gb3yBg-9uG6iz3L46Hge3A5FXqw-ECvYMF7RrZbP5Y2xTtZAJhJrvdti4MsmI2kxFmsSB5pGsdRzP2726r4H4OWI7y7j4CkBubxR3j09SGmA=) |
+| `infrastructure` | `emerging` | `nascent` | MEDIUM | Quantum computers in 2015 required complex installations with cryogenics for coo | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAp_IT5g_Gb3yBg-9uG6iz3L46Hge3A5FXqw-ECvYMF7RrZbP5Y2xTtZAJhJrvdti4MsmI2kxFmsSB5pGsdRzP2726r4H4OWI7y7j4CkBubxR3j09SGmA=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | More than 80% of investments in 2015 were allocated to quantum-computing hardwar | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAp_IT5g_Gb3yBg-9uG6iz3L46Hge3A5FXqw-ECvYMF7RrZbP5Y2xTtZAJhJrvdti4MsmI2kxFmsSB5pGsdRzP2726r4H4OWI7y7j4CkBubxR3j09SGmA=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `oligopoly` | 55 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 52 |
+| `regulatory` | `unregulated` | 72 |
+| `infrastructure` | `nascent` | 30 |
+| `market_structure` | `technology_enablement` | 63 |
+| **Mean** | — | **51** |
+
+### Role 3 Prompt Audit — Quantum Processor and Software Development Companies
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    innovators                            HIGH
+  competition               oligopoly                             HIGH
+  market_size               small                                 MEDIUM
+  customer_readiness        innovation_trigger                    HIGH
+  regulatory                unregulated                           MEDIUM
+  infrastructure            nascent                               MEDIUM
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 1 | 0 | 0 |
+| `market_size` | 0 | 1 | 0 |
+| `customer_readiness` | 1 | 0 | 0 |
+| `regulatory` | 0 | 1 | 0 |
+| `infrastructure` | 0 | 1 | 0 |
+| `market_structure` | 0 | 1 | 0 |
+
+
+---
+
+## Batch 52  —  2026-03-20 15:02:28
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 191 / 350  
+**Batch agreement:** HIGH (score=0.786)  
+**HIGH:** 4  **MEDIUM:** 3  **LOW:** 0  
+**Auto-correction triggered:** no
+
+### Controlled Environment Vertical Farming Indoor Agriculture (2017)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** HIGH (H=4 M=3 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Plenty, a vertical farming startup, raised $200 million in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSvy4QeWh-4Nv87YNsdmf43H5ZLZAIK0quvY6gAqmUFdBdOMaSeMGpXHPldx3ZxkYU8KBZH7A55kz_SeRoitweYsGoT2sZUEOhehPgT29UlwhSx_gIkuOWZHbV5NWY6hMOd7QFppbREt9ywtI=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Approximately 72% of vertical farming deal counts in 2017 were attributed to sma | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSvy4QeWh-4Nv87YNsdmf43H5ZLZAIK0quvY6gAqmUFdBdOMaSeMGpXHPldx3ZxkYU8KBZH7A55kz_SeRoitweYsGoT2sZUEOhehPgT29UlwhSx_gIkuOWZHbV5NWY6hMOd7QFppbREt9ywtI=) |
+| `market_size` | `small` | `small` | HIGH | More than $660 million was deployed into 221 deals within the vertical farm sect | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSvy4QeWh-4Nv87YNsdmf43H5ZLZAIK0quvY6gAqmUFdBdOMaSeMGpXHPldx3ZxkYU8KBZH7A55kz_SeRoitweYsGoT2sZUEOhehPgT29UlwhSx_gIkuOWZHbV5NWY6hMOd7QFppbREt9ywtI=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | The concept of vertical farming, popularized by Dickson Despommier, was embraced | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSvy4QeWh-4Nv87YNsdmf43H5ZLZAIK0quvY6gAqmUFdBdOMaSeMGpXHPldx3ZxkYU8KBZH7A55kz_SeRoitweYsGoT2sZUEOhehPgT29UlwhSx_gIkuOWZHbV5NWY6hMOd7QFppbREt9ywtI=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | NOP regulations were updated in 2017 to allow hydroponic systems to be certified | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSvy4QeWh-4Nv87YNsdmf43H5ZLZAIK0quvY6gAqmUFdBdOMaSeMGpXHPldx3ZxkYU8KBZH7A55kz_SeRoitweYsGoT2sZUEOhehPgT29UlwhSx_gIkuOWZHbV5NWY6hMOd7QFppbREt9ywtI=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Decreases in technology costs, particularly for LEDs, were driving the increase  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSvy4QeWh-4Nv87YNsdmf43H5ZLZAIK0quvY6gAqmUFdBdOMaSeMGpXHPldx3ZxkYU8KBZH7A55kz_SeRoitweYsGoT2sZUEOhehPgT29UlwhSx_gIkuOWZHbV5NWY6hMOd7QFppbREt9ywtI=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Vertical farming utilizes indoor farming techniques and controlled-environment a | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSvy4QeWh-4Nv87YNsdmf43H5ZLZAIK0quvY6gAqmUFdBdOMaSeMGpXHPldx3ZxkYU8KBZH7A55kz_SeRoitweYsGoT2sZUEOhehPgT29UlwhSx_gIkuOWZHbV5NWY6hMOd7QFppbREt9ywtI=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 45 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `emerging` | 55 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **58** |
+
+### Role 3 Prompt Audit — Controlled Environment Vertical Farming Indoor Agriculture
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              HIGH
+  market_size               small                                 HIGH
+  customer_readiness        innovation_trigger                    MEDIUM
+  regulatory                light_touch                           HIGH
+  infrastructure            emerging                              MEDIUM
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 1 | 0 | 0 |
+| `market_size` | 1 | 0 | 0 |
+| `customer_readiness` | 0 | 1 | 0 |
+| `regulatory` | 1 | 0 | 0 |
+| `infrastructure` | 0 | 1 | 0 |
+| `market_structure` | 0 | 1 | 0 |
+
+
+---
+
+## Batch 54  —  2026-03-20 15:08:55
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 192 / 350  
+**Batch agreement:** MEDIUM (score=0.429)  
+**HIGH:** 2  **MEDIUM:** 2  **LOW:** 3  
+**Auto-correction triggered:** no
+
+### Synthetic Biology Organism Engineering Platforms (2016)
+
+**T+5:** VERIFIED (11 sources)  **Agreement:** MEDIUM (H=2 M=2 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The global synthetic biology market was projected to reach $10.8 billion in 2016 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFNVEPzYvgIOyAF5zDoNvhwCLNzhOv_mAudOg-ZEogeedHcxT8yacI0hKdGj-ni-HA8sNmxYFtIazS3jUjgHnrVd7-bro0whpHP-QTTSxZlns0WF7V-vE-V4N5RySMXrkvtb6TEY-nIbshzUsLwF68rXcYdbJey34Hq_5Co0XYv2rHGr_xDigCS6ABc2I_-9eK1d5ODTio5kZiZIaXUHgBLBYq) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Over 350 companies were active in synthetic biology globally in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFNVEPzYvgIOyAF5zDoNvhwCLNzhOv_mAudOg-ZEogeedHcxT8yacI0hKdGj-ni-HA8sNmxYFtIazS3jUjgHnrVd7-bro0whpHP-QTTSxZlns0WF7V-vE-V4N5RySMXrkvtb6TEY-nIbshzUsLwF68rXcYdbJey34Hq_5Co0XYv2rHGr_xDigCS6ABc2I_-9eK1d5ODTio5kZiZIaXUHgBLBYq) |
+| `market_size` | `micro` | `large` | LOW | The global synthetic biology market was valued at approximately $3.9 billion in  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFNVEPzYvgIOyAF5zDoNvhwCLNzhOv_mAudOg-ZEogeedHcxT8yacI0hKdGj-ni-HA8sNmxYFtIazS3jUjgHnrVd7-bro0whpHP-QTTSxZlns0WF7V-vE-V4N5RySMXrkvtb6TEY-nIbshzUsLwF68rXcYdbJey34Hq_5Co0XYv2rHGr_xDigCS6ABc2I_-9eK1d5ODTio5kZiZIaXUHgBLBYq) |
+| `customer_readiness` | `unknown` | `peak_of_inflated_expectations` | LOW | Impossible Foods launched its synthetic biology-enabled burger in 2016, achievin | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFNVEPzYvgIOyAF5zDoNvhwCLNzhOv_mAudOg-ZEogeedHcxT8yacI0hKdGj-ni-HA8sNmxYFtIazS3jUjgHnrVd7-bro0whpHP-QTTSxZlns0WF7V-vE-V4N5RySMXrkvtb6TEY-nIbshzUsLwF68rXcYdbJey34Hq_5Co0XYv2rHGr_xDigCS6ABc2I_-9eK1d5ODTio5kZiZIaXUHgBLBYq) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | In 2016, US synthetic biology products were regulated under the 1986 Coordinated | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFNVEPzYvgIOyAF5zDoNvhwCLNzhOv_mAudOg-ZEogeedHcxT8yacI0hKdGj-ni-HA8sNmxYFtIazS3jUjgHnrVd7-bro0whpHP-QTTSxZlns0WF7V-vE-V4N5RySMXrkvtb6TEY-nIbshzUsLwF68rXcYdbJey34Hq_5Co0XYv2rHGr_xDigCS6ABc2I_-9eK1d5ODTio5kZiZIaXUHgBLBYq) |
+| `infrastructure` | `developing` | `developing` | HIGH | Significant cost reductions in DNA synthesis and sequencing, alongside the emerg | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFNVEPzYvgIOyAF5zDoNvhwCLNzhOv_mAudOg-ZEogeedHcxT8yacI0hKdGj-ni-HA8sNmxYFtIazS3jUjgHnrVd7-bro0whpHP-QTTSxZlns0WF7V-vE-V4N5RySMXrkvtb6TEY-nIbshzUsLwF68rXcYdbJey34Hq_5Co0XYv2rHGr_xDigCS6ABc2I_-9eK1d5ODTio5kZiZIaXUHgBLBYq) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | The field was defined by the development of new platform technologies and aimed  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFNVEPzYvgIOyAF5zDoNvhwCLNzhOv_mAudOg-ZEogeedHcxT8yacI0hKdGj-ni-HA8sNmxYFtIazS3jUjgHnrVd7-bro0whpHP-QTTSxZlns0WF7V-vE-V4N5RySMXrkvtb6TEY-nIbshzUsLwF68rXcYdbJey34Hq_5Co0XYv2rHGr_xDigCS6ABc2I_-9eK1d5ODTio5kZiZIaXUHgBLBYq) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 70 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 48 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `technology_enablement` | 58 |
+| **Mean** | — | **61** |
+
+### Role 3 Prompt Audit — Synthetic Biology Organism Engineering Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               large                                 LOW
+  customer_readiness        peak_of_inflated_expectations         LOW
+  regulatory                moderate_compliance                   MEDIUM
+  infrastructure            developing                            HIGH
+  market_structure          technology_enablement                 LOW
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 0 | 1 | 0 |
+| `market_size` | 0 | 0 | 1 |
+| `customer_readiness` | 0 | 0 | 1 |
+| `regulatory` | 0 | 1 | 0 |
+| `infrastructure` | 1 | 0 | 0 |
+| `market_structure` | 0 | 0 | 1 |
+
+
+---
+
+## Batch 55  —  2026-03-20 15:12:00
+
+**Markets processed this batch:** 3  
+**Cumulative total:** 195 / 350  
+**Batch agreement:** MEDIUM (score=0.619)  
+**HIGH:** 8  **MEDIUM:** 10  **LOW:** 3  
+**Auto-correction triggered:** no
+
+### Customer Data Platforms Unifying Consumer Profiles (2019)
+
+**T+5:** VERIFIED (4 sources)  **Agreement:** MEDIUM (H=1 M=5 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_adopters` | MEDIUM | The CDP industry was projected to be worth $1 billion by the end of 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOWtShX_vmgdwpLYHcS_5mTK8F1QUjy8EFzuomkPAFqvDJiqyUM8b-og0qaSChN-C7FvZubOxpoRdW8A1ifpotHH-5A4Cp9lxuBAw8rzyGRE_sWBr1fRBILUjFX8yI-t81GcoLgZUtoBM5lEalEJl_XK4n0D6CGri4YU-XhR29g-EJB_UCAWlC90Gba0dxZfc=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | The CDP industry grew by 19 vendors in the first half of 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOWtShX_vmgdwpLYHcS_5mTK8F1QUjy8EFzuomkPAFqvDJiqyUM8b-og0qaSChN-C7FvZubOxpoRdW8A1ifpotHH-5A4Cp9lxuBAw8rzyGRE_sWBr1fRBILUjFX8yI-t81GcoLgZUtoBM5lEalEJl_XK4n0D6CGri4YU-XhR29g-EJB_UCAWlC90Gba0dxZfc=) |
+| `market_size` | `small` | `medium` | MEDIUM | The CDP industry was projected to be worth $1 billion by the end of 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOWtShX_vmgdwpLYHcS_5mTK8F1QUjy8EFzuomkPAFqvDJiqyUM8b-og0qaSChN-C7FvZubOxpoRdW8A1ifpotHH-5A4Cp9lxuBAw8rzyGRE_sWBr1fRBILUjFX8yI-t81GcoLgZUtoBM5lEalEJl_XK4n0D6CGri4YU-XhR29g-EJB_UCAWlC90Gba0dxZfc=) |
+| `customer_readiness` | `slope_of_enlightenment` | `peak_of_inflated_expectations` | LOW | The CDP market was described as having 'a lot of hype' in 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOWtShX_vmgdwpLYHcS_5mTK8F1QUjy8EFzuomkPAFqvDJiqyUM8b-og0qaSChN-C7FvZubOxpoRdW8A1ifpotHH-5A4Cp9lxuBAw8rzyGRE_sWBr1fRBILUjFX8yI-t81GcoLgZUtoBM5lEalEJl_XK4n0D6CGri4YU-XhR29g-EJB_UCAWlC90Gba0dxZfc=) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | Data privacy laws like CCPA and GDPR were driving the expansion of the CDP indus | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOWtShX_vmgdwpLYHcS_5mTK8F1QUjy8EFzuomkPAFqvDJiqyUM8b-og0qaSChN-C7FvZubOxpoRdW8A1ifpotHH-5A4Cp9lxuBAw8rzyGRE_sWBr1fRBILUjFX8yI-t81GcoLgZUtoBM5lEalEJl_XK4n0D6CGri4YU-XhR29g-EJB_UCAWlC90Gba0dxZfc=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Customer data unification at an individual level remained a challenge for market | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOWtShX_vmgdwpLYHcS_5mTK8F1QUjy8EFzuomkPAFqvDJiqyUM8b-og0qaSChN-C7FvZubOxpoRdW8A1ifpotHH-5A4Cp9lxuBAw8rzyGRE_sWBr1fRBILUjFX8yI-t81GcoLgZUtoBM5lEalEJl_XK4n0D6CGri4YU-XhR29g-EJB_UCAWlC90Gba0dxZfc=) |
+| `market_structure` | `technology_enablement` | `technology_enablement` | HIGH | CDP platforms work as a foundation that ties data from multiple systems in real- | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOWtShX_vmgdwpLYHcS_5mTK8F1QUjy8EFzuomkPAFqvDJiqyUM8b-og0qaSChN-C7FvZubOxpoRdW8A1ifpotHH-5A4Cp9lxuBAw8rzyGRE_sWBr1fRBILUjFX8yI-t81GcoLgZUtoBM5lEalEJl_XK4n0D6CGri4YU-XhR29g-EJB_UCAWlC90Gba0dxZfc=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 68 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 45 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `emerging` | 52 |
+| `market_structure` | `technology_enablement` | 78 |
+| **Mean** | — | **61** |
+
+### Public and Private EV Charging Station Networks (2016)
+
+**T+5:** VERIFIED (20 sources)  **Agreement:** MEDIUM (H=3 M=2 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Electric vehicles made up 0.2% of total passenger light-duty vehicles in circula | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4NCGF-_Vhqlo_VdsQDn7S-b8rO695Q6bgn04V4RV-NbFYvToxO4y4fo9sxoqB6--fh5HzvIJZi2NOVJz-UejsxZpuZrFp-flfatJRKYBcxAxQKqJSgsRKnrJrBu__29B2dzCrvHQcXN0myhG7yxg2j8I2b1fcZ1nn1Xo9hEJgeUACn6Oczh0hA218IvkxBpU7UCeRne_PzRu_F1NMjkhlC8rlbmA3ZTcKwPFeyAdpzxB9Rbr3SBAq-GE=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | ChargePoint operated over 17,000 charging ports in 2016, positioning itself as a | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4NCGF-_Vhqlo_VdsQDn7S-b8rO695Q6bgn04V4RV-NbFYvToxO4y4fo9sxoqB6--fh5HzvIJZi2NOVJz-UejsxZpuZrFp-flfatJRKYBcxAxQKqJSgsRKnrJrBu__29B2dzCrvHQcXN0myhG7yxg2j8I2b1fcZ1nn1Xo9hEJgeUACn6Oczh0hA218IvkxBpU7UCeRne_PzRu_F1NMjkhlC8rlbmA3ZTcKwPFeyAdpzxB9Rbr3SBAq-GE=) |
+| `market_size` | `small` | `small` | HIGH | The U.S. had approximately 30,000 public EV charging ports in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4NCGF-_Vhqlo_VdsQDn7S-b8rO695Q6bgn04V4RV-NbFYvToxO4y4fo9sxoqB6--fh5HzvIJZi2NOVJz-UejsxZpuZrFp-flfatJRKYBcxAxQKqJSgsRKnrJrBu__29B2dzCrvHQcXN0myhG7yxg2j8I2b1fcZ1nn1Xo9hEJgeUACn6Oczh0hA218IvkxBpU7UCeRne_PzRu_F1NMjkhlC8rlbmA3ZTcKwPFeyAdpzxB9Rbr3SBAq-GE=) |
+| `customer_readiness` | `slope_of_enlightenment` | `trough_of_disillusionment` | MEDIUM | Only 18% of respondents in a 2015 study were aware of any charging stations on t | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4NCGF-_Vhqlo_VdsQDn7S-b8rO695Q6bgn04V4RV-NbFYvToxO4y4fo9sxoqB6--fh5HzvIJZi2NOVJz-UejsxZpuZrFp-flfatJRKYBcxAxQKqJSgsRKnrJrBu__29B2dzCrvHQcXN0myhG7yxg2j8I2b1fcZ1nn1Xo9hEJgeUACn6Oczh0hA218IvkxBpU7UCeRne_PzRu_F1NMjkhlC8rlbmA3ZTcKwPFeyAdpzxB9Rbr3SBAq-GE=) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | In January 2016, China released five new national standards for electric vehicle | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4NCGF-_Vhqlo_VdsQDn7S-b8rO695Q6bgn04V4RV-NbFYvToxO4y4fo9sxoqB6--fh5HzvIJZi2NOVJz-UejsxZpuZrFp-flfatJRKYBcxAxQKqJSgsRKnrJrBu__29B2dzCrvHQcXN0myhG7yxg2j8I2b1fcZ1nn1Xo9hEJgeUACn6Oczh0hA218IvkxBpU7UCeRne_PzRu_F1NMjkhlC8rlbmA3ZTcKwPFeyAdpzxB9Rbr3SBAq-GE=) |
+| `infrastructure` | `developing` | `nascent` | LOW | The U.S. had approximately 30,000 public charging ports in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4NCGF-_Vhqlo_VdsQDn7S-b8rO695Q6bgn04V4RV-NbFYvToxO4y4fo9sxoqB6--fh5HzvIJZi2NOVJz-UejsxZpuZrFp-flfatJRKYBcxAxQKqJSgsRKnrJrBu__29B2dzCrvHQcXN0myhG7yxg2j8I2b1fcZ1nn1Xo9hEJgeUACn6Oczh0hA218IvkxBpU7UCeRne_PzRu_F1NMjkhlC8rlbmA3ZTcKwPFeyAdpzxB9Rbr3SBAq-GE=) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | A key objective for charging infrastructure in 2016 was to 'promote vehicle adop | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4NCGF-_Vhqlo_VdsQDn7S-b8rO695Q6bgn04V4RV-NbFYvToxO4y4fo9sxoqB6--fh5HzvIJZi2NOVJz-UejsxZpuZrFp-flfatJRKYBcxAxQKqJSgsRKnrJrBu__29B2dzCrvHQcXN0myhG7yxg2j8I2b1fcZ1nn1Xo9hEJgeUACn6Oczh0hA218IvkxBpU7UCeRne_PzRu_F1NMjkhlC8rlbmA3ZTcKwPFeyAdpzxB9Rbr3SBAq-GE=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `oligopoly` | 48 |
+| `market_size` | `small` | 20 |
+| `customer_readiness` | `trough_of_disillusionment` | 30 |
+| `regulatory` | `moderate_compliance` | 62 |
+| `infrastructure` | `nascent` | 28 |
+| `market_structure` | `technology_enablement` | 55 |
+| **Mean** | — | **44** |
+
+### Curated Subscription Box E-Commerce Delivery (2012)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** HIGH (H=4 M=3 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Dollar Shave Club, Birchbox, and Blue Apron, key players in the market, all laun | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUMbGVkxhEXSze6umshwhlY8m5Rt4QdK2_I8cdHy4uU2Yg4bFidfV9uMufPkYba9DEEtlhn4KLiRGv5PfhcdKkd3Nju2-N38Cj9n-boPBmC81ag3fhkQMKM9ooNqb2aU3KkLGFOnCG-SbduXQ7TUhYfvrO72sPBWrrJJaSwCDpVExtj-Pn1SwYPi79M95FrtBZeyE_rdUUsqyt4f1RnN-xzrNWaiTmUnOvWXaKz_tIGuKOl9f8OaZdhpcJeyrN9vJfEGhde2Dk0L-TAsnhiB19GdP2v7h-Y3g3Fgm) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | By 2012, the market was characterized by the emergence of a 'Dollar Shave Club o | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUMbGVkxhEXSze6umshwhlY8m5Rt4QdK2_I8cdHy4uU2Yg4bFidfV9uMufPkYba9DEEtlhn4KLiRGv5PfhcdKkd3Nju2-N38Cj9n-boPBmC81ag3fhkQMKM9ooNqb2aU3KkLGFOnCG-SbduXQ7TUhYfvrO72sPBWrrJJaSwCDpVExtj-Pn1SwYPi79M95FrtBZeyE_rdUUsqyt4f1RnN-xzrNWaiTmUnOvWXaKz_tIGuKOl9f8OaZdhpcJeyrN9vJfEGhde2Dk0L-TAsnhiB19GdP2v7h-Y3g3Fgm) |
+| `market_size` | `micro` | `small` | MEDIUM | The largest subscription e-commerce retailers generated $57.0 million in sales i | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUMbGVkxhEXSze6umshwhlY8m5Rt4QdK2_I8cdHy4uU2Yg4bFidfV9uMufPkYba9DEEtlhn4KLiRGv5PfhcdKkd3Nju2-N38Cj9n-boPBmC81ag3fhkQMKM9ooNqb2aU3KkLGFOnCG-SbduXQ7TUhYfvrO72sPBWrrJJaSwCDpVExtj-Pn1SwYPi79M95FrtBZeyE_rdUUsqyt4f1RnN-xzrNWaiTmUnOvWXaKz_tIGuKOl9f8OaZdhpcJeyrN9vJfEGhde2Dk0L-TAsnhiB19GdP2v7h-Y3g3Fgm) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | Dollar Shave Club's viral marketing campaign in 2012 generated 12,000 orders wit | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUMbGVkxhEXSze6umshwhlY8m5Rt4QdK2_I8cdHy4uU2Yg4bFidfV9uMufPkYba9DEEtlhn4KLiRGv5PfhcdKkd3Nju2-N38Cj9n-boPBmC81ag3fhkQMKM9ooNqb2aU3KkLGFOnCG-SbduXQ7TUhYfvrO72sPBWrrJJaSwCDpVExtj-Pn1SwYPi79M95FrtBZeyE_rdUUsqyt4f1RnN-xzrNWaiTmUnOvWXaKz_tIGuKOl9f8OaZdhpcJeyrN9vJfEGhde2Dk0L-TAsnhiB19GdP2v7h-Y3g3Fgm) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | The legal framework for e-commerce in 2012 was primarily focused on general prin | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUMbGVkxhEXSze6umshwhlY8m5Rt4QdK2_I8cdHy4uU2Yg4bFidfV9uMufPkYba9DEEtlhn4KLiRGv5PfhcdKkd3Nju2-N38Cj9n-boPBmC81ag3fhkQMKM9ooNqb2aU3KkLGFOnCG-SbduXQ7TUhYfvrO72sPBWrrJJaSwCDpVExtj-Pn1SwYPi79M95FrtBZeyE_rdUUsqyt4f1RnN-xzrNWaiTmUnOvWXaKz_tIGuKOl9f8OaZdhpcJeyrN9vJfEGhde2Dk0L-TAsnhiB19GdP2v7h-Y3g3Fgm) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Online retail was a nearly $200 billion industry in 2012, demonstrating a signif | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUMbGVkxhEXSze6umshwhlY8m5Rt4QdK2_I8cdHy4uU2Yg4bFidfV9uMufPkYba9DEEtlhn4KLiRGv5PfhcdKkd3Nju2-N38Cj9n-boPBmC81ag3fhkQMKM9ooNqb2aU3KkLGFOnCG-SbduXQ7TUhYfvrO72sPBWrrJJaSwCDpVExtj-Pn1SwYPi79M95FrtBZeyE_rdUUsqyt4f1RnN-xzrNWaiTmUnOvWXaKz_tIGuKOl9f8OaZdhpcJeyrN9vJfEGhde2Dk0L-TAsnhiB19GdP2v7h-Y3g3Fgm) |
+| `market_structure` | `fragmented_niche` | `fragmented_niche` | HIGH | By 2012, the market featured a wide array of offerings, with subscription boxes  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUMbGVkxhEXSze6umshwhlY8m5Rt4QdK2_I8cdHy4uU2Yg4bFidfV9uMufPkYba9DEEtlhn4KLiRGv5PfhcdKkd3Nju2-N38Cj9n-boPBmC81ag3fhkQMKM9ooNqb2aU3KkLGFOnCG-SbduXQ7TUhYfvrO72sPBWrrJJaSwCDpVExtj-Pn1SwYPi79M95FrtBZeyE_rdUUsqyt4f1RnN-xzrNWaiTmUnOvWXaKz_tIGuKOl9f8OaZdhpcJeyrN9vJfEGhde2Dk0L-TAsnhiB19GdP2v7h-Y3g3Fgm) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 42 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 48 |
+| `market_structure` | `fragmented_niche` | 65 |
+| **Mean** | — | **57** |
+
+### Role 3 Prompt Audit — Customer Data Platforms Unifying Consumer Profiles
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        MEDIUM
+  competition               monopolistic_competition              MEDIUM
+  market_size               medium                                MEDIUM
+  customer_readiness        peak_of_inflated_expectations         LOW
+  regulatory                moderate_compliance                   MEDIUM
+  infrastructure            emerging                              MEDIUM
+  market_structure          technology_enablement                 HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 2 | 1 | 0 |
+| `competition` | 2 | 1 | 0 |
+| `market_size` | 1 | 2 | 0 |
+| `customer_readiness` | 0 | 2 | 1 |
+| `regulatory` | 1 | 2 | 0 |
+| `infrastructure` | 0 | 2 | 1 |
+| `market_structure` | 2 | 0 | 1 |
+
+
+---
+
+## Batch 56  —  2026-03-20 15:15:33
+
+**Markets processed this batch:** 3  
+**Cumulative total:** 198 / 350  
+**Batch agreement:** MEDIUM (score=0.667)  
+**HIGH:** 9  **MEDIUM:** 10  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### On-Demand Gig Economy Service Marketplaces (2014)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** MEDIUM (H=1 M=6 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_adopters` | MEDIUM | Uber, Lyft, and TaskRabbit were cited as 'best-known examples of on-demand provi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbHUor0TyBb6ANaUMKOcQWTPInJtBiXgWJfKNXqSHiuHy-uydiCxdb6SWdYE0-ereRQyOznJKEmf6LDtkd4Tz8-xudGQaf5G7RiX0arIEJTgSDo0iQrOZwOSyHPRtuyBxEj_5S4MGZAJbJuqRQTd5vuHykNv2IZ7IkksujMDvae_DqZtYaHsyE22MWKa9t) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | The 'technology and the 'gig' model are still nascent, creating a competitive ad | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbHUor0TyBb6ANaUMKOcQWTPInJtBiXgWJfKNXqSHiuHy-uydiCxdb6SWdYE0-ereRQyOznJKEmf6LDtkd4Tz8-xudGQaf5G7RiX0arIEJTgSDo0iQrOZwOSyHPRtuyBxEj_5S4MGZAJbJuqRQTd5vuHykNv2IZ7IkksujMDvae_DqZtYaHsyE22MWKa9t) |
+| `market_size` | `medium` | `small` | MEDIUM | The gig economy represented 'no more than 6 per cent of total employment at most | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbHUor0TyBb6ANaUMKOcQWTPInJtBiXgWJfKNXqSHiuHy-uydiCxdb6SWdYE0-ereRQyOznJKEmf6LDtkd4Tz8-xudGQaf5G7RiX0arIEJTgSDo0iQrOZwOSyHPRtuyBxEj_5S4MGZAJbJuqRQTd5vuHykNv2IZ7IkksujMDvae_DqZtYaHsyE22MWKa9t) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | In May 2014, the media was 'all abuzz with the changing nature of work' and 'exc | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbHUor0TyBb6ANaUMKOcQWTPInJtBiXgWJfKNXqSHiuHy-uydiCxdb6SWdYE0-ereRQyOznJKEmf6LDtkd4Tz8-xudGQaf5G7RiX0arIEJTgSDo0iQrOZwOSyHPRtuyBxEj_5S4MGZAJbJuqRQTd5vuHykNv2IZ7IkksujMDvae_DqZtYaHsyE22MWKa9t) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | The gig economy was characterized by 'under-regulation' and a 'complex and chang | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbHUor0TyBb6ANaUMKOcQWTPInJtBiXgWJfKNXqSHiuHy-uydiCxdb6SWdYE0-ereRQyOznJKEmf6LDtkd4Tz8-xudGQaf5G7RiX0arIEJTgSDo0iQrOZwOSyHPRtuyBxEj_5S4MGZAJbJuqRQTd5vuHykNv2IZ7IkksujMDvae_DqZtYaHsyE22MWKa9t) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | 'On-demand technology (usually mobile) matches consumers with independent worker | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbHUor0TyBb6ANaUMKOcQWTPInJtBiXgWJfKNXqSHiuHy-uydiCxdb6SWdYE0-ereRQyOznJKEmf6LDtkd4Tz8-xudGQaf5G7RiX0arIEJTgSDo0iQrOZwOSyHPRtuyBxEj_5S4MGZAJbJuqRQTd5vuHykNv2IZ7IkksujMDvae_DqZtYaHsyE22MWKa9t) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | The gig economy refers to a 'tripartite relation between workers, platforms/apps | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbHUor0TyBb6ANaUMKOcQWTPInJtBiXgWJfKNXqSHiuHy-uydiCxdb6SWdYE0-ereRQyOznJKEmf6LDtkd4Tz8-xudGQaf5G7RiX0arIEJTgSDo0iQrOZwOSyHPRtuyBxEj_5S4MGZAJbJuqRQTd5vuHykNv2IZ7IkksujMDvae_DqZtYaHsyE22MWKa9t) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 55 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 42 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `emerging` | 52 |
+| `market_structure` | `platform_two_sided` | 72 |
+| **Mean** | — | **55** |
+
+### Mobile-First Consumer and SMB Neobanks (2017)
+
+**T+5:** VERIFIED (12 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The term 'neobank' gained widespread recognition since 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd5gNVGC8NEvS9Jq7z58lZ45Rtf9P5HrH-axRM80UAOIcumDTPTXzTyH2Up8Hh3C7br9eu8j6lje_PEW1gsTc8TJ1t8N6xconR4QawAfsd8g64cKMoYg8yKtNzKMbV_YNbrX6CuKCa0285SXSxq3L7qlotFTuM8vvPFsYfO7gS) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Neobanks were challenging the present status of traditional banks by offering lo | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd5gNVGC8NEvS9Jq7z58lZ45Rtf9P5HrH-axRM80UAOIcumDTPTXzTyH2Up8Hh3C7br9eu8j6lje_PEW1gsTc8TJ1t8N6xconR4QawAfsd8g64cKMoYg8yKtNzKMbV_YNbrX6CuKCa0285SXSxq3L7qlotFTuM8vvPFsYfO7gS) |
+| `market_size` | `small` | `small` | HIGH | Global neobanking transaction value in 2017 was $230 million USD. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd5gNVGC8NEvS9Jq7z58lZ45Rtf9P5HrH-axRM80UAOIcumDTPTXzTyH2Up8Hh3C7br9eu8j6lje_PEW1gsTc8TJ1t8N6xconR4QawAfsd8g64cKMoYg8yKtNzKMbV_YNbrX6CuKCa0285SXSxq3L7qlotFTuM8vvPFsYfO7gS) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | Between 55% to 68% of SMEs in low-income nations lacked adequate services from c | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd5gNVGC8NEvS9Jq7z58lZ45Rtf9P5HrH-axRM80UAOIcumDTPTXzTyH2Up8Hh3C7br9eu8j6lje_PEW1gsTc8TJ1t8N6xconR4QawAfsd8g64cKMoYg8yKtNzKMbV_YNbrX6CuKCa0285SXSxq3L7qlotFTuM8vvPFsYfO7gS) |
+| `regulatory` | `heavily_regulated` | `light_touch` | LOW | Neobanks typically rely on partnerships with licensed banks to offer services, a | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd5gNVGC8NEvS9Jq7z58lZ45Rtf9P5HrH-axRM80UAOIcumDTPTXzTyH2Up8Hh3C7br9eu8j6lje_PEW1gsTc8TJ1t8N6xconR4QawAfsd8g64cKMoYg8yKtNzKMbV_YNbrX6CuKCa0285SXSxq3L7qlotFTuM8vvPFsYfO7gS) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Between 2017 and 2018, India's mobile banking users increased by 13% in value an | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd5gNVGC8NEvS9Jq7z58lZ45Rtf9P5HrH-axRM80UAOIcumDTPTXzTyH2Up8Hh3C7br9eu8j6lje_PEW1gsTc8TJ1t8N6xconR4QawAfsd8g64cKMoYg8yKtNzKMbV_YNbrX6CuKCa0285SXSxq3L7qlotFTuM8vvPFsYfO7gS) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Neobanks were offering plug-and-play solutions for accounting, payments, and tax | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd5gNVGC8NEvS9Jq7z58lZ45Rtf9P5HrH-axRM80UAOIcumDTPTXzTyH2Up8Hh3C7br9eu8j6lje_PEW1gsTc8TJ1t8N6xconR4QawAfsd8g64cKMoYg8yKtNzKMbV_YNbrX6CuKCa0285SXSxq3L7qlotFTuM8vvPFsYfO7gS) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 45 |
+| `regulatory` | `light_touch` | 65 |
+| `infrastructure` | `developing` | 48 |
+| `market_structure` | `technology_enablement` | 63 |
+| **Mean** | — | **54** |
+
+### Online Virtual Therapy and Counseling Platforms (2016)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** HIGH (H=5 M=1 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Telemedicine visits for rural Medicare beneficiaries for mental health condition | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDTzMBvC95ZISJC32yHBKhEBwqv1Dzt1XJsl0KKqoP0hP2AgstV6s5pSEgA0_2t0VSW6JOBhch24asmc1lJOxVUe5gEBYrn23zK1hd5BrKsa57H8raeX5fXayNH-RnfOEhV73l2T8J9G3IpjCcocNn7P8KkmHmjhIdl6r5pMzYou-3H8dMtB9QXMVbPwciwhn) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | MDLIVE, an existing telehealth provider, added mental health services and psychi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDTzMBvC95ZISJC32yHBKhEBwqv1Dzt1XJsl0KKqoP0hP2AgstV6s5pSEgA0_2t0VSW6JOBhch24asmc1lJOxVUe5gEBYrn23zK1hd5BrKsa57H8raeX5fXayNH-RnfOEhV73l2T8J9G3IpjCcocNn7P8KkmHmjhIdl6r5pMzYou-3H8dMtB9QXMVbPwciwhn) |
+| `market_size` | `micro` | `small` | MEDIUM | In 2016, 34 million Americans lacked access to fixed broadband, a basic infrastr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDTzMBvC95ZISJC32yHBKhEBwqv1Dzt1XJsl0KKqoP0hP2AgstV6s5pSEgA0_2t0VSW6JOBhch24asmc1lJOxVUe5gEBYrn23zK1hd5BrKsa57H8raeX5fXayNH-RnfOEhV73l2T8J9G3IpjCcocNn7P8KkmHmjhIdl6r5pMzYou-3H8dMtB9QXMVbPwciwhn) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | A 2016 meta-analytic study concluded that in-person and virtual interventions in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDTzMBvC95ZISJC32yHBKhEBwqv1Dzt1XJsl0KKqoP0hP2AgstV6s5pSEgA0_2t0VSW6JOBhch24asmc1lJOxVUe5gEBYrn23zK1hd5BrKsa57H8raeX5fXayNH-RnfOEhV73l2T8J9G3IpjCcocNn7P8KkmHmjhIdl6r5pMzYou-3H8dMtB9QXMVbPwciwhn) |
+| `regulatory` | `moderate_compliance` | `moderate_compliance` | HIGH | New 'telehealth' regulations became effective in California on July 1, 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDTzMBvC95ZISJC32yHBKhEBwqv1Dzt1XJsl0KKqoP0hP2AgstV6s5pSEgA0_2t0VSW6JOBhch24asmc1lJOxVUe5gEBYrn23zK1hd5BrKsa57H8raeX5fXayNH-RnfOEhV73l2T8J9G3IpjCcocNn7P8KkmHmjhIdl6r5pMzYou-3H8dMtB9QXMVbPwciwhn) |
+| `infrastructure` | `developing` | `developing` | HIGH | In 2016, 34 million Americans lacked access to fixed broadband, with 39% of rura | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDTzMBvC95ZISJC32yHBKhEBwqv1Dzt1XJsl0KKqoP0hP2AgstV6s5pSEgA0_2t0VSW6JOBhch24asmc1lJOxVUe5gEBYrn23zK1hd5BrKsa57H8raeX5fXayNH-RnfOEhV73l2T8J9G3IpjCcocNn7P8KkmHmjhIdl6r5pMzYou-3H8dMtB9QXMVbPwciwhn) |
+| `market_structure` | `platform_two_sided` | `fragmented_niche` | LOW | Concerns were raised in 2016 about new online therapy startups potentially lacki | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDTzMBvC95ZISJC32yHBKhEBwqv1Dzt1XJsl0KKqoP0hP2AgstV6s5pSEgA0_2t0VSW6JOBhch24asmc1lJOxVUe5gEBYrn23zK1hd5BrKsa57H8raeX5fXayNH-RnfOEhV73l2T8J9G3IpjCcocNn7P8KkmHmjhIdl6r5pMzYou-3H8dMtB9QXMVbPwciwhn) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 30 |
+| `customer_readiness` | `slope_of_enlightenment` | 74 |
+| `regulatory` | `moderate_compliance` | 66 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `fragmented_niche` | 48 |
+| **Mean** | — | **58** |
+
+### Role 3 Prompt Audit — On-Demand Gig Economy Service Marketplaces
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        MEDIUM
+  competition               monopolistic_competition              MEDIUM
+  market_size               small                                 MEDIUM
+  customer_readiness        innovation_trigger                    MEDIUM
+  regulatory                unregulated                           MEDIUM
+  infrastructure            emerging                              MEDIUM
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 2 | 1 | 0 |
+| `competition` | 2 | 1 | 0 |
+| `market_size` | 1 | 2 | 0 |
+| `customer_readiness` | 1 | 2 | 0 |
+| `regulatory` | 1 | 1 | 1 |
+| `infrastructure` | 1 | 2 | 0 |
+| `market_structure` | 1 | 1 | 1 |
+
+
+---
+
+## Batch 58  —  2026-03-20 15:24:20
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 199 / 350  
+**Batch agreement:** MEDIUM (score=0.500)  
+**HIGH:** 2  **MEDIUM:** 3  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Online Food Delivery Marketplace Platforms (2015)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=2 M=3 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | By September 2015, online delivery accounted for approximately 3% of 61 billion  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW9my6X-q8YOpZObTwFIUrRNbRcyaHF57bKDj610KLEYDT22IqoxlRPd7P8NvKcqvANwu66301da68On9rk7ozHtQcehjKFnrshqDJ-xCuRtmZlTwMNOC_oXtbwnrykSDe95VGsoRzC_RZLsmDTmRH8uy0LT-evZ22eOAcPrOxo_eBhpAXXCQ8x5OCE1IIZS_jBBZ_SIbW1_N66KJSZqIcolB2h67xd6lRoX7HEO8UqpPYrDBjYt0rKQ==) |
+| `competition` | `monopolistic_competition` | `oligopoly` | MEDIUM | By 2015, four major players (Delivery Hero, Foodpanda, GrubHub, and Just Eat) ha | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW9my6X-q8YOpZObTwFIUrRNbRcyaHF57bKDj610KLEYDT22IqoxlRPd7P8NvKcqvANwu66301da68On9rk7ozHtQcehjKFnrshqDJ-xCuRtmZlTwMNOC_oXtbwnrykSDe95VGsoRzC_RZLsmDTmRH8uy0LT-evZ22eOAcPrOxo_eBhpAXXCQ8x5OCE1IIZS_jBBZ_SIbW1_N66KJSZqIcolB2h67xd6lRoX7HEO8UqpPYrDBjYt0rKQ==) |
+| `market_size` | `small` | `large` | LOW | The worldwide market for food delivery was valued at €83 billion in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW9my6X-q8YOpZObTwFIUrRNbRcyaHF57bKDj610KLEYDT22IqoxlRPd7P8NvKcqvANwu66301da68On9rk7ozHtQcehjKFnrshqDJ-xCuRtmZlTwMNOC_oXtbwnrykSDe95VGsoRzC_RZLsmDTmRH8uy0LT-evZ22eOAcPrOxo_eBhpAXXCQ8x5OCE1IIZS_jBBZ_SIbW1_N66KJSZqIcolB2h67xd6lRoX7HEO8UqpPYrDBjYt0rKQ==) |
+| `customer_readiness` | `slope_of_enlightenment` | `peak_of_inflated_expectations` | LOW | By November 2016, five online food delivery platforms were valued at over $1 bil | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW9my6X-q8YOpZObTwFIUrRNbRcyaHF57bKDj610KLEYDT22IqoxlRPd7P8NvKcqvANwu66301da68On9rk7ozHtQcehjKFnrshqDJ-xCuRtmZlTwMNOC_oXtbwnrykSDe95VGsoRzC_RZLsmDTmRH8uy0LT-evZ22eOAcPrOxo_eBhpAXXCQ8x5OCE1IIZS_jBBZ_SIbW1_N66KJSZqIcolB2h67xd6lRoX7HEO8UqpPYrDBjYt0rKQ==) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | In 2015, In-N-Out Burger sued DoorDash for unauthorized delivery, highlighting t | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW9my6X-q8YOpZObTwFIUrRNbRcyaHF57bKDj610KLEYDT22IqoxlRPd7P8NvKcqvANwu66301da68On9rk7ozHtQcehjKFnrshqDJ-xCuRtmZlTwMNOC_oXtbwnrykSDe95VGsoRzC_RZLsmDTmRH8uy0LT-evZ22eOAcPrOxo_eBhpAXXCQ8x5OCE1IIZS_jBBZ_SIbW1_N66KJSZqIcolB2h67xd6lRoX7HEO8UqpPYrDBjYt0rKQ==) |
+| `infrastructure` | `developing` | `developing` | HIGH | By 2015, 'new delivery' players, which started appearing in 2013, were actively  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW9my6X-q8YOpZObTwFIUrRNbRcyaHF57bKDj610KLEYDT22IqoxlRPd7P8NvKcqvANwu66301da68On9rk7ozHtQcehjKFnrshqDJ-xCuRtmZlTwMNOC_oXtbwnrykSDe95VGsoRzC_RZLsmDTmRH8uy0LT-evZ22eOAcPrOxo_eBhpAXXCQ8x5OCE1IIZS_jBBZ_SIbW1_N66KJSZqIcolB2h67xd6lRoX7HEO8UqpPYrDBjYt0rKQ==) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | The market featured two primary platform types: 'aggregators' (order routing) an | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW9my6X-q8YOpZObTwFIUrRNbRcyaHF57bKDj610KLEYDT22IqoxlRPd7P8NvKcqvANwu66301da68On9rk7ozHtQcehjKFnrshqDJ-xCuRtmZlTwMNOC_oXtbwnrykSDe95VGsoRzC_RZLsmDTmRH8uy0LT-evZ22eOAcPrOxo_eBhpAXXCQ8x5OCE1IIZS_jBBZ_SIbW1_N66KJSZqIcolB2h67xd6lRoX7HEO8UqpPYrDBjYt0rKQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `large` | 70 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 48 |
+| `regulatory` | `unregulated` | 82 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **64** |
+
+### Role 3 Prompt Audit — Online Food Delivery Marketplace Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        MEDIUM
+  competition               oligopoly                             MEDIUM
+  market_size               large                                 LOW
+  customer_readiness        peak_of_inflated_expectations         LOW
+  regulatory                unregulated                           MEDIUM
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 0 | 1 | 0 |
+| `competition` | 0 | 1 | 0 |
+| `market_size` | 0 | 0 | 1 |
+| `customer_readiness` | 0 | 0 | 1 |
+| `regulatory` | 0 | 1 | 0 |
+| `infrastructure` | 1 | 0 | 0 |
+| `market_structure` | 1 | 0 | 0 |
+
+
+---
+
+## Batch 59  —  2026-03-20 15:28:03
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 200 / 350  
+**Batch agreement:** HIGH (score=0.857)  
+**HIGH:** 5  **MEDIUM:** 2  **LOW:** 0  
+**Auto-correction triggered:** no
+
+### University Level MOOC Online Learning Platforms (2012)
+
+**T+5:** VERIFIED (12 sources)  **Agreement:** HIGH (H=5 M=2 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The New York Times declared 2012 'the Year of the MOOC.' | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGReJaB0RPip9ijqYHNSgEnurXDtc6V7P8XulLMCB1nfKwbg1AGXVQt4yMoIc7mn08URnn2ihzX4AG7tp8SusWCpxiIYxNQtF7h-XlEnkV_GtI0mqopS2fJSkI3NqZcxJA_NVMuxxJzpcMdwlRtOKiDG0IMQYru-2Gnd39uoNdW6xs=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Coursera, Udacity, and edX were the three largest MOOC platforms with global rea | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGReJaB0RPip9ijqYHNSgEnurXDtc6V7P8XulLMCB1nfKwbg1AGXVQt4yMoIc7mn08URnn2ihzX4AG7tp8SusWCpxiIYxNQtF7h-XlEnkV_GtI0mqopS2fJSkI3NqZcxJA_NVMuxxJzpcMdwlRtOKiDG0IMQYru-2Gnd39uoNdW6xs=) |
+| `market_size` | `micro` | `small` | MEDIUM | By August 2012, Coursera had reached 1 million learners. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGReJaB0RPip9ijqYHNSgEnurXDtc6V7P8XulLMCB1nfKwbg1AGXVQt4yMoIc7mn08URnn2ihzX4AG7tp8SusWCpxiIYxNQtF7h-XlEnkV_GtI0mqopS2fJSkI3NqZcxJA_NVMuxxJzpcMdwlRtOKiDG0IMQYru-2Gnd39uoNdW6xs=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | The New York Times declaring 2012 'the Year of the MOOC' exemplifies the widespr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGReJaB0RPip9ijqYHNSgEnurXDtc6V7P8XulLMCB1nfKwbg1AGXVQt4yMoIc7mn08URnn2ihzX4AG7tp8SusWCpxiIYxNQtF7h-XlEnkV_GtI0mqopS2fJSkI3NqZcxJA_NVMuxxJzpcMdwlRtOKiDG0IMQYru-2Gnd39uoNdW6xs=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | MOOC-based courses were not considered regular higher education in Sweden, indic | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGReJaB0RPip9ijqYHNSgEnurXDtc6V7P8XulLMCB1nfKwbg1AGXVQt4yMoIc7mn08URnn2ihzX4AG7tp8SusWCpxiIYxNQtF7h-XlEnkV_GtI0mqopS2fJSkI3NqZcxJA_NVMuxxJzpcMdwlRtOKiDG0IMQYru-2Gnd39uoNdW6xs=) |
+| `infrastructure` | `developing` | `developing` | HIGH | Before 2013, each MOOC tended to develop its own delivery platform, highlighting | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGReJaB0RPip9ijqYHNSgEnurXDtc6V7P8XulLMCB1nfKwbg1AGXVQt4yMoIc7mn08URnn2ihzX4AG7tp8SusWCpxiIYxNQtF7h-XlEnkV_GtI0mqopS2fJSkI3NqZcxJA_NVMuxxJzpcMdwlRtOKiDG0IMQYru-2Gnd39uoNdW6xs=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Coursera, Udacity, and edX partnered with numerous universities to offer courses | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGReJaB0RPip9ijqYHNSgEnurXDtc6V7P8XulLMCB1nfKwbg1AGXVQt4yMoIc7mn08URnn2ihzX4AG7tp8SusWCpxiIYxNQtF7h-XlEnkV_GtI0mqopS2fJSkI3NqZcxJA_NVMuxxJzpcMdwlRtOKiDG0IMQYru-2Gnd39uoNdW6xs=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 45 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 70 |
+| **Mean** | — | **57** |
+
+### Role 3 Prompt Audit — University Level MOOC Online Learning Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               oligopoly                             HIGH
+  market_size               small                                 MEDIUM
+  customer_readiness        peak_of_inflated_expectations         HIGH
+  regulatory                unregulated                           MEDIUM
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 1 | 0 | 0 |
+| `market_size` | 0 | 1 | 0 |
+| `customer_readiness` | 1 | 0 | 0 |
+| `regulatory` | 0 | 1 | 0 |
+| `infrastructure` | 1 | 0 | 0 |
+| `market_structure` | 1 | 0 | 0 |
+
+
+---
+
+## Batch 60  —  2026-03-20 15:30:42
+
+**Markets processed this batch:** 3  
+**Cumulative total:** 203 / 350  
+**Batch agreement:** MEDIUM (score=0.643)  
+**HIGH:** 10  **MEDIUM:** 7  **LOW:** 4  
+**Auto-correction triggered:** no
+
+### MLOps Model Deployment and Monitoring Platforms (2018)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | MLOps emerged around 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqFpzrAe8DMkXd5Cb4BQBu7Vx4V-Nhb_4H8WYvuVbvDyQa_Ti_IJwIqti5YhClEQw8G6QP1mOyq2-GbxXLayplPtgfxZVXmqyiUTxWWvw31Rg8z33WdbCYTmLEsBX5Ot4iLv3IlwC0n0kraV-P4aibYMOqGui7ZbG3) |
+| `competition` | `monopolistic_competition` | `oligopoly` | MEDIUM | Microsoft released AzureML Services in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqFpzrAe8DMkXd5Cb4BQBu7Vx4V-Nhb_4H8WYvuVbvDyQa_Ti_IJwIqti5YhClEQw8G6QP1mOyq2-GbxXLayplPtgfxZVXmqyiUTxWWvw31Rg8z33WdbCYTmLEsBX5Ot4iLv3IlwC0n0kraV-P4aibYMOqGui7ZbG3) |
+| `market_size` | `micro` | `micro` | HIGH | MLOps was in its 'birth' stage in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqFpzrAe8DMkXd5Cb4BQBu7Vx4V-Nhb_4H8WYvuVbvDyQa_Ti_IJwIqti5YhClEQw8G6QP1mOyq2-GbxXLayplPtgfxZVXmqyiUTxWWvw31Rg8z33WdbCYTmLEsBX5Ot4iLv3IlwC0n0kraV-P4aibYMOqGui7ZbG3) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | MLOps emerged in 2018 to address ML deployment challenges. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqFpzrAe8DMkXd5Cb4BQBu7Vx4V-Nhb_4H8WYvuVbvDyQa_Ti_IJwIqti5YhClEQw8G6QP1mOyq2-GbxXLayplPtgfxZVXmqyiUTxWWvw31Rg8z33WdbCYTmLEsBX5Ot4iLv3IlwC0n0kraV-P4aibYMOqGui7ZbG3) |
+| `regulatory` | `unregulated` | `unregulated` | HIGH | Regulatory frameworks like Europe's AI Act emerged around 2023, not 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqFpzrAe8DMkXd5Cb4BQBu7Vx4V-Nhb_4H8WYvuVbvDyQa_Ti_IJwIqti5YhClEQw8G6QP1mOyq2-GbxXLayplPtgfxZVXmqyiUTxWWvw31Rg8z33WdbCYTmLEsBX5Ot4iLv3IlwC0n0kraV-P4aibYMOqGui7ZbG3) |
+| `infrastructure` | `developing` | `nascent` | LOW | Early MLOps frameworks like Kubeflow and MLflow emerged around 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqFpzrAe8DMkXd5Cb4BQBu7Vx4V-Nhb_4H8WYvuVbvDyQa_Ti_IJwIqti5YhClEQw8G6QP1mOyq2-GbxXLayplPtgfxZVXmqyiUTxWWvw31Rg8z33WdbCYTmLEsBX5Ot4iLv3IlwC0n0kraV-P4aibYMOqGui7ZbG3) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | MLOps provides infrastructure, automation, and observability for operationalizin | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqFpzrAe8DMkXd5Cb4BQBu7Vx4V-Nhb_4H8WYvuVbvDyQa_Ti_IJwIqti5YhClEQw8G6QP1mOyq2-GbxXLayplPtgfxZVXmqyiUTxWWvw31Rg8z33WdbCYTmLEsBX5Ot4iLv3IlwC0n0kraV-P4aibYMOqGui7ZbG3) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `oligopoly` | 65 |
+| `market_size` | `micro` | 18 |
+| `customer_readiness` | `innovation_trigger` | 45 |
+| `regulatory` | `unregulated` | 82 |
+| `infrastructure` | `nascent` | 28 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **52** |
+
+### Esports Live Streaming and Tournament Fan Engagement Platforms (2014)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Amazon acquired Twitch for $970 million in August 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUn3JjnH2e_e8mPqhkyB9GOvALT8DH98zl89twXTtchHTFWBrthjZRbmKiV5Sjx6fJSmi9hmR5K44rbtoK9td7-3Kyl27-bo8qu2X_ziHWoTN5EJC9lMSBBXqqS-_TY7ypWg-gcCxSoc0=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Twitch was the dominant platform in 2014, but faced emerging competition from Az | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUn3JjnH2e_e8mPqhkyB9GOvALT8DH98zl89twXTtchHTFWBrthjZRbmKiV5Sjx6fJSmi9hmR5K44rbtoK9td7-3Kyl27-bo8qu2X_ziHWoTN5EJC9lMSBBXqqS-_TY7ypWg-gcCxSoc0=) |
+| `market_size` | `small` | `large` | LOW | Twitch had 45 million unique viewers in October 2013 and was the fourth-largest  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUn3JjnH2e_e8mPqhkyB9GOvALT8DH98zl89twXTtchHTFWBrthjZRbmKiV5Sjx6fJSmi9hmR5K44rbtoK9td7-3Kyl27-bo8qu2X_ziHWoTN5EJC9lMSBBXqqS-_TY7ypWg-gcCxSoc0=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | The Intel Extreme Masters World Finals in March 2014 filled a 12,000-seat stadiu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUn3JjnH2e_e8mPqhkyB9GOvALT8DH98zl89twXTtchHTFWBrthjZRbmKiV5Sjx6fJSmi9hmR5K44rbtoK9td7-3Kyl27-bo8qu2X_ziHWoTN5EJC9lMSBBXqqS-_TY7ypWg-gcCxSoc0=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | The Korean eSports Association (KeSPA) was established in South Korea in 2000. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUn3JjnH2e_e8mPqhkyB9GOvALT8DH98zl89twXTtchHTFWBrthjZRbmKiV5Sjx6fJSmi9hmR5K44rbtoK9td7-3Kyl27-bo8qu2X_ziHWoTN5EJC9lMSBBXqqS-_TY7ypWg-gcCxSoc0=) |
+| `infrastructure` | `developing` | `developing` | HIGH | By February 2014, Twitch was the fourth-largest source of peak Internet traffic  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUn3JjnH2e_e8mPqhkyB9GOvALT8DH98zl89twXTtchHTFWBrthjZRbmKiV5Sjx6fJSmi9hmR5K44rbtoK9td7-3Kyl27-bo8qu2X_ziHWoTN5EJC9lMSBBXqqS-_TY7ypWg-gcCxSoc0=) |
+| `market_structure` | `winner_take_most` | `platform_two_sided` | MEDIUM | Amazon acquired Twitch, the leading live video platform for gamers, for $970 mil | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUn3JjnH2e_e8mPqhkyB9GOvALT8DH98zl89twXTtchHTFWBrthjZRbmKiV5Sjx6fJSmi9hmR5K44rbtoK9td7-3Kyl27-bo8qu2X_ziHWoTN5EJC9lMSBBXqqS-_TY7ypWg-gcCxSoc0=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 55 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 62 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 70 |
+| **Mean** | — | **65** |
+
+### AI Automation RegTech Compliance Financial Institutions (2015)
+
+**T+5:** VERIFIED (8 sources)  **Agreement:** MEDIUM (H=2 M=3 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `innovators` | MEDIUM | The term 'RegTech' was formally recognized by the UK's FCA in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvj217vnBYuBaArQtn0A9UmFyRjXMSiY84pvd8vW-znvAxghrTJCaAJmGjmUhQoDbsghpVrYyiAuxuWLWGGST3QSETvipMuZAyPAjiSZs8eIrge0HGo6Y6NcfjnZ8gSV1bTypcbU-o137OLeSkztM5PiTrpmCFsc9mQvy89aJl2kLT7nU72F3H8ewX3SFmOnMEJj8qlz5RDiJaPSAokCSy3Z4YYXyaxo4SyXIPRHjWeYdeaFBUDnlU3R0lPY98jRg4BrpY3sXrxrjHCvY=) |
+| `competition` | `monopolistic_competition` | `unknown` | LOW | In 2015, the RegTech market included both new entrant startups and a few establi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvj217vnBYuBaArQtn0A9UmFyRjXMSiY84pvd8vW-znvAxghrTJCaAJmGjmUhQoDbsghpVrYyiAuxuWLWGGST3QSETvipMuZAyPAjiSZs8eIrge0HGo6Y6NcfjnZ8gSV1bTypcbU-o137OLeSkztM5PiTrpmCFsc9mQvy89aJl2kLT7nU72F3H8ewX3SFmOnMEJj8qlz5RDiJaPSAokCSy3Z4YYXyaxo4SyXIPRHjWeYdeaFBUDnlU3R0lPY98jRg4BrpY3sXrxrjHCvY=) |
+| `market_size` | `small` | `small` | HIGH | Global RegTech investment in 2015 was $777.3 million. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvj217vnBYuBaArQtn0A9UmFyRjXMSiY84pvd8vW-znvAxghrTJCaAJmGjmUhQoDbsghpVrYyiAuxuWLWGGST3QSETvipMuZAyPAjiSZs8eIrge0HGo6Y6NcfjnZ8gSV1bTypcbU-o137OLeSkztM5PiTrpmCFsc9mQvy89aJl2kLT7nU72F3H8ewX3SFmOnMEJj8qlz5RDiJaPSAokCSy3Z4YYXyaxo4SyXIPRHjWeYdeaFBUDnlU3R0lPY98jRg4BrpY3sXrxrjHCvY=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | Financial institutions were prepared to invest in new technology solutions for r | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvj217vnBYuBaArQtn0A9UmFyRjXMSiY84pvd8vW-znvAxghrTJCaAJmGjmUhQoDbsghpVrYyiAuxuWLWGGST3QSETvipMuZAyPAjiSZs8eIrge0HGo6Y6NcfjnZ8gSV1bTypcbU-o137OLeSkztM5PiTrpmCFsc9mQvy89aJl2kLT7nU72F3H8ewX3SFmOnMEJj8qlz5RDiJaPSAokCSy3Z4YYXyaxo4SyXIPRHjWeYdeaFBUDnlU3R0lPY98jRg4BrpY3sXrxrjHCvY=) |
+| `regulatory` | `heavily_regulated` | `heavily_regulated` | HIGH | The financial sector in 2015 was subject to an 'unprecedented regulatory respons | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvj217vnBYuBaArQtn0A9UmFyRjXMSiY84pvd8vW-znvAxghrTJCaAJmGjmUhQoDbsghpVrYyiAuxuWLWGGST3QSETvipMuZAyPAjiSZs8eIrge0HGo6Y6NcfjnZ8gSV1bTypcbU-o137OLeSkztM5PiTrpmCFsc9mQvy89aJl2kLT7nU72F3H8ewX3SFmOnMEJj8qlz5RDiJaPSAokCSy3Z4YYXyaxo4SyXIPRHjWeYdeaFBUDnlU3R0lPY98jRg4BrpY3sXrxrjHCvY=) |
+| `infrastructure` | `developing` | `nascent` | LOW | Legacy IT infrastructures of financial institutions were difficult and expensive | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvj217vnBYuBaArQtn0A9UmFyRjXMSiY84pvd8vW-znvAxghrTJCaAJmGjmUhQoDbsghpVrYyiAuxuWLWGGST3QSETvipMuZAyPAjiSZs8eIrge0HGo6Y6NcfjnZ8gSV1bTypcbU-o137OLeSkztM5PiTrpmCFsc9mQvy89aJl2kLT7nU72F3H8ewX3SFmOnMEJj8qlz5RDiJaPSAokCSy3Z4YYXyaxo4SyXIPRHjWeYdeaFBUDnlU3R0lPY98jRg4BrpY3sXrxrjHCvY=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | RegTech's core purpose in 2015 was to use advanced technologies to assist busine | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvj217vnBYuBaArQtn0A9UmFyRjXMSiY84pvd8vW-znvAxghrTJCaAJmGjmUhQoDbsghpVrYyiAuxuWLWGGST3QSETvipMuZAyPAjiSZs8eIrge0HGo6Y6NcfjnZ8gSV1bTypcbU-o137OLeSkztM5PiTrpmCFsc9mQvy89aJl2kLT7nU72F3H8ewX3SFmOnMEJj8qlz5RDiJaPSAokCSy3Z4YYXyaxo4SyXIPRHjWeYdeaFBUDnlU3R0lPY98jRg4BrpY3sXrxrjHCvY=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 42 |
+| `competition` | `monopolistic_competition` | 55 |
+| `market_size` | `small` | 20 |
+| `customer_readiness` | `innovation_trigger` | 38 |
+| `regulatory` | `heavily_regulated` | 18 |
+| `infrastructure` | `nascent` | 22 |
+| `market_structure` | `technology_enablement` | 58 |
+| **Mean** | — | **36** |
+
+### Role 3 Prompt Audit — MLOps Model Deployment and Monitoring Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    innovators                            HIGH
+  competition               oligopoly                             MEDIUM
+  market_size               micro                                 HIGH
+  customer_readiness        innovation_trigger                    HIGH
+  regulatory                unregulated                           HIGH
+  infrastructure            nascent                               LOW
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 2 | 1 | 0 |
+| `competition` | 1 | 1 | 1 |
+| `market_size` | 2 | 0 | 1 |
+| `customer_readiness` | 2 | 1 | 0 |
+| `regulatory` | 2 | 1 | 0 |
+| `infrastructure` | 1 | 0 | 2 |
+| `market_structure` | 0 | 3 | 0 |
+
+
+---
+
+## Batch 62  —  2026-03-20 15:38:42
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 204 / 350  
+**Batch agreement:** MEDIUM (score=0.571)  
+**HIGH:** 2  **MEDIUM:** 4  **LOW:** 1  
+**Auto-correction triggered:** no
+
+### Electric Vehicle Public Charging Network Infrastructure (2014)
+
+**T+5:** VERIFIED (14 sources)  **Agreement:** MEDIUM (H=2 M=4 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | US plug-in EV sales were 118,773 in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYHKRi658gn4xao1Kv71Fvfg2EW1Ugl0Hnu8pKSJoqsmb63J_j45LWHeHSMPklARCagQInPPri97WA7vJxZv0BKIXrqdYVG5eYXEvdrFQif9uOBWT-cuiWThonYSb8vwmrsJFAMN_0V9j6c2qakVCKr4PLTbZe) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | ChargePoint was a leading company among numerous players in the U.S. EV charging | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYHKRi658gn4xao1Kv71Fvfg2EW1Ugl0Hnu8pKSJoqsmb63J_j45LWHeHSMPklARCagQInPPri97WA7vJxZv0BKIXrqdYVG5eYXEvdrFQif9uOBWT-cuiWThonYSb8vwmrsJFAMN_0V9j6c2qakVCKr4PLTbZe) |
+| `market_size` | `micro` | `small` | MEDIUM | Approximately 20,000 publicly available electric charging stations existed in th | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYHKRi658gn4xao1Kv71Fvfg2EW1Ugl0Hnu8pKSJoqsmb63J_j45LWHeHSMPklARCagQInPPri97WA7vJxZv0BKIXrqdYVG5eYXEvdrFQif9uOBWT-cuiWThonYSb8vwmrsJFAMN_0V9j6c2qakVCKr4PLTbZe) |
+| `customer_readiness` | `slope_of_enlightenment` | `trough_of_disillusionment` | MEDIUM | Lack of charging station infrastructure was a major concern for EV purchase in 2 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYHKRi658gn4xao1Kv71Fvfg2EW1Ugl0Hnu8pKSJoqsmb63J_j45LWHeHSMPklARCagQInPPri97WA7vJxZv0BKIXrqdYVG5eYXEvdrFQif9uOBWT-cuiWThonYSb8vwmrsJFAMN_0V9j6c2qakVCKr4PLTbZe) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | The European Union adopted CCS2 as a requirement for EV charging networks by 201 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYHKRi658gn4xao1Kv71Fvfg2EW1Ugl0Hnu8pKSJoqsmb63J_j45LWHeHSMPklARCagQInPPri97WA7vJxZv0BKIXrqdYVG5eYXEvdrFQif9uOBWT-cuiWThonYSb8vwmrsJFAMN_0V9j6c2qakVCKr4PLTbZe) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | The US had 5,070 EV charging ports in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYHKRi658gn4xao1Kv71Fvfg2EW1Ugl0Hnu8pKSJoqsmb63J_j45LWHeHSMPklARCagQInPPri97WA7vJxZv0BKIXrqdYVG5eYXEvdrFQif9uOBWT-cuiWThonYSb8vwmrsJFAMN_0V9j6c2qakVCKr4PLTbZe) |
+| `market_structure` | `winner_take_most` | `fragmented_niche` | LOW | Multiple business models were being explored, including site-host owner-operator | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYHKRi658gn4xao1Kv71Fvfg2EW1Ugl0Hnu8pKSJoqsmb63J_j45LWHeHSMPklARCagQInPPri97WA7vJxZv0BKIXrqdYVG5eYXEvdrFQif9uOBWT-cuiWThonYSb8vwmrsJFAMN_0V9j6c2qakVCKr4PLTbZe) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 68 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `trough_of_disillusionment` | 35 |
+| `regulatory` | `light_touch` | 80 |
+| `infrastructure` | `emerging` | 55 |
+| `market_structure` | `fragmented_niche` | 42 |
+| **Mean** | — | **52** |
+
+### Role 3 Prompt Audit — Electric Vehicle Public Charging Network Infrastructure
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               small                                 MEDIUM
+  customer_readiness        trough_of_disillusionment             MEDIUM
+  regulatory                light_touch                           HIGH
+  infrastructure            emerging                              MEDIUM
+  market_structure          fragmented_niche                      LOW
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 0 | 1 | 0 |
+| `market_size` | 0 | 1 | 0 |
+| `customer_readiness` | 0 | 1 | 0 |
+| `regulatory` | 1 | 0 | 0 |
+| `infrastructure` | 0 | 1 | 0 |
+| `market_structure` | 0 | 0 | 1 |
+
+
+---
+
+## Batch 64  —  2026-03-20 15:44:49
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 206 / 350  
+**Batch agreement:** HIGH (score=0.714)  
+**HIGH:** 8  **MEDIUM:** 4  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Direct Creator Monetization and Fan Subscription Platforms (2017)
+
+**T+5:** VERIFIED (8 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Patreon had 1 million monthly patrons by May 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM4Su5ZlT6JbD6TWwKJscePilMi2P1v2mG18lzTtxVHW0_v69hRp55vEl9jQOMuZjgQZ_3_EwWdkrdNUSTYimm8lvJ-sI3Dian8fN-nZ1VpFhmoIgECDAS9T1DKiI9An6UCT3v9vfZ30BdhTzwnlW2) |
+| `competition` | `monopolistic_competition` | `oligopoly` | MEDIUM | Patreon was a prominent platform in 2017, with OnlyFans and Substack emerging. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM4Su5ZlT6JbD6TWwKJscePilMi2P1v2mG18lzTtxVHW0_v69hRp55vEl9jQOMuZjgQZ_3_EwWdkrdNUSTYimm8lvJ-sI3Dian8fN-nZ1VpFhmoIgECDAS9T1DKiI9An6UCT3v9vfZ30BdhTzwnlW2) |
+| `market_size` | `small` | `small` | HIGH | Patreon was projected to send over $150 million to creators in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM4Su5ZlT6JbD6TWwKJscePilMi2P1v2mG18lzTtxVHW0_v69hRp55vEl9jQOMuZjgQZ_3_EwWdkrdNUSTYimm8lvJ-sI3Dian8fN-nZ1VpFhmoIgECDAS9T1DKiI9An6UCT3v9vfZ30BdhTzwnlW2) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `slope_of_enlightenment` | LOW | The 'Adpocalypse' in 2016-2017 spurred creators to seek alternative monetization | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM4Su5ZlT6JbD6TWwKJscePilMi2P1v2mG18lzTtxVHW0_v69hRp55vEl9jQOMuZjgQZ_3_EwWdkrdNUSTYimm8lvJ-sI3Dian8fN-nZ1VpFhmoIgECDAS9T1DKiI9An6UCT3v9vfZ30BdhTzwnlW2) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | No prominent specific regulations for direct creator monetization platforms were | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM4Su5ZlT6JbD6TWwKJscePilMi2P1v2mG18lzTtxVHW0_v69hRp55vEl9jQOMuZjgQZ_3_EwWdkrdNUSTYimm8lvJ-sI3Dian8fN-nZ1VpFhmoIgECDAS9T1DKiI9An6UCT3v9vfZ30BdhTzwnlW2) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Patreon launched a suite of tools for creators in June 2017, including a CRM sys | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM4Su5ZlT6JbD6TWwKJscePilMi2P1v2mG18lzTtxVHW0_v69hRp55vEl9jQOMuZjgQZ_3_EwWdkrdNUSTYimm8lvJ-sI3Dian8fN-nZ1VpFhmoIgECDAS9T1DKiI9An6UCT3v9vfZ30BdhTzwnlW2) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Patreon charged a commission of 8 to 12 percent of creators' monthly income. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM4Su5ZlT6JbD6TWwKJscePilMi2P1v2mG18lzTtxVHW0_v69hRp55vEl9jQOMuZjgQZ_3_EwWdkrdNUSTYimm8lvJ-sI3Dian8fN-nZ1VpFhmoIgECDAS9T1DKiI9An6UCT3v9vfZ30BdhTzwnlW2) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `slope_of_enlightenment` | 65 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 74 |
+| **Mean** | — | **59** |
+
+### PC Console Mobile Video Game Platforms Studios (2017)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** HIGH (H=5 M=1 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | Global game revenues reached $108.9 billion in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSVNdSmYUcO2sAqr-nz7rTCRK39OBN0wj9JGnTfbqsKk6RHaNSZu2Nb9dXcEQEzosxT5NIq7wXAtO4i9I5JvL3KJXLkgp-oOl96vFhkualWPXv1jt12FGR0sIm_wxkpz8B6_RmsV25n2RF7T0M5ZT-xUtk2JPYCbct9OP6nOrvObOm4KGjG16XrpwAnLe62amPMCBc8eLEb-ZzvVfCSOQ6PLvv99oUb8mUdHA=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Mobile gaming, dominated by a few major platforms, accounted for 42% of the glob | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSVNdSmYUcO2sAqr-nz7rTCRK39OBN0wj9JGnTfbqsKk6RHaNSZu2Nb9dXcEQEzosxT5NIq7wXAtO4i9I5JvL3KJXLkgp-oOl96vFhkualWPXv1jt12FGR0sIm_wxkpz8B6_RmsV25n2RF7T0M5ZT-xUtk2JPYCbct9OP6nOrvObOm4KGjG16XrpwAnLe62amPMCBc8eLEb-ZzvVfCSOQ6PLvv99oUb8mUdHA=) |
+| `market_size` | `large` | `massive` | MEDIUM | The global games market generated $108.9 billion in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSVNdSmYUcO2sAqr-nz7rTCRK39OBN0wj9JGnTfbqsKk6RHaNSZu2Nb9dXcEQEzosxT5NIq7wXAtO4i9I5JvL3KJXLkgp-oOl96vFhkualWPXv1jt12FGR0sIm_wxkpz8B6_RmsV25n2RF7T0M5ZT-xUtk2JPYCbct9OP6nOrvObOm4KGjG16XrpwAnLe62amPMCBc8eLEb-ZzvVfCSOQ6PLvv99oUb8mUdHA=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `plateau_of_productivity` | LOW | 67% of US households owned a device used to play video games in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSVNdSmYUcO2sAqr-nz7rTCRK39OBN0wj9JGnTfbqsKk6RHaNSZu2Nb9dXcEQEzosxT5NIq7wXAtO4i9I5JvL3KJXLkgp-oOl96vFhkualWPXv1jt12FGR0sIm_wxkpz8B6_RmsV25n2RF7T0M5ZT-xUtk2JPYCbct9OP6nOrvObOm4KGjG16XrpwAnLe62amPMCBc8eLEb-ZzvVfCSOQ6PLvv99oUb8mUdHA=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | 90% of parents were present when their child acquired a video game in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSVNdSmYUcO2sAqr-nz7rTCRK39OBN0wj9JGnTfbqsKk6RHaNSZu2Nb9dXcEQEzosxT5NIq7wXAtO4i9I5JvL3KJXLkgp-oOl96vFhkualWPXv1jt12FGR0sIm_wxkpz8B6_RmsV25n2RF7T0M5ZT-xUtk2JPYCbct9OP6nOrvObOm4KGjG16XrpwAnLe62amPMCBc8eLEb-ZzvVfCSOQ6PLvv99oUb8mUdHA=) |
+| `infrastructure` | `mature` | `mature` | HIGH | Digital game revenues accounted for $94.4 billion or 87% of the global market in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSVNdSmYUcO2sAqr-nz7rTCRK39OBN0wj9JGnTfbqsKk6RHaNSZu2Nb9dXcEQEzosxT5NIq7wXAtO4i9I5JvL3KJXLkgp-oOl96vFhkualWPXv1jt12FGR0sIm_wxkpz8B6_RmsV25n2RF7T0M5ZT-xUtk2JPYCbct9OP6nOrvObOm4KGjG16XrpwAnLe62amPMCBc8eLEb-ZzvVfCSOQ6PLvv99oUb8mUdHA=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Mobile gaming, a platform-driven segment, constituted 42% of the global games ma | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSVNdSmYUcO2sAqr-nz7rTCRK39OBN0wj9JGnTfbqsKk6RHaNSZu2Nb9dXcEQEzosxT5NIq7wXAtO4i9I5JvL3KJXLkgp-oOl96vFhkualWPXv1jt12FGR0sIm_wxkpz8B6_RmsV25n2RF7T0M5ZT-xUtk2JPYCbct9OP6nOrvObOm4KGjG16XrpwAnLe62amPMCBc8eLEb-ZzvVfCSOQ6PLvv99oUb8mUdHA=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 78 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `massive` | 85 |
+| `customer_readiness` | `plateau_of_productivity` | 62 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `mature` | 80 |
+| `market_structure` | `platform_two_sided` | 72 |
+| **Mean** | — | **72** |
+
+### Role 3 Prompt Audit — Direct Creator Monetization and Fan Subscription Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               oligopoly                             MEDIUM
+  market_size               small                                 HIGH
+  customer_readiness        slope_of_enlightenment                LOW
+  regulatory                unregulated                           MEDIUM
+  infrastructure            developing                            MEDIUM
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 2 | 0 | 0 |
+| `competition` | 1 | 1 | 0 |
+| `market_size` | 1 | 1 | 0 |
+| `customer_readiness` | 0 | 0 | 2 |
+| `regulatory` | 1 | 1 | 0 |
+| `infrastructure` | 1 | 1 | 0 |
+| `market_structure` | 2 | 0 | 0 |
+
+
+---
+
+## Batch 66  —  2026-03-20 15:53:16
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 208 / 350  
+**Batch agreement:** MEDIUM (score=0.536)  
+**HIGH:** 6  **MEDIUM:** 3  **LOW:** 5  
+**Auto-correction triggered:** no
+
+### Free-to-Play Mobile Games In-App Monetization (2010)
+
+**T+5:** VERIFIED (5 sources)  **Agreement:** MEDIUM (H=4 M=0 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | In-game purchases were predicted to overtake pay-per-download by 2013. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM23L0cLA34QSUbUAK4iUlFXIX0qNZMUAlx4DEZAF5ohdHJojF-b1rsdk_vjLkQBOr4RejPfWHgMiBl0rny_S8LAscIvBpGnF-71biXKSAxBAjmqtQkxav39PROW5YObSsy2PY7jyXKZgyETP3I-LOMmoFDV_J4e0Y0q44EdUayw==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | The number of high-quality MMO games available to consumers doubled since the st | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM23L0cLA34QSUbUAK4iUlFXIX0qNZMUAlx4DEZAF5ohdHJojF-b1rsdk_vjLkQBOr4RejPfWHgMiBl0rny_S8LAscIvBpGnF-71biXKSAxBAjmqtQkxav39PROW5YObSsy2PY7jyXKZgyETP3I-LOMmoFDV_J4e0Y0q44EdUayw==) |
+| `market_size` | `small` | `large` | LOW | Mobile games revenues were projected to surpass $11 billion globally by 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM23L0cLA34QSUbUAK4iUlFXIX0qNZMUAlx4DEZAF5ohdHJojF-b1rsdk_vjLkQBOr4RejPfWHgMiBl0rny_S8LAscIvBpGnF-71biXKSAxBAjmqtQkxav39PROW5YObSsy2PY7jyXKZgyETP3I-LOMmoFDV_J4e0Y0q44EdUayw==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `unknown` | LOW | The freemium model allowed users to play, test, and determine enjoyment without  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM23L0cLA34QSUbUAK4iUlFXIX0qNZMUAlx4DEZAF5ohdHJojF-b1rsdk_vjLkQBOr4RejPfWHgMiBl0rny_S8LAscIvBpGnF-71biXKSAxBAjmqtQkxav39PROW5YObSsy2PY7jyXKZgyETP3I-LOMmoFDV_J4e0Y0q44EdUayw==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Apple's in-app billing mechanism was showing the way forward for monetization. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM23L0cLA34QSUbUAK4iUlFXIX0qNZMUAlx4DEZAF5ohdHJojF-b1rsdk_vjLkQBOr4RejPfWHgMiBl0rny_S8LAscIvBpGnF-71biXKSAxBAjmqtQkxav39PROW5YObSsy2PY7jyXKZgyETP3I-LOMmoFDV_J4e0Y0q44EdUayw==) |
+| `infrastructure` | `developing` | `developing` | HIGH | Apple's App Store launched in 2008, and by 2010, its in-app billing was a key dr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM23L0cLA34QSUbUAK4iUlFXIX0qNZMUAlx4DEZAF5ohdHJojF-b1rsdk_vjLkQBOr4RejPfWHgMiBl0rny_S8LAscIvBpGnF-71biXKSAxBAjmqtQkxav39PROW5YObSsy2PY7jyXKZgyETP3I-LOMmoFDV_J4e0Y0q44EdUayw==) |
+| `market_structure` | `fragmented_niche` | `winner_take_most` | LOW | 50% of a typical game's revenue came from a very small pool of users willing to  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM23L0cLA34QSUbUAK4iUlFXIX0qNZMUAlx4DEZAF5ohdHJojF-b1rsdk_vjLkQBOr4RejPfWHgMiBl0rny_S8LAscIvBpGnF-71biXKSAxBAjmqtQkxav39PROW5YObSsy2PY7jyXKZgyETP3I-LOMmoFDV_J4e0Y0q44EdUayw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 48 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `winner_take_most` | 63 |
+| **Mean** | — | **64** |
+
+### Consumer Online Therapy and Psychotherapy Platforms (2012)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** MEDIUM (H=2 M=3 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `early_adopters` | MEDIUM | Research prior to 2012 indicated teletherapy was comparable to in-person therapy | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1E5s1LoDOY_CcqEBg-Qgc9ZnCQEGrZ6UskhJARCrT0ojWJXtZ8HV20wq6sE2wl1NoM32lbYaWm0Tb2TUPyBnuAjQLyVK_7khFTDigt2EbQ30aESjx0pwS_VM_QWXIJp-iPFY62LsBq8u2HaU=) |
+| `competition` | `monopoly` | `unknown` | LOW | Most studies on online CBT prior to 2012 used email as the asynchronous methodol | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1E5s1LoDOY_CcqEBg-Qgc9ZnCQEGrZ6UskhJARCrT0ojWJXtZ8HV20wq6sE2wl1NoM32lbYaWm0Tb2TUPyBnuAjQLyVK_7khFTDigt2EbQ30aESjx0pwS_VM_QWXIJp-iPFY62LsBq8u2HaU=) |
+| `market_size` | `micro` | `small` | MEDIUM | Medicare telemedicine reimbursements amounted to approximately $6 million in 201 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1E5s1LoDOY_CcqEBg-Qgc9ZnCQEGrZ6UskhJARCrT0ojWJXtZ8HV20wq6sE2wl1NoM32lbYaWm0Tb2TUPyBnuAjQLyVK_7khFTDigt2EbQ30aESjx0pwS_VM_QWXIJp-iPFY62LsBq8u2HaU=) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | Despite empirical findings on effectiveness, therapists' concerns about online t | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1E5s1LoDOY_CcqEBg-Qgc9ZnCQEGrZ6UskhJARCrT0ojWJXtZ8HV20wq6sE2wl1NoM32lbYaWm0Tb2TUPyBnuAjQLyVK_7khFTDigt2EbQ30aESjx0pwS_VM_QWXIJp-iPFY62LsBq8u2HaU=) |
+| `regulatory` | `moderate_compliance` | `light_touch` | MEDIUM | By March 2012, only three states (California, Vermont, and Kentucky) had passed  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1E5s1LoDOY_CcqEBg-Qgc9ZnCQEGrZ6UskhJARCrT0ojWJXtZ8HV20wq6sE2wl1NoM32lbYaWm0Tb2TUPyBnuAjQLyVK_7khFTDigt2EbQ30aESjx0pwS_VM_QWXIJp-iPFY62LsBq8u2HaU=) |
+| `infrastructure` | `developing` | `developing` | HIGH | Smartphones were increasingly being used for health information dissemination an | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1E5s1LoDOY_CcqEBg-Qgc9ZnCQEGrZ6UskhJARCrT0ojWJXtZ8HV20wq6sE2wl1NoM32lbYaWm0Tb2TUPyBnuAjQLyVK_7khFTDigt2EbQ30aESjx0pwS_VM_QWXIJp-iPFY62LsBq8u2HaU=) |
+| `market_structure` | `platform_two_sided` | `fragmented_niche` | LOW | The term 'online' covered a number of methods including e-mail, chat-rooms, vide | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1E5s1LoDOY_CcqEBg-Qgc9ZnCQEGrZ6UskhJARCrT0ojWJXtZ8HV20wq6sE2wl1NoM32lbYaWm0Tb2TUPyBnuAjQLyVK_7khFTDigt2EbQ30aESjx0pwS_VM_QWXIJp-iPFY62LsBq8u2HaU=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopoly` | 55 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 42 |
+| `regulatory` | `light_touch` | 72 |
+| `infrastructure` | `developing` | 48 |
+| `market_structure` | `fragmented_niche` | 38 |
+| **Mean** | — | **49** |
+
+### Role 3 Prompt Audit — Free-to-Play Mobile Games In-App Monetization
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              HIGH
+  market_size               large                                 LOW
+  customer_readiness        peak_of_inflated_expectations         LOW
+  regulatory                light_touch                           HIGH
+  infrastructure            developing                            HIGH
+  market_structure          winner_take_most                      LOW
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 1 | 0 |
+| `competition` | 1 | 0 | 1 |
+| `market_size` | 0 | 1 | 1 |
+| `customer_readiness` | 1 | 0 | 1 |
+| `regulatory` | 1 | 1 | 0 |
+| `infrastructure` | 2 | 0 | 0 |
+| `market_structure` | 0 | 0 | 2 |
+
+
+---
+
+## Batch 67  —  2026-03-20 15:57:31
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 209 / 350  
+**Batch agreement:** HIGH (score=0.929)  
+**HIGH:** 6  **MEDIUM:** 1  **LOW:** 0  
+**Auto-correction triggered:** no
+
+### Online Course Platforms Higher Education Digital Learning (2013)
+
+**T+5:** VERIFIED (13 sources)  **Agreement:** HIGH (H=6 M=1 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | By December 2013, an estimated 10 million people had registered for MOOCs global | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOC-RMAKnriUe1Tbgw6kl_umwnyZf2ji3pFYYNLUvZvVO8FR0SJ8ojJCi80h8id8lVJPdx0y9IFHI5ccth8NRk5x0_EGEfTSUyCVsvAuCCUQdovBNuRMN7dtGS8LB65wNbrYwfPcX04lj19FnQUFVoxGTU0O4GIqDfRs59Oo7XB4NPmM7rSI-enP2zeXS0) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Coursera was the largest MOOC provider in 2013, offering almost half of all MOOC | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOC-RMAKnriUe1Tbgw6kl_umwnyZf2ji3pFYYNLUvZvVO8FR0SJ8ojJCi80h8id8lVJPdx0y9IFHI5ccth8NRk5x0_EGEfTSUyCVsvAuCCUQdovBNuRMN7dtGS8LB65wNbrYwfPcX04lj19FnQUFVoxGTU0O4GIqDfRs59Oo7XB4NPmM7rSI-enP2zeXS0) |
+| `market_size` | `small` | `medium` | MEDIUM | Over 6.7 million students in the U.S. took at least one online course in Fall 20 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOC-RMAKnriUe1Tbgw6kl_umwnyZf2ji3pFYYNLUvZvVO8FR0SJ8ojJCi80h8id8lVJPdx0y9IFHI5ccth8NRk5x0_EGEfTSUyCVsvAuCCUQdovBNuRMN7dtGS8LB65wNbrYwfPcX04lj19FnQUFVoxGTU0O4GIqDfRs59Oo7XB4NPmM7rSI-enP2zeXS0) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | Gartner placed MOOCs at the 'Peak of Inflated Expectations' in July 2013. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOC-RMAKnriUe1Tbgw6kl_umwnyZf2ji3pFYYNLUvZvVO8FR0SJ8ojJCi80h8id8lVJPdx0y9IFHI5ccth8NRk5x0_EGEfTSUyCVsvAuCCUQdovBNuRMN7dtGS8LB65wNbrYwfPcX04lj19FnQUFVoxGTU0O4GIqDfRs59Oo7XB4NPmM7rSI-enP2zeXS0) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | The average completion rate of MOOCs in 2013 was less than 7%, partly due to the | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOC-RMAKnriUe1Tbgw6kl_umwnyZf2ji3pFYYNLUvZvVO8FR0SJ8ojJCi80h8id8lVJPdx0y9IFHI5ccth8NRk5x0_EGEfTSUyCVsvAuCCUQdovBNuRMN7dtGS8LB65wNbrYwfPcX04lj19FnQUFVoxGTU0O4GIqDfRs59Oo7XB4NPmM7rSI-enP2zeXS0) |
+| `infrastructure` | `developing` | `developing` | HIGH | In 2013, less than 30% of the population in Mexico had internet access at home,  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOC-RMAKnriUe1Tbgw6kl_umwnyZf2ji3pFYYNLUvZvVO8FR0SJ8ojJCi80h8id8lVJPdx0y9IFHI5ccth8NRk5x0_EGEfTSUyCVsvAuCCUQdovBNuRMN7dtGS8LB65wNbrYwfPcX04lj19FnQUFVoxGTU0O4GIqDfRs59Oo7XB4NPmM7rSI-enP2zeXS0) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Coursera alone had registered approximately 2.8 million learners by March 2013,  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOC-RMAKnriUe1Tbgw6kl_umwnyZf2ji3pFYYNLUvZvVO8FR0SJ8ojJCi80h8id8lVJPdx0y9IFHI5ccth8NRk5x0_EGEfTSUyCVsvAuCCUQdovBNuRMN7dtGS8LB65wNbrYwfPcX04lj19FnQUFVoxGTU0O4GIqDfRs59Oo7XB4NPmM7rSI-enP2zeXS0) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 45 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 62 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **64** |
+
+### Role 3 Prompt Audit — Online Course Platforms Higher Education Digital Learning
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               oligopoly                             HIGH
+  market_size               medium                                MEDIUM
+  customer_readiness        peak_of_inflated_expectations         HIGH
+  regulatory                light_touch                           HIGH
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 1 | 0 | 0 |
+| `market_size` | 0 | 1 | 0 |
+| `customer_readiness` | 1 | 0 | 0 |
+| `regulatory` | 1 | 0 | 0 |
+| `infrastructure` | 1 | 0 | 0 |
+| `market_structure` | 1 | 0 | 0 |
+
+
+---
+
+## Batch 69  —  2026-03-20 16:05:31
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 210 / 350  
+**Batch agreement:** MEDIUM (score=0.429)  
+**HIGH:** 1  **MEDIUM:** 4  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Mobile-First Neobanks Consumer Financial Services (2015)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** MEDIUM (H=1 M=4 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `early_adopters` | MEDIUM | 39% of all mobile phone owners with a bank account used mobile banking in the 12 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1Sl9yy8VXKgpvuHJSCb_Cysoipsj2bKVa1zP3K0LmPJfzM-Djg6nMUAc5QOVayjsL2oIqAV0wSsjhH-dNdqxKhjmzbYumR1OCfmYJLKHFU6vtewxD9qoqLjWgTiWtvWoyiWPXEH9OsL4_9rk7xhfqIACV4U0T9L0-MAvZDbWvCD32E47B) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Accenture predicted that 35% of banks' market share in North America could be in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1Sl9yy8VXKgpvuHJSCb_Cysoipsj2bKVa1zP3K0LmPJfzM-Djg6nMUAc5QOVayjsL2oIqAV0wSsjhH-dNdqxKhjmzbYumR1OCfmYJLKHFU6vtewxD9qoqLjWgTiWtvWoyiWPXEH9OsL4_9rk7xhfqIACV4U0T9L0-MAvZDbWvCD32E47B) |
+| `market_size` | `micro` | `medium` | LOW | Global mobile banking users stood at 0.8 billion in 2014, projected to reach 1.8 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1Sl9yy8VXKgpvuHJSCb_Cysoipsj2bKVa1zP3K0LmPJfzM-Djg6nMUAc5QOVayjsL2oIqAV0wSsjhH-dNdqxKhjmzbYumR1OCfmYJLKHFU6vtewxD9qoqLjWgTiWtvWoyiWPXEH9OsL4_9rk7xhfqIACV4U0T9L0-MAvZDbWvCD32E47B) |
+| `customer_readiness` | `innovation_trigger` | `peak_of_inflated_expectations` | MEDIUM | A 'massive demand for mobile banking and the attendant rapid adoption of even fa | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1Sl9yy8VXKgpvuHJSCb_Cysoipsj2bKVa1zP3K0LmPJfzM-Djg6nMUAc5QOVayjsL2oIqAV0wSsjhH-dNdqxKhjmzbYumR1OCfmYJLKHFU6vtewxD9qoqLjWgTiWtvWoyiWPXEH9OsL4_9rk7xhfqIACV4U0T9L0-MAvZDbWvCD32E47B) |
+| `regulatory` | `heavily_regulated` | `light_touch` | LOW | Most neobanks in 2015 did not have a standalone banking license and often collab | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1Sl9yy8VXKgpvuHJSCb_Cysoipsj2bKVa1zP3K0LmPJfzM-Djg6nMUAc5QOVayjsL2oIqAV0wSsjhH-dNdqxKhjmzbYumR1OCfmYJLKHFU6vtewxD9qoqLjWgTiWtvWoyiWPXEH9OsL4_9rk7xhfqIACV4U0T9L0-MAvZDbWvCD32E47B) |
+| `infrastructure` | `developing` | `developing` | HIGH | 71% of mobile phones were smartphones in 2015, up from 61% in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1Sl9yy8VXKgpvuHJSCb_Cysoipsj2bKVa1zP3K0LmPJfzM-Djg6nMUAc5QOVayjsL2oIqAV0wSsjhH-dNdqxKhjmzbYumR1OCfmYJLKHFU6vtewxD9qoqLjWgTiWtvWoyiWPXEH9OsL4_9rk7xhfqIACV4U0T9L0-MAvZDbWvCD32E47B) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Neobanks were defined by their digital-only, mobile-first approach, leveraging t | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1Sl9yy8VXKgpvuHJSCb_Cysoipsj2bKVa1zP3K0LmPJfzM-Djg6nMUAc5QOVayjsL2oIqAV0wSsjhH-dNdqxKhjmzbYumR1OCfmYJLKHFU6vtewxD9qoqLjWgTiWtvWoyiWPXEH9OsL4_9rk7xhfqIACV4U0T9L0-MAvZDbWvCD32E47B) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 52 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 58 |
+| `regulatory` | `light_touch` | 65 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `technology_enablement` | 70 |
+| **Mean** | — | **61** |
+
+### Role 3 Prompt Audit — Mobile-First Neobanks Consumer Financial Services
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        MEDIUM
+  competition               monopolistic_competition              MEDIUM
+  market_size               medium                                LOW
+  customer_readiness        peak_of_inflated_expectations         MEDIUM
+  regulatory                light_touch                           LOW
+  infrastructure            developing                            HIGH
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 0 | 1 | 0 |
+| `competition` | 0 | 1 | 0 |
+| `market_size` | 0 | 0 | 1 |
+| `customer_readiness` | 0 | 1 | 0 |
+| `regulatory` | 0 | 0 | 1 |
+| `infrastructure` | 1 | 0 | 0 |
+| `market_structure` | 0 | 1 | 0 |
+
+
+---
+
+## Batch 70  —  2026-03-20 16:09:41
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 211 / 350  
+**Batch agreement:** MEDIUM (score=0.643)  
+**HIGH:** 3  **MEDIUM:** 3  **LOW:** 1  
+**Auto-correction triggered:** no
+
+### Public and Workplace EV Charging Network Infrastructure (2016)
+
+**T+5:** VERIFIED (11 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | In 2016, EV penetration among new sales in the EU27 + UK was 1%. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB-9YAOpBD3MpRUf9bY0-w91GFj1xMhl9yEIkkI-DDYIykxszB2fZTxnPXBIA_nxDLQAIx0XnEfPnRxHwlsy6YLRgztG3w48fWv-WoApqHHvayaDxQwJu1sJxHMZ-TzqWdp6j4qSLt1ct5nOC7FtxkaW0CWgY1MVLlPf45cAjvvLcPOfE=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | In 2016, two electric car charging companies landed 'big investments'. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB-9YAOpBD3MpRUf9bY0-w91GFj1xMhl9yEIkkI-DDYIykxszB2fZTxnPXBIA_nxDLQAIx0XnEfPnRxHwlsy6YLRgztG3w48fWv-WoApqHHvayaDxQwJu1sJxHMZ-TzqWdp6j4qSLt1ct5nOC7FtxkaW0CWgY1MVLlPf45cAjvvLcPOfE=) |
+| `market_size` | `small` | `small` | HIGH | The U.S. had 44,354 EV charging ports in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB-9YAOpBD3MpRUf9bY0-w91GFj1xMhl9yEIkkI-DDYIykxszB2fZTxnPXBIA_nxDLQAIx0XnEfPnRxHwlsy6YLRgztG3w48fWv-WoApqHHvayaDxQwJu1sJxHMZ-TzqWdp6j4qSLt1ct5nOC7FtxkaW0CWgY1MVLlPf45cAjvvLcPOfE=) |
+| `customer_readiness` | `slope_of_enlightenment` | `trough_of_disillusionment` | MEDIUM | In 2015, only 18% of respondents were aware of charging stations on their regula | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB-9YAOpBD3MpRUf9bY0-w91GFj1xMhl9yEIkkI-DDYIykxszB2fZTxnPXBIA_nxDLQAIx0XnEfPnRxHwlsy6YLRgztG3w48fWv-WoApqHHvayaDxQwJu1sJxHMZ-TzqWdp6j4qSLt1ct5nOC7FtxkaW0CWgY1MVLlPf45cAjvvLcPOfE=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | In 2016, standardization of charging infrastructure was still ongoing, with issu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB-9YAOpBD3MpRUf9bY0-w91GFj1xMhl9yEIkkI-DDYIykxszB2fZTxnPXBIA_nxDLQAIx0XnEfPnRxHwlsy6YLRgztG3w48fWv-WoApqHHvayaDxQwJu1sJxHMZ-TzqWdp6j4qSLt1ct5nOC7FtxkaW0CWgY1MVLlPf45cAjvvLcPOfE=) |
+| `infrastructure` | `developing` | `nascent` | LOW | In 2016, there were approximately 30,000 public chargers in the U.S. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB-9YAOpBD3MpRUf9bY0-w91GFj1xMhl9yEIkkI-DDYIykxszB2fZTxnPXBIA_nxDLQAIx0XnEfPnRxHwlsy6YLRgztG3w48fWv-WoApqHHvayaDxQwJu1sJxHMZ-TzqWdp6j4qSLt1ct5nOC7FtxkaW0CWgY1MVLlPf45cAjvvLcPOfE=) |
+| `market_structure` | `platform_two_sided` | `technology_enablement` | MEDIUM | High costs of installation, operation, and maintenance for site hosts limited th | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB-9YAOpBD3MpRUf9bY0-w91GFj1xMhl9yEIkkI-DDYIykxszB2fZTxnPXBIA_nxDLQAIx0XnEfPnRxHwlsy6YLRgztG3w48fWv-WoApqHHvayaDxQwJu1sJxHMZ-TzqWdp6j4qSLt1ct5nOC7FtxkaW0CWgY1MVLlPf45cAjvvLcPOfE=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `trough_of_disillusionment` | 35 |
+| `regulatory` | `light_touch` | 78 |
+| `infrastructure` | `nascent` | 30 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **51** |
+
+### Role 3 Prompt Audit — Public and Workplace EV Charging Network Infrastructure
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               small                                 HIGH
+  customer_readiness        trough_of_disillusionment             MEDIUM
+  regulatory                light_touch                           HIGH
+  infrastructure            nascent                               LOW
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 0 | 1 | 0 |
+| `market_size` | 1 | 0 | 0 |
+| `customer_readiness` | 0 | 1 | 0 |
+| `regulatory` | 1 | 0 | 0 |
+| `infrastructure` | 0 | 0 | 1 |
+| `market_structure` | 0 | 1 | 0 |
+
+
+---
+
+## Batch 72  —  2026-03-20 16:18:28
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 212 / 350  
+**Batch agreement:** HIGH (score=0.786)  
+**HIGH:** 5  **MEDIUM:** 1  **LOW:** 1  
+**Auto-correction triggered:** no
+
+### Online Marketplaces for Handcrafted and Vintage Goods (2015)
+
+**T+5:** VERIFIED (14 sources)  **Agreement:** HIGH (H=5 M=1 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | Etsy reported 24 million active buyers in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxHCgobsm1IREtbUvEyvHlIwPHrFX3WExYJ-a3LNmuGgOSaDWKWLbCtM6glTrFJ9qyUkw2M2MyO_yJ36yDfWK1xVsSoLwNjdTiHth6TMO6wZVMVLlzEbtaPxp1ZuxOPZgcpPG_AQw8mr6izlnBDXAtBlzmCWn0rrI0qhTqeRmjVnfmpVIPcskK-VTt1cGCvXMZwZwHgRspPHsHWHw-ZH7rR2mMizuR_A0yztXJZYHwOU2adbnduxM5l8n56Qz1YUIi) |
+| `competition` | `monopoly` | `monopolistic_competition` | LOW | Etsy, the largest platform, had 1.6 million active sellers and 24 million active | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxHCgobsm1IREtbUvEyvHlIwPHrFX3WExYJ-a3LNmuGgOSaDWKWLbCtM6glTrFJ9qyUkw2M2MyO_yJ36yDfWK1xVsSoLwNjdTiHth6TMO6wZVMVLlzEbtaPxp1ZuxOPZgcpPG_AQw8mr6izlnBDXAtBlzmCWn0rrI0qhTqeRmjVnfmpVIPcskK-VTt1cGCvXMZwZwHgRspPHsHWHw-ZH7rR2mMizuR_A0yztXJZYHwOU2adbnduxM5l8n56Qz1YUIi) |
+| `market_size` | `medium` | `large` | MEDIUM | Etsy's Gross Merchandise Sales (GMS) reached $2.4 billion in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxHCgobsm1IREtbUvEyvHlIwPHrFX3WExYJ-a3LNmuGgOSaDWKWLbCtM6glTrFJ9qyUkw2M2MyO_yJ36yDfWK1xVsSoLwNjdTiHth6TMO6wZVMVLlzEbtaPxp1ZuxOPZgcpPG_AQw8mr6izlnBDXAtBlzmCWn0rrI0qhTqeRmjVnfmpVIPcskK-VTt1cGCvXMZwZwHgRspPHsHWHw-ZH7rR2mMizuR_A0yztXJZYHwOU2adbnduxM5l8n56Qz1YUIi) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | Etsy's mobile visits constituted approximately 60% of total visits in the second | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxHCgobsm1IREtbUvEyvHlIwPHrFX3WExYJ-a3LNmuGgOSaDWKWLbCtM6glTrFJ9qyUkw2M2MyO_yJ36yDfWK1xVsSoLwNjdTiHth6TMO6wZVMVLlzEbtaPxp1ZuxOPZgcpPG_AQw8mr6izlnBDXAtBlzmCWn0rrI0qhTqeRmjVnfmpVIPcskK-VTt1cGCvXMZwZwHgRspPHsHWHw-ZH7rR2mMizuR_A0yztXJZYHwOU2adbnduxM5l8n56Qz1YUIi) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Etsy's 2015 Transparency Report detailed responses to 11,099 intellectual proper | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxHCgobsm1IREtbUvEyvHlIwPHrFX3WExYJ-a3LNmuGgOSaDWKWLbCtM6glTrFJ9qyUkw2M2MyO_yJ36yDfWK1xVsSoLwNjdTiHth6TMO6wZVMVLlzEbtaPxp1ZuxOPZgcpPG_AQw8mr6izlnBDXAtBlzmCWn0rrI0qhTqeRmjVnfmpVIPcskK-VTt1cGCvXMZwZwHgRspPHsHWHw-ZH7rR2mMizuR_A0yztXJZYHwOU2adbnduxM5l8n56Qz1YUIi) |
+| `infrastructure` | `mature` | `mature` | HIGH | Etsy reported that mobile GMS was approximately 43% in the second quarter of 201 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxHCgobsm1IREtbUvEyvHlIwPHrFX3WExYJ-a3LNmuGgOSaDWKWLbCtM6glTrFJ9qyUkw2M2MyO_yJ36yDfWK1xVsSoLwNjdTiHth6TMO6wZVMVLlzEbtaPxp1ZuxOPZgcpPG_AQw8mr6izlnBDXAtBlzmCWn0rrI0qhTqeRmjVnfmpVIPcskK-VTt1cGCvXMZwZwHgRspPHsHWHw-ZH7rR2mMizuR_A0yztXJZYHwOU2adbnduxM5l8n56Qz1YUIi) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Etsy's business model is explicitly defined as a two-sided marketplace connectin | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxHCgobsm1IREtbUvEyvHlIwPHrFX3WExYJ-a3LNmuGgOSaDWKWLbCtM6glTrFJ9qyUkw2M2MyO_yJ36yDfWK1xVsSoLwNjdTiHth6TMO6wZVMVLlzEbtaPxp1ZuxOPZgcpPG_AQw8mr6izlnBDXAtBlzmCWn0rrI0qhTqeRmjVnfmpVIPcskK-VTt1cGCvXMZwZwHgRspPHsHWHw-ZH7rR2mMizuR_A0yztXJZYHwOU2adbnduxM5l8n56Qz1YUIi) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 78 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 80 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `light_touch` | 85 |
+| `infrastructure` | `mature` | 82 |
+| `market_structure` | `platform_two_sided` | 74 |
+| **Mean** | — | **77** |
+
+### Role 3 Prompt Audit — Online Marketplaces for Handcrafted and Vintage Goods
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        HIGH
+  competition               monopolistic_competition              LOW
+  market_size               large                                 MEDIUM
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                light_touch                           HIGH
+  infrastructure            mature                                HIGH
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 0 |
+| `competition` | 0 | 0 | 1 |
+| `market_size` | 0 | 1 | 0 |
+| `customer_readiness` | 1 | 0 | 0 |
+| `regulatory` | 1 | 0 | 0 |
+| `infrastructure` | 1 | 0 | 0 |
+| `market_structure` | 1 | 0 | 0 |
+
+
+---
+
+## Batch 73  —  2026-03-20 16:24:16
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 214 / 350  
+**Batch agreement:** MEDIUM (score=0.536)  
+**HIGH:** 5  **MEDIUM:** 5  **LOW:** 4  
+**Auto-correction triggered:** no
+
+### No-Code Application Building and Workflow Automation Platforms (2019)
+
+**T+5:** VERIFIED (7 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The global low-code/no-code market size was valued at USD 11.45 billion in 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-inYniCPPsipzRsdQsUzNSHIcPYHF_XAxmE75yq2Ne7i7fFZhh2MRXSFmDASxWwKrTp1AuGL8htRtKtgfbEOW-N0DGVDI4oc_nJd2JVsSoug4RfRMsiOPCPO6vCPXg0Dv9rc0nv1rbd8qGW4wxj7KzayUFNyNwiC72jyEJfM=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | The market was characterized by a growing number of diverse no-code and low-code | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-inYniCPPsipzRsdQsUzNSHIcPYHF_XAxmE75yq2Ne7i7fFZhh2MRXSFmDASxWwKrTp1AuGL8htRtKtgfbEOW-N0DGVDI4oc_nJd2JVsSoug4RfRMsiOPCPO6vCPXg0Dv9rc0nv1rbd8qGW4wxj7KzayUFNyNwiC72jyEJfM=) |
+| `market_size` | `small` | `large` | LOW | The global low-code/no-code market size was valued at USD 11.45 billion in 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-inYniCPPsipzRsdQsUzNSHIcPYHF_XAxmE75yq2Ne7i7fFZhh2MRXSFmDASxWwKrTp1AuGL8htRtKtgfbEOW-N0DGVDI4oc_nJd2JVsSoug4RfRMsiOPCPO6vCPXg0Dv9rc0nv1rbd8qGW4wxj7KzayUFNyNwiC72jyEJfM=) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | In 2019, 43% of businesses cited a lack of knowledge about low-code. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-inYniCPPsipzRsdQsUzNSHIcPYHF_XAxmE75yq2Ne7i7fFZhh2MRXSFmDASxWwKrTp1AuGL8htRtKtgfbEOW-N0DGVDI4oc_nJd2JVsSoug4RfRMsiOPCPO6vCPXg0Dv9rc0nv1rbd8qGW4wxj7KzayUFNyNwiC72jyEJfM=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | No specific regulatory frameworks were widely applied to no-code/workflow automa | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-inYniCPPsipzRsdQsUzNSHIcPYHF_XAxmE75yq2Ne7i7fFZhh2MRXSFmDASxWwKrTp1AuGL8htRtKtgfbEOW-N0DGVDI4oc_nJd2JVsSoug4RfRMsiOPCPO6vCPXg0Dv9rc0nv1rbd8qGW4wxj7KzayUFNyNwiC72jyEJfM=) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | No-code development tools, abstracting the codebase entirely, rose in prominence | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-inYniCPPsipzRsdQsUzNSHIcPYHF_XAxmE75yq2Ne7i7fFZhh2MRXSFmDASxWwKrTp1AuGL8htRtKtgfbEOW-N0DGVDI4oc_nJd2JVsSoug4RfRMsiOPCPO6vCPXg0Dv9rc0nv1rbd8qGW4wxj7KzayUFNyNwiC72jyEJfM=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | No-code platforms empower non-technical users to create applications, democratiz | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-inYniCPPsipzRsdQsUzNSHIcPYHF_XAxmE75yq2Ne7i7fFZhh2MRXSFmDASxWwKrTp1AuGL8htRtKtgfbEOW-N0DGVDI4oc_nJd2JVsSoug4RfRMsiOPCPO6vCPXg0Dv9rc0nv1rbd8qGW4wxj7KzayUFNyNwiC72jyEJfM=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `slope_of_enlightenment` | 78 |
+| `regulatory` | `unregulated` | 80 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `technology_enablement` | 70 |
+| **Mean** | — | **69** |
+
+### Carbon Footprint Measurement and Reporting SaaS (2020)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** MEDIUM (H=2 M=2 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `early_majority` | LOW | Over 75% of Fortune 500 companies reported their carbon footprint in 2020. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdAAm-2pf9PpgfT1dRGdNxMjJNJrUoPHvxY152cZ_FdYEcYJcyWggaYrZMGR2WbpdaQ-93Vc7-UbaL2UVNxLM61xAPDpN1-gdvSZZgRcpckC8z9J471ZcjLt0BKcetCPr681P2cO1QKTbELSieFN50VshxwsIdOaE2nUQXWQbnUBNhDMfFxquF9PgObTU17YXW8TARin1mRoAguEdGwldwSs92XCQjV_CrZUg154AJ-rAtIt5pfRTDDrlE0NZl7uWC4Fcli0yLP3Czuo_PjVXzJnk3k6epZFzcZL0Nrui47FCR0F3kMh_sJYfdU6-aDhr3LbVk) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | The market included both large enterprise software providers and emerging specia | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdAAm-2pf9PpgfT1dRGdNxMjJNJrUoPHvxY152cZ_FdYEcYJcyWggaYrZMGR2WbpdaQ-93Vc7-UbaL2UVNxLM61xAPDpN1-gdvSZZgRcpckC8z9J471ZcjLt0BKcetCPr681P2cO1QKTbELSieFN50VshxwsIdOaE2nUQXWQbnUBNhDMfFxquF9PgObTU17YXW8TARin1mRoAguEdGwldwSs92XCQjV_CrZUg154AJ-rAtIt5pfRTDDrlE0NZl7uWC4Fcli0yLP3Czuo_PjVXzJnk3k6epZFzcZL0Nrui47FCR0F3kMh_sJYfdU6-aDhr3LbVk) |
+| `market_size` | `micro` | `medium` | LOW | The global carbon accounting software market size was estimated between $1.5 bil | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdAAm-2pf9PpgfT1dRGdNxMjJNJrUoPHvxY152cZ_FdYEcYJcyWggaYrZMGR2WbpdaQ-93Vc7-UbaL2UVNxLM61xAPDpN1-gdvSZZgRcpckC8z9J471ZcjLt0BKcetCPr681P2cO1QKTbELSieFN50VshxwsIdOaE2nUQXWQbnUBNhDMfFxquF9PgObTU17YXW8TARin1mRoAguEdGwldwSs92XCQjV_CrZUg154AJ-rAtIt5pfRTDDrlE0NZl7uWC4Fcli0yLP3Czuo_PjVXzJnk3k6epZFzcZL0Nrui47FCR0F3kMh_sJYfdU6-aDhr3LbVk) |
+| `customer_readiness` | `innovation_trigger` | `slope_of_enlightenment` | LOW | In 2020, 72% of investors performed a structured review of ESG performance. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdAAm-2pf9PpgfT1dRGdNxMjJNJrUoPHvxY152cZ_FdYEcYJcyWggaYrZMGR2WbpdaQ-93Vc7-UbaL2UVNxLM61xAPDpN1-gdvSZZgRcpckC8z9J471ZcjLt0BKcetCPr681P2cO1QKTbELSieFN50VshxwsIdOaE2nUQXWQbnUBNhDMfFxquF9PgObTU17YXW8TARin1mRoAguEdGwldwSs92XCQjV_CrZUg154AJ-rAtIt5pfRTDDrlE0NZl7uWC4Fcli0yLP3Czuo_PjVXzJnk3k6epZFzcZL0Nrui47FCR0F3kMh_sJYfdU6-aDhr3LbVk) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | The number of global ESG policies more than doubled between 2020 and 2023. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdAAm-2pf9PpgfT1dRGdNxMjJNJrUoPHvxY152cZ_FdYEcYJcyWggaYrZMGR2WbpdaQ-93Vc7-UbaL2UVNxLM61xAPDpN1-gdvSZZgRcpckC8z9J471ZcjLt0BKcetCPr681P2cO1QKTbELSieFN50VshxwsIdOaE2nUQXWQbnUBNhDMfFxquF9PgObTU17YXW8TARin1mRoAguEdGwldwSs92XCQjV_CrZUg154AJ-rAtIt5pfRTDDrlE0NZl7uWC4Fcli0yLP3Czuo_PjVXzJnk3k6epZFzcZL0Nrui47FCR0F3kMh_sJYfdU6-aDhr3LbVk) |
+| `infrastructure` | `developing` | `developing` | HIGH | Challenges in accurately capturing energy usage data were present in 2020. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdAAm-2pf9PpgfT1dRGdNxMjJNJrUoPHvxY152cZ_FdYEcYJcyWggaYrZMGR2WbpdaQ-93Vc7-UbaL2UVNxLM61xAPDpN1-gdvSZZgRcpckC8z9J471ZcjLt0BKcetCPr681P2cO1QKTbELSieFN50VshxwsIdOaE2nUQXWQbnUBNhDMfFxquF9PgObTU17YXW8TARin1mRoAguEdGwldwSs92XCQjV_CrZUg154AJ-rAtIt5pfRTDDrlE0NZl7uWC4Fcli0yLP3Czuo_PjVXzJnk3k6epZFzcZL0Nrui47FCR0F3kMh_sJYfdU6-aDhr3LbVk) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | SaaS-based carbon accounting solutions were popular in 2020 for their flexibilit | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdAAm-2pf9PpgfT1dRGdNxMjJNJrUoPHvxY152cZ_FdYEcYJcyWggaYrZMGR2WbpdaQ-93Vc7-UbaL2UVNxLM61xAPDpN1-gdvSZZgRcpckC8z9J471ZcjLt0BKcetCPr681P2cO1QKTbELSieFN50VshxwsIdOaE2nUQXWQbnUBNhDMfFxquF9PgObTU17YXW8TARin1mRoAguEdGwldwSs92XCQjV_CrZUg154AJ-rAtIt5pfRTDDrlE0NZl7uWC4Fcli0yLP3Czuo_PjVXzJnk3k6epZFzcZL0Nrui47FCR0F3kMh_sJYfdU6-aDhr3LbVk) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 68 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 52 |
+| `customer_readiness` | `slope_of_enlightenment` | 72 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `technology_enablement` | 70 |
+| **Mean** | — | **63** |
+
+### Role 3 Prompt Audit — No-Code Application Building and Workflow Automation Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              HIGH
+  market_size               large                                 LOW
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                unregulated                           MEDIUM
+  infrastructure            developing                            MEDIUM
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 1 | 0 | 1 |
+| `competition` | 2 | 0 | 0 |
+| `market_size` | 0 | 0 | 2 |
+| `customer_readiness` | 1 | 0 | 1 |
+| `regulatory` | 0 | 2 | 0 |
+| `infrastructure` | 1 | 1 | 0 |
+| `market_structure` | 0 | 2 | 0 |
+
+
+---
+
+## Batch 74  —  2026-03-20 16:28:42
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 216 / 350  
+**Batch agreement:** MEDIUM (score=0.536)  
+**HIGH:** 5  **MEDIUM:** 5  **LOW:** 4  
+**Auto-correction triggered:** no
+
+### Consumer-Focused Neobanks and Challenger Banks (2015)
+
+**T+5:** VERIFIED (19 sources)  **Agreement:** MEDIUM (H=2 M=4 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Revolut, a leading European neobank, was founded in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELq5KTa1BLJJG3fFH2hSK6Xog-PzFTND1yZw-GC9__BqIwKq8Qx2mtIoWNbEytxFaG8I2w54on8dhcQHspH2Ybj5mmZtqkp943P7a9t5Qh8ZOQ7IaEK2tLr_R220e1QqLZWachYl12lA==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | The worldwide unfolding of neo-banks, around 2013-2015 in UK and Germany, was ro | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELq5KTa1BLJJG3fFH2hSK6Xog-PzFTND1yZw-GC9__BqIwKq8Qx2mtIoWNbEytxFaG8I2w54on8dhcQHspH2Ybj5mmZtqkp943P7a9t5Qh8ZOQ7IaEK2tLr_R220e1QqLZWachYl12lA==) |
+| `market_size` | `micro` | `small` | MEDIUM | The global neobank market was valued at $18.6 billion in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELq5KTa1BLJJG3fFH2hSK6Xog-PzFTND1yZw-GC9__BqIwKq8Qx2mtIoWNbEytxFaG8I2w54on8dhcQHspH2Ybj5mmZtqkp943P7a9t5Qh8ZOQ7IaEK2tLr_R220e1QqLZWachYl12lA==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | The European Union introduced the Payment Services Directive (PSD2) in 2015, whi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELq5KTa1BLJJG3fFH2hSK6Xog-PzFTND1yZw-GC9__BqIwKq8Qx2mtIoWNbEytxFaG8I2w54on8dhcQHspH2Ybj5mmZtqkp943P7a9t5Qh8ZOQ7IaEK2tLr_R220e1QqLZWachYl12lA==) |
+| `regulatory` | `heavily_regulated` | `light_touch` | LOW | The European Union introduced the Payment Services Directive (PSD2) in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELq5KTa1BLJJG3fFH2hSK6Xog-PzFTND1yZw-GC9__BqIwKq8Qx2mtIoWNbEytxFaG8I2w54on8dhcQHspH2Ybj5mmZtqkp943P7a9t5Qh8ZOQ7IaEK2tLr_R220e1QqLZWachYl12lA==) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Mobile banking was identified as one of the key technological advancements that  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELq5KTa1BLJJG3fFH2hSK6Xog-PzFTND1yZw-GC9__BqIwKq8Qx2mtIoWNbEytxFaG8I2w54on8dhcQHspH2Ybj5mmZtqkp943P7a9t5Qh8ZOQ7IaEK2tLr_R220e1QqLZWachYl12lA==) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Neobanks operate entirely online, offering services via apps. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELq5KTa1BLJJG3fFH2hSK6Xog-PzFTND1yZw-GC9__BqIwKq8Qx2mtIoWNbEytxFaG8I2w54on8dhcQHspH2Ybj5mmZtqkp943P7a9t5Qh8ZOQ7IaEK2tLr_R220e1QqLZWachYl12lA==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 30 |
+| `customer_readiness` | `innovation_trigger` | 55 |
+| `regulatory` | `light_touch` | 68 |
+| `infrastructure` | `emerging` | 55 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **58** |
+
+### Product Analytics User Engagement SaaS Platforms (2014)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** MEDIUM (H=3 M=1 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Public cloud services spending was $56.6 billion in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp-MWaWhCM4HGkxXaI-P1aYl2mxJjD5wlHpyYSp8rCM_qwx6PRibIcuqEWgRa5zkocDr7XUkMeDmhqEr30yoz8MynBiYNvKMKBFdZWCcTImQ9G2wJyBgsckDMxwYatOAUEj2EAhEVCw4D2q_C9qqBe-_TmPFgeDkgfxZduVCx9KSOVhxF1Y_4jcpug50AItTLs9YYtW1J0) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | The SaaS market in 2014 was described as 'turbulent with new entrants successful | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp-MWaWhCM4HGkxXaI-P1aYl2mxJjD5wlHpyYSp8rCM_qwx6PRibIcuqEWgRa5zkocDr7XUkMeDmhqEr30yoz8MynBiYNvKMKBFdZWCcTImQ9G2wJyBgsckDMxwYatOAUEj2EAhEVCw4D2q_C9qqBe-_TmPFgeDkgfxZduVCx9KSOVhxF1Y_4jcpug50AItTLs9YYtW1J0) |
+| `market_size` | `micro` | `medium` | LOW | The Public Cloud SaaS market was $56 billion in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp-MWaWhCM4HGkxXaI-P1aYl2mxJjD5wlHpyYSp8rCM_qwx6PRibIcuqEWgRa5zkocDr7XUkMeDmhqEr30yoz8MynBiYNvKMKBFdZWCcTImQ9G2wJyBgsckDMxwYatOAUEj2EAhEVCw4D2q_C9qqBe-_TmPFgeDkgfxZduVCx9KSOVhxF1Y_4jcpug50AItTLs9YYtW1J0) |
+| `customer_readiness` | `slope_of_enlightenment` | `unknown` | LOW | In 2014, 60% of companies gathered customer feedback, but only 33% analyzed it a | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp-MWaWhCM4HGkxXaI-P1aYl2mxJjD5wlHpyYSp8rCM_qwx6PRibIcuqEWgRa5zkocDr7XUkMeDmhqEr30yoz8MynBiYNvKMKBFdZWCcTImQ9G2wJyBgsckDMxwYatOAUEj2EAhEVCw4D2q_C9qqBe-_TmPFgeDkgfxZduVCx9KSOVhxF1Y_4jcpug50AItTLs9YYtW1J0) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | The online communications environment was described as 'psychologically distant  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp-MWaWhCM4HGkxXaI-P1aYl2mxJjD5wlHpyYSp8rCM_qwx6PRibIcuqEWgRa5zkocDr7XUkMeDmhqEr30yoz8MynBiYNvKMKBFdZWCcTImQ9G2wJyBgsckDMxwYatOAUEj2EAhEVCw4D2q_C9qqBe-_TmPFgeDkgfxZduVCx9KSOVhxF1Y_4jcpug50AItTLs9YYtW1J0) |
+| `infrastructure` | `developing` | `developing` | HIGH | Public cloud services spending was at $56.6 billion in 2014, indicating a develo | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp-MWaWhCM4HGkxXaI-P1aYl2mxJjD5wlHpyYSp8rCM_qwx6PRibIcuqEWgRa5zkocDr7XUkMeDmhqEr30yoz8MynBiYNvKMKBFdZWCcTImQ9G2wJyBgsckDMxwYatOAUEj2EAhEVCw4D2q_C9qqBe-_TmPFgeDkgfxZduVCx9KSOVhxF1Y_4jcpug50AItTLs9YYtW1J0) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | Product analytics allows teams to track, visualize, and analyze real-time engage | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp-MWaWhCM4HGkxXaI-P1aYl2mxJjD5wlHpyYSp8rCM_qwx6PRibIcuqEWgRa5zkocDr7XUkMeDmhqEr30yoz8MynBiYNvKMKBFdZWCcTImQ9G2wJyBgsckDMxwYatOAUEj2EAhEVCw4D2q_C9qqBe-_TmPFgeDkgfxZduVCx9KSOVhxF1Y_4jcpug50AItTLs9YYtW1J0) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 52 |
+| `customer_readiness` | `slope_of_enlightenment` | 68 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `technology_enablement` | 58 |
+| **Mean** | — | **64** |
+
+### Role 3 Prompt Audit — Consumer-Focused Neobanks and Challenger Banks
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              HIGH
+  market_size               small                                 MEDIUM
+  customer_readiness        innovation_trigger                    MEDIUM
+  regulatory                light_touch                           LOW
+  infrastructure            emerging                              MEDIUM
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 2 | 0 | 0 |
+| `competition` | 1 | 1 | 0 |
+| `market_size` | 0 | 1 | 1 |
+| `customer_readiness` | 0 | 1 | 1 |
+| `regulatory` | 1 | 0 | 1 |
+| `infrastructure` | 1 | 1 | 0 |
+| `market_structure` | 0 | 1 | 1 |
+
+
+---
+
+## Batch 75  —  2026-03-20 16:31:37
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 218 / 350  
+**Batch agreement:** HIGH (score=0.714)  
+**HIGH:** 8  **MEDIUM:** 4  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Open Source Code Hosting and DevOps Platforms (2015)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | DevOps adoption was expected to increase 66% in 2015 from 6% in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfiWnTUyVljMfl4M51ULtastK5RzvGIiJ0yzbsmXRz2808GMrLcAM5T53CVfbQ-u0JS_TWF3zcbpqpPrshM8E6Mz_Beco7O69Dbq4SkWDOw6MBfGFoqPP18rB3IFiHo-W96qMrFyQhaoz77lNrN7Dzi--cwrxuoPdoY-pBF5G3IFghnhuUZEVZg==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Google Code shut down in 2015, attributing its closure to the dominance of GitHu | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfiWnTUyVljMfl4M51ULtastK5RzvGIiJ0yzbsmXRz2808GMrLcAM5T53CVfbQ-u0JS_TWF3zcbpqpPrshM8E6Mz_Beco7O69Dbq4SkWDOw6MBfGFoqPP18rB3IFiHo-W96qMrFyQhaoz77lNrN7Dzi--cwrxuoPdoY-pBF5G3IFghnhuUZEVZg==) |
+| `market_size` | `small` | `large` | LOW | DevOps toolset sales were projected to reach $2.3 billion in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfiWnTUyVljMfl4M51ULtastK5RzvGIiJ0yzbsmXRz2808GMrLcAM5T53CVfbQ-u0JS_TWF3zcbpqpPrshM8E6Mz_Beco7O69Dbq4SkWDOw6MBfGFoqPP18rB3IFiHo-W96qMrFyQhaoz77lNrN7Dzi--cwrxuoPdoY-pBF5G3IFghnhuUZEVZg==) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | High-performing IT organizations using DevOps deployed code 30 times more freque | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfiWnTUyVljMfl4M51ULtastK5RzvGIiJ0yzbsmXRz2808GMrLcAM5T53CVfbQ-u0JS_TWF3zcbpqpPrshM8E6Mz_Beco7O69Dbq4SkWDOw6MBfGFoqPP18rB3IFiHo-W96qMrFyQhaoz77lNrN7Dzi--cwrxuoPdoY-pBF5G3IFghnhuUZEVZg==) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | No specific regulatory bodies or compliance requirements were highlighted as maj | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfiWnTUyVljMfl4M51ULtastK5RzvGIiJ0yzbsmXRz2808GMrLcAM5T53CVfbQ-u0JS_TWF3zcbpqpPrshM8E6Mz_Beco7O69Dbq4SkWDOw6MBfGFoqPP18rB3IFiHo-W96qMrFyQhaoz77lNrN7Dzi--cwrxuoPdoY-pBF5G3IFghnhuUZEVZg==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Docker had become infrastructure by 2015, with companies running production work | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfiWnTUyVljMfl4M51ULtastK5RzvGIiJ0yzbsmXRz2808GMrLcAM5T53CVfbQ-u0JS_TWF3zcbpqpPrshM8E6Mz_Beco7O69Dbq4SkWDOw6MBfGFoqPP18rB3IFiHo-W96qMrFyQhaoz77lNrN7Dzi--cwrxuoPdoY-pBF5G3IFghnhuUZEVZg==) |
+| `market_structure` | `winner_take_most` | `platform_two_sided` | MEDIUM | GitLab pivoted in 2015-2016 to become 'The One DevOps Platform,' integrating CI/ | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfiWnTUyVljMfl4M51ULtastK5RzvGIiJ0yzbsmXRz2808GMrLcAM5T53CVfbQ-u0JS_TWF3zcbpqpPrshM8E6Mz_Beco7O69Dbq4SkWDOw6MBfGFoqPP18rB3IFiHo-W96qMrFyQhaoz77lNrN7Dzi--cwrxuoPdoY-pBF5G3IFghnhuUZEVZg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `large` | 62 |
+| `customer_readiness` | `slope_of_enlightenment` | 74 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 68 |
+| **Mean** | — | **64** |
+
+### MOOC and Online Professional Certification Platforms (2012)
+
+**T+5:** VERIFIED (11 sources)  **Agreement:** HIGH (H=5 M=1 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The New York Times declared 2012 'the year of the MOOC.' | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbMQ1cxNQ5xGxYHYllPcIshBQG-K9K6qUhyb62TSvx3ehHqdx9Hr8rnKm0K75XaPxM4awC1qOR7LW5o8bRc9JEarkRQuPJNFyDbML-DPLCVXBk8UBnSxQe6Twv-rX6lDnkVQ-n03xe0p1wuxwhVpyPzjC63Lm9WATmpTzQK7zURIOh) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Coursera, Udacity, and edX were among the first platforms to launch in 2011 and  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbMQ1cxNQ5xGxYHYllPcIshBQG-K9K6qUhyb62TSvx3ehHqdx9Hr8rnKm0K75XaPxM4awC1qOR7LW5o8bRc9JEarkRQuPJNFyDbML-DPLCVXBk8UBnSxQe6Twv-rX6lDnkVQ-n03xe0p1wuxwhVpyPzjC63Lm9WATmpTzQK7zURIOh) |
+| `market_size` | `micro` | `large` | LOW | Coursera had reached 1.7 million students by 2012. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbMQ1cxNQ5xGxYHYllPcIshBQG-K9K6qUhyb62TSvx3ehHqdx9Hr8rnKm0K75XaPxM4awC1qOR7LW5o8bRc9JEarkRQuPJNFyDbML-DPLCVXBk8UBnSxQe6Twv-rX6lDnkVQ-n03xe0p1wuxwhVpyPzjC63Lm9WATmpTzQK7zURIOh) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | The MOOC topic was heavily trending leading up to 2012, reflecting significant p | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbMQ1cxNQ5xGxYHYllPcIshBQG-K9K6qUhyb62TSvx3ehHqdx9Hr8rnKm0K75XaPxM4awC1qOR7LW5o8bRc9JEarkRQuPJNFyDbML-DPLCVXBk8UBnSxQe6Twv-rX6lDnkVQ-n03xe0p1wuxwhVpyPzjC63Lm9WATmpTzQK7zURIOh) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | In 2012, MOOCs generally did not award academic credits, offering only statement | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbMQ1cxNQ5xGxYHYllPcIshBQG-K9K6qUhyb62TSvx3ehHqdx9Hr8rnKm0K75XaPxM4awC1qOR7LW5o8bRc9JEarkRQuPJNFyDbML-DPLCVXBk8UBnSxQe6Twv-rX6lDnkVQ-n03xe0p1wuxwhVpyPzjC63Lm9WATmpTzQK7zURIOh) |
+| `infrastructure` | `developing` | `developing` | HIGH | Coursera, Udacity, and edX were newly established platforms in 2011-2012, design | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbMQ1cxNQ5xGxYHYllPcIshBQG-K9K6qUhyb62TSvx3ehHqdx9Hr8rnKm0K75XaPxM4awC1qOR7LW5o8bRc9JEarkRQuPJNFyDbML-DPLCVXBk8UBnSxQe6Twv-rX6lDnkVQ-n03xe0p1wuxwhVpyPzjC63Lm9WATmpTzQK7zURIOh) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Coursera and edX partnered with universities to offer courses, serving as interm | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbMQ1cxNQ5xGxYHYllPcIshBQG-K9K6qUhyb62TSvx3ehHqdx9Hr8rnKm0K75XaPxM4awC1qOR7LW5o8bRc9JEarkRQuPJNFyDbML-DPLCVXBk8UBnSxQe6Twv-rX6lDnkVQ-n03xe0p1wuxwhVpyPzjC63Lm9WATmpTzQK7zURIOh) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 80 |
+| **Mean** | — | **63** |
+
+### Role 3 Prompt Audit — Open Source Code Hosting and DevOps Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        HIGH
+  competition               oligopoly                             HIGH
+  market_size               large                                 LOW
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                unregulated                           MEDIUM
+  infrastructure            developing                            MEDIUM
+  market_structure          platform_two_sided                    MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 2 | 0 | 0 |
+| `competition` | 2 | 0 | 0 |
+| `market_size` | 0 | 0 | 2 |
+| `customer_readiness` | 2 | 0 | 0 |
+| `regulatory` | 0 | 2 | 0 |
+| `infrastructure` | 1 | 1 | 0 |
+| `market_structure` | 1 | 1 | 0 |
+
+
+---
+
+## Batch 76  —  2026-03-20 16:35:52
+
+**Markets processed this batch:** 2  
+**Cumulative total:** 220 / 350  
+**Batch agreement:** MEDIUM (score=0.607)  
+**HIGH:** 5  **MEDIUM:** 7  **LOW:** 2  
+**Auto-correction triggered:** no
+
+### Consumer Genomic Sequencing and Personal Genetics Platforms (2012)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | DTC-GT prices dropped to $99 in 2012. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDb4CaRkKgGQ9WLVVkUp80vsPYcASwChXiH6g8NaAUpvw-aSBmPNfuEbwlINslK0PucmFrvkLMlbLh83GycWPGQNiPZFhO4GZNY5664_aooMdxryG7JlaNkVp-zRs04_lKOEgh) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | 23andMe and Pathway Genomics were key players in the DTC-PGT market in 2012. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDb4CaRkKgGQ9WLVVkUp80vsPYcASwChXiH6g8NaAUpvw-aSBmPNfuEbwlINslK0PucmFrvkLMlbLh83GycWPGQNiPZFhO4GZNY5664_aooMdxryG7JlaNkVp-zRs04_lKOEgh) |
+| `market_size` | `small` | `small` | HIGH | 1,081 new genetic tests were made available worldwide in 2012. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDb4CaRkKgGQ9WLVVkUp80vsPYcASwChXiH6g8NaAUpvw-aSBmPNfuEbwlINslK0PucmFrvkLMlbLh83GycWPGQNiPZFhO4GZNY5664_aooMdxryG7JlaNkVp-zRs04_lKOEgh) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | A 2012 systematic review found a low level of awareness of direct-to-consumer ge | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDb4CaRkKgGQ9WLVVkUp80vsPYcASwChXiH6g8NaAUpvw-aSBmPNfuEbwlINslK0PucmFrvkLMlbLh83GycWPGQNiPZFhO4GZNY5664_aooMdxryG7JlaNkVp-zRs04_lKOEgh) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | The FDA initiated regulatory proceedings against DTC-GT companies in 2010. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDb4CaRkKgGQ9WLVVkUp80vsPYcASwChXiH6g8NaAUpvw-aSBmPNfuEbwlINslK0PucmFrvkLMlbLh83GycWPGQNiPZFhO4GZNY5664_aooMdxryG7JlaNkVp-zRs04_lKOEgh) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | By 2012, over 47,000 individuals in the U.S. were employed by the genomics indus | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDb4CaRkKgGQ9WLVVkUp80vsPYcASwChXiH6g8NaAUpvw-aSBmPNfuEbwlINslK0PucmFrvkLMlbLh83GycWPGQNiPZFhO4GZNY5664_aooMdxryG7JlaNkVp-zRs04_lKOEgh) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | The market was characterized by increasing speed and decreasing cost of genotypi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDb4CaRkKgGQ9WLVVkUp80vsPYcASwChXiH6g8NaAUpvw-aSBmPNfuEbwlINslK0PucmFrvkLMlbLh83GycWPGQNiPZFhO4GZNY5664_aooMdxryG7JlaNkVp-zRs04_lKOEgh) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 68 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `small` | 22 |
+| `customer_readiness` | `innovation_trigger` | 38 |
+| `regulatory` | `moderate_compliance` | 62 |
+| `infrastructure` | `emerging` | 52 |
+| `market_structure` | `technology_enablement` | 55 |
+| **Mean** | — | **48** |
+
+### Telehealth Virtual Primary and Urgent Care Platforms (2015)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** MEDIUM (H=2 M=4 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | 15% of physicians used telehealth in their practices in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWRjxotyK7Ds4ooBF6JR-Bk_FlIDJrNMveOwF7UckVcjelXN0FoKKdMu1x5_Z1ycev8uJE6eYOuAPwset-tZKhOHPmFzIZeqpG1MZNEEMWoKnmfNM3YSz8Q6PAEqAQBzjT6FvF_RuO_kuVZBcAzOWb0igl8QwVx5PxSL5Xr578k3Om79-G1qeJKpzlyUJNoqIjijfiDYQMK923fBEdQ==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Companies like Amwell, Teladoc, and MD Live were actively competing for market s | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWRjxotyK7Ds4ooBF6JR-Bk_FlIDJrNMveOwF7UckVcjelXN0FoKKdMu1x5_Z1ycev8uJE6eYOuAPwset-tZKhOHPmFzIZeqpG1MZNEEMWoKnmfNM3YSz8Q6PAEqAQBzjT6FvF_RuO_kuVZBcAzOWb0igl8QwVx5PxSL5Xr578k3Om79-G1qeJKpzlyUJNoqIjijfiDYQMK923fBEdQ==) |
+| `market_size` | `small` | `medium` | MEDIUM | The telehealth market generated $9.6 billion in revenue in 2013, projected to re | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWRjxotyK7Ds4ooBF6JR-Bk_FlIDJrNMveOwF7UckVcjelXN0FoKKdMu1x5_Z1ycev8uJE6eYOuAPwset-tZKhOHPmFzIZeqpG1MZNEEMWoKnmfNM3YSz8Q6PAEqAQBzjT6FvF_RuO_kuVZBcAzOWb0igl8QwVx5PxSL5Xr578k3Om79-G1qeJKpzlyUJNoqIjijfiDYQMK923fBEdQ==) |
+| `customer_readiness` | `slope_of_enlightenment` | `trough_of_disillusionment` | MEDIUM | Telehealth had a 'relatively slow adoption in the US' in 2015 due to various bar | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWRjxotyK7Ds4ooBF6JR-Bk_FlIDJrNMveOwF7UckVcjelXN0FoKKdMu1x5_Z1ycev8uJE6eYOuAPwset-tZKhOHPmFzIZeqpG1MZNEEMWoKnmfNM3YSz8Q6PAEqAQBzjT6FvF_RuO_kuVZBcAzOWb0igl8QwVx5PxSL5Xr578k3Om79-G1qeJKpzlyUJNoqIjijfiDYQMK923fBEdQ==) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | Medicare fee-for-service policies in 2015 limited telehealth coverage to specifi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWRjxotyK7Ds4ooBF6JR-Bk_FlIDJrNMveOwF7UckVcjelXN0FoKKdMu1x5_Z1ycev8uJE6eYOuAPwset-tZKhOHPmFzIZeqpG1MZNEEMWoKnmfNM3YSz8Q6PAEqAQBzjT6FvF_RuO_kuVZBcAzOWb0igl8QwVx5PxSL5Xr578k3Om79-G1qeJKpzlyUJNoqIjijfiDYQMK923fBEdQ==) |
+| `infrastructure` | `developing` | `developing` | HIGH | In 2015, 47% of seniors had high-speed broadband, but lack of broadband in rural | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWRjxotyK7Ds4ooBF6JR-Bk_FlIDJrNMveOwF7UckVcjelXN0FoKKdMu1x5_Z1ycev8uJE6eYOuAPwset-tZKhOHPmFzIZeqpG1MZNEEMWoKnmfNM3YSz8Q6PAEqAQBzjT6FvF_RuO_kuVZBcAzOWb0igl8QwVx5PxSL5Xr578k3Om79-G1qeJKpzlyUJNoqIjijfiDYQMK923fBEdQ==) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | Telemedicine providers offered software and connectivity solutions to healthcare | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWRjxotyK7Ds4ooBF6JR-Bk_FlIDJrNMveOwF7UckVcjelXN0FoKKdMu1x5_Z1ycev8uJE6eYOuAPwset-tZKhOHPmFzIZeqpG1MZNEEMWoKnmfNM3YSz8Q6PAEqAQBzjT6FvF_RuO_kuVZBcAzOWb0igl8QwVx5PxSL5Xr578k3Om79-G1qeJKpzlyUJNoqIjijfiDYQMK923fBEdQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `trough_of_disillusionment` | 38 |
+| `regulatory` | `moderate_compliance` | 63 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 45 |
+| **Mean** | — | **55** |
+
+### Role 3 Prompt Audit — Consumer Genomic Sequencing and Personal Genetics Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               oligopoly                             HIGH
+  market_size               small                                 HIGH
+  customer_readiness        innovation_trigger                    MEDIUM
+  regulatory                moderate_compliance                   MEDIUM
+  infrastructure            emerging                              MEDIUM
+  market_structure          technology_enablement                 LOW
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 2 | 0 | 0 |
+| `competition` | 1 | 1 | 0 |
+| `market_size` | 1 | 1 | 0 |
+| `customer_readiness` | 0 | 2 | 0 |
+| `regulatory` | 0 | 2 | 0 |
+| `infrastructure` | 1 | 1 | 0 |
+| `market_structure` | 0 | 0 | 2 |
+
+
+---
+
+## Batch 78  —  2026-03-20 16:40:47
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 221 / 350  
+**Batch agreement:** LOW (score=0.286)  
+**HIGH:** 0  **MEDIUM:** 4  **LOW:** 3  
+**Auto-correction triggered:** **YES**
+
+### Auto-Correction Addendum
+
+```
+• **iBuying/PropTech timing**: For nascent iBuying platforms (~2014), classify as `innovators` stage — Opendoor launched 2014, Offerpad 2015; consumer adoption was minimal and the model was still proving viability, not yet crossing into early adopters.
+
+• **Competition in nascent prop-tech**: When a novel transaction model has only 1-2 pioneers with no established rivals replicating the model, prefer `monopoly` or `oligopoly` over `monopolistic_competition` — differentiation is structural scarcity, not product variation.
+
+• **Market size for unproven transaction models**: iBuying's *addressable* market in 2014 was effectively `micro` — actual transaction volume was near zero; do not conflate the underlying real estate market size with the nascent segment's actual size.
+
+• **Customer readiness vs. hype cycle**: If a model has barely launched with tiny real-world adoption, prefer `innovation_trigger` over `peak_of_inflated_expectations` — media hype alone without broad consumer awareness signals trigger phase.
+
+• **Regulatory posture for novel models**: Early iBuying operated in a regulatory vacuum (existing real estate law applied loosely); prefer `unregulated` when no specific regulatory framework targets the new model yet.
+
+• **Infrastructure maturity**: Prefer `nascent` over `developing` when core enabling tools (AVM accuracy, instant-offer workflows) are unproven and purpose-built infrastructure is still being constructed by the pioneers themselves.
+```
+
+### Online Residential Real Estate and iBuying Platforms (2014)
+
+**T+5:** VERIFIED (13 sources)  **Agreement:** LOW (H=0 M=4 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `innovators` | MEDIUM | Opendoor, the pioneering iBuying platform, was founded in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPYqcj60Iv6a0Zv0NciHXUCzWTVXDkXcFiGW2wB5wuBb05YiV3V4_TAd5J2noEcpp-39BWCvkhgwWQLkQgQMOg--0Luy2rn626zwRwadPIoxT3bN8e2ZqOUyi1u-I1hQlPt_mjtfrbJUpVk41H2X12V4ReHjdYjfVFdVKjVqRFubzggL0Mjj3vgzEjtUWRK0SGAw==) |
+| `competition` | `monopolistic_competition` | `monopoly` | LOW | Opendoor was the first known iBuying company, starting operations in Phoenix in  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPYqcj60Iv6a0Zv0NciHXUCzWTVXDkXcFiGW2wB5wuBb05YiV3V4_TAd5J2noEcpp-39BWCvkhgwWQLkQgQMOg--0Luy2rn626zwRwadPIoxT3bN8e2ZqOUyi1u-I1hQlPt_mjtfrbJUpVk41H2X12V4ReHjdYjfVFdVKjVqRFubzggL0Mjj3vgzEjtUWRK0SGAw==) |
+| `market_size` | `small` | `micro` | MEDIUM | The iBuying model was first introduced in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPYqcj60Iv6a0Zv0NciHXUCzWTVXDkXcFiGW2wB5wuBb05YiV3V4_TAd5J2noEcpp-39BWCvkhgwWQLkQgQMOg--0Luy2rn626zwRwadPIoxT3bN8e2ZqOUyi1u-I1hQlPt_mjtfrbJUpVk41H2X12V4ReHjdYjfVFdVKjVqRFubzggL0Mjj3vgzEjtUWRK0SGAw==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | Opendoor launched in 2014 with the value proposition of providing homeowners wit | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPYqcj60Iv6a0Zv0NciHXUCzWTVXDkXcFiGW2wB5wuBb05YiV3V4_TAd5J2noEcpp-39BWCvkhgwWQLkQgQMOg--0Luy2rn626zwRwadPIoxT3bN8e2ZqOUyi1u-I1hQlPt_mjtfrbJUpVk41H2X12V4ReHjdYjfVFdVKjVqRFubzggL0Mjj3vgzEjtUWRK0SGAw==) |
+| `regulatory` | `moderate_compliance` | `unregulated` | LOW | Opendoor, the first iBuyer, launched in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPYqcj60Iv6a0Zv0NciHXUCzWTVXDkXcFiGW2wB5wuBb05YiV3V4_TAd5J2noEcpp-39BWCvkhgwWQLkQgQMOg--0Luy2rn626zwRwadPIoxT3bN8e2ZqOUyi1u-I1hQlPt_mjtfrbJUpVk41H2X12V4ReHjdYjfVFdVKjVqRFubzggL0Mjj3vgzEjtUWRK0SGAw==) |
+| `infrastructure` | `developing` | `nascent` | LOW | Opendoor used algorithms and technology to buy and resell homes quickly, a model | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPYqcj60Iv6a0Zv0NciHXUCzWTVXDkXcFiGW2wB5wuBb05YiV3V4_TAd5J2noEcpp-39BWCvkhgwWQLkQgQMOg--0Luy2rn626zwRwadPIoxT3bN8e2ZqOUyi1u-I1hQlPt_mjtfrbJUpVk41H2X12V4ReHjdYjfVFdVKjVqRFubzggL0Mjj3vgzEjtUWRK0SGAw==) |
+| `market_structure` | `platform_two_sided` | `technology_enablement` | MEDIUM | iBuyers utilize algorithms and technology to facilitate quick home purchases and | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPYqcj60Iv6a0Zv0NciHXUCzWTVXDkXcFiGW2wB5wuBb05YiV3V4_TAd5J2noEcpp-39BWCvkhgwWQLkQgQMOg--0Luy2rn626zwRwadPIoxT3bN8e2ZqOUyi1u-I1hQlPt_mjtfrbJUpVk41H2X12V4ReHjdYjfVFdVKjVqRFubzggL0Mjj3vgzEjtUWRK0SGAw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 42 |
+| `competition` | `monopoly` | 55 |
+| `market_size` | `micro` | 18 |
+| `customer_readiness` | `innovation_trigger` | 38 |
+| `regulatory` | `unregulated` | 62 |
+| `infrastructure` | `nascent` | 22 |
+| `market_structure` | `technology_enablement` | 63 |
+| **Mean** | — | **43** |
+
+### Role 3 Prompt Audit — Online Residential Real Estate and iBuying Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    innovators                            MEDIUM
+  competition               monopoly                              LOW
+  market_size               micro                                 MEDIUM
+  customer_readiness        innovation_trigger                    MEDIUM
+  regulatory                unregulated                           LOW
+  infrastructure            nascent                               LOW
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 0 | 1 | 0 |
+| `competition` | 0 | 0 | 1 |
+| `market_size` | 0 | 1 | 0 |
+| `customer_readiness` | 0 | 1 | 0 |
+| `regulatory` | 0 | 0 | 1 |
+| `infrastructure` | 0 | 0 | 1 |
+| `market_structure` | 0 | 1 | 0 |
+
+
+---
+
+## Batch 80  —  2026-03-20 16:49:26
+
+**Markets processed this batch:** 1  
+**Cumulative total:** 222 / 350  
+**Batch agreement:** MEDIUM (score=0.643)  
+**HIGH:** 3  **MEDIUM:** 3  **LOW:** 1  
+**Auto-correction triggered:** no
+
+### India Mobile Gaming and Esports Platforms (2019)
+
+**T+5:** VERIFIED (8 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | 300 million gamers in 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQKuCLEj2m_UfV4xGgsOI-gN56vIbh5iCymZunJCcLr25FhWcvfyMJO9go__IrGJgbCTvmmHnNRT5LBVXrzcKIBEsp7Q5A7-XMcklqalwndRrvLtP9aODIgY2xbrGpqmL3NMu-tH3h9cnrhlHKbDsfs9gX) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | PUBG tournaments accounted for 40% of all Esports tournament prize money in 2019 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQKuCLEj2m_UfV4xGgsOI-gN56vIbh5iCymZunJCcLr25FhWcvfyMJO9go__IrGJgbCTvmmHnNRT5LBVXrzcKIBEsp7Q5A7-XMcklqalwndRrvLtP9aODIgY2xbrGpqmL3NMu-tH3h9cnrhlHKbDsfs9gX) |
+| `market_size` | `small` | `large` | LOW | US$730 million market size in 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQKuCLEj2m_UfV4xGgsOI-gN56vIbh5iCymZunJCcLr25FhWcvfyMJO9go__IrGJgbCTvmmHnNRT5LBVXrzcKIBEsp7Q5A7-XMcklqalwndRrvLtP9aODIgY2xbrGpqmL3NMu-tH3h9cnrhlHKbDsfs9gX) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | 300 million gamers in 2019, a 41.6% increase from 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQKuCLEj2m_UfV4xGgsOI-gN56vIbh5iCymZunJCcLr25FhWcvfyMJO9go__IrGJgbCTvmmHnNRT5LBVXrzcKIBEsp7Q5A7-XMcklqalwndRrvLtP9aODIgY2xbrGpqmL3NMu-tH3h9cnrhlHKbDsfs9gX) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | Public Gambling Act of 1867. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQKuCLEj2m_UfV4xGgsOI-gN56vIbh5iCymZunJCcLr25FhWcvfyMJO9go__IrGJgbCTvmmHnNRT5LBVXrzcKIBEsp7Q5A7-XMcklqalwndRrvLtP9aODIgY2xbrGpqmL3NMu-tH3h9cnrhlHKbDsfs9gX) |
+| `infrastructure` | `developing` | `developing` | HIGH | 560 million internet subscribers in September 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQKuCLEj2m_UfV4xGgsOI-gN56vIbh5iCymZunJCcLr25FhWcvfyMJO9go__IrGJgbCTvmmHnNRT5LBVXrzcKIBEsp7Q5A7-XMcklqalwndRrvLtP9aODIgY2xbrGpqmL3NMu-tH3h9cnrhlHKbDsfs9gX) |
+| `market_structure` | `winner_take_most` | `platform_two_sided` | MEDIUM | Mobile accounted for 85% of online gaming revenue in FY 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQKuCLEj2m_UfV4xGgsOI-gN56vIbh5iCymZunJCcLr25FhWcvfyMJO9go__IrGJgbCTvmmHnNRT5LBVXrzcKIBEsp7Q5A7-XMcklqalwndRrvLtP9aODIgY2xbrGpqmL3NMu-tH3h9cnrhlHKbDsfs9gX) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `moderate_compliance` | 63 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 68 |
+| **Mean** | — | **63** |
+
+### Role 3 Prompt Audit — India Mobile Gaming and Esports Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        MEDIUM
+  competition               oligopoly                             HIGH
+  market_size               large                                 LOW
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                moderate_compliance                   MEDIUM
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 0 | 1 | 0 |
+| `competition` | 1 | 0 | 0 |
+| `market_size` | 0 | 0 | 1 |
+| `customer_readiness` | 1 | 0 | 0 |
+| `regulatory` | 0 | 1 | 0 |
+| `infrastructure` | 1 | 0 | 0 |
+| `market_structure` | 0 | 1 | 0 |
+
+
+---
+
+## Batch 81  —  2026-03-20 17:07:05
+
+**Markets processed this batch:** 7  
+**Cumulative total:** 229 / 350  
+**Batch agreement:** MEDIUM (score=0.663)  
+**HIGH:** 23  **MEDIUM:** 19  **LOW:** 7  
+**Auto-correction triggered:** no
+
+### Employee Feedback Analytics and Engagement SaaS (2017)
+
+**T+5:** VERIFIED (6 sources)  **Agreement:** HIGH (H=5 M=2 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | SaaS investments experienced a '2017 low' before a record number in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiCf_UCmVuzswsnonPgJ5DeF1mVzmdcTCEN_QTwnUJDBWkQAeDN1pSf7a4stEEMwKh2KaDM_pCo9sj_-sIJ_kk9cxb3rIvpRW-9yUoVDdHb7cD-AB04yB0RvB1Grwz-zwW38rNcZNasRjDFcW6Iv-H0tWNWFMT9SLoTe9tgukAQ1IQES3Bnoifd3jl1uOd_iIGeWBBWYokfABduNmruQ10Ila1yBlEKDRwnJbX8YyjAsLufjkZGanJOos323wJSkuUJyO1tTMyMUIC) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | By 2026, the market featured 'intense competition between pure-play vendors and  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiCf_UCmVuzswsnonPgJ5DeF1mVzmdcTCEN_QTwnUJDBWkQAeDN1pSf7a4stEEMwKh2KaDM_pCo9sj_-sIJ_kk9cxb3rIvpRW-9yUoVDdHb7cD-AB04yB0RvB1Grwz-zwW38rNcZNasRjDFcW6Iv-H0tWNWFMT9SLoTe9tgukAQ1IQES3Bnoifd3jl1uOd_iIGeWBBWYokfABduNmruQ10Ila1yBlEKDRwnJbX8YyjAsLufjkZGanJOos323wJSkuUJyO1tTMyMUIC) |
+| `market_size` | `small` | `medium` | MEDIUM | The global employee engagement & feedback software market was USD 878.3 million  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiCf_UCmVuzswsnonPgJ5DeF1mVzmdcTCEN_QTwnUJDBWkQAeDN1pSf7a4stEEMwKh2KaDM_pCo9sj_-sIJ_kk9cxb3rIvpRW-9yUoVDdHb7cD-AB04yB0RvB1Grwz-zwW38rNcZNasRjDFcW6Iv-H0tWNWFMT9SLoTe9tgukAQ1IQES3Bnoifd3jl1uOd_iIGeWBBWYokfABduNmruQ10Ila1yBlEKDRwnJbX8YyjAsLufjkZGanJOos323wJSkuUJyO1tTMyMUIC) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | In 2017, 'employees expect a productive, engaging, enjoyable work experience' an | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiCf_UCmVuzswsnonPgJ5DeF1mVzmdcTCEN_QTwnUJDBWkQAeDN1pSf7a4stEEMwKh2KaDM_pCo9sj_-sIJ_kk9cxb3rIvpRW-9yUoVDdHb7cD-AB04yB0RvB1Grwz-zwW38rNcZNasRjDFcW6Iv-H0tWNWFMT9SLoTe9tgukAQ1IQES3Bnoifd3jl1uOd_iIGeWBBWYokfABduNmruQ10Ila1yBlEKDRwnJbX8YyjAsLufjkZGanJOos323wJSkuUJyO1tTMyMUIC) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | GDPR was enacted in 2016 and became enforceable in May 2018, indicating emerging | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiCf_UCmVuzswsnonPgJ5DeF1mVzmdcTCEN_QTwnUJDBWkQAeDN1pSf7a4stEEMwKh2KaDM_pCo9sj_-sIJ_kk9cxb3rIvpRW-9yUoVDdHb7cD-AB04yB0RvB1Grwz-zwW38rNcZNasRjDFcW6Iv-H0tWNWFMT9SLoTe9tgukAQ1IQES3Bnoifd3jl1uOd_iIGeWBBWYokfABduNmruQ10Ila1yBlEKDRwnJbX8YyjAsLufjkZGanJOos323wJSkuUJyO1tTMyMUIC) |
+| `infrastructure` | `mature` | `mature` | HIGH | The average number of SaaS applications used by organizations worldwide rose fro | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiCf_UCmVuzswsnonPgJ5DeF1mVzmdcTCEN_QTwnUJDBWkQAeDN1pSf7a4stEEMwKh2KaDM_pCo9sj_-sIJ_kk9cxb3rIvpRW-9yUoVDdHb7cD-AB04yB0RvB1Grwz-zwW38rNcZNasRjDFcW6Iv-H0tWNWFMT9SLoTe9tgukAQ1IQES3Bnoifd3jl1uOd_iIGeWBBWYokfABduNmruQ10Ila1yBlEKDRwnJbX8YyjAsLufjkZGanJOos323wJSkuUJyO1tTMyMUIC) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Employee engagement software helps organizations 'gain valuable insights from em | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiCf_UCmVuzswsnonPgJ5DeF1mVzmdcTCEN_QTwnUJDBWkQAeDN1pSf7a4stEEMwKh2KaDM_pCo9sj_-sIJ_kk9cxb3rIvpRW-9yUoVDdHb7cD-AB04yB0RvB1Grwz-zwW38rNcZNasRjDFcW6Iv-H0tWNWFMT9SLoTe9tgukAQ1IQES3Bnoifd3jl1uOd_iIGeWBBWYokfABduNmruQ10Ila1yBlEKDRwnJbX8YyjAsLufjkZGanJOos323wJSkuUJyO1tTMyMUIC) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 78 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `mature` | 85 |
+| `market_structure` | `technology_enablement` | 68 |
+| **Mean** | — | **72** |
+
+### Restaurant Food Delivery Aggregator Online Marketplaces (2014)
+
+**T+5:** VERIFIED (14 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | GrubHub and Just Eat, two major online food delivery aggregators, made their IPO | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUtQ1DFACjBwRQBrXM-elr7vAiUnLUYgmsX0Ac3-lR2PJ_ougwmHgk9_mS85WczaNGfIItzshjm313uRX9TKgMD4Ttp3buTyUVerMxUWsPpu9wputSNXyu4VMMv6mLl0bNizZ9nsdgiD-EtbfSTsSoQLJLaelSS0glHCr_9OM6dMgWKwk6QaEA7DMnCcv_Y9fj-XXWcxzrBfRHvlIuk1ZMW93R0XOHm6o1hjGAVtqaVtKj2MS4hT6KEdWFcM0nBeEs7yJCjezB) |
+| `competition` | `monopolistic_competition` | `oligopoly` | MEDIUM | By 2016, national markets typically saw two or three dominant competitors, indic | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUtQ1DFACjBwRQBrXM-elr7vAiUnLUYgmsX0Ac3-lR2PJ_ougwmHgk9_mS85WczaNGfIItzshjm313uRX9TKgMD4Ttp3buTyUVerMxUWsPpu9wputSNXyu4VMMv6mLl0bNizZ9nsdgiD-EtbfSTsSoQLJLaelSS0glHCr_9OM6dMgWKwk6QaEA7DMnCcv_Y9fj-XXWcxzrBfRHvlIuk1ZMW93R0XOHm6o1hjGAVtqaVtKj2MS4hT6KEdWFcM0nBeEs7yJCjezB) |
+| `market_size` | `small` | `large` | LOW | The global food delivery market was valued at €83 billion in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUtQ1DFACjBwRQBrXM-elr7vAiUnLUYgmsX0Ac3-lR2PJ_ougwmHgk9_mS85WczaNGfIItzshjm313uRX9TKgMD4Ttp3buTyUVerMxUWsPpu9wputSNXyu4VMMv6mLl0bNizZ9nsdgiD-EtbfSTsSoQLJLaelSS0glHCr_9OM6dMgWKwk6QaEA7DMnCcv_Y9fj-XXWcxzrBfRHvlIuk1ZMW93R0XOHm6o1hjGAVtqaVtKj2MS4hT6KEdWFcM0nBeEs7yJCjezB) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | In 2016, 90% of the food delivery market was still traditional, with 75% of thos | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUtQ1DFACjBwRQBrXM-elr7vAiUnLUYgmsX0Ac3-lR2PJ_ougwmHgk9_mS85WczaNGfIItzshjm313uRX9TKgMD4Ttp3buTyUVerMxUWsPpu9wputSNXyu4VMMv6mLl0bNizZ9nsdgiD-EtbfSTsSoQLJLaelSS0glHCr_9OM6dMgWKwk6QaEA7DMnCcv_Y9fj-XXWcxzrBfRHvlIuk1ZMW93R0XOHm6o1hjGAVtqaVtKj2MS4hT6KEdWFcM0nBeEs7yJCjezB) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | No widespread specific regulations for online food delivery aggregators were in  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUtQ1DFACjBwRQBrXM-elr7vAiUnLUYgmsX0Ac3-lR2PJ_ougwmHgk9_mS85WczaNGfIItzshjm313uRX9TKgMD4Ttp3buTyUVerMxUWsPpu9wputSNXyu4VMMv6mLl0bNizZ9nsdgiD-EtbfSTsSoQLJLaelSS0glHCr_9OM6dMgWKwk6QaEA7DMnCcv_Y9fj-XXWcxzrBfRHvlIuk1ZMW93R0XOHm6o1hjGAVtqaVtKj2MS4hT6KEdWFcM0nBeEs7yJCjezB) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | New delivery players, which established their own logistics networks, only emerg | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUtQ1DFACjBwRQBrXM-elr7vAiUnLUYgmsX0Ac3-lR2PJ_ougwmHgk9_mS85WczaNGfIItzshjm313uRX9TKgMD4Ttp3buTyUVerMxUWsPpu9wputSNXyu4VMMv6mLl0bNizZ9nsdgiD-EtbfSTsSoQLJLaelSS0glHCr_9OM6dMgWKwk6QaEA7DMnCcv_Y9fj-XXWcxzrBfRHvlIuk1ZMW93R0XOHm6o1hjGAVtqaVtKj2MS4hT6KEdWFcM0nBeEs7yJCjezB) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Online food delivery aggregators function as platforms connecting customers to a | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUtQ1DFACjBwRQBrXM-elr7vAiUnLUYgmsX0Ac3-lR2PJ_ougwmHgk9_mS85WczaNGfIItzshjm313uRX9TKgMD4Ttp3buTyUVerMxUWsPpu9wputSNXyu4VMMv6mLl0bNizZ9nsdgiD-EtbfSTsSoQLJLaelSS0glHCr_9OM6dMgWKwk6QaEA7DMnCcv_Y9fj-XXWcxzrBfRHvlIuk1ZMW93R0XOHm6o1hjGAVtqaVtKj2MS4hT6KEdWFcM0nBeEs7yJCjezB) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 55 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 58 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `emerging` | 62 |
+| `market_structure` | `platform_two_sided` | 82 |
+| **Mean** | — | **67** |
+
+### K-12 Higher Education Online Learning Platforms (2020)
+
+**T+5:** VERIFIED (19 sources)  **Agreement:** HIGH (H=4 M=3 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | Mass school closures in 190 countries impacted 90% of total enrolled learners gl | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqeLLzcLgdSuf5_DTkZgn9HFs2cki0fL9u28wT6y0LehLyeDeVUV8c1T_ItTYxRAKcIxaO7M7Qx9oag26hXkeha4X6khwnFMrlhnMW57yUmqMO9kryd-vpEJuQ8M1F-KMGbu_Pv7HYdfuoPxQkTjc0dXAmznMTHMhDRjdxrt8FebdngyPD1R9O3deZJd8ShbpdJC441qBDesmQHd7Y3XjvxJ_j2QAy8zEYrIbsouwbUJ8=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Over 700 EdTech companies were added globally in 2020. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqeLLzcLgdSuf5_DTkZgn9HFs2cki0fL9u28wT6y0LehLyeDeVUV8c1T_ItTYxRAKcIxaO7M7Qx9oag26hXkeha4X6khwnFMrlhnMW57yUmqMO9kryd-vpEJuQ8M1F-KMGbu_Pv7HYdfuoPxQkTjc0dXAmznMTHMhDRjdxrt8FebdngyPD1R9O3deZJd8ShbpdJC441qBDesmQHd7Y3XjvxJ_j2QAy8zEYrIbsouwbUJ8=) |
+| `market_size` | `large` | `massive` | MEDIUM | The global EdTech market was valued at $227 billion in 2020. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqeLLzcLgdSuf5_DTkZgn9HFs2cki0fL9u28wT6y0LehLyeDeVUV8c1T_ItTYxRAKcIxaO7M7Qx9oag26hXkeha4X6khwnFMrlhnMW57yUmqMO9kryd-vpEJuQ8M1F-KMGbu_Pv7HYdfuoPxQkTjc0dXAmznMTHMhDRjdxrt8FebdngyPD1R9O3deZJd8ShbpdJC441qBDesmQHd7Y3XjvxJ_j2QAy8zEYrIbsouwbUJ8=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | EdTech usage in K-12 schools increased 99% since 2020. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqeLLzcLgdSuf5_DTkZgn9HFs2cki0fL9u28wT6y0LehLyeDeVUV8c1T_ItTYxRAKcIxaO7M7Qx9oag26hXkeha4X6khwnFMrlhnMW57yUmqMO9kryd-vpEJuQ8M1F-KMGbu_Pv7HYdfuoPxQkTjc0dXAmznMTHMhDRjdxrt8FebdngyPD1R9O3deZJd8ShbpdJC441qBDesmQHd7Y3XjvxJ_j2QAy8zEYrIbsouwbUJ8=) |
+| `regulatory` | `moderate_compliance` | `moderate_compliance` | HIGH | The FTC issued specific guidance on COPPA for EdTech companies and schools in Ap | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqeLLzcLgdSuf5_DTkZgn9HFs2cki0fL9u28wT6y0LehLyeDeVUV8c1T_ItTYxRAKcIxaO7M7Qx9oag26hXkeha4X6khwnFMrlhnMW57yUmqMO9kryd-vpEJuQ8M1F-KMGbu_Pv7HYdfuoPxQkTjc0dXAmznMTHMhDRjdxrt8FebdngyPD1R9O3deZJd8ShbpdJC441qBDesmQHd7Y3XjvxJ_j2QAy8zEYrIbsouwbUJ8=) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | The 'digital divide' was the top challenge school districts faced in 2020, with  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqeLLzcLgdSuf5_DTkZgn9HFs2cki0fL9u28wT6y0LehLyeDeVUV8c1T_ItTYxRAKcIxaO7M7Qx9oag26hXkeha4X6khwnFMrlhnMW57yUmqMO9kryd-vpEJuQ8M1F-KMGbu_Pv7HYdfuoPxQkTjc0dXAmznMTHMhDRjdxrt8FebdngyPD1R9O3deZJd8ShbpdJC441qBDesmQHd7Y3XjvxJ_j2QAy8zEYrIbsouwbUJ8=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Venture Capital investment in EdTech in 2020 was weighted heavily towards late-s | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqeLLzcLgdSuf5_DTkZgn9HFs2cki0fL9u28wT6y0LehLyeDeVUV8c1T_ItTYxRAKcIxaO7M7Qx9oag26hXkeha4X6khwnFMrlhnMW57yUmqMO9kryd-vpEJuQ8M1F-KMGbu_Pv7HYdfuoPxQkTjc0dXAmznMTHMhDRjdxrt8FebdngyPD1R9O3deZJd8ShbpdJC441qBDesmQHd7Y3XjvxJ_j2QAy8zEYrIbsouwbUJ8=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `massive` | 85 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `moderate_compliance` | 68 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **66** |
+
+### Integrated XDR Threat Detection and Response Platforms (2021)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=0 M=6 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `innovators` | MEDIUM | In August 2021, the XDR market was in its 'inception' with over a dozen vendors  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERfhS6rPqhOd9jyxwSHvm5W7nlbG7yB6PzZwlVRmVTVmdsTt6oIxcvB3PyofEKPY2EwFg8SPhtmLw0IPTHr1eLikTiPjrtXfD8yh5Yx9E5Ed4bufK-MpCxGAVw7NgfXOjFjoIGanmICN842XNbsRCcNQRKa3Tx-MZvITklHFCiQc1xmsWNTC5v3BTiBBwSl9-vSRUn9FTtpaFjvzTO7UTkCXTeeahBtTq1TeqmMAVwVet3yH6Mg7NRF1hh-HFHmrMqhZsZb59a52m5SKTsFcPPG9Q9sPZhyOBY914OjLhtNrpSseyfiMLS5rH9) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | By 2021, S&P Global research identified 'upwards of 40 vendors' offering XDR cap | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERfhS6rPqhOd9jyxwSHvm5W7nlbG7yB6PzZwlVRmVTVmdsTt6oIxcvB3PyofEKPY2EwFg8SPhtmLw0IPTHr1eLikTiPjrtXfD8yh5Yx9E5Ed4bufK-MpCxGAVw7NgfXOjFjoIGanmICN842XNbsRCcNQRKa3Tx-MZvITklHFCiQc1xmsWNTC5v3BTiBBwSl9-vSRUn9FTtpaFjvzTO7UTkCXTeeahBtTq1TeqmMAVwVet3yH6Mg7NRF1hh-HFHmrMqhZsZb59a52m5SKTsFcPPG9Q9sPZhyOBY914OjLhtNrpSseyfiMLS5rH9) |
+| `market_size` | `medium` | `small` | MEDIUM | The global XDR market was projected to reach $2.06 billion by 2028, with a CAGR  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERfhS6rPqhOd9jyxwSHvm5W7nlbG7yB6PzZwlVRmVTVmdsTt6oIxcvB3PyofEKPY2EwFg8SPhtmLw0IPTHr1eLikTiPjrtXfD8yh5Yx9E5Ed4bufK-MpCxGAVw7NgfXOjFjoIGanmICN842XNbsRCcNQRKa3Tx-MZvITklHFCiQc1xmsWNTC5v3BTiBBwSl9-vSRUn9FTtpaFjvzTO7UTkCXTeeahBtTq1TeqmMAVwVet3yH6Mg7NRF1hh-HFHmrMqhZsZb59a52m5SKTsFcPPG9Q9sPZhyOBY914OjLhtNrpSseyfiMLS5rH9) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | As of 2021, XDR was viewed as a 'product vision' that the market was evolving to | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERfhS6rPqhOd9jyxwSHvm5W7nlbG7yB6PzZwlVRmVTVmdsTt6oIxcvB3PyofEKPY2EwFg8SPhtmLw0IPTHr1eLikTiPjrtXfD8yh5Yx9E5Ed4bufK-MpCxGAVw7NgfXOjFjoIGanmICN842XNbsRCcNQRKa3Tx-MZvITklHFCiQc1xmsWNTC5v3BTiBBwSl9-vSRUn9FTtpaFjvzTO7UTkCXTeeahBtTq1TeqmMAVwVet3yH6Mg7NRF1hh-HFHmrMqhZsZb59a52m5SKTsFcPPG9Q9sPZhyOBY914OjLhtNrpSseyfiMLS5rH9) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | Stringent data privacy regulations like GDPR and CCPA were indirectly driving XD | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERfhS6rPqhOd9jyxwSHvm5W7nlbG7yB6PzZwlVRmVTVmdsTt6oIxcvB3PyofEKPY2EwFg8SPhtmLw0IPTHr1eLikTiPjrtXfD8yh5Yx9E5Ed4bufK-MpCxGAVw7NgfXOjFjoIGanmICN842XNbsRCcNQRKa3Tx-MZvITklHFCiQc1xmsWNTC5v3BTiBBwSl9-vSRUn9FTtpaFjvzTO7UTkCXTeeahBtTq1TeqmMAVwVet3yH6Mg7NRF1hh-HFHmrMqhZsZb59a52m5SKTsFcPPG9Q9sPZhyOBY914OjLhtNrpSseyfiMLS5rH9) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | The year 2021 saw the 'launch of several cloud-native XDR platforms,' indicating | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERfhS6rPqhOd9jyxwSHvm5W7nlbG7yB6PzZwlVRmVTVmdsTt6oIxcvB3PyofEKPY2EwFg8SPhtmLw0IPTHr1eLikTiPjrtXfD8yh5Yx9E5Ed4bufK-MpCxGAVw7NgfXOjFjoIGanmICN842XNbsRCcNQRKa3Tx-MZvITklHFCiQc1xmsWNTC5v3BTiBBwSl9-vSRUn9FTtpaFjvzTO7UTkCXTeeahBtTq1TeqmMAVwVet3yH6Mg7NRF1hh-HFHmrMqhZsZb59a52m5SKTsFcPPG9Q9sPZhyOBY914OjLhtNrpSseyfiMLS5rH9) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | XDR was designed to provide a 'comprehensive view of the organization's security | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERfhS6rPqhOd9jyxwSHvm5W7nlbG7yB6PzZwlVRmVTVmdsTt6oIxcvB3PyofEKPY2EwFg8SPhtmLw0IPTHr1eLikTiPjrtXfD8yh5Yx9E5Ed4bufK-MpCxGAVw7NgfXOjFjoIGanmICN842XNbsRCcNQRKa3Tx-MZvITklHFCiQc1xmsWNTC5v3BTiBBwSl9-vSRUn9FTtpaFjvzTO7UTkCXTeeahBtTq1TeqmMAVwVet3yH6Mg7NRF1hh-HFHmrMqhZsZb59a52m5SKTsFcPPG9Q9sPZhyOBY914OjLhtNrpSseyfiMLS5rH9) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 42 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 45 |
+| `market_structure` | `technology_enablement` | 55 |
+| **Mean** | — | **51** |
+
+### Direct Creator Audience Monetization Platforms (2019)
+
+**T+5:** VERIFIED (11 sources)  **Agreement:** MEDIUM (H=3 M=2 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Venture capital investment in creator economy startups reached $1.3 billion in 2 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjmM7y1QgsK9hSzxQGQtCx6sBn1vu9nOehUxyJkqYxRtIIkRgajzk1rzdbagfhMs8cuBdX43HC0D22EdBUPRYt7fy4mX6vTEG3ic3zLTA8aYP_SWaMQnjVEQfDvEnaUBv9V0iKztqTssgb5XLRJZ7vxLBwizyUvbR0pzi2Okh8RHtOQhydF2CIa2p3dh4otdqrG6eCzHhCmTnZBeVr7QWYNrB1SbE5t3TFIgfMbvFQEA==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Over 50 million independent creators were active globally in 2019, utilizing var | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjmM7y1QgsK9hSzxQGQtCx6sBn1vu9nOehUxyJkqYxRtIIkRgajzk1rzdbagfhMs8cuBdX43HC0D22EdBUPRYt7fy4mX6vTEG3ic3zLTA8aYP_SWaMQnjVEQfDvEnaUBv9V0iKztqTssgb5XLRJZ7vxLBwizyUvbR0pzi2Okh8RHtOQhydF2CIa2p3dh4otdqrG6eCzHhCmTnZBeVr7QWYNrB1SbE5t3TFIgfMbvFQEA==) |
+| `market_size` | `small` | `large` | LOW | The global market size for the creator economy was $104.2 billion in 2019. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjmM7y1QgsK9hSzxQGQtCx6sBn1vu9nOehUxyJkqYxRtIIkRgajzk1rzdbagfhMs8cuBdX43HC0D22EdBUPRYt7fy4mX6vTEG3ic3zLTA8aYP_SWaMQnjVEQfDvEnaUBv9V0iKztqTssgb5XLRJZ7vxLBwizyUvbR0pzi2Okh8RHtOQhydF2CIa2p3dh4otdqrG6eCzHhCmTnZBeVr7QWYNrB1SbE5t3TFIgfMbvFQEA==) |
+| `customer_readiness` | `slope_of_enlightenment` | `peak_of_inflated_expectations` | LOW | The 'creator economy' was first identified in 2011, and by 2019, it encompassed  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjmM7y1QgsK9hSzxQGQtCx6sBn1vu9nOehUxyJkqYxRtIIkRgajzk1rzdbagfhMs8cuBdX43HC0D22EdBUPRYt7fy4mX6vTEG3ic3zLTA8aYP_SWaMQnjVEQfDvEnaUBv9V0iKztqTssgb5XLRJZ7vxLBwizyUvbR0pzi2Okh8RHtOQhydF2CIa2p3dh4otdqrG6eCzHhCmTnZBeVr7QWYNrB1SbE5t3TFIgfMbvFQEA==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Regulations and market fluctuations were critical issues in the creator economy  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjmM7y1QgsK9hSzxQGQtCx6sBn1vu9nOehUxyJkqYxRtIIkRgajzk1rzdbagfhMs8cuBdX43HC0D22EdBUPRYt7fy4mX6vTEG3ic3zLTA8aYP_SWaMQnjVEQfDvEnaUBv9V0iKztqTssgb5XLRJZ7vxLBwizyUvbR0pzi2Okh8RHtOQhydF2CIa2p3dh4otdqrG6eCzHhCmTnZBeVr7QWYNrB1SbE5t3TFIgfMbvFQEA==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Substack, launched in 2017, provided publishing, payment, analytics, and design  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjmM7y1QgsK9hSzxQGQtCx6sBn1vu9nOehUxyJkqYxRtIIkRgajzk1rzdbagfhMs8cuBdX43HC0D22EdBUPRYt7fy4mX6vTEG3ic3zLTA8aYP_SWaMQnjVEQfDvEnaUBv9V0iKztqTssgb5XLRJZ7vxLBwizyUvbR0pzi2Okh8RHtOQhydF2CIa2p3dh4otdqrG6eCzHhCmTnZBeVr7QWYNrB1SbE5t3TFIgfMbvFQEA==) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Creator platforms are defined as two-sided digital marketplaces comprising creat | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjmM7y1QgsK9hSzxQGQtCx6sBn1vu9nOehUxyJkqYxRtIIkRgajzk1rzdbagfhMs8cuBdX43HC0D22EdBUPRYt7fy4mX6vTEG3ic3zLTA8aYP_SWaMQnjVEQfDvEnaUBv9V0iKztqTssgb5XLRJZ7vxLBwizyUvbR0pzi2Okh8RHtOQhydF2CIa2p3dh4otdqrG6eCzHhCmTnZBeVr7QWYNrB1SbE5t3TFIgfMbvFQEA==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 48 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **66** |
+
+### Consumer Buy Now Pay Later Installment Lending Platforms (2015)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** HIGH (H=5 M=2 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | BNPL emerged in the e-commerce marketplace in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMsT9yMtEuhQSRzqvmap82e_-cxUKd28ohkSLKW0wRJl79ln7nilUGsIEJyqxuy-Hk4MTEydTRSi7d4KyDvIbR7ZQO9j_SN1EUqKOWpphHXmobGQVTxlo3_4URuWu549eIOfU_CmE1XVm-q086-Tgh3dKKMjORymPbUQp0tGTFfYRVHZfCORIh7d7DLCPEGBr2kCBOk-g=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Klarna (founded 2005), Affirm (founded 2012), and Afterpay (founded 2014) were k | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMsT9yMtEuhQSRzqvmap82e_-cxUKd28ohkSLKW0wRJl79ln7nilUGsIEJyqxuy-Hk4MTEydTRSi7d4KyDvIbR7ZQO9j_SN1EUqKOWpphHXmobGQVTxlo3_4URuWu549eIOfU_CmE1XVm-q086-Tgh3dKKMjORymPbUQp0tGTFfYRVHZfCORIh7d7DLCPEGBr2kCBOk-g=) |
+| `market_size` | `small` | `small` | HIGH | In 2015, the total number of BNPL accounts was approximately 487,000. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMsT9yMtEuhQSRzqvmap82e_-cxUKd28ohkSLKW0wRJl79ln7nilUGsIEJyqxuy-Hk4MTEydTRSi7d4KyDvIbR7ZQO9j_SN1EUqKOWpphHXmobGQVTxlo3_4URuWu549eIOfU_CmE1XVm-q086-Tgh3dKKMjORymPbUQp0tGTFfYRVHZfCORIh7d7DLCPEGBr2kCBOk-g=) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | Widespread customer enthusiasm and regular use of BNPL did not occur until the p | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMsT9yMtEuhQSRzqvmap82e_-cxUKd28ohkSLKW0wRJl79ln7nilUGsIEJyqxuy-Hk4MTEydTRSi7d4KyDvIbR7ZQO9j_SN1EUqKOWpphHXmobGQVTxlo3_4URuWu549eIOfU_CmE1XVm-q086-Tgh3dKKMjORymPbUQp0tGTFfYRVHZfCORIh7d7DLCPEGBr2kCBOk-g=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | BNPL schemes were typically unreported to credit bureaus in 2015, indicating a l | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMsT9yMtEuhQSRzqvmap82e_-cxUKd28ohkSLKW0wRJl79ln7nilUGsIEJyqxuy-Hk4MTEydTRSi7d4KyDvIbR7ZQO9j_SN1EUqKOWpphHXmobGQVTxlo3_4URuWu549eIOfU_CmE1XVm-q086-Tgh3dKKMjORymPbUQp0tGTFfYRVHZfCORIh7d7DLCPEGBr2kCBOk-g=) |
+| `infrastructure` | `developing` | `developing` | HIGH | The proliferation of e-commerce and advancements in fintech were critical in the | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMsT9yMtEuhQSRzqvmap82e_-cxUKd28ohkSLKW0wRJl79ln7nilUGsIEJyqxuy-Hk4MTEydTRSi7d4KyDvIbR7ZQO9j_SN1EUqKOWpphHXmobGQVTxlo3_4URuWu549eIOfU_CmE1XVm-q086-Tgh3dKKMjORymPbUQp0tGTFfYRVHZfCORIh7d7DLCPEGBr2kCBOk-g=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | BNPL is structured as a process involving consumers, financiers (platforms), and | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMsT9yMtEuhQSRzqvmap82e_-cxUKd28ohkSLKW0wRJl79ln7nilUGsIEJyqxuy-Hk4MTEydTRSi7d4KyDvIbR7ZQO9j_SN1EUqKOWpphHXmobGQVTxlo3_4URuWu549eIOfU_CmE1XVm-q086-Tgh3dKKMjORymPbUQp0tGTFfYRVHZfCORIh7d7DLCPEGBr2kCBOk-g=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 55 |
+| `regulatory` | `unregulated` | 74 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **60** |
+
+### Digital Mortgage Application and Home Transaction Platforms (2019)
+
+**T+5:** VERIFIED (17 sources)  **Agreement:** MEDIUM (H=3 M=1 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | In 2019, 83% of top mortgage producers viewed digital mortgage technology as key | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsc7JxqGe5sKjX8JzndJtvRydAE0oAJ-cBJHyoJ8IehOEQKwsrBae7Nzrk7cl1iSs6MxD0AgUmwnjIGJr90GrReefEonPaY-0nzxKGn7OcCI9D_lWd1SG1MirScRToDk2_K-1X2pHkQarlXl01afnSs3yfZETwWSpZfgwxHTzvijkm69w0iS9HHwTwSJ2cJIfIBYdj6u3620gaThYLbBSPGVZzE_zMOyhtjRqth40rvQ==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | In 2019, there were over 6,000 PropTech businesses globally, indicating a crowde | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsc7JxqGe5sKjX8JzndJtvRydAE0oAJ-cBJHyoJ8IehOEQKwsrBae7Nzrk7cl1iSs6MxD0AgUmwnjIGJr90GrReefEonPaY-0nzxKGn7OcCI9D_lWd1SG1MirScRToDk2_K-1X2pHkQarlXl01afnSs3yfZETwWSpZfgwxHTzvijkm69w0iS9HHwTwSJ2cJIfIBYdj6u3620gaThYLbBSPGVZzE_zMOyhtjRqth40rvQ==) |
+| `market_size` | `small` | `large` | LOW | Global venture capital investment in proptech companies hit $14 billion in the f | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsc7JxqGe5sKjX8JzndJtvRydAE0oAJ-cBJHyoJ8IehOEQKwsrBae7Nzrk7cl1iSs6MxD0AgUmwnjIGJr90GrReefEonPaY-0nzxKGn7OcCI9D_lWd1SG1MirScRToDk2_K-1X2pHkQarlXl01afnSs3yfZETwWSpZfgwxHTzvijkm69w0iS9HHwTwSJ2cJIfIBYdj6u3620gaThYLbBSPGVZzE_zMOyhtjRqth40rvQ==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `slope_of_enlightenment` | LOW | In 2019, over half of consumers preferred to apply for a mortgage online, yet on | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsc7JxqGe5sKjX8JzndJtvRydAE0oAJ-cBJHyoJ8IehOEQKwsrBae7Nzrk7cl1iSs6MxD0AgUmwnjIGJr90GrReefEonPaY-0nzxKGn7OcCI9D_lWd1SG1MirScRToDk2_K-1X2pHkQarlXl01afnSs3yfZETwWSpZfgwxHTzvijkm69w0iS9HHwTwSJ2cJIfIBYdj6u3620gaThYLbBSPGVZzE_zMOyhtjRqth40rvQ==) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | In 2019, the legal basis for e-Mortgages stemmed from the E-Sign Act and UETA, b | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsc7JxqGe5sKjX8JzndJtvRydAE0oAJ-cBJHyoJ8IehOEQKwsrBae7Nzrk7cl1iSs6MxD0AgUmwnjIGJr90GrReefEonPaY-0nzxKGn7OcCI9D_lWd1SG1MirScRToDk2_K-1X2pHkQarlXl01afnSs3yfZETwWSpZfgwxHTzvijkm69w0iS9HHwTwSJ2cJIfIBYdj6u3620gaThYLbBSPGVZzE_zMOyhtjRqth40rvQ==) |
+| `infrastructure` | `developing` | `developing` | HIGH | In 2019, internal development capabilities and system/vendor integration were si | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsc7JxqGe5sKjX8JzndJtvRydAE0oAJ-cBJHyoJ8IehOEQKwsrBae7Nzrk7cl1iSs6MxD0AgUmwnjIGJr90GrReefEonPaY-0nzxKGn7OcCI9D_lWd1SG1MirScRToDk2_K-1X2pHkQarlXl01afnSs3yfZETwWSpZfgwxHTzvijkm69w0iS9HHwTwSJ2cJIfIBYdj6u3620gaThYLbBSPGVZzE_zMOyhtjRqth40rvQ==) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | In 2019, property firms were beginning to develop 'stacks' of PropTech solutions | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsc7JxqGe5sKjX8JzndJtvRydAE0oAJ-cBJHyoJ8IehOEQKwsrBae7Nzrk7cl1iSs6MxD0AgUmwnjIGJr90GrReefEonPaY-0nzxKGn7OcCI9D_lWd1SG1MirScRToDk2_K-1X2pHkQarlXl01afnSs3yfZETwWSpZfgwxHTzvijkm69w0iS9HHwTwSJ2cJIfIBYdj6u3620gaThYLbBSPGVZzE_zMOyhtjRqth40rvQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `slope_of_enlightenment` | 68 |
+| `regulatory` | `moderate_compliance` | 63 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 58 |
+| **Mean** | — | **63** |
+
+### Role 3 Prompt Audit — Employee Feedback Analytics and Engagement SaaS
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              HIGH
+  market_size               medium                                MEDIUM
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                light_touch                           HIGH
+  infrastructure            mature                                HIGH
+  market_structure          technology_enablement                 MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 6 | 1 | 0 |
+| `competition` | 3 | 4 | 0 |
+| `market_size` | 1 | 3 | 3 |
+| `customer_readiness` | 4 | 1 | 2 |
+| `regulatory` | 3 | 4 | 0 |
+| `infrastructure` | 3 | 4 | 0 |
+| `market_structure` | 3 | 2 | 2 |
+
+
+---
+
+## Batch 82  —  2026-03-20 17:10:08
+
+**Markets processed this batch:** 9  
+**Cumulative total:** 238 / 350  
+**Batch agreement:** MEDIUM (score=0.635)  
+**HIGH:** 29  **MEDIUM:** 22  **LOW:** 12  
+**Auto-correction triggered:** no
+
+### Direct Audience Monetization Platforms for Independent Creators (2017)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Patreon was on track to send over $150 million to creators in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKGdz_qLDVhjxYqFvh_feSFicpkNDv64i5ln3EtA1P9aaRpTRvOIPbPNSuycVAGvxhZcGCW3KnI52CL8PslDqW_JqPk7L_HYFrTqRopLYczY5v4MIOS3UUjR0TBYPsvQ==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Patreon charged an 8-12% commission on pledges, while OnlyFans paid creators 80% | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKGdz_qLDVhjxYqFvh_feSFicpkNDv64i5ln3EtA1P9aaRpTRvOIPbPNSuycVAGvxhZcGCW3KnI52CL8PslDqW_JqPk7L_HYFrTqRopLYczY5v4MIOS3UUjR0TBYPsvQ==) |
+| `market_size` | `micro` | `medium` | LOW | The influencer marketing industry was valued at $3.0 billion in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKGdz_qLDVhjxYqFvh_feSFicpkNDv64i5ln3EtA1P9aaRpTRvOIPbPNSuycVAGvxhZcGCW3KnI52CL8PslDqW_JqPk7L_HYFrTqRopLYczY5v4MIOS3UUjR0TBYPsvQ==) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | In 2017, consumers rated the effectiveness of influencer and content marketing e | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKGdz_qLDVhjxYqFvh_feSFicpkNDv64i5ln3EtA1P9aaRpTRvOIPbPNSuycVAGvxhZcGCW3KnI52CL8PslDqW_JqPk7L_HYFrTqRopLYczY5v4MIOS3UUjR0TBYPsvQ==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Nearly 3 in 10 creators in 2017 reported receiving direct requests from clients  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKGdz_qLDVhjxYqFvh_feSFicpkNDv64i5ln3EtA1P9aaRpTRvOIPbPNSuycVAGvxhZcGCW3KnI52CL8PslDqW_JqPk7L_HYFrTqRopLYczY5v4MIOS3UUjR0TBYPsvQ==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Patreon launched a suite of tools for creators in June 2017, including a CRM sys | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKGdz_qLDVhjxYqFvh_feSFicpkNDv64i5ln3EtA1P9aaRpTRvOIPbPNSuycVAGvxhZcGCW3KnI52CL8PslDqW_JqPk7L_HYFrTqRopLYczY5v4MIOS3UUjR0TBYPsvQ==) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Patreon's business model is based on a subscription model where creators set up  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKGdz_qLDVhjxYqFvh_feSFicpkNDv64i5ln3EtA1P9aaRpTRvOIPbPNSuycVAGvxhZcGCW3KnI52CL8PslDqW_JqPk7L_HYFrTqRopLYczY5v4MIOS3UUjR0TBYPsvQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 52 |
+| `customer_readiness` | `slope_of_enlightenment` | 78 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 80 |
+| **Mean** | — | **69** |
+
+### Novel Materials for Next-Generation Energy Storage (2012)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | DOE VTP battery R&D funding reached $93 million in 2012. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpoMD0IShjwLsqZIY7H0e-8M5gshyvD9gedvjFg0bgdIAjiDM6VDuZkRgwUFqu0ynd3O4tWG5lhh1guaggNVVA0buOkTcEl2JxC1F8As2sSGY6y8iVSsCJIjAQ0siTA694M4K27JvDbOk0vRpxN8Yf6ZaVOIaRir7NogPyTk16DpJYiHDGtEb7CjJ62GtuvO17nSgSSFRVd0X9) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | The market was 'exceptionally divided' with continuous R&D by multiple major pla | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpoMD0IShjwLsqZIY7H0e-8M5gshyvD9gedvjFg0bgdIAjiDM6VDuZkRgwUFqu0ynd3O4tWG5lhh1guaggNVVA0buOkTcEl2JxC1F8As2sSGY6y8iVSsCJIjAQ0siTA694M4K27JvDbOk0vRpxN8Yf6ZaVOIaRir7NogPyTk16DpJYiHDGtEb7CjJ62GtuvO17nSgSSFRVd0X9) |
+| `market_size` | `micro` | `medium` | LOW | The global advanced energy storage systems market was valued at $1.51 billion in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpoMD0IShjwLsqZIY7H0e-8M5gshyvD9gedvjFg0bgdIAjiDM6VDuZkRgwUFqu0ynd3O4tWG5lhh1guaggNVVA0buOkTcEl2JxC1F8As2sSGY6y8iVSsCJIjAQ0siTA694M4K27JvDbOk0vRpxN8Yf6ZaVOIaRir7NogPyTk16DpJYiHDGtEb7CjJ62GtuvO17nSgSSFRVd0X9) |
+| `customer_readiness` | `innovation_trigger` | `peak_of_inflated_expectations` | MEDIUM | 'Energy Storage (Renewables Integration)' was at the Peak of Inflated Expectatio | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpoMD0IShjwLsqZIY7H0e-8M5gshyvD9gedvjFg0bgdIAjiDM6VDuZkRgwUFqu0ynd3O4tWG5lhh1guaggNVVA0buOkTcEl2JxC1F8As2sSGY6y8iVSsCJIjAQ0siTA694M4K27JvDbOk0vRpxN8Yf6ZaVOIaRir7NogPyTk16DpJYiHDGtEb7CjJ62GtuvO17nSgSSFRVd0X9) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | FERC Order 755 (2011) regulated compensation for energy storage systems, but reg | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpoMD0IShjwLsqZIY7H0e-8M5gshyvD9gedvjFg0bgdIAjiDM6VDuZkRgwUFqu0ynd3O4tWG5lhh1guaggNVVA0buOkTcEl2JxC1F8As2sSGY6y8iVSsCJIjAQ0siTA694M4K27JvDbOk0vRpxN8Yf6ZaVOIaRir7NogPyTk16DpJYiHDGtEb7CjJ62GtuvO17nSgSSFRVd0X9) |
+| `infrastructure` | `emerging` | `emerging` | HIGH | ARRA-funded projects were establishing domestic manufacturing capacity for advan | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpoMD0IShjwLsqZIY7H0e-8M5gshyvD9gedvjFg0bgdIAjiDM6VDuZkRgwUFqu0ynd3O4tWG5lhh1guaggNVVA0buOkTcEl2JxC1F8As2sSGY6y8iVSsCJIjAQ0siTA694M4K27JvDbOk0vRpxN8Yf6ZaVOIaRir7NogPyTk16DpJYiHDGtEb7CjJ62GtuvO17nSgSSFRVd0X9) |
+| `market_structure` | `technology_enablement` | `technology_enablement` | HIGH | The EV Everywhere Grand Challenge in 2012 aimed to accelerate the development an | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpoMD0IShjwLsqZIY7H0e-8M5gshyvD9gedvjFg0bgdIAjiDM6VDuZkRgwUFqu0ynd3O4tWG5lhh1guaggNVVA0buOkTcEl2JxC1F8As2sSGY6y8iVSsCJIjAQ0siTA694M4K27JvDbOk0vRpxN8Yf6ZaVOIaRir7NogPyTk16DpJYiHDGtEb7CjJ62GtuvO17nSgSSFRVd0X9) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 52 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `emerging` | 60 |
+| `market_structure` | `technology_enablement` | 78 |
+| **Mean** | — | **62** |
+
+### Product Analytics and User Behavior Intelligence Platforms (2014)
+
+**T+5:** VERIFIED (13 sources)  **Agreement:** MEDIUM (H=2 M=3 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | The big data market was projected to be $28.5 billion in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-BShsDKsodiHb12bTchsOpadZ1c_whsVm5q6XvvghNjeT_BeSs7pC9PDXNvyvIPee6qB2xaP-hvPLUBT8HxGeNx9WmkLk69kH1-jP9HiYMf9eSnoMBddufgAfygcvve7wAPre3XIr69viCAxYNZv2gBd4ba1de4nSLOh7R6rfwPo2VV0=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | In 2013, SAS held a 35.4% market share in the Advanced and Predictive Analytics  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-BShsDKsodiHb12bTchsOpadZ1c_whsVm5q6XvvghNjeT_BeSs7pC9PDXNvyvIPee6qB2xaP-hvPLUBT8HxGeNx9WmkLk69kH1-jP9HiYMf9eSnoMBddufgAfygcvve7wAPre3XIr69viCAxYNZv2gBd4ba1de4nSLOh7R6rfwPo2VV0=) |
+| `market_size` | `micro` | `large` | LOW | The global big data market was projected to be $28.5 billion in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-BShsDKsodiHb12bTchsOpadZ1c_whsVm5q6XvvghNjeT_BeSs7pC9PDXNvyvIPee6qB2xaP-hvPLUBT8HxGeNx9WmkLk69kH1-jP9HiYMf9eSnoMBddufgAfygcvve7wAPre3XIr69viCAxYNZv2gBd4ba1de4nSLOh7R6rfwPo2VV0=) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | In 2014, 73% of enterprises reported improved business performance after impleme | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-BShsDKsodiHb12bTchsOpadZ1c_whsVm5q6XvvghNjeT_BeSs7pC9PDXNvyvIPee6qB2xaP-hvPLUBT8HxGeNx9WmkLk69kH1-jP9HiYMf9eSnoMBddufgAfygcvve7wAPre3XIr69viCAxYNZv2gBd4ba1de4nSLOh7R6rfwPo2VV0=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Growing concerns over data privacy and security were noted as a restraint for pr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-BShsDKsodiHb12bTchsOpadZ1c_whsVm5q6XvvghNjeT_BeSs7pC9PDXNvyvIPee6qB2xaP-hvPLUBT8HxGeNx9WmkLk69kH1-jP9HiYMf9eSnoMBddufgAfygcvve7wAPre3XIr69viCAxYNZv2gBd4ba1de4nSLOh7R6rfwPo2VV0=) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Global business spending for infrastructure and services related to the cloud wa | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-BShsDKsodiHb12bTchsOpadZ1c_whsVm5q6XvvghNjeT_BeSs7pC9PDXNvyvIPee6qB2xaP-hvPLUBT8HxGeNx9WmkLk69kH1-jP9HiYMf9eSnoMBddufgAfygcvve7wAPre3XIr69viCAxYNZv2gBd4ba1de4nSLOh7R6rfwPo2VV0=) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | Analytics was considered essential for any business looking to stay competitive  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-BShsDKsodiHb12bTchsOpadZ1c_whsVm5q6XvvghNjeT_BeSs7pC9PDXNvyvIPee6qB2xaP-hvPLUBT8HxGeNx9WmkLk69kH1-jP9HiYMf9eSnoMBddufgAfygcvve7wAPre3XIr69viCAxYNZv2gBd4ba1de4nSLOh7R6rfwPo2VV0=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 70 |
+| `customer_readiness` | `slope_of_enlightenment` | 78 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 60 |
+| **Mean** | — | **68** |
+
+### Online Learning Management Systems Higher Education Platforms (2012)
+
+**T+5:** VERIFIED (6 sources)  **Agreement:** MEDIUM (H=3 M=2 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | Over 90% of all US institutions had an official LMS by 2003. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGtN9ZxdlL-0cRMSWVOnqvep1qLso-fOGarKMhc3ECYK9tNWc-1BhIXhGURwMVOueHd4qJ5DKr32LemLRJtX8pBf8J-DkPFIaYTEcPZxfJyO7J_5p4EPbMstlXmbOI7i3LlSNGERBTAFtBYN3LcTda0cP6CSl85K1polkBXBg=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Blackboard held approximately 51% of the market share in 2011. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGtN9ZxdlL-0cRMSWVOnqvep1qLso-fOGarKMhc3ECYK9tNWc-1BhIXhGURwMVOueHd4qJ5DKr32LemLRJtX8pBf8J-DkPFIaYTEcPZxfJyO7J_5p4EPbMstlXmbOI7i3LlSNGERBTAFtBYN3LcTda0cP6CSl85K1polkBXBg=) |
+| `market_size` | `micro` | `large` | LOW | Global LMS revenue was estimated at $1.9 billion in 2013. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGtN9ZxdlL-0cRMSWVOnqvep1qLso-fOGarKMhc3ECYK9tNWc-1BhIXhGURwMVOueHd4qJ5DKr32LemLRJtX8pBf8J-DkPFIaYTEcPZxfJyO7J_5p4EPbMstlXmbOI7i3LlSNGERBTAFtBYN3LcTda0cP6CSl85K1polkBXBg=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `slope_of_enlightenment` | LOW | 99% of colleges and universities had an LMS in place by 2013, but many faculty u | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGtN9ZxdlL-0cRMSWVOnqvep1qLso-fOGarKMhc3ECYK9tNWc-1BhIXhGURwMVOueHd4qJ5DKr32LemLRJtX8pBf8J-DkPFIaYTEcPZxfJyO7J_5p4EPbMstlXmbOI7i3LlSNGERBTAFtBYN3LcTda0cP6CSl85K1polkBXBg=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Higher education has been historically scrutinized for a lack of formal federal  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGtN9ZxdlL-0cRMSWVOnqvep1qLso-fOGarKMhc3ECYK9tNWc-1BhIXhGURwMVOueHd4qJ5DKr32LemLRJtX8pBf8J-DkPFIaYTEcPZxfJyO7J_5p4EPbMstlXmbOI7i3LlSNGERBTAFtBYN3LcTda0cP6CSl85K1polkBXBg=) |
+| `infrastructure` | `developing` | `developing` | HIGH | The LMS had become the 'backbone for higher education online learning' by 2012,  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGtN9ZxdlL-0cRMSWVOnqvep1qLso-fOGarKMhc3ECYK9tNWc-1BhIXhGURwMVOueHd4qJ5DKr32LemLRJtX8pBf8J-DkPFIaYTEcPZxfJyO7J_5p4EPbMstlXmbOI7i3LlSNGERBTAFtBYN3LcTda0cP6CSl85K1polkBXBg=) |
+| `market_structure` | `platform_two_sided` | `winner_take_most` | MEDIUM | Blackboard held approximately 51% of the market share in 2011, demonstrating a c | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGtN9ZxdlL-0cRMSWVOnqvep1qLso-fOGarKMhc3ECYK9tNWc-1BhIXhGURwMVOueHd4qJ5DKr32LemLRJtX8pBf8J-DkPFIaYTEcPZxfJyO7J_5p4EPbMstlXmbOI7i3LlSNGERBTAFtBYN3LcTda0cP6CSl85K1polkBXBg=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `slope_of_enlightenment` | 63 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `winner_take_most` | 70 |
+| **Mean** | — | **64** |
+
+### Employee Cybersecurity Awareness and Phishing Simulation Platforms (2015)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** MEDIUM (H=2 M=4 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | Over $1 billion was spent annually on security awareness training in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhPfOQNdedz1B95LlVULM2OCV2a5yhFZZyUnQ3biR4YrekAP5NlQoK5ri8wE2T8ffJ8zlXTqeOx8zBENmBAAeZuSMK4zzktempmOaa3osdSNJ3rOcsHyy6cP0Z5Pvu--nOepUzsr8uiRlVrF9nUp0uTSfYPSMpkaUKXsED-pRSeoI=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Gartner's 2015 Magic Quadrant for Security Awareness Computer-Based Training rec | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhPfOQNdedz1B95LlVULM2OCV2a5yhFZZyUnQ3biR4YrekAP5NlQoK5ri8wE2T8ffJ8zlXTqeOx8zBENmBAAeZuSMK4zzktempmOaa3osdSNJ3rOcsHyy6cP0Z5Pvu--nOepUzsr8uiRlVrF9nUp0uTSfYPSMpkaUKXsED-pRSeoI=) |
+| `market_size` | `micro` | `large` | LOW | The worldwide cybersecurity market was $75 billion in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhPfOQNdedz1B95LlVULM2OCV2a5yhFZZyUnQ3biR4YrekAP5NlQoK5ri8wE2T8ffJ8zlXTqeOx8zBENmBAAeZuSMK4zzktempmOaa3osdSNJ3rOcsHyy6cP0Z5Pvu--nOepUzsr8uiRlVrF9nUp0uTSfYPSMpkaUKXsED-pRSeoI=) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | Over 700 data breaches were reported globally in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhPfOQNdedz1B95LlVULM2OCV2a5yhFZZyUnQ3biR4YrekAP5NlQoK5ri8wE2T8ffJ8zlXTqeOx8zBENmBAAeZuSMK4zzktempmOaa3osdSNJ3rOcsHyy6cP0Z5Pvu--nOepUzsr8uiRlVrF9nUp0uTSfYPSMpkaUKXsED-pRSeoI=) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | The Cybersecurity Act of 2015 was signed into law, promoting cybersecurity best  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhPfOQNdedz1B95LlVULM2OCV2a5yhFZZyUnQ3biR4YrekAP5NlQoK5ri8wE2T8ffJ8zlXTqeOx8zBENmBAAeZuSMK4zzktempmOaa3osdSNJ3rOcsHyy6cP0Z5Pvu--nOepUzsr8uiRlVrF9nUp0uTSfYPSMpkaUKXsED-pRSeoI=) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | The NIST Cybersecurity Framework, promoting best practices, was launched in 2014 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhPfOQNdedz1B95LlVULM2OCV2a5yhFZZyUnQ3biR4YrekAP5NlQoK5ri8wE2T8ffJ8zlXTqeOx8zBENmBAAeZuSMK4zzktempmOaa3osdSNJ3rOcsHyy6cP0Z5Pvu--nOepUzsr8uiRlVrF9nUp0uTSfYPSMpkaUKXsED-pRSeoI=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Over $1 billion was spent annually on security awareness training in 2015, provi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhPfOQNdedz1B95LlVULM2OCV2a5yhFZZyUnQ3biR4YrekAP5NlQoK5ri8wE2T8ffJ8zlXTqeOx8zBENmBAAeZuSMK4zzktempmOaa3osdSNJ3rOcsHyy6cP0Z5Pvu--nOepUzsr8uiRlVrF9nUp0uTSfYPSMpkaUKXsED-pRSeoI=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 68 |
+| **Mean** | — | **66** |
+
+### Direct-to-Consumer E-Commerce Brand Platforms (2014)
+
+**T+5:** VERIFIED (13 sources)  **Agreement:** MEDIUM (H=4 M=1 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The 'VC Gold Rush Fuels Expansion' phase for DTC was identified as 2011-2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJWh9MAjO5LemKh241t8QM5BMf1doQuoZj9XXGeJwpm-1fR84SL-iXcnh9K1mNpFASAS3sk6W2HxRge6S6fFvMjlqPNuj_bjmaNjmVl9-hwGYyP7PpqI4H3M4vXQ-tRimDybZIbO9PTHgA5XSB57yRCnahmJ-rA1xJ4XdQTVszbmxp_gyWV5evQLWcbdwAVAqLKpd0rX8=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | In 2014, the top 7 e-commerce platforms held 76% of the market share. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJWh9MAjO5LemKh241t8QM5BMf1doQuoZj9XXGeJwpm-1fR84SL-iXcnh9K1mNpFASAS3sk6W2HxRge6S6fFvMjlqPNuj_bjmaNjmVl9-hwGYyP7PpqI4H3M4vXQ-tRimDybZIbO9PTHgA5XSB57yRCnahmJ-rA1xJ4XdQTVszbmxp_gyWV5evQLWcbdwAVAqLKpd0rX8=) |
+| `market_size` | `small` | `large` | LOW | Internet retail accounted for $1.6 billion of retail's VC funding in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJWh9MAjO5LemKh241t8QM5BMf1doQuoZj9XXGeJwpm-1fR84SL-iXcnh9K1mNpFASAS3sk6W2HxRge6S6fFvMjlqPNuj_bjmaNjmVl9-hwGYyP7PpqI4H3M4vXQ-tRimDybZIbO9PTHgA5XSB57yRCnahmJ-rA1xJ4XdQTVszbmxp_gyWV5evQLWcbdwAVAqLKpd0rX8=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `slope_of_enlightenment` | LOW | Mobile commerce 'well and truly arrived in Europe' in 2014, accelerating online  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJWh9MAjO5LemKh241t8QM5BMf1doQuoZj9XXGeJwpm-1fR84SL-iXcnh9K1mNpFASAS3sk6W2HxRge6S6fFvMjlqPNuj_bjmaNjmVl9-hwGYyP7PpqI4H3M4vXQ-tRimDybZIbO9PTHgA5XSB57yRCnahmJ-rA1xJ4XdQTVszbmxp_gyWV5evQLWcbdwAVAqLKpd0rX8=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | The Single Euro Payments Area (SEPA) aimed to harmonize payment infrastructure i | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJWh9MAjO5LemKh241t8QM5BMf1doQuoZj9XXGeJwpm-1fR84SL-iXcnh9K1mNpFASAS3sk6W2HxRge6S6fFvMjlqPNuj_bjmaNjmVl9-hwGYyP7PpqI4H3M4vXQ-tRimDybZIbO9PTHgA5XSB57yRCnahmJ-rA1xJ4XdQTVszbmxp_gyWV5evQLWcbdwAVAqLKpd0rX8=) |
+| `infrastructure` | `developing` | `developing` | HIGH | Platforms like Shopify, BigCommerce, and Magento were lowering barriers to entry | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJWh9MAjO5LemKh241t8QM5BMf1doQuoZj9XXGeJwpm-1fR84SL-iXcnh9K1mNpFASAS3sk6W2HxRge6S6fFvMjlqPNuj_bjmaNjmVl9-hwGYyP7PpqI4H3M4vXQ-tRimDybZIbO9PTHgA5XSB57yRCnahmJ-rA1xJ4XdQTVszbmxp_gyWV5evQLWcbdwAVAqLKpd0rX8=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | DTC brands bypass traditional middlemen by selling directly to consumers online. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJWh9MAjO5LemKh241t8QM5BMf1doQuoZj9XXGeJwpm-1fR84SL-iXcnh9K1mNpFASAS3sk6W2HxRge6S6fFvMjlqPNuj_bjmaNjmVl9-hwGYyP7PpqI4H3M4vXQ-tRimDybZIbO9PTHgA5XSB57yRCnahmJ-rA1xJ4XdQTVszbmxp_gyWV5evQLWcbdwAVAqLKpd0rX8=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 65 |
+| `customer_readiness` | `slope_of_enlightenment` | 70 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `technology_enablement` | 68 |
+| **Mean** | — | **68** |
+
+### Point of Sale Consumer Installment Payment Solutions (2015)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** HIGH (H=5 M=1 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | BNPL started gaining popularity in Australia in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxEt1_z1k0VNTSP4e2MjPWUmKsHZdQD6R2V_eAToyfcvsEFI_JMsZ3EUKLtFqqZ_o8u29xvipQIV1IVI8XwhZUoD8ETgj3osesv0equvx8SHxtRagHISQgOB4yDpsUjUy_zUhZnNhWwkVJHCKm_mQTgkNkQCnZ6KzHIO_JyK4e5ZrruCwHpKwR4CX_zJ2wPacXHQ9f9pz3sT4HtlMhTgA=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Afterpay, a major BNPL provider, entered the Australian market in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxEt1_z1k0VNTSP4e2MjPWUmKsHZdQD6R2V_eAToyfcvsEFI_JMsZ3EUKLtFqqZ_o8u29xvipQIV1IVI8XwhZUoD8ETgj3osesv0equvx8SHxtRagHISQgOB4yDpsUjUy_zUhZnNhWwkVJHCKm_mQTgkNkQCnZ6KzHIO_JyK4e5ZrruCwHpKwR4CX_zJ2wPacXHQ9f9pz3sT4HtlMhTgA=) |
+| `market_size` | `small` | `small` | HIGH | In 2015, there were 487,000 BNPL accounts in Australia. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxEt1_z1k0VNTSP4e2MjPWUmKsHZdQD6R2V_eAToyfcvsEFI_JMsZ3EUKLtFqqZ_o8u29xvipQIV1IVI8XwhZUoD8ETgj3osesv0equvx8SHxtRagHISQgOB4yDpsUjUy_zUhZnNhWwkVJHCKm_mQTgkNkQCnZ6KzHIO_JyK4e5ZrruCwHpKwR4CX_zJ2wPacXHQ9f9pz3sT4HtlMhTgA=) |
+| `customer_readiness` | `innovation_trigger` | `unknown` | LOW | The interest in using a mobile device to make a purchase continued to grow in 20 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxEt1_z1k0VNTSP4e2MjPWUmKsHZdQD6R2V_eAToyfcvsEFI_JMsZ3EUKLtFqqZ_o8u29xvipQIV1IVI8XwhZUoD8ETgj3osesv0equvx8SHxtRagHISQgOB4yDpsUjUy_zUhZnNhWwkVJHCKm_mQTgkNkQCnZ6KzHIO_JyK4e5ZrruCwHpKwR4CX_zJ2wPacXHQ9f9pz3sT4HtlMhTgA=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | In 2015, BNPL was a 'class of unregulated fintech products'. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxEt1_z1k0VNTSP4e2MjPWUmKsHZdQD6R2V_eAToyfcvsEFI_JMsZ3EUKLtFqqZ_o8u29xvipQIV1IVI8XwhZUoD8ETgj3osesv0equvx8SHxtRagHISQgOB4yDpsUjUy_zUhZnNhWwkVJHCKm_mQTgkNkQCnZ6KzHIO_JyK4e5ZrruCwHpKwR4CX_zJ2wPacXHQ9f9pz3sT4HtlMhTgA=) |
+| `infrastructure` | `developing` | `developing` | HIGH | In 2015, 15.4 million POS systems were in use, and innovations in POS technology | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxEt1_z1k0VNTSP4e2MjPWUmKsHZdQD6R2V_eAToyfcvsEFI_JMsZ3EUKLtFqqZ_o8u29xvipQIV1IVI8XwhZUoD8ETgj3osesv0equvx8SHxtRagHISQgOB4yDpsUjUy_zUhZnNhWwkVJHCKm_mQTgkNkQCnZ6KzHIO_JyK4e5ZrruCwHpKwR4CX_zJ2wPacXHQ9f9pz3sT4HtlMhTgA=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | The cost of the platform-based BNPL service is borne primarily by merchants. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxEt1_z1k0VNTSP4e2MjPWUmKsHZdQD6R2V_eAToyfcvsEFI_JMsZ3EUKLtFqqZ_o8u29xvipQIV1IVI8XwhZUoD8ETgj3osesv0equvx8SHxtRagHISQgOB4yDpsUjUy_zUhZnNhWwkVJHCKm_mQTgkNkQCnZ6KzHIO_JyK4e5ZrruCwHpKwR4CX_zJ2wPacXHQ9f9pz3sT4HtlMhTgA=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `oligopoly` | 48 |
+| `market_size` | `small` | 22 |
+| `customer_readiness` | `innovation_trigger` | 30 |
+| `regulatory` | `unregulated` | 72 |
+| `infrastructure` | `developing` | 45 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **51** |
+
+### Digital Home Buying Selling Mortgage Platforms (2016)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** MEDIUM (H=2 M=4 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `early_adopters` | MEDIUM | The PropTech wave began with accelerations in 2014-2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9wzx7AdrInXyJKioxGgQMfFSsUtn-SVvrjplJxQZGTO6V-RbWGmMA0BFb7lQtHoheik5Ih_faPgfy9k_dwOOk22Cn9AAH5XIYHU9e5phrwKsrxejFJ0dWOvFrWlA20KmmxfBYfi0Xbp_81ZufJsln2Dy_rehV-LSG-Vqw_xh60LAK6W2agI0=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Opendoor, a pioneer in the iBuyer model, was founded in March 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9wzx7AdrInXyJKioxGgQMfFSsUtn-SVvrjplJxQZGTO6V-RbWGmMA0BFb7lQtHoheik5Ih_faPgfy9k_dwOOk22Cn9AAH5XIYHU9e5phrwKsrxejFJ0dWOvFrWlA20KmmxfBYfi0Xbp_81ZufJsln2Dy_rehV-LSG-Vqw_xh60LAK6W2agI0=) |
+| `market_size` | `micro` | `small` | MEDIUM | Proptech investment hit $1 billion in February 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9wzx7AdrInXyJKioxGgQMfFSsUtn-SVvrjplJxQZGTO6V-RbWGmMA0BFb7lQtHoheik5Ih_faPgfy9k_dwOOk22Cn9AAH5XIYHU9e5phrwKsrxejFJ0dWOvFrWlA20KmmxfBYfi0Xbp_81ZufJsln2Dy_rehV-LSG-Vqw_xh60LAK6W2agI0=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | 82% of consumers were interested in smart home devices in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9wzx7AdrInXyJKioxGgQMfFSsUtn-SVvrjplJxQZGTO6V-RbWGmMA0BFb7lQtHoheik5Ih_faPgfy9k_dwOOk22Cn9AAH5XIYHU9e5phrwKsrxejFJ0dWOvFrWlA20KmmxfBYfi0Xbp_81ZufJsln2Dy_rehV-LSG-Vqw_xh60LAK6W2agI0=) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | The mortgage industry had significant barriers to entry for innovators in 2016 d | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9wzx7AdrInXyJKioxGgQMfFSsUtn-SVvrjplJxQZGTO6V-RbWGmMA0BFb7lQtHoheik5Ih_faPgfy9k_dwOOk22Cn9AAH5XIYHU9e5phrwKsrxejFJ0dWOvFrWlA20KmmxfBYfi0Xbp_81ZufJsln2Dy_rehV-LSG-Vqw_xh60LAK6W2agI0=) |
+| `infrastructure` | `nascent` | `developing` | LOW | VR headsets like Oculus Rift and HTC Vive were introduced in 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9wzx7AdrInXyJKioxGgQMfFSsUtn-SVvrjplJxQZGTO6V-RbWGmMA0BFb7lQtHoheik5Ih_faPgfy9k_dwOOk22Cn9AAH5XIYHU9e5phrwKsrxejFJ0dWOvFrWlA20KmmxfBYfi0Xbp_81ZufJsln2Dy_rehV-LSG-Vqw_xh60LAK6W2agI0=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Opendoor's iBuyer model, launched in 2014, aimed to transform home buying and se | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9wzx7AdrInXyJKioxGgQMfFSsUtn-SVvrjplJxQZGTO6V-RbWGmMA0BFb7lQtHoheik5Ih_faPgfy9k_dwOOk22Cn9AAH5XIYHU9e5phrwKsrxejFJ0dWOvFrWlA20KmmxfBYfi0Xbp_81ZufJsln2Dy_rehV-LSG-Vqw_xh60LAK6W2agI0=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `oligopoly` | 41 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 48 |
+| `regulatory` | `moderate_compliance` | 62 |
+| `infrastructure` | `developing` | 35 |
+| `market_structure` | `platform_two_sided` | 72 |
+| **Mean** | — | **49** |
+
+### Digital Chronic Disease and Wellness Coaching Platforms (2015)
+
+**T+5:** VERIFIED (13 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | In 2015, nearly half of Americans had used only one or none of the major digital | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET5onhy5KhecLHt7gm1Ac2CRGCmIs4te-PJVDsmz7zinzbzYCetl621XM1BYb9e-9YIcmmaLV83MyOL4OlONZ2H56uWaxQM9ji49tX5Ja2pkrqMlK1uj9euZT45CbxQcv7SGK6N1iq7D7I7BhFsTkBh2FRtHNVazGO-EkBOWnyicg=) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | In 2014, 258 digital health companies each raised more than $2 million, indicati | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET5onhy5KhecLHt7gm1Ac2CRGCmIs4te-PJVDsmz7zinzbzYCetl621XM1BYb9e-9YIcmmaLV83MyOL4OlONZ2H56uWaxQM9ji49tX5Ja2pkrqMlK1uj9euZT45CbxQcv7SGK6N1iq7D7I7BhFsTkBh2FRtHNVazGO-EkBOWnyicg=) |
+| `market_size` | `small` | `small` | HIGH | The U.S. health coaching market was estimated at $6.14 billion in 2017, indicati | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET5onhy5KhecLHt7gm1Ac2CRGCmIs4te-PJVDsmz7zinzbzYCetl621XM1BYb9e-9YIcmmaLV83MyOL4OlONZ2H56uWaxQM9ji49tX5Ja2pkrqMlK1uj9euZT45CbxQcv7SGK6N1iq7D7I7BhFsTkBh2FRtHNVazGO-EkBOWnyicg=) |
+| `customer_readiness` | `slope_of_enlightenment` | `peak_of_inflated_expectations` | LOW | In Gartner's 2015 Hype Cycle, wearables and the Internet of Things were at the ' | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET5onhy5KhecLHt7gm1Ac2CRGCmIs4te-PJVDsmz7zinzbzYCetl621XM1BYb9e-9YIcmmaLV83MyOL4OlONZ2H56uWaxQM9ji49tX5Ja2pkrqMlK1uj9euZT45CbxQcv7SGK6N1iq7D7I7BhFsTkBh2FRtHNVazGO-EkBOWnyicg=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | In 2015, the FDA clarified that its jurisdiction did not extend to 'lifestyle ap | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET5onhy5KhecLHt7gm1Ac2CRGCmIs4te-PJVDsmz7zinzbzYCetl621XM1BYb9e-9YIcmmaLV83MyOL4OlONZ2H56uWaxQM9ji49tX5Ja2pkrqMlK1uj9euZT45CbxQcv7SGK6N1iq7D7I7BhFsTkBh2FRtHNVazGO-EkBOWnyicg=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | A 2010 report projected that over a third of 1.4 billion smartphone users in 201 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET5onhy5KhecLHt7gm1Ac2CRGCmIs4te-PJVDsmz7zinzbzYCetl621XM1BYb9e-9YIcmmaLV83MyOL4OlONZ2H56uWaxQM9ji49tX5Ja2pkrqMlK1uj9euZT45CbxQcv7SGK6N1iq7D7I7BhFsTkBh2FRtHNVazGO-EkBOWnyicg=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | In 2015, digital health was viewed as a 'revolution' driven by the convergence o | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET5onhy5KhecLHt7gm1Ac2CRGCmIs4te-PJVDsmz7zinzbzYCetl621XM1BYb9e-9YIcmmaLV83MyOL4OlONZ2H56uWaxQM9ji49tX5Ja2pkrqMlK1uj9euZT45CbxQcv7SGK6N1iq7D7I7BhFsTkBh2FRtHNVazGO-EkBOWnyicg=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 45 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `emerging` | 55 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **58** |
+
+### Role 3 Prompt Audit — Direct Audience Monetization Platforms for Independent Creators
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               medium                                LOW
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                light_touch                           HIGH
+  infrastructure            developing                            MEDIUM
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 5 | 4 | 0 |
+| `competition` | 6 | 3 | 0 |
+| `market_size` | 2 | 1 | 6 |
+| `customer_readiness` | 3 | 2 | 4 |
+| `regulatory` | 5 | 4 | 0 |
+| `infrastructure` | 4 | 4 | 1 |
+| `market_structure` | 4 | 4 | 1 |
+
+
+---
+
+## Batch 83  —  2026-03-20 17:13:07
+
+**Markets processed this batch:** 6  
+**Cumulative total:** 244 / 350  
+**Batch agreement:** MEDIUM (score=0.548)  
+**HIGH:** 20  **MEDIUM:** 6  **LOW:** 16  
+**Auto-correction triggered:** no
+
+### Subscription Billing and Management Platforms E-Commerce (2016)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=3 M=2 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | The subscription e-commerce market grew by over 100% annually for five years lea | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXECHz7FYXs6C4D1cR4j4gHt4EjNiKlzzEW-A61ByvGWj5rWX85Tx1i4BDVhrgjdPLs0XBsw4BfE_xJWKvt-3lT4BTKb667UFj9aXpRnLv0q8pjWoMB-eJmBRTtBCX9C24MBoOHLDb7T396d7LI9SMdvJb9wrXw6fHxym394wxTdaj7iXxiELTotuCq-tFumvZcQRm6vHilRk2FxGMjJgXMduvBtVt1uhxLUd_Osr0W7-XLz1uVPNDHXtcGnt5wQ9yr24Yl-T5LkGpWrL6hcptXgiI7Fk7M_4wTURvJQ==) |
+| `competition` | `unknown` | `monopolistic_competition` | LOW | Unilever acquired Dollar Shave Club for $1 billion in 2016, highlighting signifi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXECHz7FYXs6C4D1cR4j4gHt4EjNiKlzzEW-A61ByvGWj5rWX85Tx1i4BDVhrgjdPLs0XBsw4BfE_xJWKvt-3lT4BTKb667UFj9aXpRnLv0q8pjWoMB-eJmBRTtBCX9C24MBoOHLDb7T396d7LI9SMdvJb9wrXw6fHxym394wxTdaj7iXxiELTotuCq-tFumvZcQRm6vHilRk2FxGMjJgXMduvBtVt1uhxLUd_Osr0W7-XLz1uVPNDHXtcGnt5wQ9yr24Yl-T5LkGpWrL6hcptXgiI7Fk7M_4wTURvJQ==) |
+| `market_size` | `unknown` | `large` | LOW | Largest subscription e-commerce retailers generated over $2.6 billion in sales i | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXECHz7FYXs6C4D1cR4j4gHt4EjNiKlzzEW-A61ByvGWj5rWX85Tx1i4BDVhrgjdPLs0XBsw4BfE_xJWKvt-3lT4BTKb667UFj9aXpRnLv0q8pjWoMB-eJmBRTtBCX9C24MBoOHLDb7T396d7LI9SMdvJb9wrXw6fHxym394wxTdaj7iXxiELTotuCq-tFumvZcQRm6vHilRk2FxGMjJgXMduvBtVt1uhxLUd_Osr0W7-XLz1uVPNDHXtcGnt5wQ9yr24Yl-T5LkGpWrL6hcptXgiI7Fk7M_4wTURvJQ==) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | 15% of online shoppers had subscribed to an e-commerce service by 2016. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXECHz7FYXs6C4D1cR4j4gHt4EjNiKlzzEW-A61ByvGWj5rWX85Tx1i4BDVhrgjdPLs0XBsw4BfE_xJWKvt-3lT4BTKb667UFj9aXpRnLv0q8pjWoMB-eJmBRTtBCX9C24MBoOHLDb7T396d7LI9SMdvJb9wrXw6fHxym394wxTdaj7iXxiELTotuCq-tFumvZcQRm6vHilRk2FxGMjJgXMduvBtVt1uhxLUd_Osr0W7-XLz1uVPNDHXtcGnt5wQ9yr24Yl-T5LkGpWrL6hcptXgiI7Fk7M_4wTURvJQ==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | No specific heavy regulations were highlighted for subscription billing platform | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXECHz7FYXs6C4D1cR4j4gHt4EjNiKlzzEW-A61ByvGWj5rWX85Tx1i4BDVhrgjdPLs0XBsw4BfE_xJWKvt-3lT4BTKb667UFj9aXpRnLv0q8pjWoMB-eJmBRTtBCX9C24MBoOHLDb7T396d7LI9SMdvJb9wrXw6fHxym394wxTdaj7iXxiELTotuCq-tFumvZcQRm6vHilRk2FxGMjJgXMduvBtVt1uhxLUd_Osr0W7-XLz1uVPNDHXtcGnt5wQ9yr24Yl-T5LkGpWrL6hcptXgiI7Fk7M_4wTURvJQ==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | E-commerce websites were increasingly using recurring billing systems in 2016, m | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXECHz7FYXs6C4D1cR4j4gHt4EjNiKlzzEW-A61ByvGWj5rWX85Tx1i4BDVhrgjdPLs0XBsw4BfE_xJWKvt-3lT4BTKb667UFj9aXpRnLv0q8pjWoMB-eJmBRTtBCX9C24MBoOHLDb7T396d7LI9SMdvJb9wrXw6fHxym394wxTdaj7iXxiELTotuCq-tFumvZcQRm6vHilRk2FxGMjJgXMduvBtVt1uhxLUd_Osr0W7-XLz1uVPNDHXtcGnt5wQ9yr24Yl-T5LkGpWrL6hcptXgiI7Fk7M_4wTURvJQ==) |
+| `market_structure` | `technology_enablement` | `technology_enablement` | HIGH | Subscription billing platforms like Recurly and Chargebee were providing the cor | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXECHz7FYXs6C4D1cR4j4gHt4EjNiKlzzEW-A61ByvGWj5rWX85Tx1i4BDVhrgjdPLs0XBsw4BfE_xJWKvt-3lT4BTKb667UFj9aXpRnLv0q8pjWoMB-eJmBRTtBCX9C24MBoOHLDb7T396d7LI9SMdvJb9wrXw6fHxym394wxTdaj7iXxiELTotuCq-tFumvZcQRm6vHilRk2FxGMjJgXMduvBtVt1uhxLUd_Osr0W7-XLz1uVPNDHXtcGnt5wQ9yr24Yl-T5LkGpWrL6hcptXgiI7Fk7M_4wTURvJQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 70 |
+| `customer_readiness` | `slope_of_enlightenment` | 78 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `technology_enablement` | 85 |
+| **Mean** | — | **72** |
+
+### Massive Open Online Course and Digital Certification Platforms (2014)
+
+**T+5:** VERIFIED (13 sources)  **Agreement:** MEDIUM (H=4 M=1 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | 2012 was called 'the year of the MOOC'. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfwExe5gOzg_O6SbSKzagEJwZqDVRWH5vH5RX7Wx_6nPrrPcTmcDITOCVWgxBLtg2ZxejevglBrqhJCrwxNjv9qYaEbGF0b5iwNsoXHPV8UTCiRPgxQB_9mRu_9NNTdio=) |
+| `competition` | `unknown` | `oligopoly` | LOW | Coursera, edX, and Udacity were the 'Big 3' MOOC providers in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfwExe5gOzg_O6SbSKzagEJwZqDVRWH5vH5RX7Wx_6nPrrPcTmcDITOCVWgxBLtg2ZxejevglBrqhJCrwxNjv9qYaEbGF0b5iwNsoXHPV8UTCiRPgxQB_9mRu_9NNTdio=) |
+| `market_size` | `unknown` | `large` | LOW | 16-18 million students were enrolled in MOOCs by 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfwExe5gOzg_O6SbSKzagEJwZqDVRWH5vH5RX7Wx_6nPrrPcTmcDITOCVWgxBLtg2ZxejevglBrqhJCrwxNjv9qYaEbGF0b5iwNsoXHPV8UTCiRPgxQB_9mRu_9NNTdio=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `trough_of_disillusionment` | MEDIUM | 2013 and 2014 were identified as the 'trough of disillusionment' for MOOCs. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfwExe5gOzg_O6SbSKzagEJwZqDVRWH5vH5RX7Wx_6nPrrPcTmcDITOCVWgxBLtg2ZxejevglBrqhJCrwxNjv9qYaEbGF0b5iwNsoXHPV8UTCiRPgxQB_9mRu_9NNTdio=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Penn State began offering academic credit for MOOC completion in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfwExe5gOzg_O6SbSKzagEJwZqDVRWH5vH5RX7Wx_6nPrrPcTmcDITOCVWgxBLtg2ZxejevglBrqhJCrwxNjv9qYaEbGF0b5iwNsoXHPV8UTCiRPgxQB_9mRu_9NNTdio=) |
+| `infrastructure` | `developing` | `developing` | HIGH | Open edX became a de facto platform for hosting MOOCs in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfwExe5gOzg_O6SbSKzagEJwZqDVRWH5vH5RX7Wx_6nPrrPcTmcDITOCVWgxBLtg2ZxejevglBrqhJCrwxNjv9qYaEbGF0b5iwNsoXHPV8UTCiRPgxQB_9mRu_9NNTdio=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Major MOOC providers introduced their own paid credentials (e.g., Nanodegrees, S | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfwExe5gOzg_O6SbSKzagEJwZqDVRWH5vH5RX7Wx_6nPrrPcTmcDITOCVWgxBLtg2ZxejevglBrqhJCrwxNjv9qYaEbGF0b5iwNsoXHPV8UTCiRPgxQB_9mRu_9NNTdio=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 41 |
+| `market_size` | `large` | 70 |
+| `customer_readiness` | `trough_of_disillusionment` | 35 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 58 |
+| `market_structure` | `platform_two_sided` | 74 |
+| **Mean** | — | **62** |
+
+### Online Peer-to-Peer Pre-Owned Goods Marketplaces (2018)
+
+**T+5:** VERIFIED (14 sources)  **Agreement:** MEDIUM (H=4 M=1 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_majority` | `early_majority` | HIGH | In 2018, global e-retail sales amounted to $2.3 trillion. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi_nytNa1uaPZ7_acJ6tKa8pjRRyMu2oeXeP6my9GSe7SFJvmeDUXZ6JxMtMSVCGnS6RvTpRLlei95RnUrM28iXWOuoZzGvjm8tiadPzptxKcNgdQwhQp95jiJ5BYHCGrqgT-XT4e8bM--vfIjA-4cDDfFDwFhMcx7zqVtQJU3stOziDCWGLCfWvsFEYbhoRWuDVlI2ds=) |
+| `competition` | `unknown` | `oligopoly` | LOW | Amazon held 49.1% of the U.S. online retail market in 2018, and eBay held 6.6%. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi_nytNa1uaPZ7_acJ6tKa8pjRRyMu2oeXeP6my9GSe7SFJvmeDUXZ6JxMtMSVCGnS6RvTpRLlei95RnUrM28iXWOuoZzGvjm8tiadPzptxKcNgdQwhQp95jiJ5BYHCGrqgT-XT4e8bM--vfIjA-4cDDfFDwFhMcx7zqVtQJU3stOziDCWGLCfWvsFEYbhoRWuDVlI2ds=) |
+| `market_size` | `unknown` | `large` | LOW | The second-hand market (excluding automotive) was worth $180 billion in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi_nytNa1uaPZ7_acJ6tKa8pjRRyMu2oeXeP6my9GSe7SFJvmeDUXZ6JxMtMSVCGnS6RvTpRLlei95RnUrM28iXWOuoZzGvjm8tiadPzptxKcNgdQwhQp95jiJ5BYHCGrqgT-XT4e8bM--vfIjA-4cDDfFDwFhMcx7zqVtQJU3stOziDCWGLCfWvsFEYbhoRWuDVlI2ds=) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | 70% of ThredUp's new customers in 2018 were first-time resale shoppers. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi_nytNa1uaPZ7_acJ6tKa8pjRRyMu2oeXeP6my9GSe7SFJvmeDUXZ6JxMtMSVCGnS6RvTpRLlei95RnUrM28iXWOuoZzGvjm8tiadPzptxKcNgdQwhQp95jiJ5BYHCGrqgT-XT4e8bM--vfIjA-4cDDfFDwFhMcx7zqVtQJU3stOziDCWGLCfWvsFEYbhoRWuDVlI2ds=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | California enacted the Consumer Privacy Act (CCPA) in 2018, establishing data pr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi_nytNa1uaPZ7_acJ6tKa8pjRRyMu2oeXeP6my9GSe7SFJvmeDUXZ6JxMtMSVCGnS6RvTpRLlei95RnUrM28iXWOuoZzGvjm8tiadPzptxKcNgdQwhQp95jiJ5BYHCGrqgT-XT4e8bM--vfIjA-4cDDfFDwFhMcx7zqVtQJU3stOziDCWGLCfWvsFEYbhoRWuDVlI2ds=) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Amazon offered 'Fulfilment by Amazon' services in 2018, indicating advanced e-co | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi_nytNa1uaPZ7_acJ6tKa8pjRRyMu2oeXeP6my9GSe7SFJvmeDUXZ6JxMtMSVCGnS6RvTpRLlei95RnUrM28iXWOuoZzGvjm8tiadPzptxKcNgdQwhQp95jiJ5BYHCGrqgT-XT4e8bM--vfIjA-4cDDfFDwFhMcx7zqVtQJU3stOziDCWGLCfWvsFEYbhoRWuDVlI2ds=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | P2P marketplaces like eBay and Poshmark connect individual buyers and sellers di | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi_nytNa1uaPZ7_acJ6tKa8pjRRyMu2oeXeP6my9GSe7SFJvmeDUXZ6JxMtMSVCGnS6RvTpRLlei95RnUrM28iXWOuoZzGvjm8tiadPzptxKcNgdQwhQp95jiJ5BYHCGrqgT-XT4e8bM--vfIjA-4cDDfFDwFhMcx7zqVtQJU3stOziDCWGLCfWvsFEYbhoRWuDVlI2ds=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 78 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `large` | 70 |
+| `customer_readiness` | `slope_of_enlightenment` | 74 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 80 |
+| **Mean** | — | **68** |
+
+### Virtual Telehealth Consultation and Prescription Platforms (2014)
+
+**T+5:** VERIFIED (17 sources)  **Agreement:** MEDIUM (H=4 M=0 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Hospital telehealth adoption was 54% in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElzSpZlxXt_3b9cf7oqGAs9qMBxfcwmBhWj86-4NNv4G-6wwD18W1nWErRo7tsSfUVdK_Yz3z-x--VkXSxqg-3pj3YdNRIA8Ufr8e3fr1EOv4FXmM3YpZG7tpyV5-_uugcfTejy0nFhshTSoOiE9LEeaAKF_rL9gu8tzFGTrRE) |
+| `competition` | `unknown` | `oligopoly` | LOW | Teladoc Inc., MDLive Inc., and American Well Corp. were identified as leading pr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElzSpZlxXt_3b9cf7oqGAs9qMBxfcwmBhWj86-4NNv4G-6wwD18W1nWErRo7tsSfUVdK_Yz3z-x--VkXSxqg-3pj3YdNRIA8Ufr8e3fr1EOv4FXmM3YpZG7tpyV5-_uugcfTejy0nFhshTSoOiE9LEeaAKF_rL9gu8tzFGTrRE) |
+| `market_size` | `unknown` | `large` | LOW | The global telemedicine market was valued at $14.3 billion in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElzSpZlxXt_3b9cf7oqGAs9qMBxfcwmBhWj86-4NNv4G-6wwD18W1nWErRo7tsSfUVdK_Yz3z-x--VkXSxqg-3pj3YdNRIA8Ufr8e3fr1EOv4FXmM3YpZG7tpyV5-_uugcfTejy0nFhshTSoOiE9LEeaAKF_rL9gu8tzFGTrRE) |
+| `customer_readiness` | `slope_of_enlightenment` | `peak_of_inflated_expectations` | LOW | By 2018, 22 million households were projected to use virtual care solutions, a s | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElzSpZlxXt_3b9cf7oqGAs9qMBxfcwmBhWj86-4NNv4G-6wwD18W1nWErRo7tsSfUVdK_Yz3z-x--VkXSxqg-3pj3YdNRIA8Ufr8e3fr1EOv4FXmM3YpZG7tpyV5-_uugcfTejy0nFhshTSoOiE9LEeaAKF_rL9gu8tzFGTrRE) |
+| `regulatory` | `moderate_compliance` | `moderate_compliance` | HIGH | Telemedicine laws and regulations varied state-by-state in 2014, posing challeng | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElzSpZlxXt_3b9cf7oqGAs9qMBxfcwmBhWj86-4NNv4G-6wwD18W1nWErRo7tsSfUVdK_Yz3z-x--VkXSxqg-3pj3YdNRIA8Ufr8e3fr1EOv4FXmM3YpZG7tpyV5-_uugcfTejy0nFhshTSoOiE9LEeaAKF_rL9gu8tzFGTrRE) |
+| `infrastructure` | `developing` | `developing` | HIGH | 76% of non-federal acute care hospitals had adopted at least a Basic EHR system  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElzSpZlxXt_3b9cf7oqGAs9qMBxfcwmBhWj86-4NNv4G-6wwD18W1nWErRo7tsSfUVdK_Yz3z-x--VkXSxqg-3pj3YdNRIA8Ufr8e3fr1EOv4FXmM3YpZG7tpyV5-_uugcfTejy0nFhshTSoOiE9LEeaAKF_rL9gu8tzFGTrRE) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Companies like Teladoc, MDLive, and American Well functioned as platforms connec | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElzSpZlxXt_3b9cf7oqGAs9qMBxfcwmBhWj86-4NNv4G-6wwD18W1nWErRo7tsSfUVdK_Yz3z-x--VkXSxqg-3pj3YdNRIA8Ufr8e3fr1EOv4FXmM3YpZG7tpyV5-_uugcfTejy0nFhshTSoOiE9LEeaAKF_rL9gu8tzFGTrRE) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `large` | 70 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 48 |
+| `regulatory` | `moderate_compliance` | 65 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **61** |
+
+### EV Charging Network Infrastructure and Software Platforms (2017)
+
+**T+5:** VERIFIED (19 sources)  **Agreement:** LOW (H=2 M=1 L=4)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The global electric car stock was 0.2% of total passenger light-duty vehicles in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFQfl1qdpCgK0qmyiYXDr2ROsAJyKmjhvCJY7jdAQ9dDbAxaSPx_sZDu2xADps7WaDGQ35X-Up22T4yD3hx-qF8yYaAieMwCq7KIge4yniY4CIF69QZeakkZMK7VK50T9q9DmTcbuiPJw6ZcitL4ZFbc_R4BoM1AHQrxbRnbWHS6xO1V6o) |
+| `competition` | `unknown` | `oligopoly` | LOW | ChargePoint was described as the 'world's largest EV charging network' in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFQfl1qdpCgK0qmyiYXDr2ROsAJyKmjhvCJY7jdAQ9dDbAxaSPx_sZDu2xADps7WaDGQ35X-Up22T4yD3hx-qF8yYaAieMwCq7KIge4yniY4CIF69QZeakkZMK7VK50T9q9DmTcbuiPJw6ZcitL4ZFbc_R4BoM1AHQrxbRnbWHS6xO1V6o) |
+| `market_size` | `unknown` | `small` | LOW | There were 25,944 EV charging ports in the US in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFQfl1qdpCgK0qmyiYXDr2ROsAJyKmjhvCJY7jdAQ9dDbAxaSPx_sZDu2xADps7WaDGQ35X-Up22T4yD3hx-qF8yYaAieMwCq7KIge4yniY4CIF69QZeakkZMK7VK50T9q9DmTcbuiPJw6ZcitL4ZFbc_R4BoM1AHQrxbRnbWHS6xO1V6o) |
+| `customer_readiness` | `slope_of_enlightenment` | `innovation_trigger` | LOW | In 2017, business models relying solely on direct revenue from EV charging servi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFQfl1qdpCgK0qmyiYXDr2ROsAJyKmjhvCJY7jdAQ9dDbAxaSPx_sZDu2xADps7WaDGQ35X-Up22T4yD3hx-qF8yYaAieMwCq7KIge4yniY4CIF69QZeakkZMK7VK50T9q9DmTcbuiPJw6ZcitL4ZFbc_R4BoM1AHQrxbRnbWHS6xO1V6o) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | 43 US states and DC took action related to EVs in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFQfl1qdpCgK0qmyiYXDr2ROsAJyKmjhvCJY7jdAQ9dDbAxaSPx_sZDu2xADps7WaDGQ35X-Up22T4yD3hx-qF8yYaAieMwCq7KIge4yniY4CIF69QZeakkZMK7VK50T9q9DmTcbuiPJw6ZcitL4ZFbc_R4BoM1AHQrxbRnbWHS6xO1V6o) |
+| `infrastructure` | `developing` | `nascent` | LOW | The US had 25,944 EV charging ports in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFQfl1qdpCgK0qmyiYXDr2ROsAJyKmjhvCJY7jdAQ9dDbAxaSPx_sZDu2xADps7WaDGQ35X-Up22T4yD3hx-qF8yYaAieMwCq7KIge4yniY4CIF69QZeakkZMK7VK50T9q9DmTcbuiPJw6ZcitL4ZFbc_R4BoM1AHQrxbRnbWHS6xO1V6o) |
+| `market_structure` | `winner_take_most` | `platform_two_sided` | MEDIUM | ChargePoint, a major player in 2017, operated as a 'Platform offering cloud-enab | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFQfl1qdpCgK0qmyiYXDr2ROsAJyKmjhvCJY7jdAQ9dDbAxaSPx_sZDu2xADps7WaDGQ35X-Up22T4yD3hx-qF8yYaAieMwCq7KIge4yniY4CIF69QZeakkZMK7VK50T9q9DmTcbuiPJw6ZcitL4ZFbc_R4BoM1AHQrxbRnbWHS6xO1V6o) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `oligopoly` | 41 |
+| `market_size` | `small` | 18 |
+| `customer_readiness` | `innovation_trigger` | 30 |
+| `regulatory` | `light_touch` | 78 |
+| `infrastructure` | `nascent` | 25 |
+| `market_structure` | `platform_two_sided` | 62 |
+| **Mean** | — | **45** |
+
+### Mobile Mental Wellness Therapy and Meditation Apps (2018)
+
+**T+5:** VERIFIED (12 sources)  **Agreement:** MEDIUM (H=3 M=1 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Over 10,000 mental health apps were available by 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd2B7yEt0MAppnzw2au97j1NSYZ6xJZCxTK5dRFni0D9TWL8QRQqyEZgI4EUwoBZfZrau20kM2O8-sXXZV9RRGPdIBAlF6YBiYzBBXyXi7V88MwCexTqe31q-omxhKvtexzg70AdSpIsLXIl8k-V7lrsYjt8wdlaNKMFCTzRwsXqXdZnw4mIcynz39vM3T) |
+| `competition` | `unknown` | `monopolistic_competition` | LOW | Over 10,000 mental health apps were available by 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd2B7yEt0MAppnzw2au97j1NSYZ6xJZCxTK5dRFni0D9TWL8QRQqyEZgI4EUwoBZfZrau20kM2O8-sXXZV9RRGPdIBAlF6YBiYzBBXyXi7V88MwCexTqe31q-omxhKvtexzg70AdSpIsLXIl8k-V7lrsYjt8wdlaNKMFCTzRwsXqXdZnw4mIcynz39vM3T) |
+| `market_size` | `unknown` | `small` | LOW | Calm, a leading meditation app, had total funding of USD 28 million in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd2B7yEt0MAppnzw2au97j1NSYZ6xJZCxTK5dRFni0D9TWL8QRQqyEZgI4EUwoBZfZrau20kM2O8-sXXZV9RRGPdIBAlF6YBiYzBBXyXi7V88MwCexTqe31q-omxhKvtexzg70AdSpIsLXIl8k-V7lrsYjt8wdlaNKMFCTzRwsXqXdZnw4mIcynz39vM3T) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | A 2018 survey found 70% of outpatient help-seekers were interested in using apps | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd2B7yEt0MAppnzw2au97j1NSYZ6xJZCxTK5dRFni0D9TWL8QRQqyEZgI4EUwoBZfZrau20kM2O8-sXXZV9RRGPdIBAlF6YBiYzBBXyXi7V88MwCexTqe31q-omxhKvtexzg70AdSpIsLXIl8k-V7lrsYjt8wdlaNKMFCTzRwsXqXdZnw4mIcynz39vM3T) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | In 2018, many mental health apps were not evidence-based, suggesting a lack of s | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd2B7yEt0MAppnzw2au97j1NSYZ6xJZCxTK5dRFni0D9TWL8QRQqyEZgI4EUwoBZfZrau20kM2O8-sXXZV9RRGPdIBAlF6YBiYzBBXyXi7V88MwCexTqe31q-omxhKvtexzg70AdSpIsLXIl8k-V7lrsYjt8wdlaNKMFCTzRwsXqXdZnw4mIcynz39vM3T) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | The widespread adoption of smartphones, initiated by the iPhone in 2007, provide | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd2B7yEt0MAppnzw2au97j1NSYZ6xJZCxTK5dRFni0D9TWL8QRQqyEZgI4EUwoBZfZrau20kM2O8-sXXZV9RRGPdIBAlF6YBiYzBBXyXi7V88MwCexTqe31q-omxhKvtexzg70AdSpIsLXIl8k-V7lrsYjt8wdlaNKMFCTzRwsXqXdZnw4mIcynz39vM3T) |
+| `market_structure` | `winner_take_most` | `fragmented_niche` | LOW | Over 10,000 mental health apps were available by 2018, indicating a highly fragm | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd2B7yEt0MAppnzw2au97j1NSYZ6xJZCxTK5dRFni0D9TWL8QRQqyEZgI4EUwoBZfZrau20kM2O8-sXXZV9RRGPdIBAlF6YBiYzBBXyXi7V88MwCexTqe31q-omxhKvtexzg70AdSpIsLXIl8k-V7lrsYjt8wdlaNKMFCTzRwsXqXdZnw4mIcynz39vM3T) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `slope_of_enlightenment` | 74 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `fragmented_niche` | 48 |
+| **Mean** | — | **59** |
+
+### Role 3 Prompt Audit — Subscription Billing and Management Platforms E-Commerce
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_majority                        MEDIUM
+  competition               monopolistic_competition              LOW
+  market_size               large                                 LOW
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                light_touch                           HIGH
+  infrastructure            developing                            MEDIUM
+  market_structure          technology_enablement                 HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 5 | 1 | 0 |
+| `competition` | 0 | 0 | 6 |
+| `market_size` | 0 | 0 | 6 |
+| `customer_readiness` | 3 | 1 | 2 |
+| `regulatory` | 6 | 0 | 0 |
+| `infrastructure` | 2 | 3 | 1 |
+| `market_structure` | 4 | 1 | 1 |
+
+
+---
+
+## Batch 85  —  2026-03-20 17:16:59
+
+**Markets processed this batch:** 6  
+**Cumulative total:** 250 / 350  
+**Batch agreement:** MEDIUM (score=0.595)  
+**HIGH:** 17  **MEDIUM:** 16  **LOW:** 9  
+**Auto-correction triggered:** no
+
+### Creator Membership and Subscription Monetization Platforms (2017)
+
+**T+5:** VERIFIED (13 sources)  **Agreement:** HIGH (H=5 M=1 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The global creator economy was valued at $3 billion in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnBj_tcXtIaBcWVB7TUrabGRcKFAz1fdDPxb4G8ki_VfLUOcqihzcTJ01jNyS8xqKS_Qvq_C7L--gkNc1wb7ra7qb5QgNe_InO0dQsSUm5ruY59HQpDJtigwrIMRvJwf3hoWJt1werJ9Bv5Sz0ByebA44WCrdPcGgMlgCdbSsGAU8dMPRVzGWvRTRl8uQh3-dzGhl_HicY6ylX8VgvcPnt7CtGGb8GupQHPb29SVMez9718p0C32Lp4K6vWpHkr2HEjMWe4xR5FvC-wIpasMnWDpf) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Patreon raised a $60 million Series C round in September 2017, highlighting its  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnBj_tcXtIaBcWVB7TUrabGRcKFAz1fdDPxb4G8ki_VfLUOcqihzcTJ01jNyS8xqKS_Qvq_C7L--gkNc1wb7ra7qb5QgNe_InO0dQsSUm5ruY59HQpDJtigwrIMRvJwf3hoWJt1werJ9Bv5Sz0ByebA44WCrdPcGgMlgCdbSsGAU8dMPRVzGWvRTRl8uQh3-dzGhl_HicY6ylX8VgvcPnt7CtGGb8GupQHPb29SVMez9718p0C32Lp4K6vWpHkr2HEjMWe4xR5FvC-wIpasMnWDpf) |
+| `market_size` | `micro` | `medium` | LOW | The global creator economy was valued at $3 billion in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnBj_tcXtIaBcWVB7TUrabGRcKFAz1fdDPxb4G8ki_VfLUOcqihzcTJ01jNyS8xqKS_Qvq_C7L--gkNc1wb7ra7qb5QgNe_InO0dQsSUm5ruY59HQpDJtigwrIMRvJwf3hoWJt1werJ9Bv5Sz0ByebA44WCrdPcGgMlgCdbSsGAU8dMPRVzGWvRTRl8uQh3-dzGhl_HicY6ylX8VgvcPnt7CtGGb8GupQHPb29SVMez9718p0C32Lp4K6vWpHkr2HEjMWe4xR5FvC-wIpasMnWDpf) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | In 2017, content and influencer marketing achieved chart-topping effectiveness r | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnBj_tcXtIaBcWVB7TUrabGRcKFAz1fdDPxb4G8ki_VfLUOcqihzcTJ01jNyS8xqKS_Qvq_C7L--gkNc1wb7ra7qb5QgNe_InO0dQsSUm5ruY59HQpDJtigwrIMRvJwf3hoWJt1werJ9Bv5Sz0ByebA44WCrdPcGgMlgCdbSsGAU8dMPRVzGWvRTRl8uQh3-dzGhl_HicY6ylX8VgvcPnt7CtGGb8GupQHPb29SVMez9718p0C32Lp4K6vWpHkr2HEjMWe4xR5FvC-wIpasMnWDpf) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Nearly 3 in 10 creators in 2017 reported receiving direct requests from clients  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnBj_tcXtIaBcWVB7TUrabGRcKFAz1fdDPxb4G8ki_VfLUOcqihzcTJ01jNyS8xqKS_Qvq_C7L--gkNc1wb7ra7qb5QgNe_InO0dQsSUm5ruY59HQpDJtigwrIMRvJwf3hoWJt1werJ9Bv5Sz0ByebA44WCrdPcGgMlgCdbSsGAU8dMPRVzGWvRTRl8uQh3-dzGhl_HicY6ylX8VgvcPnt7CtGGb8GupQHPb29SVMez9718p0C32Lp4K6vWpHkr2HEjMWe4xR5FvC-wIpasMnWDpf) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Patreon, a key platform, was already offering subscription management and conten | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnBj_tcXtIaBcWVB7TUrabGRcKFAz1fdDPxb4G8ki_VfLUOcqihzcTJ01jNyS8xqKS_Qvq_C7L--gkNc1wb7ra7qb5QgNe_InO0dQsSUm5ruY59HQpDJtigwrIMRvJwf3hoWJt1werJ9Bv5Sz0ByebA44WCrdPcGgMlgCdbSsGAU8dMPRVzGWvRTRl8uQh3-dzGhl_HicY6ylX8VgvcPnt7CtGGb8GupQHPb29SVMez9718p0C32Lp4K6vWpHkr2HEjMWe4xR5FvC-wIpasMnWDpf) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Substack, founded in 2017, operates as a platform allowing writers to publish an | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnBj_tcXtIaBcWVB7TUrabGRcKFAz1fdDPxb4G8ki_VfLUOcqihzcTJ01jNyS8xqKS_Qvq_C7L--gkNc1wb7ra7qb5QgNe_InO0dQsSUm5ruY59HQpDJtigwrIMRvJwf3hoWJt1werJ9Bv5Sz0ByebA44WCrdPcGgMlgCdbSsGAU8dMPRVzGWvRTRl8uQh3-dzGhl_HicY6ylX8VgvcPnt7CtGGb8GupQHPb29SVMez9718p0C32Lp4K6vWpHkr2HEjMWe4xR5FvC-wIpasMnWDpf) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `medium` | 52 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **65** |
+
+### Unified XDR Multi-Layer Security Detection Platforms (2019)
+
+**T+5:** VERIFIED (17 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `innovators` | MEDIUM | The term XDR was coined in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5b3mf8h5zWtz0kr7Tb-Vw0m6taBTTXFUx0kx34J_HSvaos2Yg9Kxq64QRrHXWTmnFQqg-xWZIuOt8dICG_kpMAZ6seTXMmZ05ttn3YLWe084F2lJApVcYXwx6P7oXMAyZyK83KHldcXNkxB4KEsnG25o8GpDBTyDcbAtY2gLK0lzyPhxIS18gAGkFF42J2-ZKw8-jclVi0jaQmB8=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | By June 2021, nearly 40 vendors were offering XDR capabilities. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5b3mf8h5zWtz0kr7Tb-Vw0m6taBTTXFUx0kx34J_HSvaos2Yg9Kxq64QRrHXWTmnFQqg-xWZIuOt8dICG_kpMAZ6seTXMmZ05ttn3YLWe084F2lJApVcYXwx6P7oXMAyZyK83KHldcXNkxB4KEsnG25o8GpDBTyDcbAtY2gLK0lzyPhxIS18gAGkFF42J2-ZKw8-jclVi0jaQmB8=) |
+| `market_size` | `small` | `small` | HIGH | The XDR market was projected to reach USD 7.92 billion in 2025. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5b3mf8h5zWtz0kr7Tb-Vw0m6taBTTXFUx0kx34J_HSvaos2Yg9Kxq64QRrHXWTmnFQqg-xWZIuOt8dICG_kpMAZ6seTXMmZ05ttn3YLWe084F2lJApVcYXwx6P7oXMAyZyK83KHldcXNkxB4KEsnG25o8GpDBTyDcbAtY2gLK0lzyPhxIS18gAGkFF42J2-ZKw8-jclVi0jaQmB8=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | XDR appeared on Gartner's Hype Cycle for Endpoint Security for the first time in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5b3mf8h5zWtz0kr7Tb-Vw0m6taBTTXFUx0kx34J_HSvaos2Yg9Kxq64QRrHXWTmnFQqg-xWZIuOt8dICG_kpMAZ6seTXMmZ05ttn3YLWe084F2lJApVcYXwx6P7oXMAyZyK83KHldcXNkxB4KEsnG25o8GpDBTyDcbAtY2gLK0lzyPhxIS18gAGkFF42J2-ZKw8-jclVi0jaQmB8=) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | Regulatory pressure from GDPR, HIPAA, and CCPA mandates comprehensive monitoring | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5b3mf8h5zWtz0kr7Tb-Vw0m6taBTTXFUx0kx34J_HSvaos2Yg9Kxq64QRrHXWTmnFQqg-xWZIuOt8dICG_kpMAZ6seTXMmZ05ttn3YLWe084F2lJApVcYXwx6P7oXMAyZyK83KHldcXNkxB4KEsnG25o8GpDBTyDcbAtY2gLK0lzyPhxIS18gAGkFF42J2-ZKw8-jclVi0jaQmB8=) |
+| `infrastructure` | `developing` | `developing` | HIGH | XDR is an evolution of Endpoint Detection and Response (EDR). | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5b3mf8h5zWtz0kr7Tb-Vw0m6taBTTXFUx0kx34J_HSvaos2Yg9Kxq64QRrHXWTmnFQqg-xWZIuOt8dICG_kpMAZ6seTXMmZ05ttn3YLWe084F2lJApVcYXwx6P7oXMAyZyK83KHldcXNkxB4KEsnG25o8GpDBTyDcbAtY2gLK0lzyPhxIS18gAGkFF42J2-ZKw8-jclVi0jaQmB8=) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | XDR aims to unify detection and response across all technologies. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5b3mf8h5zWtz0kr7Tb-Vw0m6taBTTXFUx0kx34J_HSvaos2Yg9Kxq64QRrHXWTmnFQqg-xWZIuOt8dICG_kpMAZ6seTXMmZ05ttn3YLWe084F2lJApVcYXwx6P7oXMAyZyK83KHldcXNkxB4KEsnG25o8GpDBTyDcbAtY2gLK0lzyPhxIS18gAGkFF42J2-ZKw8-jclVi0jaQmB8=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `oligopoly` | 55 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 42 |
+| `regulatory` | `moderate_compliance` | 62 |
+| `infrastructure` | `developing` | 45 |
+| `market_structure` | `technology_enablement` | 50 |
+| **Mean** | — | **49** |
+
+### Product Analytics Platforms for User Behavior Insights (2012)
+
+**T+5:** VERIFIED (18 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Amplitude was founded in 2012 and Mixpanel raised its Series A in May 2012. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFmoxGJknFGHFvWBM32hek3rgPY3pdZ1zTfFXyNwqEVaWNyztSlYICAGv6nmugKRzYs83JaBslEpQkE_77dpNmrQmblZf1HUnqaf2ImHLy0Pv9WAMTenY5jWzAJ1G1IBvEvvY=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Mixpanel and Amplitude were among the early dedicated product analytics platform | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFmoxGJknFGHFvWBM32hek3rgPY3pdZ1zTfFXyNwqEVaWNyztSlYICAGv6nmugKRzYs83JaBslEpQkE_77dpNmrQmblZf1HUnqaf2ImHLy0Pv9WAMTenY5jWzAJ1G1IBvEvvY=) |
+| `market_size` | `micro` | `small` | MEDIUM | Big data drove $28 billion in worldwide IT spending in 2012, with $4.3 billion i | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFmoxGJknFGHFvWBM32hek3rgPY3pdZ1zTfFXyNwqEVaWNyztSlYICAGv6nmugKRzYs83JaBslEpQkE_77dpNmrQmblZf1HUnqaf2ImHLy0Pv9WAMTenY5jWzAJ1G1IBvEvvY=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `unknown` | LOW | Andreessen Horowitz advocated for 'actionable metrics' in 2012, highlighting a g | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFmoxGJknFGHFvWBM32hek3rgPY3pdZ1zTfFXyNwqEVaWNyztSlYICAGv6nmugKRzYs83JaBslEpQkE_77dpNmrQmblZf1HUnqaf2ImHLy0Pv9WAMTenY5jWzAJ1G1IBvEvvY=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | No specific regulations directly governing product analytics platforms for user  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFmoxGJknFGHFvWBM32hek3rgPY3pdZ1zTfFXyNwqEVaWNyztSlYICAGv6nmugKRzYs83JaBslEpQkE_77dpNmrQmblZf1HUnqaf2ImHLy0Pv9WAMTenY5jWzAJ1G1IBvEvvY=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Big data was a major trend in 2012, driving the adoption of new technologies lik | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFmoxGJknFGHFvWBM32hek3rgPY3pdZ1zTfFXyNwqEVaWNyztSlYICAGv6nmugKRzYs83JaBslEpQkE_77dpNmrQmblZf1HUnqaf2ImHLy0Pv9WAMTenY5jWzAJ1G1IBvEvvY=) |
+| `market_structure` | `winner_take_most` | `winner_take_most` | HIGH | Mixpanel and Amplitude, as early entrants, secured significant venture capital f | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFmoxGJknFGHFvWBM32hek3rgPY3pdZ1zTfFXyNwqEVaWNyztSlYICAGv6nmugKRzYs83JaBslEpQkE_77dpNmrQmblZf1HUnqaf2ImHLy0Pv9WAMTenY5jWzAJ1G1IBvEvvY=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 38 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 45 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `emerging` | 55 |
+| `market_structure` | `winner_take_most` | 70 |
+| **Mean** | — | **55** |
+
+### EV Charging Station Networks and Management Software (2015)
+
+**T+5:** VERIFIED (7 sources)  **Agreement:** MEDIUM (H=3 M=2 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Global cumulative EV sales surpassed 1 million units in September 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrdxDFPcMOBOPA7oJo0TlY0onjurYbISS40A6ipygLkPAcVfBPdt1sz2RRsYGsibZi7ijUDa7PgaYO3TLq8pwsHX-MjbLvsbJsmdM6z2IHA63V9BICc2u7zGNJycQDa08gpuyeq6IyCDCWMhrULEKy-5BZuUih2W7G3CekJOWiLgxa6M9Dbw==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | In the U.S., there were 13,864 charging stations and 34,133 public charging outl | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrdxDFPcMOBOPA7oJo0TlY0onjurYbISS40A6ipygLkPAcVfBPdt1sz2RRsYGsibZi7ijUDa7PgaYO3TLq8pwsHX-MjbLvsbJsmdM6z2IHA63V9BICc2u7zGNJycQDa08gpuyeq6IyCDCWMhrULEKy-5BZuUih2W7G3CekJOWiLgxa6M9Dbw==) |
+| `market_size` | `small` | `small` | HIGH | The share of the total global auto market held by electric vehicles (EVs and PHE | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrdxDFPcMOBOPA7oJo0TlY0onjurYbISS40A6ipygLkPAcVfBPdt1sz2RRsYGsibZi7ijUDa7PgaYO3TLq8pwsHX-MjbLvsbJsmdM6z2IHA63V9BICc2u7zGNJycQDa08gpuyeq6IyCDCWMhrULEKy-5BZuUih2W7G3CekJOWiLgxa6M9Dbw==) |
+| `customer_readiness` | `slope_of_enlightenment` | `trough_of_disillusionment` | MEDIUM | U.S. PEV sales in 2015 were 115,262, a -3% decrease from 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrdxDFPcMOBOPA7oJo0TlY0onjurYbISS40A6ipygLkPAcVfBPdt1sz2RRsYGsibZi7ijUDa7PgaYO3TLq8pwsHX-MjbLvsbJsmdM6z2IHA63V9BICc2u7zGNJycQDa08gpuyeq6IyCDCWMhrULEKy-5BZuUih2W7G3CekJOWiLgxa6M9Dbw==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | As of July 2015, many U.S. states offered incentives for EVSE installation, incl | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrdxDFPcMOBOPA7oJo0TlY0onjurYbISS40A6ipygLkPAcVfBPdt1sz2RRsYGsibZi7ijUDa7PgaYO3TLq8pwsHX-MjbLvsbJsmdM6z2IHA63V9BICc2u7zGNJycQDa08gpuyeq6IyCDCWMhrULEKy-5BZuUih2W7G3CekJOWiLgxa6M9Dbw==) |
+| `infrastructure` | `developing` | `nascent` | LOW | The U.S. had 13,864 charging stations and 34,133 public charging outlets in 2015 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrdxDFPcMOBOPA7oJo0TlY0onjurYbISS40A6ipygLkPAcVfBPdt1sz2RRsYGsibZi7ijUDa7PgaYO3TLq8pwsHX-MjbLvsbJsmdM6z2IHA63V9BICc2u7zGNJycQDa08gpuyeq6IyCDCWMhrULEKy-5BZuUih2W7G3CekJOWiLgxa6M9Dbw==) |
+| `market_structure` | `winner_take_most` | `technology_enablement` | LOW | Government initiatives and technological advancements in EV charging equipment w | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrdxDFPcMOBOPA7oJo0TlY0onjurYbISS40A6ipygLkPAcVfBPdt1sz2RRsYGsibZi7ijUDa7PgaYO3TLq8pwsHX-MjbLvsbJsmdM6z2IHA63V9BICc2u7zGNJycQDa08gpuyeq6IyCDCWMhrULEKy-5BZuUih2W7G3CekJOWiLgxa6M9Dbw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `monopolistic_competition` | 55 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `trough_of_disillusionment` | 35 |
+| `regulatory` | `light_touch` | 78 |
+| `infrastructure` | `nascent` | 30 |
+| `market_structure` | `technology_enablement` | 45 |
+| **Mean** | — | **47** |
+
+### On-Demand Human-Driven Last-Mile Delivery Services (2013)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** MEDIUM (H=1 M=5 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `innovators` | MEDIUM | DoorDash and Lalamove were both founded in 2013. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa_OBKZ5YEN3DEjBBxt9W85WvDKPgg5YitMNGCuP7Sw8l2ZrKszvFo_kJ70W2HaybxI2ZM5iazhd0WdGRCzPvWhRoDyte5_-JtkpBc-2PCjWDmU1IX7V5PT0X2wZCmZrU9FscrrS0UTn4Msni-mwMFqrY=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | A 2013 study noted that on-demand services could lead to a perfectly competitive | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa_OBKZ5YEN3DEjBBxt9W85WvDKPgg5YitMNGCuP7Sw8l2ZrKszvFo_kJ70W2HaybxI2ZM5iazhd0WdGRCzPvWhRoDyte5_-JtkpBc-2PCjWDmU1IX7V5PT0X2wZCmZrU9FscrrS0UTn4Msni-mwMFqrY=) |
+| `market_size` | `micro` | `small` | MEDIUM | Postmates was performing fewer than 10,000 deliveries per month in mid-2014, ref | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa_OBKZ5YEN3DEjBBxt9W85WvDKPgg5YitMNGCuP7Sw8l2ZrKszvFo_kJ70W2HaybxI2ZM5iazhd0WdGRCzPvWhRoDyte5_-JtkpBc-2PCjWDmU1IX7V5PT0X2wZCmZrU9FscrrS0UTn4Msni-mwMFqrY=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | Privacy and security concerns, along with switching costs, were identified as si | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa_OBKZ5YEN3DEjBBxt9W85WvDKPgg5YitMNGCuP7Sw8l2ZrKszvFo_kJ70W2HaybxI2ZM5iazhd0WdGRCzPvWhRoDyte5_-JtkpBc-2PCjWDmU1IX7V5PT0X2wZCmZrU9FscrrS0UTn4Msni-mwMFqrY=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | No specific regulations for on-demand last-mile delivery services were prominent | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa_OBKZ5YEN3DEjBBxt9W85WvDKPgg5YitMNGCuP7Sw8l2ZrKszvFo_kJ70W2HaybxI2ZM5iazhd0WdGRCzPvWhRoDyte5_-JtkpBc-2PCjWDmU1IX7V5PT0X2wZCmZrU9FscrrS0UTn4Msni-mwMFqrY=) |
+| `infrastructure` | `developing` | `nascent` | LOW | Lalamove, a key on-demand last-mile delivery platform, was established in 2013,  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa_OBKZ5YEN3DEjBBxt9W85WvDKPgg5YitMNGCuP7Sw8l2ZrKszvFo_kJ70W2HaybxI2ZM5iazhd0WdGRCzPvWhRoDyte5_-JtkpBc-2PCjWDmU1IX7V5PT0X2wZCmZrU9FscrrS0UTn4Msni-mwMFqrY=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | On-demand platforms provide flexible delivery services on a pay-per-use basis an | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa_OBKZ5YEN3DEjBBxt9W85WvDKPgg5YitMNGCuP7Sw8l2ZrKszvFo_kJ70W2HaybxI2ZM5iazhd0WdGRCzPvWhRoDyte5_-JtkpBc-2PCjWDmU1IX7V5PT0X2wZCmZrU9FscrrS0UTn4Msni-mwMFqrY=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 20 |
+| `customer_readiness` | `innovation_trigger` | 45 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `nascent` | 25 |
+| `market_structure` | `platform_two_sided` | 72 |
+| **Mean** | — | **52** |
+
+### CRISPR-Cas9 Gene Editing Therapeutic Development (2015)
+
+**T+5:** VERIFIED (10 sources)  **Agreement:** MEDIUM (H=2 M=2 L=3)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `innovators` | MEDIUM | Science magazine declared CRISPR its 2015 'Breakthrough of the Year'. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYFx-f2V5f3qAFm693_EcZgikKJzmWx2-rIPDC2-SMGe4bW9blkQaiMXo0boyux5PoS3fXUqBdoaS43l2y2VWRpDFs0-qg8E-ZoucrlihjaJRF42m9MPV4ujqxkbvk_mD-s8DPc1jFSgbH77J72ba9AKBDL5cVzzlk9uiIfhzgscaZgN9EJgU7RS86Gg==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | A major patent interference proceeding concerning CRISPR-Cas9 was initiated in A | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYFx-f2V5f3qAFm693_EcZgikKJzmWx2-rIPDC2-SMGe4bW9blkQaiMXo0boyux5PoS3fXUqBdoaS43l2y2VWRpDFs0-qg8E-ZoucrlihjaJRF42m9MPV4ujqxkbvk_mD-s8DPc1jFSgbH77J72ba9AKBDL5cVzzlk9uiIfhzgscaZgN9EJgU7RS86Gg==) |
+| `market_size` | `micro` | `massive` | LOW | The technology was seen to have the potential to cure numerous genetic diseases  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYFx-f2V5f3qAFm693_EcZgikKJzmWx2-rIPDC2-SMGe4bW9blkQaiMXo0boyux5PoS3fXUqBdoaS43l2y2VWRpDFs0-qg8E-ZoucrlihjaJRF42m9MPV4ujqxkbvk_mD-s8DPc1jFSgbH77J72ba9AKBDL5cVzzlk9uiIfhzgscaZgN9EJgU7RS86Gg==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | Forbes reported in December 2015 that CRISPR/Cas9 was at the 'peak of inflated e | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYFx-f2V5f3qAFm693_EcZgikKJzmWx2-rIPDC2-SMGe4bW9blkQaiMXo0boyux5PoS3fXUqBdoaS43l2y2VWRpDFs0-qg8E-ZoucrlihjaJRF42m9MPV4ujqxkbvk_mD-s8DPc1jFSgbH77J72ba9AKBDL5cVzzlk9uiIfhzgscaZgN9EJgU7RS86Gg==) |
+| `regulatory` | `moderate_compliance` | `unregulated` | LOW | The ethical implications of CRISPR, particularly regarding human embryo editing, | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYFx-f2V5f3qAFm693_EcZgikKJzmWx2-rIPDC2-SMGe4bW9blkQaiMXo0boyux5PoS3fXUqBdoaS43l2y2VWRpDFs0-qg8E-ZoucrlihjaJRF42m9MPV4ujqxkbvk_mD-s8DPc1jFSgbH77J72ba9AKBDL5cVzzlk9uiIfhzgscaZgN9EJgU7RS86Gg==) |
+| `infrastructure` | `emerging` | `developing` | MEDIUM | CRISPR's affordability and ease of use allowed its rapid adoption in research se | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYFx-f2V5f3qAFm693_EcZgikKJzmWx2-rIPDC2-SMGe4bW9blkQaiMXo0boyux5PoS3fXUqBdoaS43l2y2VWRpDFs0-qg8E-ZoucrlihjaJRF42m9MPV4ujqxkbvk_mD-s8DPc1jFSgbH77J72ba9AKBDL5cVzzlk9uiIfhzgscaZgN9EJgU7RS86Gg==) |
+| `market_structure` | `technology_enablement` | `winner_take_most` | LOW | The ongoing patent interference proceeding in 2015 underscored the critical impo | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYFx-f2V5f3qAFm693_EcZgikKJzmWx2-rIPDC2-SMGe4bW9blkQaiMXo0boyux5PoS3fXUqBdoaS43l2y2VWRpDFs0-qg8E-ZoucrlihjaJRF42m9MPV4ujqxkbvk_mD-s8DPc1jFSgbH77J72ba9AKBDL5cVzzlk9uiIfhzgscaZgN9EJgU7RS86Gg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 52 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `massive` | 72 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `unregulated` | 68 |
+| `infrastructure` | `developing` | 48 |
+| `market_structure` | `winner_take_most` | 65 |
+| **Mean** | — | **57** |
+
+### Role 3 Prompt Audit — Creator Membership and Subscription Monetization Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               oligopoly                             HIGH
+  market_size               medium                                LOW
+  customer_readiness        slope_of_enlightenment                HIGH
+  regulatory                light_touch                           HIGH
+  infrastructure            developing                            MEDIUM
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 3 | 3 | 0 |
+| `competition` | 4 | 2 | 0 |
+| `market_size` | 2 | 2 | 2 |
+| `customer_readiness` | 2 | 3 | 1 |
+| `regulatory` | 2 | 3 | 1 |
+| `infrastructure` | 1 | 3 | 2 |
+| `market_structure` | 3 | 0 | 3 |
+
+
+---
+
+## Batch 86  —  2026-03-20 17:19:51
+
+**Markets processed this batch:** 7  
+**Cumulative total:** 257 / 350  
+**Batch agreement:** MEDIUM (score=0.633)  
+**HIGH:** 21  **MEDIUM:** 20  **LOW:** 8  
+**Auto-correction triggered:** no
+
+### Digital Residential Real Estate Buying and Mortgage Platforms (2014)
+
+**T+5:** VERIFIED (9 sources)  **Agreement:** MEDIUM (H=2 M=3 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | Opendoor was founded in March 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtse9FYZ01od8WLsldTdLUGL3ZxdIEodosiIkE-x0qHJLfl_KHUxN3VvZt9XrsKl8zy4MyMowr94PGgmMe5HS5Wj0k9Ou2oZxXJhzMPm0FrZfYe2ctc97jr9bj-xWBG4dWU0fHcozVAjgao5HdB7g56bD59mGNun2WrorWx_gcH8wAZALo4-2GEf11A4nezq0NtBSRPs7gGOpDnrwy9fwr9JDFmwNS39ImoQ==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Opendoor launched the iBuyer concept in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtse9FYZ01od8WLsldTdLUGL3ZxdIEodosiIkE-x0qHJLfl_KHUxN3VvZt9XrsKl8zy4MyMowr94PGgmMe5HS5Wj0k9Ou2oZxXJhzMPm0FrZfYe2ctc97jr9bj-xWBG4dWU0fHcozVAjgao5HdB7g56bD59mGNun2WrorWx_gcH8wAZALo4-2GEf11A4nezq0NtBSRPs7gGOpDnrwy9fwr9JDFmwNS39ImoQ==) |
+| `market_size` | `micro` | `small` | MEDIUM | Global PropTech investment grew at a CAGR of 53.6% between 2014 and 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtse9FYZ01od8WLsldTdLUGL3ZxdIEodosiIkE-x0qHJLfl_KHUxN3VvZt9XrsKl8zy4MyMowr94PGgmMe5HS5Wj0k9Ou2oZxXJhzMPm0FrZfYe2ctc97jr9bj-xWBG4dWU0fHcozVAjgao5HdB7g56bD59mGNun2WrorWx_gcH8wAZALo4-2GEf11A4nezq0NtBSRPs7gGOpDnrwy9fwr9JDFmwNS39ImoQ==) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | 92% of consumers went online to start their home search in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtse9FYZ01od8WLsldTdLUGL3ZxdIEodosiIkE-x0qHJLfl_KHUxN3VvZt9XrsKl8zy4MyMowr94PGgmMe5HS5Wj0k9Ou2oZxXJhzMPm0FrZfYe2ctc97jr9bj-xWBG4dWU0fHcozVAjgao5HdB7g56bD59mGNun2WrorWx_gcH8wAZALo4-2GEf11A4nezq0NtBSRPs7gGOpDnrwy9fwr9JDFmwNS39ImoQ==) |
+| `regulatory` | `light_touch` | `heavily_regulated` | LOW | Real estate and mortgage industries are subject to extensive existing regulation | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtse9FYZ01od8WLsldTdLUGL3ZxdIEodosiIkE-x0qHJLfl_KHUxN3VvZt9XrsKl8zy4MyMowr94PGgmMe5HS5Wj0k9Ou2oZxXJhzMPm0FrZfYe2ctc97jr9bj-xWBG4dWU0fHcozVAjgao5HdB7g56bD59mGNun2WrorWx_gcH8wAZALo4-2GEf11A4nezq0NtBSRPs7gGOpDnrwy9fwr9JDFmwNS39ImoQ==) |
+| `infrastructure` | `nascent` | `developing` | LOW | 75% of real estate professionals considered strong telecom systems and connectiv | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtse9FYZ01od8WLsldTdLUGL3ZxdIEodosiIkE-x0qHJLfl_KHUxN3VvZt9XrsKl8zy4MyMowr94PGgmMe5HS5Wj0k9Ou2oZxXJhzMPm0FrZfYe2ctc97jr9bj-xWBG4dWU0fHcozVAjgao5HdB7g56bD59mGNun2WrorWx_gcH8wAZALo4-2GEf11A4nezq0NtBSRPs7gGOpDnrwy9fwr9JDFmwNS39ImoQ==) |
+| `market_structure` | `winner_take_most` | `platform_two_sided` | MEDIUM | Opendoor's business model in 2014 revolved around buying houses directly from se | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtse9FYZ01od8WLsldTdLUGL3ZxdIEodosiIkE-x0qHJLfl_KHUxN3VvZt9XrsKl8zy4MyMowr94PGgmMe5HS5Wj0k9Ou2oZxXJhzMPm0FrZfYe2ctc97jr9bj-xWBG4dWU0fHcozVAjgao5HdB7g56bD59mGNun2WrorWx_gcH8wAZALo4-2GEf11A4nezq0NtBSRPs7gGOpDnrwy9fwr9JDFmwNS39ImoQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 55 |
+| `regulatory` | `heavily_regulated` | 18 |
+| `infrastructure` | `developing` | 30 |
+| `market_structure` | `platform_two_sided` | 65 |
+| **Mean** | — | **45** |
+
+### Consumer Teletherapy and Online Mental Wellness Platforms (2015)
+
+**T+5:** VERIFIED (21 sources)  **Agreement:** MEDIUM (H=4 M=1 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | The global telehealth market was expected to grow to $38.5 billion in revenue by | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElp00JsCLtQF33HsaaHjbbNLynUgmw6Lcoud0xCN_YhzCi7WFi9Z-f8RI4yTkUKRan5OdeE0Dnr2Vhz0OLeU9wLLWOUPsRxLZ9rNL3ID5ARbLoHOFPLVhLqAt76hs5ce2nzDIaGGzg1AaQV8U1NHzIxhlEog==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | In May 2015, Talkspace raised a $9.5 million Series A round. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElp00JsCLtQF33HsaaHjbbNLynUgmw6Lcoud0xCN_YhzCi7WFi9Z-f8RI4yTkUKRan5OdeE0Dnr2Vhz0OLeU9wLLWOUPsRxLZ9rNL3ID5ARbLoHOFPLVhLqAt76hs5ce2nzDIaGGzg1AaQV8U1NHzIxhlEog==) |
+| `market_size` | `micro` | `medium` | LOW | The global telemedicine market was estimated at $23 billion in 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElp00JsCLtQF33HsaaHjbbNLynUgmw6Lcoud0xCN_YhzCi7WFi9Z-f8RI4yTkUKRan5OdeE0Dnr2Vhz0OLeU9wLLWOUPsRxLZ9rNL3ID5ARbLoHOFPLVhLqAt76hs5ce2nzDIaGGzg1AaQV8U1NHzIxhlEog==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `slope_of_enlightenment` | LOW | An Intel survey in 2015 found that 72% of consumers were willing to see a doctor | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElp00JsCLtQF33HsaaHjbbNLynUgmw6Lcoud0xCN_YhzCi7WFi9Z-f8RI4yTkUKRan5OdeE0Dnr2Vhz0OLeU9wLLWOUPsRxLZ9rNL3ID5ARbLoHOFPLVhLqAt76hs5ce2nzDIaGGzg1AaQV8U1NHzIxhlEog==) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | In 2015, the New York State Office of Mental Health introduced 14 NYCRR Part 596 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElp00JsCLtQF33HsaaHjbbNLynUgmw6Lcoud0xCN_YhzCi7WFi9Z-f8RI4yTkUKRan5OdeE0Dnr2Vhz0OLeU9wLLWOUPsRxLZ9rNL3ID5ARbLoHOFPLVhLqAt76hs5ce2nzDIaGGzg1AaQV8U1NHzIxhlEog==) |
+| `infrastructure` | `developing` | `developing` | HIGH | By the end of 2015, approximately 3.2 billion people were online globally. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElp00JsCLtQF33HsaaHjbbNLynUgmw6Lcoud0xCN_YhzCi7WFi9Z-f8RI4yTkUKRan5OdeE0Dnr2Vhz0OLeU9wLLWOUPsRxLZ9rNL3ID5ARbLoHOFPLVhLqAt76hs5ce2nzDIaGGzg1AaQV8U1NHzIxhlEog==) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | In 2015, Talkspace offered an 'unlimited messaging therapy' model, allowing user | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElp00JsCLtQF33HsaaHjbbNLynUgmw6Lcoud0xCN_YhzCi7WFi9Z-f8RI4yTkUKRan5OdeE0Dnr2Vhz0OLeU9wLLWOUPsRxLZ9rNL3ID5ARbLoHOFPLVhLqAt76hs5ce2nzDIaGGzg1AaQV8U1NHzIxhlEog==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `medium` | 52 |
+| `customer_readiness` | `slope_of_enlightenment` | 68 |
+| `regulatory` | `moderate_compliance` | 63 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **61** |
+
+### Interest-Free Installment Payment Platforms Retail (2014)
+
+**T+5:** VERIFIED (16 sources)  **Agreement:** HIGH (H=3 M=4 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | Afterpay, a significant player in the BNPL market, was launched in Australia in  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvUNE_IPuEVERpDWlKmq9u4dQReVyudGVZO-tGRqAFJ82FrXjgL-r88hRlPuREVrSN20EToDyA6BwHX2E3_sJTycQ3E4efEqWisYNeovMm10lr4MG-kWLuRwXYsLAzhG6PyyDgn-mtQ9PvQs61313r6EapYNDlOo6tINkF_CwkZc-y7eM8MKXqKqTDyik=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Affirm had its first funding round (Series A for $45M) in June 2014, indicating  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvUNE_IPuEVERpDWlKmq9u4dQReVyudGVZO-tGRqAFJ82FrXjgL-r88hRlPuREVrSN20EToDyA6BwHX2E3_sJTycQ3E4efEqWisYNeovMm10lr4MG-kWLuRwXYsLAzhG6PyyDgn-mtQ9PvQs61313r6EapYNDlOo6tINkF_CwkZc-y7eM8MKXqKqTDyik=) |
+| `market_size` | `micro` | `small` | MEDIUM | US consumers made $20 billion in retail purchases using BNPL programs in 2019, w | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvUNE_IPuEVERpDWlKmq9u4dQReVyudGVZO-tGRqAFJ82FrXjgL-r88hRlPuREVrSN20EToDyA6BwHX2E3_sJTycQ3E4efEqWisYNeovMm10lr4MG-kWLuRwXYsLAzhG6PyyDgn-mtQ9PvQs61313r6EapYNDlOo6tINkF_CwkZc-y7eM8MKXqKqTDyik=) |
+| `customer_readiness` | `innovation_trigger` | `innovation_trigger` | HIGH | The digital era ushered in a new wave of BNPL services, reimagining installment  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvUNE_IPuEVERpDWlKmq9u4dQReVyudGVZO-tGRqAFJ82FrXjgL-r88hRlPuREVrSN20EToDyA6BwHX2E3_sJTycQ3E4efEqWisYNeovMm10lr4MG-kWLuRwXYsLAzhG6PyyDgn-mtQ9PvQs61313r6EapYNDlOo6tINkF_CwkZc-y7eM8MKXqKqTDyik=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | The BNPL industry was still relatively unregulated in 2014, with regulatory scru | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvUNE_IPuEVERpDWlKmq9u4dQReVyudGVZO-tGRqAFJ82FrXjgL-r88hRlPuREVrSN20EToDyA6BwHX2E3_sJTycQ3E4efEqWisYNeovMm10lr4MG-kWLuRwXYsLAzhG6PyyDgn-mtQ9PvQs61313r6EapYNDlOo6tINkF_CwkZc-y7eM8MKXqKqTDyik=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | The Federal Reserve unveiled a plan in 2014 to help the U.S. payment system beco | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvUNE_IPuEVERpDWlKmq9u4dQReVyudGVZO-tGRqAFJ82FrXjgL-r88hRlPuREVrSN20EToDyA6BwHX2E3_sJTycQ3E4efEqWisYNeovMm10lr4MG-kWLuRwXYsLAzhG6PyyDgn-mtQ9PvQs61313r6EapYNDlOo6tINkF_CwkZc-y7eM8MKXqKqTDyik=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | The primary revenue model for BNPL platforms involves charging fees to merchants | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvUNE_IPuEVERpDWlKmq9u4dQReVyudGVZO-tGRqAFJ82FrXjgL-r88hRlPuREVrSN20EToDyA6BwHX2E3_sJTycQ3E4efEqWisYNeovMm10lr4MG-kWLuRwXYsLAzhG6PyyDgn-mtQ9PvQs61313r6EapYNDlOo6tINkF_CwkZc-y7eM8MKXqKqTDyik=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 42 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 22 |
+| `customer_readiness` | `innovation_trigger` | 38 |
+| `regulatory` | `unregulated` | 72 |
+| `infrastructure` | `emerging` | 48 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **52** |
+
+### Cloud Game Streaming Services Internet Delivery (2015)
+
+**T+5:** VERIFIED (13 sources)  **Agreement:** MEDIUM (H=3 M=2 L=2)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `early_adopters` | MEDIUM | Strategy Analytics predicted 150 million cloud gaming capable devices by the end | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi2GvJdAkDbIUEh3TCgeW1jX6yeZXUlp9WxF47TmTffIZyco6a5n5YKC-oqJYtJmd9mBe4Xuk6fmHo10Gn_GCObsytDd02Phbg34WctOvwJz8uTn4UCENIrvUgB9QdQCh0l1m30l-L5qG_91ciekDSvXunUhp1nUvm_zL6QEVNU0J1P9h_wiDAp6wl) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Sony's PlayStation Now and Nvidia's Grid Game Streaming Service were prominent o | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi2GvJdAkDbIUEh3TCgeW1jX6yeZXUlp9WxF47TmTffIZyco6a5n5YKC-oqJYtJmd9mBe4Xuk6fmHo10Gn_GCObsytDd02Phbg34WctOvwJz8uTn4UCENIrvUgB9QdQCh0l1m30l-L5qG_91ciekDSvXunUhp1nUvm_zL6QEVNU0J1P9h_wiDAp6wl) |
+| `market_size` | `micro` | `small` | MEDIUM | The market was projected to have 150 million cloud gaming capable devices by the | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi2GvJdAkDbIUEh3TCgeW1jX6yeZXUlp9WxF47TmTffIZyco6a5n5YKC-oqJYtJmd9mBe4Xuk6fmHo10Gn_GCObsytDd02Phbg34WctOvwJz8uTn4UCENIrvUgB9QdQCh0l1m30l-L5qG_91ciekDSvXunUhp1nUvm_zL6QEVNU0J1P9h_wiDAp6wl) |
+| `customer_readiness` | `innovation_trigger` | `trough_of_disillusionment` | LOW | Access to content and the need for reliable, low-latency internet connections we | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi2GvJdAkDbIUEh3TCgeW1jX6yeZXUlp9WxF47TmTffIZyco6a5n5YKC-oqJYtJmd9mBe4Xuk6fmHo10Gn_GCObsytDd02Phbg34WctOvwJz8uTn4UCENIrvUgB9QdQCh0l1m30l-L5qG_91ciekDSvXunUhp1nUvm_zL6QEVNU0J1P9h_wiDAp6wl) |
+| `regulatory` | `unregulated` | `unregulated` | HIGH | Legal discussions in 2015 primarily focused on the theoretical legal implication | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi2GvJdAkDbIUEh3TCgeW1jX6yeZXUlp9WxF47TmTffIZyco6a5n5YKC-oqJYtJmd9mBe4Xuk6fmHo10Gn_GCObsytDd02Phbg34WctOvwJz8uTn4UCENIrvUgB9QdQCh0l1m30l-L5qG_91ciekDSvXunUhp1nUvm_zL6QEVNU0J1P9h_wiDAp6wl) |
+| `infrastructure` | `emerging` | `emerging` | HIGH | High-bandwidth internet connections with low latency, crucial for cloud gaming,  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi2GvJdAkDbIUEh3TCgeW1jX6yeZXUlp9WxF47TmTffIZyco6a5n5YKC-oqJYtJmd9mBe4Xuk6fmHo10Gn_GCObsytDd02Phbg34WctOvwJz8uTn4UCENIrvUgB9QdQCh0l1m30l-L5qG_91ciekDSvXunUhp1nUvm_zL6QEVNU0J1P9h_wiDAp6wl) |
+| `market_structure` | `fragmented_niche` | `platform_two_sided` | LOW | Cloud gaming services functioned as intermediaries, delivering games from conten | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi2GvJdAkDbIUEh3TCgeW1jX6yeZXUlp9WxF47TmTffIZyco6a5n5YKC-oqJYtJmd9mBe4Xuk6fmHo10Gn_GCObsytDd02Phbg34WctOvwJz8uTn4UCENIrvUgB9QdQCh0l1m30l-L5qG_91ciekDSvXunUhp1nUvm_zL6QEVNU0J1P9h_wiDAp6wl) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 62 |
+| `competition` | `oligopoly` | 42 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `trough_of_disillusionment` | 30 |
+| `regulatory` | `unregulated` | 82 |
+| `infrastructure` | `emerging` | 63 |
+| `market_structure` | `platform_two_sided` | 55 |
+| **Mean** | — | **51** |
+
+### LEO Satellite Constellation Global Broadband Internet (2015)
+
+**T+5:** VERIFIED (11 sources)  **Agreement:** HIGH (H=4 M=3 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | OneWeb's first funding round was on January 14, 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZv3dhY-ks0f1Sksz-aaAH5iTwWalE6eiGodUkdgIJDC5OapvsaARCMstpbThbgqAEZJaHgVUJnRpTfBRxYCubF7AwlxNFnHXfiuxgNxXrFRQVTDTk8Ek000VNzH68Mdn6T7e902fi8Q==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | In January 2015, Elon Musk announced the rival Starlink venture just days after  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZv3dhY-ks0f1Sksz-aaAH5iTwWalE6eiGodUkdgIJDC5OapvsaARCMstpbThbgqAEZJaHgVUJnRpTfBRxYCubF7AwlxNFnHXfiuxgNxXrFRQVTDTk8Ek000VNzH68Mdn6T7e902fi8Q==) |
+| `market_size` | `micro` | `small` | MEDIUM | OneWeb secured $500 million in funding in 2015, which was one of the largest cor | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZv3dhY-ks0f1Sksz-aaAH5iTwWalE6eiGodUkdgIJDC5OapvsaARCMstpbThbgqAEZJaHgVUJnRpTfBRxYCubF7AwlxNFnHXfiuxgNxXrFRQVTDTk8Ek000VNzH68Mdn6T7e902fi8Q==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | In 2015, the focus was on ambitious plans to 'bring Internet connectivity all ov | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZv3dhY-ks0f1Sksz-aaAH5iTwWalE6eiGodUkdgIJDC5OapvsaARCMstpbThbgqAEZJaHgVUJnRpTfBRxYCubF7AwlxNFnHXfiuxgNxXrFRQVTDTk8Ek000VNzH68Mdn6T7e902fi8Q==) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | The regulatory environment in 2015 was characterized by the need for evolving fr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZv3dhY-ks0f1Sksz-aaAH5iTwWalE6eiGodUkdgIJDC5OapvsaARCMstpbThbgqAEZJaHgVUJnRpTfBRxYCubF7AwlxNFnHXfiuxgNxXrFRQVTDTk8Ek000VNzH68Mdn6T7e902fi8Q==) |
+| `infrastructure` | `nascent` | `nascent` | HIGH | OneWeb secured funding in 2015 to acquire 65 commercial rockets to launch satell | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZv3dhY-ks0f1Sksz-aaAH5iTwWalE6eiGodUkdgIJDC5OapvsaARCMstpbThbgqAEZJaHgVUJnRpTfBRxYCubF7AwlxNFnHXfiuxgNxXrFRQVTDTk8Ek000VNzH68Mdn6T7e902fi8Q==) |
+| `market_structure` | `winner_take_most` | `winner_take_most` | HIGH | The market saw 'ambitious plans to build hundreds and thousands of new satellite | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZv3dhY-ks0f1Sksz-aaAH5iTwWalE6eiGodUkdgIJDC5OapvsaARCMstpbThbgqAEZJaHgVUJnRpTfBRxYCubF7AwlxNFnHXfiuxgNxXrFRQVTDTk8Ek000VNzH68Mdn6T7e902fi8Q==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `oligopoly` | 55 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `innovation_trigger` | 42 |
+| `regulatory` | `moderate_compliance` | 63 |
+| `infrastructure` | `nascent` | 30 |
+| `market_structure` | `winner_take_most` | 72 |
+| **Mean** | — | **50** |
+
+### Carbon Capture Utilization and Storage Industrial Solutions (2015)
+
+**T+5:** VERIFIED (19 sources)  **Agreement:** MEDIUM (H=1 M=5 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `early_adopters` | MEDIUM | The Boundary Dam project, the world's first power station to successfully use CC | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHncr-KrK3VjuOTebXF3dfxyorZ2lsSWounaYUibYQ1AVdKflH01inQZN2LfiAz7z2SUgt0Q3cZKFBPS22wfhFVBMT2kVAgnBza7_pSCGeCf3r7h2H_b5JOC_LeooKkZ2vMSknLDoreuQKbC-3lYB_H4D-5Jg==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | The U.S. held a significant concentration of global CCUS projects and was a glob | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHncr-KrK3VjuOTebXF3dfxyorZ2lsSWounaYUibYQ1AVdKflH01inQZN2LfiAz7z2SUgt0Q3cZKFBPS22wfhFVBMT2kVAgnBza7_pSCGeCf3r7h2H_b5JOC_LeooKkZ2vMSknLDoreuQKbC-3lYB_H4D-5Jg==) |
+| `market_size` | `micro` | `small` | MEDIUM | Only approximately 31 million metric tons of anthropogenic CO2 were captured and | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHncr-KrK3VjuOTebXF3dfxyorZ2lsSWounaYUibYQ1AVdKflH01inQZN2LfiAz7z2SUgt0Q3cZKFBPS22wfhFVBMT2kVAgnBza7_pSCGeCf3r7h2H_b5JOC_LeooKkZ2vMSknLDoreuQKbC-3lYB_H4D-5Jg==) |
+| `customer_readiness` | `innovation_trigger` | `trough_of_disillusionment` | LOW | In 2015, the deployment of integrated, commercial CCUS projects was still an asp | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHncr-KrK3VjuOTebXF3dfxyorZ2lsSWounaYUibYQ1AVdKflH01inQZN2LfiAz7z2SUgt0Q3cZKFBPS22wfhFVBMT2kVAgnBza7_pSCGeCf3r7h2H_b5JOC_LeooKkZ2vMSknLDoreuQKbC-3lYB_H4D-5Jg==) |
+| `regulatory` | `light_touch` | `moderate_compliance` | MEDIUM | In 2015, the EPA clarified a regulatory and permitting pathway for CO2-EOR proje | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHncr-KrK3VjuOTebXF3dfxyorZ2lsSWounaYUibYQ1AVdKflH01inQZN2LfiAz7z2SUgt0Q3cZKFBPS22wfhFVBMT2kVAgnBza7_pSCGeCf3r7h2H_b5JOC_LeooKkZ2vMSknLDoreuQKbC-3lYB_H4D-5Jg==) |
+| `infrastructure` | `emerging` | `nascent` | MEDIUM | In 2015, the deployment of CCUS at an industrial scale lacked dedicated infrastr | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHncr-KrK3VjuOTebXF3dfxyorZ2lsSWounaYUibYQ1AVdKflH01inQZN2LfiAz7z2SUgt0Q3cZKFBPS22wfhFVBMT2kVAgnBza7_pSCGeCf3r7h2H_b5JOC_LeooKkZ2vMSknLDoreuQKbC-3lYB_H4D-5Jg==) |
+| `market_structure` | `fragmented_niche` | `regulated_infrastructure` | MEDIUM | In 2015, almost all operating CCS facilities recouped some of their costs by usi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHncr-KrK3VjuOTebXF3dfxyorZ2lsSWounaYUibYQ1AVdKflH01inQZN2LfiAz7z2SUgt0Q3cZKFBPS22wfhFVBMT2kVAgnBza7_pSCGeCf3r7h2H_b5JOC_LeooKkZ2vMSknLDoreuQKbC-3lYB_H4D-5Jg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 55 |
+| `competition` | `oligopoly` | 35 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `trough_of_disillusionment` | 28 |
+| `regulatory` | `moderate_compliance` | 55 |
+| `infrastructure` | `nascent` | 38 |
+| `market_structure` | `regulated_infrastructure` | 42 |
+| **Mean** | — | **40** |
+
+### CRISPR Cas9 Therapeutic Gene Editing Platforms (2013)
+
+**T+5:** VERIFIED (25 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `innovators` | `innovators` | HIGH | In January 2013, the first successful demonstrations of Cas9-based genome editin | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0kblX5lfCSmQRlJrxF2LxwZLZxDNxFSPqpFRn4D4vyy_CczezLXPN2rjHQfmZqqXY-H7TUnwUFvQc6tE05B-E0Tie2YNmC3nPDkx1m7XEp0fjU-R0UbqYwtHO-D6Zc4n6UFib0VmQQqAISw==) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Editas Medicine and CRISPR Therapeutics, both founded in 2013, were among the in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0kblX5lfCSmQRlJrxF2LxwZLZxDNxFSPqpFRn4D4vyy_CczezLXPN2rjHQfmZqqXY-H7TUnwUFvQc6tE05B-E0Tie2YNmC3nPDkx1m7XEp0fjU-R0UbqYwtHO-D6Zc4n6UFib0VmQQqAISw==) |
+| `market_size` | `micro` | `micro` | HIGH | Early CRISPR-focused biotechs raised initial Series A rounds between $15 million | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0kblX5lfCSmQRlJrxF2LxwZLZxDNxFSPqpFRn4D4vyy_CczezLXPN2rjHQfmZqqXY-H7TUnwUFvQc6tE05B-E0Tie2YNmC3nPDkx1m7XEp0fjU-R0UbqYwtHO-D6Zc4n6UFib0VmQQqAISw==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | The landmark paper showing CRISPR-Cas9 as a gene-editing tool was published in 2 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0kblX5lfCSmQRlJrxF2LxwZLZxDNxFSPqpFRn4D4vyy_CczezLXPN2rjHQfmZqqXY-H7TUnwUFvQc6tE05B-E0Tie2YNmC3nPDkx1m7XEp0fjU-R0UbqYwtHO-D6Zc4n6UFib0VmQQqAISw==) |
+| `regulatory` | `moderate_compliance` | `unregulated` | LOW | As of 2013, CRISPR remained largely unregulated in the United States, with the e | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0kblX5lfCSmQRlJrxF2LxwZLZxDNxFSPqpFRn4D4vyy_CczezLXPN2rjHQfmZqqXY-H7TUnwUFvQc6tE05B-E0Tie2YNmC3nPDkx1m7XEp0fjU-R0UbqYwtHO-D6Zc4n6UFib0VmQQqAISw==) |
+| `infrastructure` | `emerging` | `nascent` | MEDIUM | The CRISPR-Cas9 system was developed into a revolutionary molecular tool in 2012 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0kblX5lfCSmQRlJrxF2LxwZLZxDNxFSPqpFRn4D4vyy_CczezLXPN2rjHQfmZqqXY-H7TUnwUFvQc6tE05B-E0Tie2YNmC3nPDkx1m7XEp0fjU-R0UbqYwtHO-D6Zc4n6UFib0VmQQqAISw==) |
+| `market_structure` | `technology_enablement` | `technology_enablement` | HIGH | CRISPR-Cas9 was recognized as a breakthrough technology that offered significant | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0kblX5lfCSmQRlJrxF2LxwZLZxDNxFSPqpFRn4D4vyy_CczezLXPN2rjHQfmZqqXY-H7TUnwUFvQc6tE05B-E0Tie2YNmC3nPDkx1m7XEp0fjU-R0UbqYwtHO-D6Zc4n6UFib0VmQQqAISw==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `innovators` | 62 |
+| `competition` | `oligopoly` | 72 |
+| `market_size` | `micro` | 18 |
+| `customer_readiness` | `innovation_trigger` | 52 |
+| `regulatory` | `unregulated` | 65 |
+| `infrastructure` | `nascent` | 30 |
+| `market_structure` | `technology_enablement` | 74 |
+| **Mean** | — | **53** |
+
+### Role 3 Prompt Audit — Digital Residential Real Estate Buying and Mortgage Platforms
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    innovators                            HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               small                                 MEDIUM
+  customer_readiness        innovation_trigger                    HIGH
+  regulatory                heavily_regulated                     LOW
+  infrastructure            developing                            LOW
+  market_structure          platform_two_sided                    MEDIUM
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 5 | 2 | 0 |
+| `competition` | 5 | 2 | 0 |
+| `market_size` | 1 | 5 | 1 |
+| `customer_readiness` | 2 | 2 | 3 |
+| `regulatory` | 1 | 4 | 2 |
+| `infrastructure` | 3 | 3 | 1 |
+| `market_structure` | 4 | 2 | 1 |
+
+
+---
+
+## Batch 87  —  2026-03-20 17:22:46
+
+**Markets processed this batch:** 7  
+**Cumulative total:** 264 / 350  
+**Batch agreement:** HIGH (score=0.724)  
+**HIGH:** 25  **MEDIUM:** 21  **LOW:** 3  
+**Auto-correction triggered:** no
+
+### On-Demand Local Courier Food and Goods Delivery (2014)
+
+**T+5:** VERIFIED (8 sources)  **Agreement:** HIGH (H=4 M=3 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Food and grocery delivery startup funding hit a 5-year high in Q1 2014, with ove | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq1HQnn-_HfU79gCFjiH88_CXNe1HzByRR9xAKsgeyfZikasndiIPxjR039XiR6hFTckZF08vWm5v3Wcdb_vPRNxGOCJ9MpI3KbJHKQNopSCJ4jKQIiRLyEUJD6K9UR_RDJymQlOIvAnMIcw4xwTs2ZUnIOJYtFRkeckpWScunXhlQmv1oj7v4oOyZv4c0L1pX02_rBYIO8zIERfLPUdWWCew2GslUyjzZjes=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | GrubHub and Just Eat, two of the top online deliverers, made their IPOs in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq1HQnn-_HfU79gCFjiH88_CXNe1HzByRR9xAKsgeyfZikasndiIPxjR039XiR6hFTckZF08vWm5v3Wcdb_vPRNxGOCJ9MpI3KbJHKQNopSCJ4jKQIiRLyEUJD6K9UR_RDJymQlOIvAnMIcw4xwTs2ZUnIOJYtFRkeckpWScunXhlQmv1oj7v4oOyZv4c0L1pX02_rBYIO8zIERfLPUdWWCew2GslUyjzZjes=) |
+| `market_size` | `small` | `medium` | MEDIUM | The online food delivery market in India touched Rs 350 crore (approximately $57 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq1HQnn-_HfU79gCFjiH88_CXNe1HzByRR9xAKsgeyfZikasndiIPxjR039XiR6hFTckZF08vWm5v3Wcdb_vPRNxGOCJ9MpI3KbJHKQNopSCJ4jKQIiRLyEUJD6K9UR_RDJymQlOIvAnMIcw4xwTs2ZUnIOJYtFRkeckpWScunXhlQmv1oj7v4oOyZv4c0L1pX02_rBYIO8zIERfLPUdWWCew2GslUyjzZjes=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | Consumers were 'ready for food tech to be a part of their day-to-day' in 2014 du | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq1HQnn-_HfU79gCFjiH88_CXNe1HzByRR9xAKsgeyfZikasndiIPxjR039XiR6hFTckZF08vWm5v3Wcdb_vPRNxGOCJ9MpI3KbJHKQNopSCJ4jKQIiRLyEUJD6K9UR_RDJymQlOIvAnMIcw4xwTs2ZUnIOJYtFRkeckpWScunXhlQmv1oj7v4oOyZv4c0L1pX02_rBYIO8zIERfLPUdWWCew2GslUyjzZjes=) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | No specific regulations for on-demand food and goods delivery were prominently m | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq1HQnn-_HfU79gCFjiH88_CXNe1HzByRR9xAKsgeyfZikasndiIPxjR039XiR6hFTckZF08vWm5v3Wcdb_vPRNxGOCJ9MpI3KbJHKQNopSCJ4jKQIiRLyEUJD6K9UR_RDJymQlOIvAnMIcw4xwTs2ZUnIOJYtFRkeckpWScunXhlQmv1oj7v4oOyZv4c0L1pX02_rBYIO8zIERfLPUdWWCew2GslUyjzZjes=) |
+| `infrastructure` | `developing` | `developing` | HIGH | The widespread availability of smartphones by 2014 had conditioned consumers to  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq1HQnn-_HfU79gCFjiH88_CXNe1HzByRR9xAKsgeyfZikasndiIPxjR039XiR6hFTckZF08vWm5v3Wcdb_vPRNxGOCJ9MpI3KbJHKQNopSCJ4jKQIiRLyEUJD6K9UR_RDJymQlOIvAnMIcw4xwTs2ZUnIOJYtFRkeckpWScunXhlQmv1oj7v4oOyZv4c0L1pX02_rBYIO8zIERfLPUdWWCew2GslUyjzZjes=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | On-demand delivery operates as a three-sided market, connecting customers, suppl | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq1HQnn-_HfU79gCFjiH88_CXNe1HzByRR9xAKsgeyfZikasndiIPxjR039XiR6hFTckZF08vWm5v3Wcdb_vPRNxGOCJ9MpI3KbJHKQNopSCJ4jKQIiRLyEUJD6K9UR_RDJymQlOIvAnMIcw4xwTs2ZUnIOJYtFRkeckpWScunXhlQmv1oj7v4oOyZv4c0L1pX02_rBYIO8zIERfLPUdWWCew2GslUyjzZjes=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 55 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 60 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 80 |
+| **Mean** | — | **66** |
+
+### Peer-to-Peer Second-Hand Goods Resale Platforms (2015)
+
+**T+5:** VERIFIED (24 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | Poshmark announced a $25 million Series C funding round in April 2015, bringing  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcA-NJvmunac0-CVPMvYoSpjaj_ZogbyQvgSSQWI_zqYxGhSpWmahrEaWhhGG7BbakqSp9i2YY48qK2qqZWCldVeiSlmFBOmHharKTCzs2HSCv63fsl2A71-nkRrKibWG4iKEqw7thHOMP) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | In 2015, Poshmark, Depop, and Vinted all secured significant funding rounds, dem | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcA-NJvmunac0-CVPMvYoSpjaj_ZogbyQvgSSQWI_zqYxGhSpWmahrEaWhhGG7BbakqSp9i2YY48qK2qqZWCldVeiSlmFBOmHharKTCzs2HSCv63fsl2A71-nkRrKibWG4iKEqw7thHOMP) |
+| `market_size` | `small` | `large` | LOW | Poshmark was on track for a $200 million annual sales run rate in April 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcA-NJvmunac0-CVPMvYoSpjaj_ZogbyQvgSSQWI_zqYxGhSpWmahrEaWhhGG7BbakqSp9i2YY48qK2qqZWCldVeiSlmFBOmHharKTCzs2HSCv63fsl2A71-nkRrKibWG4iKEqw7thHOMP) |
+| `customer_readiness` | `slope_of_enlightenment` | `slope_of_enlightenment` | HIGH | By the end of 2015, 3.2 billion people were online, representing over 43.4% of t | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcA-NJvmunac0-CVPMvYoSpjaj_ZogbyQvgSSQWI_zqYxGhSpWmahrEaWhhGG7BbakqSp9i2YY48qK2qqZWCldVeiSlmFBOmHharKTCzs2HSCv63fsl2A71-nkRrKibWG4iKEqw7thHOMP) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Vinted, a peer-to-peer platform, funded its escrow system and money-back guarant | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcA-NJvmunac0-CVPMvYoSpjaj_ZogbyQvgSSQWI_zqYxGhSpWmahrEaWhhGG7BbakqSp9i2YY48qK2qqZWCldVeiSlmFBOmHharKTCzs2HSCv63fsl2A71-nkRrKibWG4iKEqw7thHOMP) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Global internet penetration reached 43% by the end of 2015. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcA-NJvmunac0-CVPMvYoSpjaj_ZogbyQvgSSQWI_zqYxGhSpWmahrEaWhhGG7BbakqSp9i2YY48qK2qqZWCldVeiSlmFBOmHharKTCzs2HSCv63fsl2A71-nkRrKibWG4iKEqw7thHOMP) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Platforms like Poshmark and Vinted operate by connecting individual sellers with | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcA-NJvmunac0-CVPMvYoSpjaj_ZogbyQvgSSQWI_zqYxGhSpWmahrEaWhhGG7BbakqSp9i2YY48qK2qqZWCldVeiSlmFBOmHharKTCzs2HSCv63fsl2A71-nkRrKibWG4iKEqw7thHOMP) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `large` | 70 |
+| `customer_readiness` | `slope_of_enlightenment` | 76 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 78 |
+| **Mean** | — | **70** |
+
+### On-Demand Consumer Grocery Delivery Platforms (2014)
+
+**T+5:** VERIFIED (17 sources)  **Agreement:** MEDIUM (H=3 M=3 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Online grocery ordering was projected to approach 4% of total sales nationwide b | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4GGXS0x-XM6qOokvJpsaMdGgamFHuUdjUCf1fGDNLB0LTqiF5LZCkSDs6XvDDHo4rEdMzZa-l31GQFi-YD5ZtTg6yKXbxCrjMK6pZcFYeFPABqBQwVz2DXhKgklZun7DNUdfcrJNhol-y0IZJs12yC53eEB7QytBWd3Xk7aFLi9xXSHUj7AelrH_LZhocZLdlAOi1FWXPXWa6UCZK) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Traditional retailers with an e-commerce component accounted for 70-75% of onlin | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4GGXS0x-XM6qOokvJpsaMdGgamFHuUdjUCf1fGDNLB0LTqiF5LZCkSDs6XvDDHo4rEdMzZa-l31GQFi-YD5ZtTg6yKXbxCrjMK6pZcFYeFPABqBQwVz2DXhKgklZun7DNUdfcrJNhol-y0IZJs12yC53eEB7QytBWd3Xk7aFLi9xXSHUj7AelrH_LZhocZLdlAOi1FWXPXWa6UCZK) |
+| `market_size` | `micro` | `medium` | LOW | Online e-grocery sales in the US were estimated at approximately $27 billion in  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4GGXS0x-XM6qOokvJpsaMdGgamFHuUdjUCf1fGDNLB0LTqiF5LZCkSDs6XvDDHo4rEdMzZa-l31GQFi-YD5ZtTg6yKXbxCrjMK6pZcFYeFPABqBQwVz2DXhKgklZun7DNUdfcrJNhol-y0IZJs12yC53eEB7QytBWd3Xk7aFLi9xXSHUj7AelrH_LZhocZLdlAOi1FWXPXWa6UCZK) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `trough_of_disillusionment` | MEDIUM | Nearly one in five customers experienced problems with online home deliveries in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4GGXS0x-XM6qOokvJpsaMdGgamFHuUdjUCf1fGDNLB0LTqiF5LZCkSDs6XvDDHo4rEdMzZa-l31GQFi-YD5ZtTg6yKXbxCrjMK6pZcFYeFPABqBQwVz2DXhKgklZun7DNUdfcrJNhol-y0IZJs12yC53eEB7QytBWd3Xk7aFLi9xXSHUj7AelrH_LZhocZLdlAOi1FWXPXWa6UCZK) |
+| `regulatory` | `light_touch` | `unregulated` | MEDIUM | Instacart operated in a non-regulated environment as of 2015, suggesting a lack  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4GGXS0x-XM6qOokvJpsaMdGgamFHuUdjUCf1fGDNLB0LTqiF5LZCkSDs6XvDDHo4rEdMzZa-l31GQFi-YD5ZtTg6yKXbxCrjMK6pZcFYeFPABqBQwVz2DXhKgklZun7DNUdfcrJNhol-y0IZJs12yC53eEB7QytBWd3Xk7aFLi9xXSHUj7AelrH_LZhocZLdlAOi1FWXPXWa6UCZK) |
+| `infrastructure` | `developing` | `developing` | HIGH | Global smartphone users reached 1.76 billion by the end of 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4GGXS0x-XM6qOokvJpsaMdGgamFHuUdjUCf1fGDNLB0LTqiF5LZCkSDs6XvDDHo4rEdMzZa-l31GQFi-YD5ZtTg6yKXbxCrjMK6pZcFYeFPABqBQwVz2DXhKgklZun7DNUdfcrJNhol-y0IZJs12yC53eEB7QytBWd3Xk7aFLi9xXSHUj7AelrH_LZhocZLdlAOi1FWXPXWa6UCZK) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Instacart operated as a platform connecting shoppers and customers, without owni | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4GGXS0x-XM6qOokvJpsaMdGgamFHuUdjUCf1fGDNLB0LTqiF5LZCkSDs6XvDDHo4rEdMzZa-l31GQFi-YD5ZtTg6yKXbxCrjMK6pZcFYeFPABqBQwVz2DXhKgklZun7DNUdfcrJNhol-y0IZJs12yC53eEB7QytBWd3Xk7aFLi9xXSHUj7AelrH_LZhocZLdlAOi1FWXPXWa6UCZK) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `medium` | 52 |
+| `customer_readiness` | `trough_of_disillusionment` | 35 |
+| `regulatory` | `unregulated` | 78 |
+| `infrastructure` | `developing` | 55 |
+| `market_structure` | `platform_two_sided` | 80 |
+| **Mean** | — | **62** |
+
+### Customer Data Platform Unified Marketing Database Software (2016)
+
+**T+5:** VERIFIED (7 sources)  **Agreement:** HIGH (H=3 M=4 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | CDP first appeared on the Gartner Hype Cycle for Digital Marketing and Advertisi | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEy-lsJcL3IKdaHCjDj0WiJghDDS7-pjxKM9WUjXRTyxGIuMGMAxiA4puzVq2BNyXHv84zB9h2oEwGTH1pnPrFCmGR6g6qlGA20Wv0jSg6ewL3ZiRWCpzNrzf0v6BEllorIgEi654oVUpGW8RXKFkdqnTJk4M5Ld8iOaIcP64yv6muHQ==) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | The CDP Institute was founded in 2016 to provide vendor-neutral information and  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEy-lsJcL3IKdaHCjDj0WiJghDDS7-pjxKM9WUjXRTyxGIuMGMAxiA4puzVq2BNyXHv84zB9h2oEwGTH1pnPrFCmGR6g6qlGA20Wv0jSg6ewL3ZiRWCpzNrzf0v6BEllorIgEi654oVUpGW8RXKFkdqnTJk4M5Ld8iOaIcP64yv6muHQ==) |
+| `market_size` | `micro` | `small` | MEDIUM | The global CDP market size was approximately $1.906 billion in 2021, indicating  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEy-lsJcL3IKdaHCjDj0WiJghDDS7-pjxKM9WUjXRTyxGIuMGMAxiA4puzVq2BNyXHv84zB9h2oEwGTH1pnPrFCmGR6g6qlGA20Wv0jSg6ewL3ZiRWCpzNrzf0v6BEllorIgEi654oVUpGW8RXKFkdqnTJk4M5Ld8iOaIcP64yv6muHQ==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | CDP was officially recognized by Gartner in its Hype Cycle in July 2016, marking | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEy-lsJcL3IKdaHCjDj0WiJghDDS7-pjxKM9WUjXRTyxGIuMGMAxiA4puzVq2BNyXHv84zB9h2oEwGTH1pnPrFCmGR6g6qlGA20Wv0jSg6ewL3ZiRWCpzNrzf0v6BEllorIgEi654oVUpGW8RXKFkdqnTJk4M5Ld8iOaIcP64yv6muHQ==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | The General Data Protection Regulation (GDPR) was enacted in 2016, but its enfor | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEy-lsJcL3IKdaHCjDj0WiJghDDS7-pjxKM9WUjXRTyxGIuMGMAxiA4puzVq2BNyXHv84zB9h2oEwGTH1pnPrFCmGR6g6qlGA20Wv0jSg6ewL3ZiRWCpzNrzf0v6BEllorIgEi654oVUpGW8RXKFkdqnTJk4M5Ld8iOaIcP64yv6muHQ==) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | CDPs offered unique capabilities to unify fragmented customer data from various  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEy-lsJcL3IKdaHCjDj0WiJghDDS7-pjxKM9WUjXRTyxGIuMGMAxiA4puzVq2BNyXHv84zB9h2oEwGTH1pnPrFCmGR6g6qlGA20Wv0jSg6ewL3ZiRWCpzNrzf0v6BEllorIgEi654oVUpGW8RXKFkdqnTJk4M5Ld8iOaIcP64yv6muHQ==) |
+| `market_structure` | `technology_enablement` | `technology_enablement` | HIGH | A CDP's primary function in 2016 was to enable marketers to collect and own firs | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEy-lsJcL3IKdaHCjDj0WiJghDDS7-pjxKM9WUjXRTyxGIuMGMAxiA4puzVq2BNyXHv84zB9h2oEwGTH1pnPrFCmGR6g6qlGA20Wv0jSg6ewL3ZiRWCpzNrzf0v6BEllorIgEi654oVUpGW8RXKFkdqnTJk4M5Ld8iOaIcP64yv6muHQ==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 30 |
+| `customer_readiness` | `innovation_trigger` | 55 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `emerging` | 58 |
+| `market_structure` | `technology_enablement` | 78 |
+| **Mean** | — | **62** |
+
+### Consumer and Enterprise Remote Medical Consultation Platforms (2014)
+
+**T+5:** VERIFIED (15 sources)  **Agreement:** HIGH (H=4 M=3 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_majority` | MEDIUM | Hospital telehealth adoption was 54% in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hVEXlyHZOrCZVtnQeDSxtTBlYznozoHOznz3R-Ds1PF8WGzIaPe5S_Q0TA-Rn-K1rCI9Q1B1hmRz53EvaspDoP4tuL-0KFs4eZuG6UhPR_TYFRYOgOlGm_dtDpa_wdZgXH7j95Wh513sTIMrANjfAjUgtksVOvrf2QM_Q8K9LaK9FcuT3if_kXboTG5Zgm0ZkdU=) |
+| `competition` | `oligopoly` | `oligopoly` | HIGH | Teladoc acquired its main competitors, Consult A Doctor and AmeriDoc, in 2013-20 | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hVEXlyHZOrCZVtnQeDSxtTBlYznozoHOznz3R-Ds1PF8WGzIaPe5S_Q0TA-Rn-K1rCI9Q1B1hmRz53EvaspDoP4tuL-0KFs4eZuG6UhPR_TYFRYOgOlGm_dtDpa_wdZgXH7j95Wh513sTIMrANjfAjUgtksVOvrf2QM_Q8K9LaK9FcuT3if_kXboTG5Zgm0ZkdU=) |
+| `market_size` | `small` | `small` | HIGH | Medicare reimbursed approximately $14 million for telehealth services in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hVEXlyHZOrCZVtnQeDSxtTBlYznozoHOznz3R-Ds1PF8WGzIaPe5S_Q0TA-Rn-K1rCI9Q1B1hmRz53EvaspDoP4tuL-0KFs4eZuG6UhPR_TYFRYOgOlGm_dtDpa_wdZgXH7j95Wh513sTIMrANjfAjUgtksVOvrf2QM_Q8K9LaK9FcuT3if_kXboTG5Zgm0ZkdU=) |
+| `customer_readiness` | `slope_of_enlightenment` | `trough_of_disillusionment` | MEDIUM | In 2014, Gartner's Hype Cycle placed remote health monitoring in the 'Trough of  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hVEXlyHZOrCZVtnQeDSxtTBlYznozoHOznz3R-Ds1PF8WGzIaPe5S_Q0TA-Rn-K1rCI9Q1B1hmRz53EvaspDoP4tuL-0KFs4eZuG6UhPR_TYFRYOgOlGm_dtDpa_wdZgXH7j95Wh513sTIMrANjfAjUgtksVOvrf2QM_Q8K9LaK9FcuT3if_kXboTG5Zgm0ZkdU=) |
+| `regulatory` | `heavily_regulated` | `moderate_compliance` | MEDIUM | Medicare reimbursement for telehealth in 2014 was restricted to rural areas and  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hVEXlyHZOrCZVtnQeDSxtTBlYznozoHOznz3R-Ds1PF8WGzIaPe5S_Q0TA-Rn-K1rCI9Q1B1hmRz53EvaspDoP4tuL-0KFs4eZuG6UhPR_TYFRYOgOlGm_dtDpa_wdZgXH7j95Wh513sTIMrANjfAjUgtksVOvrf2QM_Q8K9LaK9FcuT3if_kXboTG5Zgm0ZkdU=) |
+| `infrastructure` | `developing` | `developing` | HIGH | Global smartphone penetration was 1.76 billion people in 2014. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hVEXlyHZOrCZVtnQeDSxtTBlYznozoHOznz3R-Ds1PF8WGzIaPe5S_Q0TA-Rn-K1rCI9Q1B1hmRz53EvaspDoP4tuL-0KFs4eZuG6UhPR_TYFRYOgOlGm_dtDpa_wdZgXH7j95Wh513sTIMrANjfAjUgtksVOvrf2QM_Q8K9LaK9FcuT3if_kXboTG5Zgm0ZkdU=) |
+| `market_structure` | `platform_two_sided` | `platform_two_sided` | HIGH | Companies like Teladoc and Amwell operated as platforms connecting patients with | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hVEXlyHZOrCZVtnQeDSxtTBlYznozoHOznz3R-Ds1PF8WGzIaPe5S_Q0TA-Rn-K1rCI9Q1B1hmRz53EvaspDoP4tuL-0KFs4eZuG6UhPR_TYFRYOgOlGm_dtDpa_wdZgXH7j95Wh513sTIMrANjfAjUgtksVOvrf2QM_Q8K9LaK9FcuT3if_kXboTG5Zgm0ZkdU=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_majority` | 68 |
+| `competition` | `oligopoly` | 35 |
+| `market_size` | `small` | 22 |
+| `customer_readiness` | `trough_of_disillusionment` | 32 |
+| `regulatory` | `moderate_compliance` | 62 |
+| `infrastructure` | `developing` | 52 |
+| `market_structure` | `platform_two_sided` | 72 |
+| **Mean** | — | **49** |
+
+### Vertical Indoor Controlled Environment Farming Systems (2017)
+
+**T+5:** VERIFIED (16 sources)  **Agreement:** HIGH (H=3 M=4 L=0)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Plenty raised $200 million in a Series B funding round in July 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8TePtyCN2negcqkBL9jYjF4qR2zCS45tQgy2J4cWDSD6IPVUT3Iqjg44ObH0-b4PuIfvgw9ApofPRjxHTKtCXdSe0MHz6gsvZvUMvRpP9Bh8LK8lWOPP3d0Kptm-9DWZ8k2q6_8MWLgrdgiPz36fSmHJTMx0LYKTLXqOXSqUHEMvhmh-oZozjlr8KsFc=) |
+| `competition` | `oligopoly` | `monopolistic_competition` | MEDIUM | Approximately 72% of vertical farming deal counts in 2017 were for amounts up to | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8TePtyCN2negcqkBL9jYjF4qR2zCS45tQgy2J4cWDSD6IPVUT3Iqjg44ObH0-b4PuIfvgw9ApofPRjxHTKtCXdSe0MHz6gsvZvUMvRpP9Bh8LK8lWOPP3d0Kptm-9DWZ8k2q6_8MWLgrdgiPz36fSmHJTMx0LYKTLXqOXSqUHEMvhmh-oZozjlr8KsFc=) |
+| `market_size` | `micro` | `small` | MEDIUM | More than $660 million was deployed into 221 vertical farming deals in 2017. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8TePtyCN2negcqkBL9jYjF4qR2zCS45tQgy2J4cWDSD6IPVUT3Iqjg44ObH0-b4PuIfvgw9ApofPRjxHTKtCXdSe0MHz6gsvZvUMvRpP9Bh8LK8lWOPP3d0Kptm-9DWZ8k2q6_8MWLgrdgiPz36fSmHJTMx0LYKTLXqOXSqUHEMvhmh-oZozjlr8KsFc=) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `peak_of_inflated_expectations` | HIGH | Vertical farming gained significant popularity between 2017 and 2019 due to glob | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8TePtyCN2negcqkBL9jYjF4qR2zCS45tQgy2J4cWDSD6IPVUT3Iqjg44ObH0-b4PuIfvgw9ApofPRjxHTKtCXdSe0MHz6gsvZvUMvRpP9Bh8LK8lWOPP3d0Kptm-9DWZ8k2q6_8MWLgrdgiPz36fSmHJTMx0LYKTLXqOXSqUHEMvhmh-oZozjlr8KsFc=) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | NOP regulations were updated in 2017 to allow organic certification for hydropon | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8TePtyCN2negcqkBL9jYjF4qR2zCS45tQgy2J4cWDSD6IPVUT3Iqjg44ObH0-b4PuIfvgw9ApofPRjxHTKtCXdSe0MHz6gsvZvUMvRpP9Bh8LK8lWOPP3d0Kptm-9DWZ8k2q6_8MWLgrdgiPz36fSmHJTMx0LYKTLXqOXSqUHEMvhmh-oZozjlr8KsFc=) |
+| `infrastructure` | `developing` | `emerging` | MEDIUM | Vertical farms utilize cutting-edge technologies such as hydroponics, aeroponics | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8TePtyCN2negcqkBL9jYjF4qR2zCS45tQgy2J4cWDSD6IPVUT3Iqjg44ObH0-b4PuIfvgw9ApofPRjxHTKtCXdSe0MHz6gsvZvUMvRpP9Bh8LK8lWOPP3d0Kptm-9DWZ8k2q6_8MWLgrdgiPz36fSmHJTMx0LYKTLXqOXSqUHEMvhmh-oZozjlr8KsFc=) |
+| `market_structure` | `fragmented_niche` | `technology_enablement` | MEDIUM | Approximately 72% of deal counts in 2017 were attributed to small deal sizes up  | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8TePtyCN2negcqkBL9jYjF4qR2zCS45tQgy2J4cWDSD6IPVUT3Iqjg44ObH0-b4PuIfvgw9ApofPRjxHTKtCXdSe0MHz6gsvZvUMvRpP9Bh8LK8lWOPP3d0Kptm-9DWZ8k2q6_8MWLgrdgiPz36fSmHJTMx0LYKTLXqOXSqUHEMvhmh-oZozjlr8KsFc=) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 72 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 25 |
+| `customer_readiness` | `peak_of_inflated_expectations` | 55 |
+| `regulatory` | `light_touch` | 82 |
+| `infrastructure` | `emerging` | 58 |
+| `market_structure` | `technology_enablement` | 65 |
+| **Mean** | — | **60** |
+
+### Consumer Mobile Mental Health and Wellness Apps (2018)
+
+**T+5:** VERIFIED (12 sources)  **Agreement:** HIGH (H=4 M=2 L=1)
+
+| Dimension | Claude | Gemini | Agr | Key Fact | URL |
+|-----------|--------|--------|:---:|----------|-----|
+| `timing` | `early_adopters` | `early_adopters` | HIGH | Over 10,000 mental health apps were available by 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF47d9O4-cHHia2EPckBzVeYLUF3qp0vXFFT4nnEPCzr-ilGhgKgE-oeNEkJ3RIGsmh1J0zfdOCnq8GKtHWCeowUztwUZqvF8ugbylRkkE9x26SerhFwBJqeGf7U7r3tWRUZm9pewD8G4-nXv72vlK0OJZ_h9vddgsgoEIVpHC0YWyu6-vlw0ocNopyPG5mMrJpan0LJgJiHg==) |
+| `competition` | `monopolistic_competition` | `monopolistic_competition` | HIGH | Over 10,000 mental health apps were available in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF47d9O4-cHHia2EPckBzVeYLUF3qp0vXFFT4nnEPCzr-ilGhgKgE-oeNEkJ3RIGsmh1J0zfdOCnq8GKtHWCeowUztwUZqvF8ugbylRkkE9x26SerhFwBJqeGf7U7r3tWRUZm9pewD8G4-nXv72vlK0OJZ_h9vddgsgoEIVpHC0YWyu6-vlw0ocNopyPG5mMrJpan0LJgJiHg==) |
+| `market_size` | `small` | `small` | HIGH | The market generated $587.9 million in revenue in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF47d9O4-cHHia2EPckBzVeYLUF3qp0vXFFT4nnEPCzr-ilGhgKgE-oeNEkJ3RIGsmh1J0zfdOCnq8GKtHWCeowUztwUZqvF8ugbylRkkE9x26SerhFwBJqeGf7U7r3tWRUZm9pewD8G4-nXv72vlK0OJZ_h9vddgsgoEIVpHC0YWyu6-vlw0ocNopyPG5mMrJpan0LJgJiHg==) |
+| `customer_readiness` | `peak_of_inflated_expectations` | `innovation_trigger` | MEDIUM | 70% of psychiatric outpatients expressed interest in using mental health apps in | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF47d9O4-cHHia2EPckBzVeYLUF3qp0vXFFT4nnEPCzr-ilGhgKgE-oeNEkJ3RIGsmh1J0zfdOCnq8GKtHWCeowUztwUZqvF8ugbylRkkE9x26SerhFwBJqeGf7U7r3tWRUZm9pewD8G4-nXv72vlK0OJZ_h9vddgsgoEIVpHC0YWyu6-vlw0ocNopyPG5mMrJpan0LJgJiHg==) |
+| `regulatory` | `light_touch` | `light_touch` | HIGH | Apps geared toward general wellness were exempt from FDA oversight in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF47d9O4-cHHia2EPckBzVeYLUF3qp0vXFFT4nnEPCzr-ilGhgKgE-oeNEkJ3RIGsmh1J0zfdOCnq8GKtHWCeowUztwUZqvF8ugbylRkkE9x26SerhFwBJqeGf7U7r3tWRUZm9pewD8G4-nXv72vlK0OJZ_h9vddgsgoEIVpHC0YWyu6-vlw0ocNopyPG5mMrJpan0LJgJiHg==) |
+| `infrastructure` | `mature` | `developing` | MEDIUM | Smartphone ownership was high, with 85% of adults generally and 96% of 18-29 yea | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF47d9O4-cHHia2EPckBzVeYLUF3qp0vXFFT4nnEPCzr-ilGhgKgE-oeNEkJ3RIGsmh1J0zfdOCnq8GKtHWCeowUztwUZqvF8ugbylRkkE9x26SerhFwBJqeGf7U7r3tWRUZm9pewD8G4-nXv72vlK0OJZ_h9vddgsgoEIVpHC0YWyu6-vlw0ocNopyPG5mMrJpan0LJgJiHg==) |
+| `market_structure` | `winner_take_most` | `fragmented_niche` | LOW | Over 10,000 mental health apps were available in 2018. | [link](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF47d9O4-cHHia2EPckBzVeYLUF3qp0vXFFT4nnEPCzr-ilGhgKgE-oeNEkJ3RIGsmh1J0zfdOCnq8GKtHWCeowUztwUZqvF8ugbylRkkE9x26SerhFwBJqeGf7U7r3tWRUZm9pewD8G4-nXv72vlK0OJZ_h9vddgsgoEIVpHC0YWyu6-vlw0ocNopyPG5mMrJpan0LJgJiHg==) |
+
+| Dimension | Classification | Score |
+|-----------|---------------|:-----:|
+| `timing` | `early_adopters` | 68 |
+| `competition` | `monopolistic_competition` | 62 |
+| `market_size` | `small` | 22 |
+| `customer_readiness` | `innovation_trigger` | 42 |
+| `regulatory` | `light_touch` | 78 |
+| `infrastructure` | `developing` | 48 |
+| `market_structure` | `fragmented_niche` | 38 |
+| **Mean** | — | **51** |
+
+### Role 3 Prompt Audit — On-Demand Local Courier Food and Goods Delivery
+
+_Proves market name is stripped before scoring._
+
+```
+=== ANONYMIZED MARKET FEATURE MATRIX ===
+
+  DIMENSION                 VERIFIED CLASSIFICATION               INTER-SOURCE AGREEMENT
+  ------------------------  ------------------------------------  ----------------------
+  timing                    early_adopters                        HIGH
+  competition               monopolistic_competition              MEDIUM
+  market_size               medium                                MEDIUM
+  customer_readiness        peak_of_inflated_expectations         HIGH
+  regulatory                unregulated                           MEDIUM
+  infrastructure            developing                            HIGH
+  market_structure          platform_two_sided                    HIGH
+
+=== SCORING TASK ===
+Map each dimension's categorical value to a 0-100 integer using the numeric
+scale in your system prompt. Score each dimension independently.
+Base your scores ONLY on the categorical values above — do not infer market identity.
+
+REQUIRED OUTPUT: a JSON object with EXACTLY these 7 integer keys.
+Do NOT add any other keys. Do NOT include tier labels, composite scores,
+investment ratings, or any text outside the JSON object.
+{
+  "timing": 0,
+  "competition": 0,
+  "market_size": 0,
+  "customer_readiness": 0,
+  "regulatory": 0,
+  "infrastructure": 0,
+  "market_structure": 0
+}
+
+Replace each 0 with your integer score. Return nothing but this JSON object.
+```
+
+### Batch Agreement by Dimension
+
+| Dimension | HIGH | MEDIUM | LOW |
+|-----------|:----:|:------:|:---:|
+| `timing` | 5 | 2 | 0 |
+| `competition` | 3 | 4 | 0 |
+| `market_size` | 2 | 3 | 2 |
+| `customer_readiness` | 3 | 4 | 0 |
+| `regulatory` | 4 | 3 | 0 |
+| `infrastructure` | 3 | 4 | 0 |
+| `market_structure` | 5 | 1 | 1 |
+
