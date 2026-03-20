@@ -18,3 +18,4 @@
 * [10-Market Out-of-Sample Validation: 40% exact match, 70% within +-1 band, 3 misses on pre-inflection winner-take-most markets](./reports/10_Market_Validation_Test.md)
 * [Mirror Validation Pipeline Architecture: 60-market validation set, Phase 1 T=0 prediction vs Phase 2 T+5 ground truth, Symmetrical Percentile Labels](./architecture/2026-03-20_Mirror_Validation_Pipeline.md)
 * [Scale Pipeline v4 — 350 markets (135 batches) | H=1126 M=907 L=417 | blacklisted=816](./Scaling_Run_Log.md)
+* Mirror Validation Pipeline Complete: 100/100 markets | Exact=30% | Within-1=64% | blacklisted=50
