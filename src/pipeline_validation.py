@@ -22,21 +22,23 @@ Phase 1  (T=0 Prediction)
              cohort (final_rated_population.json).
 
 Phase 2  (T+5 Ground Truth)
-  Role 2  — Gemini web-search retrieves 4 numerical T+5 metrics per market:
-               peak_exit_value           (USD float)
-               top_3_aggregate_valuation (USD float)
-               unicorn_count             (integer)
-               capital_efficiency_ratio  (VFR float)
+  Role 2  — Gemini web-search retrieves 3 raw, extractable T+5 metrics:
+               peak_exit_usd      (USD float — highest single IPO/M&A value)
+               total_funding_usd  (USD float — total capital raised by top-3)
+               unicorn_count      (integer  — $1B+ companies by T+5)
+             Temporal guard: prompt enforces "data on or before Dec 31 T+5_year".
              20-second timeout; timed-out markets are blacklisted and skipped.
+             Missing/null values default to 0 (failed markets leave no press).
 
 Phase 3  (Symmetrical Scoring & Labeling)
-  Normalize metrics -> actual_performance_score (0-100):
-     40% peak_exit_value
-     30% top_3_aggregate_valuation
-     20% unicorn_count
-     10% capital_efficiency_ratio
-  After each batch: re-rank all markets by actual_performance_score and
-  assign actual_rating using symmetrical percentile bands:
+  Power-law log transformation (venture returns are fat-tailed):
+     LogPeak    = log10(1 + peak_exit_usd)
+     LogFunding = log10(1 + total_funding_usd)
+  Population-level min-max scaling across all markets collected so far,
+  then weighted sum -> actual_performance_score (0-100):
+     50% scaled_log_peak  +  30% scaled_log_funding  +  20% scaled_unicorn
+  Recomputed after every batch so new markets recalibrate the full scale.
+  actual_rating assigned by symmetrical percentile bands on that score:
      Top 10% = L5 | 70-90th = L4 | 45-70th = L3 | 20-45th = L2 | <20th = L1
   Results saved progressively to validation_population.json.
 
@@ -405,38 +407,93 @@ def predict_rating_vs_reference(
     return assign_rating(pct, PRED_BANDS), round(pct, 2)
 
 
-# ── T+5 metrics normalization ─────────────────────────────────────────────────
+# ── T+5 scoring engine (power-law, population-level) ─────────────────────────
 
-def normalize_t5_metrics(metrics: dict) -> float:
+def _safe_float(v, default: float = 0.0) -> float:
     """
-    Normalize 4 T+5 metrics to actual_performance_score (0-100).
-    Weights: peak_exit_value=40%, top_3_aggregate=30%, unicorn_count=20%, cap_eff=10%
-
-    Normalization anchors:
-      peak_exit_value           log10 scale: $1M=0, $10B=100
-      top_3_aggregate_valuation log10 scale: $1M=0, $30B=100
-      unicorn_count             linear: 0=0, 5+=100
-      capital_efficiency_ratio  linear: 0=0, 20x+=100
+    Safely coerce v to a non-negative float.
+    Returns default if v is None, empty string, 'Not Found', or non-numeric.
+    Ensures failed/missing markets don't crash the pipeline.
     """
-    def _log_norm(v: float | None, log_scale: float) -> float:
-        if not v or float(v) <= 0:
-            return 0.0
-        return min(100.0, math.log10(max(float(v), 1e6) / 1e6) / log_scale * 100.0)
+    if v is None:
+        return default
+    if isinstance(v, str) and v.strip().lower() in ("", "not found", "null", "n/a", "none"):
+        return default
+    try:
+        result = float(v)
+        return result if result >= 0.0 else default
+    except (TypeError, ValueError):
+        return default
 
-    pev = _log_norm(metrics.get("peak_exit_value"),           log_scale=4.0)
-    t3a = _log_norm(metrics.get("top_3_aggregate_valuation"), log_scale=4.5)
-    uc  = min(100.0, max(0.0, float(metrics.get("unicorn_count") or 0) / 5.0 * 100.0))
-    cer = min(100.0, max(0.0, float(metrics.get("capital_efficiency_ratio") or 0) / 20.0 * 100.0))
 
-    return round(0.40 * pev + 0.30 * t3a + 0.20 * uc + 0.10 * cer, 2)
+def recompute_performance_scores(val_markets: list) -> None:
+    """
+    Population-level scoring using log-transformed financials + min-max scaling.
+
+    For every market that has t5_metrics, compute:
+      LogPeak    = log10(1 + peak_exit_usd)
+      LogFunding = log10(1 + total_funding_usd)
+      unicorn_raw = unicorn_count  (integer, floor 0)
+
+    Then min-max scale each feature across ALL scored markets to [0, 100].
+    If all values are identical (zero-variance), set all scaled values to 50.
+
+    Weighted sum:
+      actual_performance_score = 0.50 * scaled_log_peak
+                               + 0.30 * scaled_log_funding
+                               + 0.20 * scaled_unicorn
+
+    Recomputed after every batch so the scale recalibrates as new markets arrive.
+    Markets with no t5_metrics keep actual_performance_score = None.
+    """
+    scored = [m for m in val_markets if m.get("t5_metrics") is not None]
+    if not scored:
+        return
+
+    # Step 1: log-transform raw financials (default missing/null to 0)
+    log_peaks:    list[float] = []
+    log_fundings: list[float] = []
+    unicorn_raws: list[float] = []
+
+    for m in scored:
+        mx = m["t5_metrics"]
+        log_peaks.append(math.log10(1.0 + _safe_float(mx.get("peak_exit_usd"))))
+        log_fundings.append(math.log10(1.0 + _safe_float(mx.get("total_funding_usd"))))
+        unicorn_raws.append(max(0.0, _safe_float(mx.get("unicorn_count"), default=0.0)))
+
+    # Step 2: min-max scale each feature to [0, 100] across the population
+    def _minmax(values: list[float]) -> list[float]:
+        lo, hi = min(values), max(values)
+        if hi == lo:                        # zero-variance -> all at midpoint
+            return [50.0] * len(values)
+        return [(v - lo) / (hi - lo) * 100.0 for v in values]
+
+    scaled_peaks    = _minmax(log_peaks)
+    scaled_fundings = _minmax(log_fundings)
+    scaled_unicorns = _minmax(unicorn_raws)
+
+    # Step 3: weighted sum -> actual_performance_score
+    for m, sp, sf, su in zip(scored, scaled_peaks, scaled_fundings, scaled_unicorns):
+        m["actual_performance_score"] = round(0.50 * sp + 0.30 * sf + 0.20 * su, 2)
+        # Store scaled components for audit/transparency
+        m["t5_scaled"] = {
+            "scaled_log_peak":    round(sp, 2),
+            "scaled_log_funding": round(sf, 2),
+            "scaled_unicorn":     round(su, 2),
+        }
 
 
 def reassign_actual_ratings(val_markets: list) -> None:
     """
-    Re-rank all markets with an actual_performance_score by that score and
-    assign actual_rating using the symmetrical percentile bands.
+    1. Recompute actual_performance_score via population-level power-law scaling.
+    2. Re-rank all scored markets by actual_performance_score (0-100).
+    3. Assign actual_rating from symmetrical percentile bands.
     Called after every batch completes.
     """
+    # Step 1: recompute population-level scores with latest data
+    recompute_performance_scores(val_markets)
+
+    # Step 2 & 3: percentile rank -> actual_rating
     scored = [m for m in val_markets if m.get("actual_performance_score") is not None]
     n = len(scored)
     if n == 0:
@@ -695,10 +752,20 @@ def phase2_t5_ground_truth(
 ) -> tuple[dict, list]:
     """
     Phase 2: Gemini web-search for T+5 (ref_year+5) business outcomes.
+
+    Extracts 3 raw, directly observable metrics:
+      peak_exit_usd      — highest single IPO/M&A valuation by T+5
+      total_funding_usd  — total capital raised by the top 3 players combined
+      unicorn_count      — number of $1B+ companies in the category by T+5
+
+    Temporal guard appended to prompt prevents data leakage beyond T+5 year.
+    Missing/unparseable values are safely defaulted to 0 by the caller.
+
     Returns (metrics_dict, source_urls).
     Raises asyncio.TimeoutError if the search exceeds GEMINI_TIMEOUT_SECS.
     """
-    t5_year = ref_year + 5
+    t5_year     = ref_year + 5
+    cutoff_date = f"December 31, {t5_year}"
 
     prompt = (
         "You are a venture capital outcome researcher. Search the web for actual "
@@ -706,28 +773,32 @@ def phase2_t5_ground_truth(
         f"Market Category: {market_name}\n"
         f"Entry Year (T=0): {ref_year}\n"
         f"Measurement Date (T+5): {t5_year}\n\n"
-        "Search for: IPO filings, M&A transactions, Crunchbase funding records, "
-        f"analyst reports, and press coverage dated on or before {t5_year}.\n\n"
+        "CRITICAL: You must only use data, valuations, and articles published on or "
+        f"before {cutoff_date}. Do not include any data or valuations from after "
+        f"this year. If a valuation is only known from a later date, omit it.\n\n"
+        "Search specifically for: IPO filings, M&A deal announcements, Crunchbase "
+        "funding records, SEC filings, and press coverage published on or before "
+        f"{cutoff_date}.\n\n"
         "Return ONLY a raw valid JSON object (no markdown, no preamble):\n"
         "{\n"
-        f'  "peak_exit_value": <highest single USD valuation achieved by any company in '
-        f'this market by {t5_year} — IPO market cap, M&A deal price, or late-stage '
-        f'round at $1B+ valuation — as a float, e.g. 2500000000.0 for $2.5B, or null>,\n'
-        f'  "top_3_aggregate_valuation": <combined USD valuation of the top 3 category '
-        f'companies at {t5_year} as a float, or null if data unavailable>,\n'
+        f'  "peak_exit_usd": <the single highest USD valuation achieved by any company '
+        f'in this specific market category by {cutoff_date} — the IPO market cap, M&A '
+        f'acquisition price, or the valuation from the highest funding round. '
+        f'Return as a float (e.g. 2500000000.0 for $2.5B), or 0 if not found>,\n'
+        f'  "total_funding_usd": <total capital raised (USD) by the top 3 players in '
+        f'this category combined, from all funding rounds up to {cutoff_date}. '
+        f'Return as a float, or 0 if not found>,\n'
         f'  "unicorn_count": <integer count of companies specifically in this market '
-        f'category reaching $1B+ valuation by {t5_year}>,\n'
-        f'  "capital_efficiency_ratio": <average valuation-to-total-funding ratio for '
-        f'category leaders — e.g. 8.5 means $850M valuation on $100M raised — as a float, '
-        f'or null if data unavailable>,\n'
-        '  "search_notes": "<2-3 sentences: key evidence found, company names, '
-        'specific dollar figures>"\n'
+        f'category that reached a $1B+ valuation by {cutoff_date}. '
+        f'Return 0 if none confirmed>,\n'
+        '  "search_notes": "<2-3 sentences: specific company names, exact dollar '
+        'figures found, and the publication dates of your sources>"\n'
         "}\n\n"
-        "Guidelines:\n"
-        "  - peak_exit_value: the SINGLE highest individual exit or valuation event\n"
-        "  - top_3_aggregate_valuation: SUM of valuations of top 3 players (not total market size)\n"
-        "  - unicorn_count: use 0 if confirmed no unicorns; use null only if genuinely unknown\n"
-        "  - capital_efficiency_ratio: estimate from revenue multiples if direct VFR unavailable\n"
+        "Rules:\n"
+        f"  - All data must be sourced from publications dated on or before {cutoff_date}\n"
+        "  - Return 0 (not null) for any metric you cannot find evidence for\n"
+        "  - peak_exit_usd is the SINGLE highest value, not a sum\n"
+        "  - total_funding_usd is the SUM of funding across the top 3 players\n"
         "Return the JSON object only."
     )
 
@@ -741,16 +812,25 @@ def phase2_t5_ground_truth(
     if brace > 0:
         clean = clean[brace:]
 
+    _FALLBACK: dict = {
+        "peak_exit_usd":     0,
+        "total_funding_usd": 0,
+        "unicorn_count":     0,
+        "search_notes":      f"Parse error — raw response: {text[:200]}",
+    }
+
     try:
-        metrics = json.loads(clean)
+        raw_metrics = json.loads(clean)
     except json.JSONDecodeError:
-        metrics = {
-            "peak_exit_value":           None,
-            "top_3_aggregate_valuation": None,
-            "unicorn_count":             0,
-            "capital_efficiency_ratio":  None,
-            "search_notes":              f"Parse error. Raw: {text[:200]}",
-        }
+        return _FALLBACK, urls
+
+    # Robust extraction: _safe_float guarantees no crash on null/"Not Found"/etc.
+    metrics = {
+        "peak_exit_usd":     _safe_float(raw_metrics.get("peak_exit_usd"),     default=0.0),
+        "total_funding_usd": _safe_float(raw_metrics.get("total_funding_usd"), default=0.0),
+        "unicorn_count":     max(0, int(_safe_float(raw_metrics.get("unicorn_count"), default=0.0))),
+        "search_notes":      str(raw_metrics.get("search_notes", "")),
+    }
 
     return metrics, urls
 
@@ -827,18 +907,18 @@ def _process_market_worker(
         with _status_lock:
             _t5_failures += 1
         t5_metrics = {
-            "peak_exit_value": None, "top_3_aggregate_valuation": None,
-            "unicorn_count": 0, "capital_efficiency_ratio": None,
-            "search_notes": f"Error: {exc}",
+            "peak_exit_usd":     0,
+            "total_funding_usd": 0,
+            "unicorn_count":     0,
+            "search_notes":      f"Error: {exc}",
         }
 
-    # ── Normalize T+5 → actual_performance_score ──────────────────────────────
-    actual_performance_score = normalize_t5_metrics(t5_metrics or {})
+    # actual_performance_score is computed population-wide in reassign_actual_ratings
     console.log(
         f"  [{market_id}] Phase 2 done: "
-        f"pev={t5_metrics.get('peak_exit_value')!r}  "
-        f"uc={t5_metrics.get('unicorn_count')}  "
-        f"perf_score={actual_performance_score:.1f}"
+        f"peak_exit=${t5_metrics.get('peak_exit_usd', 0):,.0f}  "
+        f"funding=${t5_metrics.get('total_funding_usd', 0):,.0f}  "
+        f"unicorns={t5_metrics.get('unicorn_count', 0)}"
     )
 
     # ── Assemble validation record ────────────────────────────────────────────
@@ -856,7 +936,7 @@ def _process_market_worker(
         "predicted_rating":        predicted_rating,
         "t5_metrics":              t5_metrics,
         "t5_source_count":         len(t5_urls),
-        "actual_performance_score": actual_performance_score,
+        "actual_performance_score": None,   # set by recompute_performance_scores
         "actual_rating":           None,    # assigned by reassign_actual_ratings
         "actual_percentile":       None,
         "processed_at":            datetime.now().isoformat(),
