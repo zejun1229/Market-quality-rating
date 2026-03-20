@@ -93,7 +93,8 @@ BATCH_SIZE          = 15
 MAX_WORKERS         = 12
 REF_YEARS           = list(range(2009, 2022))   # 2009–2021 inclusive
 CLAUDE_MODEL        = "claude-sonnet-4-6"
-GEMINI_TIMEOUT_SECS = 20.0   # strict 20-second cut-off; timeout → blacklist
+GEMINI_TIMEOUT_SECS = 20.0   # strict 20-second cut-off for Role 2; timeout → blacklist
+ROLE0_TIMEOUT_SECS  = 60.0   # Role 0 seed search timeout (batch call, needs more headroom)
 DEDUP_THRESHOLD     = 0.75   # SequenceMatcher ratio above which a market is a duplicate
 
 MASTER_JSON = os.path.join(_ROOT, "reference_population_master.json")
@@ -332,7 +333,14 @@ def role0_seed_presearch(
         f"Return exactly {count} entries."
     )
 
-    text, _ = query_gemini_grounded(gemini_client, prompt)
+    try:
+        text, _ = run_role0_with_timeout(gemini_client, prompt)
+    except asyncio.TimeoutError:
+        console.log(f"  [Role 0] TIMEOUT ({ROLE0_TIMEOUT_SECS}s) — returning empty seed list")
+        return []
+    except Exception as exc:
+        console.log(f"  [Role 0] ERROR: {exc}")
+        return []
 
     # Parse
     clean = text.strip()
@@ -576,6 +584,31 @@ def run_step1_market(
 # ---------------------------------------------------------------------------
 # Role 2 — Gemini verify with asyncio.wait_for timeout
 # ---------------------------------------------------------------------------
+
+def run_role0_with_timeout(
+    gemini_client,
+    prompt: str,
+    timeout_secs: float = ROLE0_TIMEOUT_SECS,
+) -> tuple[str, list]:
+    """
+    Run Role 0 Gemini seed search with a hard asyncio.wait_for timeout.
+    Returns (text, urls) on success.
+    Raises asyncio.TimeoutError if the call exceeds timeout_secs.
+    """
+    async def _inner() -> tuple:
+        loop = asyncio.get_running_loop()
+        return await asyncio.wait_for(
+            loop.run_in_executor(None, query_gemini_grounded, gemini_client, prompt),
+            timeout=timeout_secs,
+        )
+
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    try:
+        return loop.run_until_complete(_inner())
+    finally:
+        loop.close()
+
 
 async def _async_gemini_verify(gemini_client, market: dict) -> dict:
     """Async wrapper so asyncio.wait_for can cancel it on timeout."""
